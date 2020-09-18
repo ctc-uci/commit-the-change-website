@@ -19,6 +19,7 @@
   margin: 2%;
   border-radius: 20px;
   flex-basis: 20%;
+  background-color: white;
 }
 
 .project-card-image{
