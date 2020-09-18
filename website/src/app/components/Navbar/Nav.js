@@ -8,14 +8,14 @@ import './Nav.css';
 
 function Nav() {
   const [open, toggleVisibility] = useState(false);
-  const slideUp = useSpring({
+  const slideDown = useSpring({
     config: config.wobbly,
     opacity: 1,
     transform: 'translate(0)',
     from: { opacity: 0, transform: 'translateY(-20px)' },
   });
   return (
-    <animated.nav style={slideUp}>
+    <animated.nav style={slideDown}>
       <div>
         <div
           className={`mobile-nav-links-container ${open ? 'open' : 'hidden'}`}
