@@ -1,14 +1,18 @@
 import React from 'react';
 import './ContactUs.css';
+import { animated, useSpring } from 'react-spring';
+import animationConfig from '../animationConstants';
 import ContactUsData from './ContactUs.json';
 import placeholder from '../../../images/undraw_placeholder.png';
 import contactUsImage from '../../../images/contactUs/contact-us-header.svg';
 import purpleLogo from '../../../images/contactUs/purple_ctc 2.svg';
 
 function ContactUs() {
+  const slideUp = useSpring(animationConfig);
+
   return (
     <div className="contact-us-page">
-      <div className="contact-us-upper-third">
+      <animated.div style={slideUp} className="contact-us-upper-third">
         <div className="contact-us-upper-third-items">
           <div className="contact-us-info">
             <h3 className="contact-us-students">STUDENTS</h3>
@@ -18,7 +22,7 @@ function ContactUs() {
           </div>
           <img src={contactUsImage} alt="undraw" className="contact-us-img" />
         </div>
-      </div>
+      </animated.div>
       <div id="contact-us-middle-third">
         <div className="contact-us-middle-items">
           <img src={purpleLogo} alt="undraw" className="heart-logo" />

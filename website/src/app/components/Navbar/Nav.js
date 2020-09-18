@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { animated, useSpring, config } from 'react-spring';
+
 import ctcLogo from '../../../images/logo/purple-ctc.svg';
 import closeIcon from '../../../images/close.svg';
 import './Nav.css';
 
 function Nav() {
   const [open, toggleVisibility] = useState(false);
-
+  const slideUp = useSpring({
+    config: config.wobbly,
+    opacity: 1,
+    transform: 'translate(0)',
+    from: { opacity: 0, transform: 'translateY(-20px)' },
+  });
   return (
-    <nav>
+    <animated.nav style={slideUp}>
       <div>
         <div
           className={`mobile-nav-links-container ${open ? 'open' : 'hidden'}`}
@@ -73,7 +80,7 @@ function Nav() {
           </button>
         </div>
       </div>
-    </nav>
+    </animated.nav>
   );
 }
 

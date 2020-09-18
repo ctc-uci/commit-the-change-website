@@ -1,14 +1,17 @@
 import React from 'react';
+import { animated, useSpring } from 'react-spring';
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import aboutUsGraphic from '../../../images/about-us.svg';
 import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
 import teamData from './data.json';
+import animationConfig from '../animationConstants';
 import './About.css';
 
 function About() {
+  const slideUp = useSpring(animationConfig);
   return (
     <main>
-      <div className="top-panel">
+      <animated.div style={slideUp} className="top-panel">
         <div className="panel-left">
           <h1>About Us</h1>
           <p>
@@ -22,7 +25,7 @@ function About() {
         <div className="panel-right">
           <img src={aboutUsGraphic} alt="people collaborating" />
         </div>
-      </div>
+      </animated.div>
       <div className="links">
         <a href="#mission">
           <h2>

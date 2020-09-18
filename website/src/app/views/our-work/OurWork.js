@@ -1,5 +1,7 @@
 import React from 'react';
 import './OurWork.css';
+import { animated, useSpring } from 'react-spring';
+import animationConfig from '../animationConstants';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ProjectCardPurple from '../../components/ProjectCardPurple/ProjectCardPurple';
 import ourWorkPic from '../../../images/our-work.svg';
@@ -8,16 +10,18 @@ import crimeSurvivors from '../../../images/our-work-crime-survivors.svg';
 import * as projectData from './ProjectCard.json';
 
 function OurWork() {
+  const slideUp = useSpring(animationConfig);
+
   return (
     <main>
-      <div className="top-our-work">
+      <animated.div style={slideUp} className="top-our-work">
         <div className="title-div">
           <h1 className="title-header">Our Work</h1>
           <p className="title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
           <a href="#middle-our-work" className="read-more-button">Learn More</a>
         </div>
         <img src={ourWorkPic} alt="our-work" className="our-work-img" />
-      </div>
+      </animated.div>
       <div id="middle-our-work">
         <h1 className="upcoming-projects">Our Upcoming Projects</h1>
         <div className="projects">
