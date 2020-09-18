@@ -32,7 +32,35 @@ function Home() {
           </div>
         </div>
       </animated.div>
-      <div className="middle-panel" style={{ background: `url(${tempHome})` }}>
+      <div className="social-media-section">
+        <div className="media-content">
+          <h2>Connect With Us!</h2>
+          <p>
+            Stay in the loop with us on our mission to create
+            <br />
+            <b>Tech With Purpose.</b>
+          </p>
+          <div className="media-links">
+            <a href="https://www.facebook.com/ctc.uci/" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <i className="fa fa-facebook-square fa-4x" />
+              <p id="link-name">Facebook</p>
+            </a>
+            <a href="https://www.instagram.com/ctc.uci/" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <i className="fa fa-instagram fa-4x" />
+              <p id="link-name">Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/company/commit-the-change-uci/" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <i className="fa fa-linkedin-square fa-4x" />
+              <p id="link-name">Linkedin</p>
+            </a>
+            <a href="https://medium.com/@committhechange.uci" target="_blank" rel="noopener noreferrer" className="social-media-link">
+              <i className="fa fa-medium fa-4x" />
+              <p id="link-name">Medium</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="bottom-panel" style={{ background: `url(${tempHome})` }}>
         <h2>STUDENTS</h2>
         <p className="join-team">Want to join the team?</p>
         <p className="interested">
@@ -56,46 +84,6 @@ function Home() {
           <button className="btn" id="apply-button" type="button">
             <Link to="/contact-us">Apply Now!</Link>
           </button>
-        </div>
-      </div>
-      <div className="bottom-panel">
-        <div className="bottom-content">
-          <h2>Connect With Us!</h2>
-          <p>
-            Stay in the loop with us on our mission to create
-            <br />
-            <b>Tech With Purpose.</b>
-          </p>
-          <div className="social-media">
-            <a
-              href="mailto:committhechange.uci@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-facebook-square fa-3x" />
-            </a>
-            <a
-              href="mailto:committhechange.uci@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-instagram fa-3x" />
-            </a>
-            <a
-              href="mailto:committhechange.uci@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-linkedin-square fa-3x" />
-            </a>
-            <a
-              href="mailto:committhechange.uci@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-medium fa-3x" />
-            </a>
-          </div>
         </div>
       </div>
     </main>

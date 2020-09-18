@@ -18,21 +18,21 @@ function Footer() {
           </div>
         </div>
         <div className="middle-column">
-          <img className="logo" src={ctcLogo} alt="ctc logo" />
+          <img className="footer-logo" src={ctcLogo} alt="ctc logo" />
           <h2>Tech with Purpose.</h2>
           <a href="mailto:committhechange.uci@gmail.com" target="_top">
             <i className="fa fa-envelope fa-lg" />
           </a>
-          <a href="mailto:committhechange.uci@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/ctc.uci/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-facebook-square fa-lg" />
           </a>
-          <a href="mailto:committhechange.uci@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ctc.uci/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-instagram fa-lg" />
           </a>
-          <a href="mailto:committhechange.uci@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/commit-the-change-uci/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin-square fa-lg" />
           </a>
-          <a href="mailto:committhechange.uci@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://medium.com/@committhechange.uci" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-medium fa-lg" />
           </a>
         </div>
