@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 50px 4%;
+  margin: 25px 25px;
 }
 
 .card-container{
@@ -9,9 +9,9 @@
 }
 
 .card .profile-img {
-  max-width: 280px;
-  max-height: 280px;
-  flex: 1 1 280px;
+  max-width: 240px;
+  max-height: 240px;
+  flex: 1;
   border-radius: 5px;
   box-shadow: 3px 3px 10px #aaaaaa;
   margin: auto;
@@ -19,8 +19,8 @@
 
 .card-bottom {
   display: flex;
-  width: 280px;
-  /* margin: auto; */
+  width: 240px;
+  min-height: 100px;
 }
 
 .info {
@@ -36,10 +36,7 @@
 }
 
 .logoborder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .logoborder img {

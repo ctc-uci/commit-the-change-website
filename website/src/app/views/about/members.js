@@ -51,80 +51,103 @@ import bing from '../../../images/about/memberImages/bing.JPG';
 import lily from '../../../images/about/memberImages/lily.jpg';
 import becky from '../../../images/about/memberImages/becky.jpg';
 import nikhild from '../../../images/about/memberImages/nikhild.jpg';
+import angeline from '../../../images/about/memberImages/Angeline Pho.jpg';
+import chloe from '../../../images/about/memberImages/Chloe Chua.jpg';
+import emily from '../../../images/about/memberImages/emily-su.jpg';
+import hannah from '../../../images/about/memberImages/Hannah Limary.jpg';
+import ivy from '../../../images/about/memberImages/Ivy Thong.JPG';
+import jessica from '../../../images/about/memberImages/Jessica Li.jpg';
+import lancy from '../../../images/about/memberImages/Lancy Tan.JPG';
+import meghna from '../../../images/about/memberImages/Meghna Kaligotla.jpg';
+import meredith from '../../../images/about/memberImages/Meredith Quintana.JPG';
+import michelle from '../../../images/about/memberImages/Michelle Huynh.jpg';
+import ryanhartanto from '../../../images/about/memberImages/RyanHartanto.jpg';
+import sabrina from '../../../images/about/memberImages/Sabrina_Nguyen_Hoang.jpg';
+import selina from '../../../images/about/memberImages/Selina Tieu.jpg';
+import vani from '../../../images/about/memberImages/Vani Anilkumar.jpg';
+import vincent from '../../../images/about/memberImages/Vincent-Tran.JPG';
+import vivian from '../../../images/about/memberImages/Vivian Chu.JPG';
 
 const members = {
   info: [
     {
       name: 'Albert Zhang',
-      position: 'President, Developer',
+      position: 'President, Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/albertzhang100/',
       imageURL: albert,
     },
     {
       name: 'Justine Koa',
-      position: 'Internal VP, Developer',
+      position: 'Internal VP, PM',
       linkedinURL: 'https://www.linkedin.com/in/justinekoa/',
       imageURL: justine,
     },
     {
       name: 'Kayla Tran',
-      position: 'External VP, Developer',
+      position: 'External VP, PM',
       linkedinURL: 'https://www.linkedin.com/in/kayla-tran/',
       imageURL: kayla,
     },
     {
       name: 'Harrison Huang',
-      position: 'VP of Projects, Developer',
+      position: 'VP of Projects, PM',
       linkedinURL: 'https://www.linkedin.com/in/harrison-huang-6a7428150/',
       imageURL: harrison,
     },
     {
       name: 'Leon Lin',
-      position: 'VP of Recruitment, Developer',
+      position: 'VP of Recruitment, Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/leonlin66/',
       imageURL: leon,
     },
-    {
-      name: 'Paul Yang',
-      position: 'Honorary Alumnus, Developer',
-      linkedinURL: 'https://www.linkedin.com/in/paul-junho-yang-462914172/',
-      imageURL: paul,
-    },
+
     {
       name: 'Ethan Nguyen',
-      position: 'VP of Marketing, Developer',
+      position: 'VP of Marketing, Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/nguyenethan01/',
       imageURL: ethan,
     },
     {
       name: 'Mingjia Wang',
-      position: 'VP of Outreach, Developer',
+      position: 'VP of Outreach, Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/mingjia-wang/',
       imageURL: mingjia,
     },
     {
+      name: 'Rebecca Leung',
+      position: 'Tech Lead',
+      linkedinURL: 'https://www.linkedin.com/in/leungrebecca/',
+      imageURL: rebecca,
+    },
+    {
       name: 'Sonali Chellappa',
-      position: 'Co-VP of Design, Designer',
+      position: 'Co-VP of Design, Design Lead',
       linkedinURL: 'https://www.linkedin.com/in/sonali-chellappa-1a16aa166/',
       imageURL: sonali,
     },
     {
       name: 'Kamille Suayan',
-      position: 'Co-VP of Design, Designer',
+      position: 'Co-VP of Design, Design Lead',
       linkedinURL: 'https://www.linkedin.com/in/kamille-suayan-2a8980b7/',
       imageURL: kamille,
     },
     {
       name: 'Ryan Adra',
-      position: 'VP of Content Creation, Designer',
+      position: 'VP of Content Creation, Design Lead',
       linkedinURL: 'https://www.linkedin.com/in/ryan-matthew-adra-0a8b16152/',
       imageURL: ryan,
     },
     {
-      name: 'Rebecca Leung',
+      name: 'Paul Yang',
+      position: 'Honorary Alumnus, Dev Ops',
+      linkedinURL: 'https://www.linkedin.com/in/paul-junho-yang-462914172/',
+      imageURL: paul,
+    },
+    {
+      name: 'Xuan Vu',
       position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/leungrebecca/',
-      imageURL: rebecca,
+      linkedinURL: 'https://www.linkedin.com/in/xuanbvu/',
+      imageURL: xuan,
     },
     {
       name: 'Joshua Liu',
@@ -137,12 +160,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/megha-kak/',
       imageURL: megha,
-    },
-    {
-      name: 'Xuan Vu',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/xuanbvu/',
-      imageURL: xuan,
     },
     {
       name: 'Joshua Chan',
@@ -371,6 +388,102 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/nikhil-deshpande24/',
       imageURL: nikhild,
+    },
+    {
+      name: 'Angeline Pho',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: angeline,
+    },
+    {
+      name: 'Chloe Chua',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: chloe,
+    },
+    {
+      name: 'Emily Su',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: emily,
+    },
+    {
+      name: 'Hannah Limary',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: hannah,
+    },
+    {
+      name: 'Ivy Thong',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: ivy,
+    },
+    {
+      name: 'Jessica Li',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: jessica,
+    },
+    {
+      name: 'Lancy Tan',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: lancy,
+    },
+    {
+      name: 'Meghna Kaligotla',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: meghna,
+    },
+    {
+      name: 'Meredith Quintana',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: meredith,
+    },
+    {
+      name: 'Michelle Huynh',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: michelle,
+    },
+    {
+      name: 'Ryan Hartanto',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: ryanhartanto,
+    },
+    {
+      name: 'Sabrina Nguyen Hoang',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: sabrina,
+    },
+    {
+      name: 'Selina Tieu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: selina,
+    },
+    {
+      name: 'Vani Anilkumar',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: vani,
+    },
+    {
+      name: 'Vincent Tran',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: vincent,
+    },
+    {
+      name: 'Vivian Chu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com',
+      imageURL: vivian,
     },
   ],
 };

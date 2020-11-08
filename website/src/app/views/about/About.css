@@ -176,9 +176,9 @@ h2:hover > .off {
 }
 
 .empty-placeholder {
-  height: 280px;
-  width: 280px;
-  margin: 4%;
+  height: 240px;
+  width: 240px;
+  margin: 25px;
 }
 
 @media screen and (max-width: 692px) {
