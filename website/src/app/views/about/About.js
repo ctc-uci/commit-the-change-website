@@ -37,10 +37,6 @@ function About() {
     );
   });
 
-  profileImages.push(
-    <div className="empty-placeholder" />,
-  );
-
   // VALUES ***********************
   const valuesAnimationTopRow = useTrail(
     values.top.length,
