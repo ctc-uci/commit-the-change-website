@@ -58,7 +58,7 @@ function OurWork() {
       <div id="middle-our-work">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
           <animated.div style={slideUpMiddle} className="project-text">
-            <h1 className="upcoming-projects">Our Upcoming Projects</h1>
+            <h1 className="upcoming-projects">Our Current Projects</h1>
             <p className="upcoming-projects-description">
               We are proud to present the below projects for the 2020-2021
               academic year!
