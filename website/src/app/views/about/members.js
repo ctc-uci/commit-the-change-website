@@ -20,7 +20,7 @@ import ashley from '../../../images/about/memberImages/ashley.jpg';
 import iqra from '../../../images/about/memberImages/iqra.jpg';
 import alec from '../../../images/about/memberImages/alec.jpg';
 import claude from '../../../images/about/memberImages/claude.png';
-import harkirat from '../../../images/about/memberImages/harkirat.jpg';
+import harkirat from '../../../images/about/memberImages/harkirat.png';
 import alan from '../../../images/about/memberImages/alan.jpg';
 import sydney from '../../../images/about/memberImages/sydney.jpg';
 import rostam from '../../../images/about/memberImages/rostam.png';
