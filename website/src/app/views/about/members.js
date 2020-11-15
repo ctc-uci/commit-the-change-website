@@ -53,7 +53,6 @@ import becky from '../../../images/about/memberImages/becky.jpg';
 import nikhild from '../../../images/about/memberImages/nikhild.jpg';
 import angeline from '../../../images/about/memberImages/Angeline Pho.jpg';
 import chloe from '../../../images/about/memberImages/Chloe Chua.jpg';
-import emily from '../../../images/about/memberImages/emily-su.jpg';
 import hannah from '../../../images/about/memberImages/Hannah Limary.jpg';
 import ivy from '../../../images/about/memberImages/Ivy Thong.JPG';
 import jessica from '../../../images/about/memberImages/Jessica Li.jpg';
@@ -400,12 +399,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/chloe-chua-3310231a5/',
       imageURL: chloe,
-    },
-    {
-      name: 'Emily Su',
-      position: 'Designer',
-      linkedinURL: 'https://www.linkedin.com/in/emilysu830/',
-      imageURL: emily,
     },
     {
       name: 'Hannah Limary',
