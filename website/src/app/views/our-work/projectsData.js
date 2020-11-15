@@ -10,7 +10,7 @@ const projects = {
       alt: 'Child Creativity Lab incoming project',
       projectName: 'Child Creativity Lab',
       description:
-        'We will create an online waiver system and a platform to sell educational kits for children.',
+        'We are creating an online waiver system and a platform to sell educational kits for children.',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
       npoURL: 'https://www.childcreativitylab.org/',
     },
@@ -19,7 +19,7 @@ const projects = {
       alt: 'Justice for Families incoming project',
       projectName: 'Justice for Families',
       description:
-        'We will create a mobile application for the families of incarcerated loved ones to find community and support.',
+        'We are creating a mobile application for the families of incarcerated loved ones to find community and support.',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-2-reveal-with-justice-for-families-57f91752635d',
       npoURL: 'https://www.justice4families.org/',
     },
@@ -28,7 +28,7 @@ const projects = {
       alt: 'Waymakers incoming project',
       projectName: 'Waymakers',
       description:
-        'We will create a platform to electronically capture volunteer and inventory data about their different programs.',
+        'We are creating a platform to electronically capture volunteer and inventory data about their different programs.',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-3-reveal-with-waymakers-4be6f2915c83',
       npoURL: 'https://waymakersoc.org/',
     },
