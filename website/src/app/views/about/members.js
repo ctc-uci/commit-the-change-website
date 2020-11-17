@@ -76,19 +76,19 @@ const members = {
     },
     {
       name: 'Justine Koa',
-      position: 'Internal VP, PM',
+      position: 'Internal VP, Project Manager',
       linkedinURL: 'https://www.linkedin.com/in/justinekoa/',
       imageURL: justine,
     },
     {
       name: 'Kayla Tran',
-      position: 'External VP, PM',
+      position: 'External VP, Project Manager',
       linkedinURL: 'https://www.linkedin.com/in/kayla-tran/',
       imageURL: kayla,
     },
     {
       name: 'Harrison Huang',
-      position: 'VP of Projects, PM',
+      position: 'VP of Projects, Project Manager',
       linkedinURL: 'https://www.linkedin.com/in/harrison-huang-6a7428150/',
       imageURL: harrison,
     },
