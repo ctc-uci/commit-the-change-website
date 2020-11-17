@@ -50,7 +50,6 @@ import anikait from '../../../images/about/memberImages/anikait.png';
 import bing from '../../../images/about/memberImages/bing.JPG';
 import lily from '../../../images/about/memberImages/lily.jpg';
 import becky from '../../../images/about/memberImages/becky.jpg';
-import nikhild from '../../../images/about/memberImages/nikhild.jpg';
 import angeline from '../../../images/about/memberImages/Angeline Pho.jpg';
 import chloe from '../../../images/about/memberImages/Chloe Chua.jpg';
 import hannah from '../../../images/about/memberImages/Hannah Limary.jpg';
@@ -303,12 +302,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/megha-kak/',
       imageURL: megha,
-    },
-    {
-      name: 'Nikhil Deshpande',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/nikhil-deshpande24/',
-      imageURL: nikhild,
     },
     {
       name: 'Phillip Chan',
