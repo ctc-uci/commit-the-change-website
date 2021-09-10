@@ -33,15 +33,15 @@ import cyre from '../../../images/about/memberImages/cyre.jpg';
 import kela from '../../../images/about/memberImages/cullenmoana.jpg';
 import anikait from '../../../images/about/memberImages/anikait.jpg';
 import becky from '../../../images/about/memberImages/becky.jpg';
-import angeline from '../../../images/about/memberImages/Angeline Pho.jpg';
-import hannah from '../../../images/about/memberImages/Hannah Limary.jpg';
-import lancy from '../../../images/about/memberImages/Lancy Tan.JPG';
-import meghna from '../../../images/about/memberImages/Meghna Kaligotla.jpg';
-import meredith from '../../../images/about/memberImages/Meredith Quintana.JPG';
-import michelle from '../../../images/about/memberImages/Michelle Huynh.jpg';
-import sabrina from '../../../images/about/memberImages/Sabrina_Nguyen_Hoang.jpg';
-import vani from '../../../images/about/memberImages/Vani Anilkumar.jpg';
-import vivian from '../../../images/about/memberImages/Vivian Chu.jpg';
+import angeline from '../../../images/about/memberImages/angeline.jpg';
+import hannah from '../../../images/about/memberImages/hannah.jpg';
+import lancy from '../../../images/about/memberImages/lancy.JPG';
+import meghna from '../../../images/about/memberImages/meghna.jpg';
+import meredith from '../../../images/about/memberImages/meredith.jpg';
+import michelle from '../../../images/about/memberImages/michelle.jpg';
+import sabrina from '../../../images/about/memberImages/sabrina.jpg';
+import vani from '../../../images/about/memberImages/vani.jpg';
+import vivian from '../../../images/about/memberImages/vivian.jpg';
 import jordan from '../../../images/about/memberImages/jordan.jpg';
 
 const members = {
