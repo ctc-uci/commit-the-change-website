@@ -41,7 +41,7 @@ import meredith from '../../../images/about/memberImages/Meredith Quintana.JPG';
 import michelle from '../../../images/about/memberImages/Michelle Huynh.jpg';
 import sabrina from '../../../images/about/memberImages/Sabrina_Nguyen_Hoang.jpg';
 import vani from '../../../images/about/memberImages/Vani Anilkumar.jpg';
-import vivian from '../../../images/about/memberImages/Vivian Chu.JPG';
+import vivian from '../../../images/about/memberImages/Vivian Chu.jpg';
 import jordan from '../../../images/about/memberImages/jordan.jpg';
 
 const members = {
