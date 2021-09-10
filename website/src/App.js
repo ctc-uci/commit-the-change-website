@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './app/components/Navbar/Nav';
 import Home from './app/views/home/Home';
 import About from './app/views/about/About';
+import Apply from './app/views/apply/Apply';
 import Projects from './app/views/our-work/OurWork';
 import ContactUs from './app/views/contact-us/ContactUs';
 import Footer from './app/components/Footer/Footer';
@@ -24,6 +25,7 @@ function App() {
             <Switch>
               <Route path="/" exact render={() => <Home />} />
               <Route path="/about" exact render={() => <About />} />
+              <Route path="/apply" exact render={() => <Apply />} />
               <Route path="/projects" exact render={() => <Projects />} />
               <Route path="/contact" exact render={() => <ContactUs />} />
             </Switch>
