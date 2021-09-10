@@ -24,7 +24,7 @@ import chris from '../../../images/about/memberImages/chris.jpg';
 import preston from '../../../images/about/memberImages/preston.jpg';
 import kasey from '../../../images/about/memberImages/kasey.jpg';
 import sylvester from '../../../images/about/memberImages/sylvester.jpg';
-import jane from '../../../images/about/memberImages/jane.jpeg';
+import jane from '../../../images/about/memberImages/jane.jpg';
 import zoya from '../../../images/about/memberImages/zoya.jpg';
 import jules from '../../../images/about/memberImages/jules.JPG';
 import alvin from '../../../images/about/memberImages/alvin.JPG';
