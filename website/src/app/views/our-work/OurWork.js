@@ -58,10 +58,10 @@ function OurWork() {
       <div id="middle-our-work">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
           <animated.div style={slideUpMiddle} className="project-text">
-            <h1 className="upcoming-projects">Our 2020-21 Projects</h1>
-            <p className="upcoming-projects-description">
-              Here are the projects that we worked on for the 2020-21 school year!
-            </p>
+            <h1 className="upcoming-projects">Our Upcoming Projects</h1>
+            {/* <p className="upcoming-projects-description">
+              Here are the projects that we will be working on for the 2021-22 school year!
+            </p> */}
           </animated.div>
         </VisibilitySensor>
         <div className="projects">{activeProjectsAnimation}</div>

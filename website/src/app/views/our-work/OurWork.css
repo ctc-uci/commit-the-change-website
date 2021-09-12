@@ -27,7 +27,7 @@ html {
 }
 
 #middle-our-work {
-  max-width: 2000px;
+  max-width: 1500px;
   margin: 40px auto;
   display: flex;
   flex-direction: column;
@@ -37,10 +37,13 @@ html {
 .projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-#middle-our-work{
+#middle-our-work {
     /* height:100vh; */
     padding: 100px 0 200px 0;
     display: flex;
