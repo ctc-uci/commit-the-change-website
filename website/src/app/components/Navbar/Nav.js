@@ -57,6 +57,14 @@ function Nav() {
                 }}
                 to="/contact"
               >
+                Contact Us
+              </Link>
+              <Link
+                onClick={() => {
+                  toggleVisibility(false);
+                }}
+                to="/apply"
+              >
                 Apply Now
               </Link>
             </div>
@@ -79,7 +87,7 @@ function Nav() {
           </div>
         </animated.div>
         <animated.div style={slideDown} className="nav-bar">
-          <div className="left">
+          <div>
             <Link to="/">
               <img className="logo" src={ctcLogo} alt="Commit the Change logo" />
             </Link>
@@ -96,9 +104,14 @@ function Nav() {
               </Link>
             </li>
             <li>
+              <Link to="/contact" className="elem">
+                Contact Us
+              </Link>
+            </li>
+            <li>
               <button type="button" className="elem apply-button">
-                <Link to="/contact" id="apply-link">
-                  Contact Us
+                <Link to="/apply" id="apply-link">
+                  Apply
                 </Link>
               </button>
             </li>
