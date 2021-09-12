@@ -1,0 +1,10 @@
+@import "../../../styles/common.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.apply-top-panel-img {
+  width: 80%;
+  max-height: 400px;
+}
