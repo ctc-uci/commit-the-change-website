@@ -26,6 +26,8 @@ function ContactUs() {
     }
   };
 
+  const inlineEmail = <a href={`mailto:${ContactUsData.contactEmail}`}>{ContactUsData.contactEmail}</a>;
+
   return (
     <div className="contact-us-page">
       <animated.div style={slideUp} className="top-panel">
@@ -81,9 +83,13 @@ function ContactUs() {
               {ContactUsData.middleThird.topTitle}
             </h1>
             <p>{ContactUsData.middleThird.topDescription}</p>
-            <p>{ContactUsData.middleThird.bottomDescription}</p>
+            <p>
+              {ContactUsData.middleThird.bottomDescription}
+              {inlineEmail}
+              !
+            </p>
             <a
-              href="mailto:committhechange.uci@gmail.com"
+              href="mailto:ctc@uci.edu"
               className="common-pink-button"
               target="_blank"
               rel="noopener noreferrer"
