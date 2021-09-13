@@ -13,7 +13,7 @@ import alec from '../../../images/about/memberImages/alec.jpg';
 import claude from '../../../images/about/memberImages/claude.jpg';
 import alan from '../../../images/about/memberImages/alan.jpg';
 import sydney from '../../../images/about/memberImages/sydney.jpg';
-import rostam from '../../../images/about/memberImages/rostam.jpg';
+import rostam from '../../../images/about/memberImages/rostam.jpeg';
 import hang from '../../../images/about/memberImages/hang.jpg';
 import chase from '../../../images/about/memberImages/chase.jpg';
 import rashmi from '../../../images/about/memberImages/rashmi.jpg';
