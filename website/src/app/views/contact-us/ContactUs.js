@@ -83,7 +83,7 @@ function ContactUs() {
             <p>{ContactUsData.middleThird.topDescription}</p>
             <p>{ContactUsData.middleThird.bottomDescription}</p>
             <a
-              href="mailto:committhechange.uci@gmail.com"
+              href="mailto:ctc@uci.edu"
               className="common-pink-button"
               target="_blank"
               rel="noopener noreferrer"
