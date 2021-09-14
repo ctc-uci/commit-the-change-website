@@ -3,6 +3,8 @@ import { animated, useSpring } from 'react-spring';
 import applyGraphic from '../../../images/apply/apply.svg';
 import animationConfig from '../animationConstants';
 import './Apply.css';
+import Timeline from './timeline';
+import timelineValues from './timelineValues';
 
 function Apply() {
   const slideUp = useSpring(animationConfig.slideUp(true));
@@ -51,6 +53,7 @@ function Apply() {
             .
           </p>
         </animated.div>
+        <Timeline timelineValues={timelineValues} />
       </div>
     </main>
   );
