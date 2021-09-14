@@ -1,0 +1,30 @@
+@import "../../../styles/common.css";
+
+.timeline-step {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-step h2, h3, p {
+  margin: 0;
+}
+
+.timeline-step .right-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.timeline-step .step-name {
+  color: var(--dark-purple);
+}
+
+.timeline-step .step-date {
+  color: var(--dark-grey);
+  margin-left: 14px;
+}
+
+.timeline-step .step-description {
+  margin-top: 9px;
+}

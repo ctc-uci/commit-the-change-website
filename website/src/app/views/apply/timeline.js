@@ -1,12 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './timeline.css';
+
 const Timeline = (timelineValues) => {
-  console.log(timelineValues);
+  const timeline = timelineValues.timelineValues.map((value) => (
+    <div key={value.header} className="timeline-step">
+      <h3>{value.leftText}</h3>
+      <div className="step-right">
+        <div className="right-header">
+          <h2 className="step-name">{value.header}</h2>
+          <p className="step-date">{value.date}</p>
+        </div>
+        <p className="step-description">
+          {value.description}
+        </p>
+      </div>
+    </div>
+  ));
 
   return (
     <div>
-      <pre>{JSON.stringify(timelineValues, null, 2) }</pre>
+      {timeline}
     </div>
   );
 };
