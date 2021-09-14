@@ -4,7 +4,7 @@ import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-// import ProjectCardPurple from '../../components/ProjectCardPurple/ProjectCardPurple';
+import ProjectCardPurple from '../../components/ProjectCard/ProjectCardPurple';
 import ourWorkPic from '../../../images/ourWork/our-work.svg';
 import projects from './projectsData';
 
@@ -15,7 +15,7 @@ function OurWork() {
   const slideUpTop = useSpring(animationConfig.slideUp(true));
   const slideUpMiddle = useSpring(animationConfig.slideUp(middleViewCount > 0));
   const activeProjectsTrail = useTrail(projects.active.length, animationConfig.trail(middleViewCount > 0));
-  // const pastProjectsTrail = useTrail(projects.inactive.length, animationConfig.trail(bottomViewCount > 0));
+  const pastProjectsTrail = useTrail(projects.inactive.length, animationConfig.trail(bottomViewCount > 0));
   // const fadeInProjects = useSpring(animationConfig.slideUp(bottomViewCount > 0, 500));
   const slideInBottomText = useSpring(animationConfig.slideInLeft(bottomViewCount > 0));
 
@@ -35,21 +35,21 @@ function OurWork() {
     );
   });
 
-  // const pastProjectsAnimation = pastProjectsTrail.map((props, index) => {
-  //   const project = projects.inactive[index];
-  //   return (
-  //     <ProjectCard
-  //       src={project.src}
-  //       alt={project.alt}
-  //       projectName={project.projectName}
-  //       description={project.description}
-  //       projectURL={project.projectURL}
-  //       npoURL={project.npoURL}
-  //       animationProps={props}
-  //       isAnimated
-  //     />
-  //   );
-  // });
+  const pastProjectsAnimation = pastProjectsTrail.map((props, index) => {
+    const project = projects.inactive[index];
+    return (
+      <ProjectCardPurple
+        src={project.src}
+        alt={project.alt}
+        projectName={project.projectName}
+        description={project.description}
+        projectURL={project.projectURL}
+        npoURL={project.npoURL}
+        animationProps={props}
+        isAnimated
+      />
+    );
+  });
 
   return (
     <main>
@@ -76,7 +76,7 @@ function OurWork() {
       <div id="middle-our-work">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
           <animated.div style={slideUpMiddle} className="project-text">
-            <h1 className="upcoming-projects">Our Upcoming Projects</h1>
+            <h1 className="upcoming-projects-title">Our Upcoming Projects</h1>
             {/* <p className="upcoming-projects-description">
               Here are the projects that we will be working on for the 2021-22 school year!
             </p> */}
@@ -87,7 +87,7 @@ function OurWork() {
 
       <div className="past-projects-section">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setBottomVisible(bottomViewCount + 1); }}>
-          <animated.div style={slideInBottomText} className="past-project-content">
+          <animated.div style={slideInBottomText} className="project-text">
             <h1 className="past-projects-title">Our Past Projects</h1>
             {/* <p className="past-project-description">
               Commit the Change started its first project in April 2020 with the
@@ -97,7 +97,7 @@ function OurWork() {
             </p> */}
           </animated.div>
         </VisibilitySensor>
-        {/* <div className="projects">{pastProjectsAnimation}</div> */}
+        <div className="projects">{pastProjectsAnimation}</div>
         {/* <div className="bottom-card-div">
           <animated.div style={fadeInProjects} className="bottom-card">
             <ProjectCardPurple
