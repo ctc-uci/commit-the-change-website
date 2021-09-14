@@ -6,7 +6,10 @@ import './timeline.css';
 const Timeline = (timelineValues) => {
   const timeline = timelineValues.timelineValues.map((value) => (
     <div key={value.header} className="timeline-step">
-      <h3>{value.leftText}</h3>
+      <div className="step-left ">
+        <h4>{value.leftText}</h4>
+        <span className="dot" />
+      </div>
       <div className="step-right">
         <div className="right-header">
           <h2 className="step-name">{value.header}</h2>
@@ -20,7 +23,7 @@ const Timeline = (timelineValues) => {
   ));
 
   return (
-    <div>
+    <div className="timeline-wrapper">
       {timeline}
     </div>
   );

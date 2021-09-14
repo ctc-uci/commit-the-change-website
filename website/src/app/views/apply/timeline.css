@@ -1,12 +1,36 @@
 @import "../../../styles/common.css";
 
+.timeline-wrapper {
+  width: 70%;
+  margin: 0px auto 20px auto;
+}
+
 .timeline-step {
+  margin-top: 50px;
   text-align: left;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
-.timeline-step h2, h3, p {
+.timeline-step .step-left {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+.timeline-step .dot {
+  height: 12px;
+  width: 12px;
+  background-color: var(--dark-purple);
+  border-radius: 50%;
+  border: 5px solid var(--light-purple);
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+
+.timeline-step h2, h4, p {
   margin: 0;
 }
 
