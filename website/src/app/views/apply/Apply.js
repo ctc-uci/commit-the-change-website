@@ -6,6 +6,10 @@ import './Apply.css';
 
 function Apply() {
   const slideUp = useSpring(animationConfig.slideUp(true));
+
+  const contactEmail = 'ctc@uci.edu';
+  const inlineEmail = <a href={`mailto:${contactEmail}`}>{contactEmail}</a>;
+
   return (
     <main>
       <animated.div style={slideUp} className="top-panel">
@@ -33,6 +37,21 @@ function Apply() {
           />
         </div>
       </animated.div>
+
+      {/* TODO: Add animations using VisibilitySensor */}
+      <div className="application-steps-panel" id="application-steps">
+        <animated.div style={slideUp}>
+          <h1>Application Process</h1>
+          <p className="application-description">
+            All applicants will go through the same process, regardless of the role they’re applying for.
+            Keep reading for a brief timeline of our application process. Have any questions?
+            Reach out to us on any of our social platforms or email us at
+            {' '}
+            {inlineEmail}
+            .
+          </p>
+        </animated.div>
+      </div>
     </main>
   );
 }

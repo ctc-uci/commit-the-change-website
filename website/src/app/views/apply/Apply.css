@@ -8,3 +8,21 @@ html {
   width: 80%;
   max-height: 400px;
 }
+
+.application-steps-panel {
+  margin: 100px auto;
+  max-width: 2000px;
+}
+
+.application-steps-panel h1 {
+  text-align: center;
+  color: var(--dark-purple);
+  font-size: 40px;
+  text-shadow: 1px 0 var(--dark-purple);
+}
+
+.application-description {
+  width: 40%;
+  margin: 0px auto 20px auto;
+  line-height: 25px;
+}
