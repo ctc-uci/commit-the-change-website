@@ -37,7 +37,7 @@ html {
 
 #middle-our-work {
     /* height:100vh; */
-    max-width: 1500px;
+    max-width: 2000px;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
@@ -52,16 +52,18 @@ html {
       url('../../../images/ourWork/solid-red-3.svg'),
       url('../../../images/ourWork/clear-red-3.svg'),
       url('../../../images/ourWork/solid-red-4.svg'),
-      url('../../../images/ourWork/clear-red-4.svg');
+      url('../../../images/ourWork/clear-red-4.svg'),
+      url('../../../images/ourWork/solid-red-5.svg'),
+      url('../../../images/ourWork/clear-red-5.svg'),
+      url('../../../images/ourWork/solid-red-6.svg'),
+      url('../../../images/ourWork/clear-red-6.svg');
     background-position: 
-      10% 5%, 
-      calc(10% - 100px) calc(5% + 50px), 
-      95% 20%, 
-      calc(95% - 50px) calc(20% - 50px), 
-      5% 90%, 
-      5% 90%, 
-      90% 90%, 
-      calc(90% - 0px) calc(90% + 70px);
+      10% 5%, calc(10% - 100px) calc(5% + 50px), 
+      95% calc(5% + 25px), calc(95% - 50px) calc(5% - 50px), 
+      5% calc(50% + 20px), 5% 45%, 
+      calc(95% + 65px) calc(45% - 75px), calc(95% + 50px) calc(45% - 30px),
+      5% calc(75% + 20px), calc(10% + 30px) calc(90% - 30px),
+      calc(85% + 25px) calc(90% + 20px), calc(95% + 10px) calc(80% + 70px);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 
       170px, 
@@ -71,7 +73,57 @@ html {
       170px, 
       300px, 
       170px, 
+      300px,
+      170px,
       300px;
+}
+
+.past-projects-section {
+  /* height:100vh; */
+  max-width: 1500px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 100px 0 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  background:
+    url('../../../images/ourWork/solid-purple-1.svg'),
+    url('../../../images/ourWork/clear-purple-1.svg'),
+    url('../../../images/ourWork/solid-purple-2.svg'),
+    url('../../../images/ourWork/clear-purple-2.svg'),
+    url('../../../images/ourWork/solid-purple-3.svg'),
+    url('../../../images/ourWork/clear-purple-3.svg'),
+    url('../../../images/ourWork/solid-purple-4.svg'),
+    url('../../../images/ourWork/clear-purple-4.svg'),
+    url('../../../images/ourWork/solid-purple-5.svg'),
+    url('../../../images/ourWork/clear-purple-5.svg'),
+    url('../../../images/ourWork/solid-purple-6.svg'),
+    url('../../../images/ourWork/clear-purple-6.svg');
+  background-position: 
+    calc(5% - 15px) calc(15% + 10px), calc(10% - 50px) calc(5% + 30px), 
+    calc(90% + 35px) calc(15% - 25px), calc(95% + 5px) calc(10% - 25px),
+    calc(10% - 20px) 40%, 5% 45%, 
+    calc(95% - 25px) calc(40% + 20px), calc(95% + 50px) calc(45% - 30px), 
+    5% calc(80% - 20px), calc(5% + 25px) calc(75% + 20px), 
+    calc(90% - 30px) 75%, calc(95% - 20px) calc(75% + 55px);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 
+    180px, 
+    260px,
+    220px,
+    220px, 
+    220px, 
+    220px, 
+    220px, 
+    260px,
+    180px,
+    220px,
+    180px,
+    220px;
 }
 
 /* Taking out triangle animations for now */
@@ -129,7 +181,7 @@ html {
 }
 
 @media only screen and (max-width: 1300px) {
-    #middle-our-work, .past-projects-section {
+    #middle-our-work {
         background-size: 
         130px, 
         200px,
@@ -138,67 +190,32 @@ html {
         130px, 
         200px,
         130px, 
+        200px,
+        130px,
+        200px,
+        130px,
         200px;
     }
-}
-    
-/* .past-projects-section {
-  max-width: 2000px;
-  margin: 120px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 
-.past-projects-section {
-  /* height:100vh; */
-  max-width: 1500px;
-  margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 100px 0 150px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  position: relative;
-  background:
-    url('../../../images/ourWork/solid-purple-1.svg'),
-    url('../../../images/ourWork/clear-purple-1.svg'),
-    url('../../../images/ourWork/solid-purple-2.svg'),
-    url('../../../images/ourWork/clear-purple-2.svg'),
-    url('../../../images/ourWork/solid-purple-3.svg'),
-    url('../../../images/ourWork/clear-purple-3.svg'),
-    url('../../../images/ourWork/solid-purple-4.svg'),
-    url('../../../images/ourWork/clear-purple-4.svg');
-  background-position: 
-    10% 5%, 
-    calc(10% - 100px) calc(5% + 50px), 
-    95% 20%, 
-    calc(95% - 50px) calc(20% - 50px), 
-    5% 90%, 
-    5% 90%, 
-    90% 90%, 
-    calc(90% - 0px) calc(90% + 70px);
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 
-    170px, 
-    260px,
-    170px,
-    260px, 
-    170px, 
-    260px, 
-    170px, 
-    260px;
+    .past-projects-section {
+        background-size: 
+        130px, 
+        160px,
+        145px, 
+        145px,
+        145px, 
+        145px,
+        145px, 
+        160px,
+        130px,
+        145px,
+        130px,
+        145px;
+    }
 }
 
 
-.past-project-div {
-  flex: 1;
-}
-
-.bottom-card-div {
+.past-project-div, .bottom-card-div {
   flex: 1;
 }
 

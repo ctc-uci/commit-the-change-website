@@ -39,9 +39,9 @@ const projects = {
     {
       src: ctc,
       alt: 'Incoming project #4',
-      projectName: 'Project 4: TBD',
+      projectName: 'TBD',
       description:
-        'We\'re currently still in the process of finalizing our fourth NPO. Check back on our website and/or social media for updates coming soon!',
+        'We\'re currently still in the process of finalizing our fourth project. Check back on our website and social media for updates coming soon!',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
       npoURL: 'https://www.ctc-uci.com/',
     },
