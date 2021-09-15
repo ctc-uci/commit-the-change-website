@@ -6,7 +6,7 @@
 
 .tl-vert-line {
   background-color: var(--light-purple);
-  height: 73%;
+  height: 80%;
   position: absolute;
   width: 3px;
   top: 45px;
@@ -30,6 +30,10 @@
 
 .tl-row .dot-cell{
   vertical-align: top;
+}
+
+.timeline-table > tr:last-child > td.dot-cell {
+  background-color: white;
 }
 
 .tl-row .dot {

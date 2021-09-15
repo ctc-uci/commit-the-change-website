@@ -14,7 +14,7 @@ const VerticalTimeline = () => {
       <td className="dot-cell">
         <div className="dot" />
       </td>
-      <td>
+      <td className="right-cell">
         <div className="tl-header">
           <h2 className="header-text">{value.header}</h2>
           <p className="date-text">{value.date}</p>
@@ -25,9 +25,12 @@ const VerticalTimeline = () => {
   ));
 
   return (
-    <table className="timeline-table">
-      {timeline}
-    </table>
+    <div className="vert-tl-wrapper">
+      <div className="tl-vert-line" />
+      <table className="timeline-table">
+        {timeline}
+      </table>
+    </div>
   );
 };
 
