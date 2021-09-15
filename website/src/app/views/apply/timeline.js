@@ -8,7 +8,7 @@ const Timeline = (timelineValues) => {
     <div key={value.header} className="timeline-step">
       <div className="step-left ">
         <h4 className="step-left-text">{value.leftText}</h4>
-        <span className="dot" />
+        <div className="dot" />
       </div>
       <div className="step-right">
         <div className="right-header">

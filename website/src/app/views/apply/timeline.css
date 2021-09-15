@@ -18,15 +18,15 @@
 }
 
 .timeline-step .step-left {
-  width: 15%;
+  width: 20%;
   display: flex;
   flex-direction: row;
   align-items:flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .timeline-step .step-right {
-  width: 85%;
+  width: 80%;
 }
 
 .timeline-step .dot {
@@ -35,7 +35,8 @@
   background-color: var(--dark-purple);
   border-radius: 50%;
   border: 5px solid var(--light-purple);
-  margin: 0 12px 5px 0px;
+  margin: 0 10px;
+  flex-shrink: 0;
 }
 
 .timeline-step .right-header {
