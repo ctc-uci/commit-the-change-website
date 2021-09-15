@@ -7,27 +7,27 @@ import './VerticalTimeline.css';
 
 const VerticalTimeline = () => {
   const timeline = timelineValues.map((value) => (
-    <div key={value.header} className="timeline-step">
-      <div className="step-left ">
-        <h4 className="step-left-text">{value.leftText}</h4>
+    <tr className="tl-row">
+      <td className="tl-left-text">
+        <h4>{value.leftText}</h4>
+      </td>
+      <td className="dot-cell">
         <div className="dot" />
-      </div>
-      <div className="step-right">
-        <div className="right-header">
-          <h2 className="step-name">{value.header}</h2>
-          <p className="step-date">{value.date}</p>
+      </td>
+      <td>
+        <div className="tl-header">
+          <h2 className="header-text">{value.header}</h2>
+          <p className="date-text">{value.date}</p>
         </div>
-        <p className="step-description">
-          {value.description}
-        </p>
-      </div>
-    </div>
+        <p className="tl-description">{value.description}</p>
+      </td>
+    </tr>
   ));
 
   return (
-    <div className="timeline-wrapper">
+    <table className="timeline-table">
       {timeline}
-    </div>
+    </table>
   );
 };
 

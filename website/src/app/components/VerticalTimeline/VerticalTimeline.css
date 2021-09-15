@@ -1,59 +1,50 @@
 @import "../../../styles/common.css";
 
-.timeline-wrapper {
+.timeline-table {
   width: 45%;
   margin: 0px auto 20px auto;
+  border-spacing: 0 40px;
 }
 
-.timeline-step h2, h4, p {
+.tl-row h2, h4, p {
   margin: 0;
 }
 
-.timeline-step {
-  margin-top: 50px;
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
+.tl-row .tl-left-text {
+  white-space: nowrap;
+  vertical-align: top;
+  padding-top: 3px;
 }
 
-.timeline-step .step-left {
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  align-items:flex-start;
-  justify-content: space-evenly;
+.tl-row .dot-cell{
+  vertical-align: top;
 }
 
-.timeline-step .step-right {
-  width: 80%;
-}
-
-.timeline-step .dot {
+.tl-row .dot {
   height: 12px;
   width: 12px;
-  background-color: var(--dark-purple);
   border-radius: 50%;
   border: 5px solid var(--light-purple);
-  margin: 0 10px;
-  flex-shrink: 0;
+  background-color: var(--dark-purple);
+  margin: 1px 10px;
 }
 
-.timeline-step .right-header {
+.tl-row .tl-header {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
 }
 
-.timeline-step .step-name {
+.tl-row .header-text {
   color: var(--dark-purple);
+  line-height: 26px;
 }
 
-.timeline-step .step-date {
+.tl-row .date-text {
   color: var(--dark-grey);
+  align-self: flex-end;
   margin-left: 14px;
 }
 
-.timeline-step .step-description {
+.tl-row .tl-description {
   margin-top: 9px;
 }
