@@ -1,8 +1,20 @@
 @import "../../../styles/common.css";
 
+.vert-tl-wrapper {
+  position: relative;
+}
+
+.tl-vert-line {
+  background-color: var(--light-purple);
+  height: 73%;
+  position: absolute;
+  width: 3px;
+  top: 45px;
+  left: 88px;
+  z-index: -1;
+}
+
 .timeline-table {
-  width: 45%;
-  margin: 0px auto 20px auto;
   border-spacing: 0 40px;
 }
 
@@ -26,7 +38,7 @@
   border-radius: 50%;
   border: 5px solid var(--light-purple);
   background-color: var(--dark-purple);
-  margin: 1px 10px;
+  margin: 1px 15px;
 }
 
 .tl-row .tl-header {
@@ -46,5 +58,5 @@
 }
 
 .tl-row .tl-description {
-  margin-top: 9px;
+  margin-top: 15px;
 }
