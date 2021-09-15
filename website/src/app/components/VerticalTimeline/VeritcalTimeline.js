@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './timeline.css';
+import timelineValues from './TimelineValues';
 
-const Timeline = (timelineValues) => {
-  const timeline = timelineValues.timelineValues.map((value) => (
+import './VerticalTimeline.css';
+
+const VerticalTimeline = () => {
+  const timeline = timelineValues.map((value) => (
     <div key={value.header} className="timeline-step">
       <div className="step-left ">
         <h4 className="step-left-text">{value.leftText}</h4>
@@ -31,8 +33,8 @@ const Timeline = (timelineValues) => {
 
 /* eslint-disable react/no-unused-prop-types */
 
-Timeline.propTypes = {
+VerticalTimeline.propTypes = {
   timelineValues: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };
 
-export default Timeline;
+export default VerticalTimeline;
