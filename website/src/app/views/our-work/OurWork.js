@@ -45,6 +45,7 @@ function OurWork() {
         description={project.description}
         projectURL={project.projectURL}
         npoURL={project.npoURL}
+        mediumURL={project.mediumURL}
         animationProps={props}
         isAnimated
       />

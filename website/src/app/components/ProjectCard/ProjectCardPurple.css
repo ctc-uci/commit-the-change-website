@@ -71,11 +71,15 @@
   position: absolute;
   bottom: 7%;
   width: 100%;
+}
+
+.project-card-more-purple-link {
   text-align: center;
   text-decoration: none;
   color: var(--dark-pink);
-  font-size: 20px;
   font-weight: bold;
+  margin: 0 10px;
+  min-width: 28%;
 }
 
 .read-more-button {
@@ -84,7 +88,8 @@
   border-radius: 20px;
   color: white;
   font-size: 16px;
-  padding: 10px calc((50% - (200px)) / 2);
+  line-height: 20px;
+  padding: 10px calc((100% - 100px) / 2);
 }
 
 p:hover > .project-off {
@@ -92,8 +97,19 @@ p:hover > .project-off {
 }
 
 @media screen and (max-width: 1450px) {
-  .project-card-more {
-    bottom: 0;
+  .project-card-more-purple {
+    bottom: 6%;
+  }
+
+  .project-card-more-purple-link {
+    min-width: 40%;
+    margin: 0 6px;
+  }
+
+  .read-more-button {
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px calc((50% - (60px)) / 2);
   }
 }
 
@@ -111,10 +127,8 @@ p:hover > .project-off {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 29px;
-  }
-
-  .project-card-more-purple {
-    font-size: 16px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 12px;
   }
 }

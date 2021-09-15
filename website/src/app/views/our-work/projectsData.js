@@ -1,3 +1,4 @@
+import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
 import crs from '../../../images/nonprofits/Crime-Survivors.png';
 import ccl from '../../../images/nonprofits/Child-Creativity-Lab.png';
 import jff from '../../../images/nonprofits/Justice-For-Families.png';
@@ -36,11 +37,11 @@ const projects = {
       npoURL: 'https://www.aboundfoodcare.org/',
     },
     {
-      src: afc,
-      alt: '??? incoming project',
-      projectName: 'Project 4',
+      src: ctc,
+      alt: 'Incoming project #4',
+      projectName: 'Project 4: TBD',
       description:
-        'We will be doing something for our fourth project!',
+        'We\'re currently still in the process of finalizing our fourth NPO. Check back on our website and/or social media for updates coming soon!',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
       npoURL: 'https://www.ctc-uci.com/',
     },
@@ -52,8 +53,9 @@ const projects = {
       projectName: 'Justice for Families',
       description:
         'We created a mobile application for the families of incarcerated loved ones to find community and support!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-2-reveal-with-justice-for-families-57f91752635d',
+      mediumURL: 'https://medium.com/@committhechange.uci/upcoming-project-2-reveal-with-justice-for-families-57f91752635d',
       npoURL: 'https://www.justice4families.org/',
+      projectURL: 'https://github.com/ctc-uci/justice-for-families',
     },
     {
       src: wm,
@@ -61,8 +63,9 @@ const projects = {
       projectName: 'Waymakers',
       description:
         'We created a platform to electronically capture volunteer and inventory data about their different programs!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-3-reveal-with-waymakers-4be6f2915c83',
+      mediumURL: 'https://medium.com/@committhechange.uci/upcoming-project-3-reveal-with-waymakers-4be6f2915c83',
       npoURL: 'https://waymakersoc.org/',
+      projectURL: 'https://github.com/ctc-uci/waymakers',
     },
     {
       src: ccl,
@@ -70,18 +73,20 @@ const projects = {
       projectName: 'Child Creativity Lab',
       description:
         'We created an online waiver system and a platform to sell educational kits with instructional videos for children!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
+      mediumURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
       npoURL: 'https://www.childcreativitylab.org/',
+      projectURL: 'https://github.com/ctc-uci/ccl-videos',
     },
     {
       src: crs,
       alt: 'Crime Survivors past project',
       projectName: 'Crime Survivors',
       description:
-        'We created a website to replace their paper pamphlets detailing important resources and information for crime victims throughout Southern California!',
+        'We created a website to replace their paper pamphlets with important resources and information for crime victims!',
       // 'We created a website to replace their paper pamphlets that detail important resources and information for crime victims in different counties throughout Southern California. This project will save the organization thousands of dollars every year in printing and distribution costs, which will go directly back into helping survivors get necessity items!',
-      projectURL: 'https://medium.com/@committhechange.uci/past-project-reveal-with-crime-survivors-ba557206ee10',
+      mediumURL: 'https://medium.com/@committhechange.uci/past-project-reveal-with-crime-survivors-ba557206ee10',
       npoURL: 'https://crimesurvivors.org/',
+      projectURL: 'https://github.com/ctc-uci/crime-survivors',
     },
   ],
 };

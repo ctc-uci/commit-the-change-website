@@ -24,7 +24,7 @@
 .description {
   font-size: 16px;
   line-height: 25px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto 10px;
   text-align: center;
 }
@@ -83,7 +83,7 @@ p:hover > .project-off {
 @media screen and (max-width: 900px) {
   .project-card {
     margin: 15px;
-    height: 300px !important;
+    height: 310px !important;
     min-height: unset;
     width: 250px;
     padding: 10px calc((50% - (270px * 2)) / 2);
@@ -100,7 +100,7 @@ p:hover > .project-off {
   .description {
     font-size: 14px;
     line-height: 20px;
-    width: 90%;
+    width: 85%;
     margin: 0 auto 10px;
     text-align: center;
   }

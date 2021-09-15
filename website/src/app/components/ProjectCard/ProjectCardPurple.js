@@ -9,6 +9,7 @@ function ProjectCardPurple(props) {
     alt,
     projectName,
     description,
+    mediumURL,
     projectURL,
     npoURL,
     isAnimated,
@@ -32,16 +33,28 @@ function ProjectCardPurple(props) {
         <h1 className="project-name-purple">{projectName}</h1>
         <p className="description">{description}</p>
       </div>
-      <a
-        href={projectURL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="project-card-more-purple"
-      >
-        <div className="read-more-button">
-          View Project
-        </div>
-      </a>
+      <div className="project-card-more-purple">
+        <a
+          href={mediumURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card-more-purple-link"
+        >
+          <div className="read-more-button">
+            View Project
+          </div>
+        </a>
+        <a
+          href={projectURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card-more-purple-link"
+        >
+          <div className="read-more-button">
+            View Code
+          </div>
+        </a>
+      </div>
     </animated.div>
   );
 }
@@ -64,6 +77,7 @@ ProjectCardPurple.propTypes = {
   alt: PropTypes.string.isRequired,
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  mediumURL: PropTypes.string.isRequired,
   projectURL: PropTypes.string.isRequired,
   npoURL: PropTypes.string.isRequired,
   isAnimated: PropTypes.bool.isRequired,
