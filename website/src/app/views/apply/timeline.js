@@ -7,7 +7,7 @@ const Timeline = (timelineValues) => {
   const timeline = timelineValues.timelineValues.map((value) => (
     <div key={value.header} className="timeline-step">
       <div className="step-left ">
-        <h4>{value.leftText}</h4>
+        <h4 className="step-left-text">{value.leftText}</h4>
         <span className="dot" />
       </div>
       <div className="step-right">
