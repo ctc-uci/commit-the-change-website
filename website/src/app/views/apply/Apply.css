@@ -10,7 +10,7 @@ html {
 }
 
 .application-steps-panel {
-  width: 50vw;
+  width: 45vw;
   margin: 100px auto 0 auto;
   max-width: 2000px;
 }
@@ -25,4 +25,28 @@ html {
 .application-description {
   margin: 0px auto 20px auto;
   line-height: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  .application-steps-panel {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-us-bottom-third-items {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .application-steps-panel {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .application-steps-panel {
+    width: 90vw;
+  }
 }

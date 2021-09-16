@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import timelineValues from './TimelineValues';
 
@@ -32,12 +31,6 @@ const VerticalTimeline = () => {
       </table>
     </div>
   );
-};
-
-/* eslint-disable react/no-unused-prop-types */
-
-VerticalTimeline.propTypes = {
-  timelineValues: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };
 
 export default VerticalTimeline;
