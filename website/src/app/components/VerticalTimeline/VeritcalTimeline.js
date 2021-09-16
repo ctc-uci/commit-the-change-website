@@ -1,10 +1,9 @@
 import React from 'react';
-
-import timelineValues from './TimelineValues';
+import PropTypes from 'prop-types';
 
 import './VerticalTimeline.css';
 
-const VerticalTimeline = () => {
+const VerticalTimeline = ({ timelineValues }) => {
   const timeline = timelineValues.map((value) => (
     <tr className="tl-row">
       <td className="tl-left-text">
@@ -31,6 +30,15 @@ const VerticalTimeline = () => {
       </table>
     </div>
   );
+};
+
+VerticalTimeline.propTypes = {
+  timelineValues: PropTypes.arrayOf(PropTypes.shape({
+    leftText: PropTypes.string.isRequired,
+    header: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  })).isRequired,
 };
 
 export default VerticalTimeline;

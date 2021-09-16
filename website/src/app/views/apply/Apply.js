@@ -4,6 +4,7 @@ import applyGraphic from '../../../images/apply/apply.svg';
 import animationConfig from '../animationConstants';
 import './Apply.css';
 import VerticalTimeline from '../../components/VerticalTimeline/VeritcalTimeline';
+import timelineValues from './TimelineValues';
 
 function Apply() {
   const slideUp = useSpring(animationConfig.slideUp(true));
@@ -54,7 +55,7 @@ function Apply() {
               .
             </p>
           </animated.div>
-          <VerticalTimeline />
+          <VerticalTimeline timelineValues={timelineValues} />
           <div className="apply-button-wrapper">
             <a href={applicationLink} className="apply-here-button common-pink-button">
               Apply Here!
