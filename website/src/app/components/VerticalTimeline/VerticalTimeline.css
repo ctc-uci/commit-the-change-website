@@ -5,9 +5,10 @@
 }
 
 .tl-vert-line {
+  position: absolute;
+  right: 0;
   background-color: var(--light-purple);
   height: 80%;
-  position: absolute;
   width: 5px;
   top: 65px;
   left: 86.5px;
@@ -81,4 +82,13 @@
   .tl-row .tl-description {
     margin-top: 8px;
   }  
+}
+
+/* Hack for safari only CSS */
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .tl-vert-line {
+      left: 93px;
+    }
+  }
 }
