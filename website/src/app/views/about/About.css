@@ -27,7 +27,7 @@ html {
 }
 
 .off {
-  color: var(--dark-purple);
+  color: var(--darkest-purple);
 }
 
 h2:hover > .off {
@@ -41,35 +41,41 @@ h2:hover > .off {
   flex-direction: row-reverse;
   align-items: center;
   background: rgba(99, 49, 216, 0.75);
+  min-height: calc(100vh - 102px);
 }
 
 .mission-text {
-  width: 65%;
+  width: 40%;
   color: white;
-  padding-right: 80px;
+  padding-right: 150px;
 }
 
 .mission-text h1 {
   padding: 20px 0;
-  font-size: 45px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0 auto;
 }
 
 .mission-text-description {
-  font-size: 22px;
+  font-size: 14px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .ctc-logo {
-  width: 50%;
+  /* width: 50%; */
+  height: 100%;
+  object-fit: cover;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .ctc-logo img {
   width: 100%;
+  height: calc(90vh - 102px);
+  object-fit: cover;
+  object-position: left;
 }
 
 .our-values-panel {
@@ -93,8 +99,6 @@ h2:hover > .off {
 .value img {
   height: 100px;
 }
-
-
 
 .value-row-1 {
   width: 70%;
@@ -181,6 +185,12 @@ h2:hover > .off {
   height: 240px;
   width: 240px;
   margin: 25px;
+}
+
+.double-chevron{
+  display: flex;
+  justify-content: center;
+  color: #C4C4C4;
 }
 
 @media screen and (max-width: 692px) {
