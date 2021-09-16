@@ -25,7 +25,7 @@ const VerticalTimeline = ({ timelineValues }) => {
   return (
     <div className="vert-tl-wrapper">
       <div className="tl-vert-line" />
-      <table className="timeline-table">
+      <table className="timeline-table" role="presentation">
         {timeline}
       </table>
     </div>
