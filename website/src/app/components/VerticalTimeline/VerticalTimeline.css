@@ -8,14 +8,14 @@
   background-color: var(--light-purple);
   height: 80%;
   position: absolute;
-  width: 3px;
-  top: 45px;
-  left: 88px;
+  width: 5px;
+  top: 65px;
+  left: 90px;
   z-index: -1;
 }
 
 .timeline-table {
-  border-spacing: 0 40px;
+  border-spacing: 0 60px;
 }
 
 .tl-row h2, h4, p {
@@ -37,12 +37,12 @@
 }
 
 .tl-row .dot {
-  height: 12px;
-  width: 12px;
+  height: 18px;
+  width: 18px;
   border-radius: 50%;
   border: 5px solid var(--light-purple);
   background-color: var(--dark-purple);
-  margin: 1px 15px;
+  margin: -1px 15px;
 }
 
 .tl-row .tl-header {
