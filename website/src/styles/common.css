@@ -13,6 +13,7 @@ Commit the Change website environment styles.
 
 /* Secondary and Accent Colors */
 :root {
+  --darkest-purple: #481DAB;
   --dark-purple: #6331d8;
   --light-purple: #bea9ef;
   --orange: #fc5d03;

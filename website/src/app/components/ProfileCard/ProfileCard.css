@@ -25,14 +25,17 @@
 
 .info {
   flex: 1 auto;
+  color: var(--darkest-purple);
 }
 
 .card h3 {
   margin: 10px 0px 0px 5px;
+  font-size: 18px;
 }
 
 .card p {
   margin: 2px 5px;
+  font-size: 14px;
 }
 
 .logoborder {

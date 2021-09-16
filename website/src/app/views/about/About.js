@@ -51,9 +51,9 @@ function About() {
     const value = values.top[index];
     return (
       <animated.div style={props} className="value">
-        {/* <h1>{value.emoji}</h1> */}
+        <h1 className="emoji">{value.emoji}</h1>
         <h2>{value.title}</h2>
-        <img src={value.src} alt={value.alt} />
+        {/* <img src={value.src} alt={value.alt} /> */}
         <p>{value.description}</p>
       </animated.div>
     );
@@ -63,9 +63,9 @@ function About() {
     const value = values.bottom[index];
     return (
       <animated.div style={props} className="value">
-        {/* <h1>{value.emoji}</h1> */}
+        <h1>{value.emoji}</h1>
         <h2>{value.title}</h2>
-        <img src={value.src} alt={value.alt} />
+        {/* <img src={value.src} alt={value.alt} /> */}
         <p>{value.description}</p>
       </animated.div>
     );
@@ -173,12 +173,12 @@ function About() {
       <div className="our-values-panel" id="values">
         <animated.div style={slideUpValuesHeader}>
           <h1>Our Values &#38; Culture</h1>
-          <p className="values-description">
+          {/* <p className="values-description">
             Commit the Change understands the importance of culture and is
             committed to standing for these common values. These are not just
             hollow sayings, we will hold ourselves accountable to constantly
             improving and challenging ourselves through our actions and words.
-          </p>
+          </p> */}
         </animated.div>
         <VisibilitySensor
           partialVisibility
@@ -198,7 +198,7 @@ function About() {
         >
           <h1>The Team</h1>
         </VisibilitySensor>
-        <p className="our-team-description" />
+        {/* <p className="our-team-description" /> */}
         <div className="team-photos">{profileImages}</div>
       </div>
     </main>
