@@ -51,6 +51,7 @@ function About() {
     const value = values.top[index];
     return (
       <animated.div style={props} className="value">
+        {/* <h1>{value.emoji}</h1> */}
         <h2>{value.title}</h2>
         <img src={value.src} alt={value.alt} />
         <p>{value.description}</p>
@@ -62,6 +63,7 @@ function About() {
     const value = values.bottom[index];
     return (
       <animated.div style={props} className="value">
+        {/* <h1>{value.emoji}</h1> */}
         <h2>{value.title}</h2>
         <img src={value.src} alt={value.alt} />
         <p>{value.description}</p>
@@ -79,9 +81,10 @@ function About() {
             <p className="top-panel-description">
               Founded in 2020, Commit the Change started as a small group of
               undergraduate students with a shared love for coding and
-              volunteering for causes in their communities. Today, Commit the
-              Change is an established student organization at UC Irvine with a
-              team of skilled designers and developers.
+              volunteering for causes in their communities. Combined with
+              Blueprint in 2021, Commit the Change is now an established
+              student organization at UC Irvine with a team of skilled
+              designers and developers.
             </p>
             <a href="#mission" className="common-pink-button">
               Learn More
@@ -163,11 +166,9 @@ function About() {
             if (isVisible) setTeamVisible(teamViewCount + 1);
           }}
         >
-          <h1>Our Team</h1>
+          <h1>The Team</h1>
         </VisibilitySensor>
-        <p className="our-team-description">
-          Meet our team of hard-working designers and developers!
-        </p>
+        <p className="our-team-description" />
         <div className="team-photos">{profileImages}</div>
       </div>
     </main>

@@ -10,7 +10,7 @@ html {
 }
 
 .links-div {
-  background-color: var(--dark-purple);
+  background-color: #481DAB;
 }
 
 .links {
@@ -40,11 +40,7 @@ h2:hover > .off {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background: linear-gradient(
-    149deg,
-    rgba(128, 88, 222, 1) 0%,
-    rgba(227, 177, 177, 1) 100%
-  );
+  background: rgba(99, 49, 216, 0.75);
 }
 
 .mission-text {
@@ -56,6 +52,7 @@ h2:hover > .off {
 .mission-text h1 {
   padding: 20px 0;
   font-size: 45px;
+  font-weight: 700;
   margin: 0 auto;
 }
 
