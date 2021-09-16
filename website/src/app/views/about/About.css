@@ -62,10 +62,6 @@ h2:hover > .off {
   line-height: 1.6;
 }
 
-.chevron {
-  font-size: 25px;
-}
-
 .ctc-logo {
   width: 50%;
   display: flex;
@@ -178,10 +174,6 @@ h2:hover > .off {
   margin: 25px;
 }
 
-.chevron{
-  color: white;
-}
-
 @media screen and (max-width: 692px) {
 
   .team-photos {
@@ -252,6 +244,7 @@ h2:hover > .off {
   .top-panel {
     flex-direction: column;
   }
+
 
   .panel-left {
     margin-bottom: 50px;
