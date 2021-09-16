@@ -220,12 +220,22 @@ h2:hover > .off {
     text-align: center;
   }
 
+  .mission-text {
+    padding-right: 100px;
+  }
+
   .value-row-1 {
     width: 85%;
   }
 
   .value-row-2 {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mission-text {
+    padding-right: 40px;
   }
 }
 
