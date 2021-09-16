@@ -27,7 +27,7 @@ function Footer() {
         <div className="middle-column">
           <img className="footer-logo" src={ctcLogo} alt="ctc logo" />
           <h2>Tech with Purpose.</h2>
-          <a href="mailto:committhechange.uci@gmail.com" target="_top">
+          <a href="mailto:ctc@uci.edu" target="_top">
             <img src={maillogo} alt="email icon" className="social-logos-mail social-logos" />
           </a>
           <a href="https://www.facebook.com/ctc.uci/" target="_blank" rel="noopener noreferrer">
