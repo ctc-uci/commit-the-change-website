@@ -12,10 +12,14 @@ html {
 .application-steps-panel {
   width: 45vw;
   margin: 100px auto 0 auto;
-  max-width: 2000px;
+  max-width: 1000px;
 }
 
 #application-steps {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
   background:
     url('../../../images/apply/solid-red-1.svg'), 

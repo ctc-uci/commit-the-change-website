@@ -2,6 +2,8 @@
 
 .vert-tl-wrapper {
   position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .tl-vert-line {
