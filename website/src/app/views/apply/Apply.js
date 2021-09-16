@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { animated, useSpring } from 'react-spring';
+import VisibilitySensor from 'react-visibility-sensor';
 import applyGraphic from '../../../images/apply/apply.svg';
 import animationConfig from '../animationConstants';
 import './Apply.css';
@@ -7,11 +8,20 @@ import VerticalTimeline from '../../components/VerticalTimeline/VeritcalTimeline
 import timelineValues from './TimelineValues';
 
 function Apply() {
-  const slideUp = useSpring(animationConfig.slideUp(true));
-
   const applicationLink = 'https://tinyurl.com/ctc-app-2021';
   const contactEmail = 'ctc@uci.edu';
   const inlineEmail = <a href={`mailto:${contactEmail}`}>{contactEmail}</a>;
+
+  const [appProcessViewCount, setAppProcessViewCount] = useState(0);
+  const [timelineViewCount, setTimelineViewCount] = useState(0);
+
+  const slideUp = useSpring(animationConfig.slideUp(true));
+  const slideUpAppProcess = useSpring(
+    animationConfig.slideUp(appProcessViewCount > 0),
+  );
+  const slideUpTimeline = useSpring(
+    animationConfig.slideUp(timelineViewCount > 0),
+  );
 
   return (
     <main>
@@ -41,11 +51,16 @@ function Apply() {
         </div>
       </animated.div>
 
-      {/* TODO: Add animations using VisibilitySensor */}
       <div id="application-steps">
         <div className="application-steps-panel">
-          <animated.div style={slideUp}>
+          <VisibilitySensor
+            onChange={(isVisible) => {
+              if (isVisible) setAppProcessViewCount(appProcessViewCount + 1);
+            }}
+          >
             <h1>Application Process</h1>
+          </VisibilitySensor>
+          <animated.div style={slideUpAppProcess}>
             <p className="application-description">
               All applicants will go through the same process, regardless of the role they’re applying for.
               Keep reading for a brief timeline of our application process. Have any questions?
@@ -55,7 +70,17 @@ function Apply() {
               .
             </p>
           </animated.div>
-          <VerticalTimeline timelineValues={timelineValues} />
+          <VisibilitySensor
+            partialVisibility
+            minTopValue={50}
+            onChange={(isVisible) => {
+              if (isVisible) setTimelineViewCount(timelineViewCount + 1);
+            }}
+          >
+            <animated.div style={slideUpTimeline}>
+              <VerticalTimeline timelineValues={timelineValues} />
+            </animated.div>
+          </VisibilitySensor>
           <div className="apply-button-wrapper">
             <a href={applicationLink} className="apply-here-button common-pink-button">
               Apply Here!
