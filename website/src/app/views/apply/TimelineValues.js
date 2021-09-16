@@ -1,3 +1,5 @@
+import React from 'react';
+
 const timelineValues = [
   {
     leftText: 'Week 0',
@@ -9,7 +11,20 @@ const timelineValues = [
     leftText: 'Week 1',
     header: 'Applications Due',
     date: 'Oct 1',
-    description: 'Our application consists of a few short response questions so we can learn more about your experience, your goals, and your background. Applications open September 19th and will close October 1st.',
+    description: (
+      <p>
+        Our application consists of a few short response questions so we
+        can learn more about your experience, your goals, and your
+        background. Applications open
+        {' '}
+        <b>September 19th</b>
+        {' '}
+        and will close
+        {' '}
+        <b>October 1st</b>
+        .
+      </p>
+    ),
   },
   {
     leftText: 'Week 2',
@@ -21,7 +36,18 @@ const timelineValues = [
     leftText: 'Week 3',
     header: 'Decision',
     date: 'Oct 10',
-    description: 'Check your emails on October 10th to see your application status. Regardless of the outcome, we truly appreciate you taking the time to see what Commit the Change has to offer! Thanks for sticking with us these past few weeks!',
+    description: (
+      <p>
+        Check your emails on
+        {' '}
+        <b>October 10th</b>
+        {' '}
+        to see your application status.
+        Regardless of the outcome, we truly appreciate you taking the time
+        to see what Commit the Change has to offer! Thanks for sticking with
+        us these past few weeks!
+      </p>
+    ),
   },
 ];
 
