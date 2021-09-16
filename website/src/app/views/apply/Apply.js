@@ -8,6 +8,7 @@ import VerticalTimeline from '../../components/VerticalTimeline/VeritcalTimeline
 function Apply() {
   const slideUp = useSpring(animationConfig.slideUp(true));
 
+  const applicationLink = 'https://tinyurl.com/ctc-app-2021';
   const contactEmail = 'ctc@uci.edu';
   const inlineEmail = <a href={`mailto:${contactEmail}`}>{contactEmail}</a>;
 
@@ -25,7 +26,7 @@ function Apply() {
               Applying to CTC is a great opportunity to be part of an organization
               that values innovative technology being used for social good!
             </p>
-            <a href="#bottom" className="common-pink-button">
+            <a href="#application-steps" className="common-pink-button">
               Apply
             </a>
           </div>
@@ -54,6 +55,11 @@ function Apply() {
             </p>
           </animated.div>
           <VerticalTimeline />
+          <div className="apply-button-wrapper">
+            <a href={applicationLink} className="apply-here-button common-pink-button">
+              Apply Here!
+            </a>
+          </div>
         </div>
       </div>
     </main>
