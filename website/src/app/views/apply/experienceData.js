@@ -1,6 +1,6 @@
-import sydneyImage from '../../../images/apply/experiences/sydney.png';
-import sonaliImage from '../../../images/apply/experiences/sonali.png';
-import rostamImage from '../../../images/apply/experiences/rostam.png';
+import sydneyImage from '../../../images/apply/sydney.png';
+import sonaliImage from '../../../images/apply/sonali.png';
+import rostamImage from '../../../images/apply/rostam.png';
 
 const experiences = [
   {

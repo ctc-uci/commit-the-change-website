@@ -11,16 +11,18 @@ import './Apply.css';
 
 function Apply() {
   const slideUp = useSpring(animationConfig.slideUp(true));
+
+  const [experienceHeaderCount, setExperienceHeaderVisible] = useState(0);
   const [experienceViewCount, setExperienceViewVisible] = useState(0);
 
   const slideUpExperienceHeader = useSpring(
-    animationConfig.fadeIn(experienceViewCount > 0),
+    animationConfig.slideUp(experienceHeaderCount > 0),
   );
 
-  // EXPERIENCE *****************
+  // EXPERIENCES *****************
   const experiencesAnimation = useTrail(
     experienceData.length,
-    animationConfig.fadeIn(experienceViewCount > 0),
+    animationConfig.slideUp(experienceViewCount > 0),
   );
 
   const experiences = experiencesAnimation.map((animationProps, index) => {
@@ -66,10 +68,17 @@ function Apply() {
           />
         </div>
       </animated.div>
+
       <div className="our-team-experiences-panel">
+        <VisibilitySensor
+          onChange={(isVisible) => {
+            if (isVisible) setExperienceHeaderVisible(experienceHeaderCount + 1);
+          }}
+        >
+          <h1 className="experiences-title">Our Team&#39;s Experiences</h1>
+        </VisibilitySensor>
         <animated.div style={slideUpExperienceHeader}>
           <div className="team-experiences-text">
-            <h1 className="experiences-title">Our Team&#39;s Experiences</h1>
             <p className="experiences-description">
               At Commit the Change, we are dedicated to building competent software
               for non-profits while exploring and solving new technical challenges.

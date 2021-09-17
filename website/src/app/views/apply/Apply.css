@@ -16,9 +16,36 @@ html {
   background-color: #6331D8BF;
   color: #FFFFFF;
   padding: 60px;
+
+  position: relative;
+  background-image:
+    url('../../../images/apply/solid-purple-1.svg'),
+    url('../../../images/apply/clear-purple-1.svg'),
+    url('../../../images/apply/solid-purple-2.svg'),
+    url('../../../images/apply/clear-purple-2.svg'),
+    url('../../../images/apply/solid-purple-3.svg'),
+    url('../../../images/apply/clear-purple-3.svg'),
+    url('../../../images/apply/clear-and-solid-purple-4.svg'),
+    url('../../../images/apply/clear-and-solid-purple-5.svg');
+  background-position:
+    calc(70% - 45px) calc(5% + 10px), calc(75% - 40px) calc(-5% + 30px),
+    0 calc(25% - 40px), 0 25%,
+    70% calc(50% - 50px), calc(70% - 40px),
+    calc(10% - 30px) 110%,
+    100% 150%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 
+    180px,
+    260px,
+    90px,
+    210px,
+    180px,
+    260px,
+    600px,
+    375px;
 }
 
-.team-experiences-text .experiences-title {
+.experiences-title {
   font-size: 42px;
   font-weight: bold;
   line-height: 51px;
@@ -43,7 +70,7 @@ html {
     padding: 60px 20px;
   }
 
-  .team-experiences-text .experiences-title {
+ .experiences-title {
     font-size: 36px;
     line-height: 36px;
   }
