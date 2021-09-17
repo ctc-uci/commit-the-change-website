@@ -31,11 +31,11 @@ function Apply() {
             <h1 className="top-panel-title">Why join CTC?</h1>
             <p className="top-panel-description">
               Commit the Change is devoted to contributing to the community
-              by creating software products for non-profits. As part of this,
-              our developers and designers learn how to work both within their
-              teams and across cross-functional teams in an Agile-like environment.
+              by creating software that will help non-profits reach more people and do better work.
+              As part of this, our developers and designers learn how to work both within their
+              teams and across cross-functional teams in an Agile environment.
               Applying to CTC is a great opportunity to be part of an organization
-              that values innovative technology being used for social good!
+              that values innovative technology being created and used for social good!
             </p>
             <a href="#application-steps" className="common-pink-button">
               Apply

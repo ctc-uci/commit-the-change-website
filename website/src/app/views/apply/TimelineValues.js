@@ -30,7 +30,7 @@ const timelineValues = [
     leftText: 'Week 2',
     header: 'Coffee Chats',
     date: 'Oct 4 - Oct 8',
-    description: 'Coffee chats are one-on-one’s with a board member or project lead by invitation. But no pressure - this is a casual way for us to get to know you better and for you to learn more about Commit the Change!',
+    description: 'Coffee chats are one-on-ones with a board member or project lead by invitation. But no pressure - this is a casual way for us to get to know you better and for you to learn more about Commit the Change!',
   },
   {
     leftText: 'Week 3',
@@ -38,7 +38,7 @@ const timelineValues = [
     date: 'Oct 10',
     description: (
       <p>
-        Check your emails on
+        Check your email on
         {' '}
         <b>October 10th</b>
         {' '}
