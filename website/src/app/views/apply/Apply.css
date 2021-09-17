@@ -64,18 +64,108 @@ html {
   margin-top: 80px;
 }
 
-@media screen and (max-width: 800px) {
+.application-steps-panel {
+  width: 45vw;
+  margin: 100px auto 0 auto;
+  max-width: 1000px;
+}
 
+#application-steps {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  background:
+    url('../../../images/apply/solid-red-1.svg'), 
+    url('../../../images/apply/clear-red-1.svg'),
+    url('../../../images/apply/solid-red-2.svg'),
+    url('../../../images/apply/clear-red-2.svg'),
+    url('../../../images/apply/solid-red-3.svg'),
+    url('../../../images/apply/clear-red-3.svg'),
+    url('../../../images/apply/solid-red-4.svg'),
+    url('../../../images/apply/clear-red-4.svg'),
+    url('../../../images/apply/solid-red-5.svg'),
+    url('../../../images/apply/clear-red-5.svg'),
+    url('../../../images/apply/solid-red-6.svg'),
+    url('../../../images/apply/clear-red-6.svg');
+  background-position: 
+    10% 5%, calc(10% - 100px) 5%,
+    95% calc(15% + 45px), calc(95% - 50px) 10%, 
+    5% calc(55% + 20px), 5% 50%,
+    calc(95% + 65px) calc(45% + 25px),
+    calc(95% + 50px) calc(50% + 30px),
+    2% calc(75% + 50px), calc(5% + 30px) calc(95% + 20px),
+    calc(90% - 20px) calc(95% + 20px),
+    calc(95% + 10px) calc(80% + 90px);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 
+    130px,
+    250px,
+    130px,
+    250px, 
+    130px, 
+    250px, 
+    130px, 
+    250px,
+    130px,
+    250px;
+}
+
+.application-steps-panel h1 {
+  text-align: center;
+  color: var(--dark-purple);
+  font-size: 40px;
+  text-shadow: 1px 0 var(--dark-purple);
+}
+
+.application-description {
+  margin: 0px auto 20px auto;
+  line-height: 25px;
+}
+
+.apply-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 100px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .application-steps-panel {
+    width: 60vw;
+  }
+  #application-steps {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .our-team-experiences-panel {
     padding: 60px 20px;
   }
 
- .experiences-title {
+  .experiences-title {
     font-size: 36px;
     line-height: 36px;
   }
 
   .team-experiences-text .experiences-description {
     max-width: 100%;
+  }
+  
+  .contact-us-bottom-third-items {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .application-steps-panel {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .application-steps-panel {
+    width: 90vw;
   }
 }
