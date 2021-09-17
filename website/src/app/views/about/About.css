@@ -9,6 +9,10 @@ html {
   max-height: 500px;
 }
 
+.top-panel h1 {
+  font-weight: bold;
+}
+
 .links-div {
   background-color: var(--darkest-purple);
 }
@@ -41,30 +45,42 @@ h2:hover > .off {
   flex-direction: row-reverse;
   align-items: center;
   background: rgba(99, 49, 216, 0.75);
+  border: 1px solid #000000;
   min-height: calc(100vh - 102px);
 }
 
+.our-mission-panel ul{
+  list-style-type: none;
+  padding: 0px;
+  list-style-position: inside;
+}
+
+.our-mission-panel li:before {
+  content: '\203A'; 
+  margin-left: -15px; 
+  margin-right: 9px; 
+  font-size: 20px;
+}
+
 .mission-text {
-  width: 40%;
+  width: 50%;
   color: white;
-  padding-right: 150px;
+  padding-right: 170px;
 }
 
 .mission-text h1 {
   padding: 20px 0;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 700;
   margin: 0 auto;
 }
 
 .mission-text-description {
-  font-size: 14px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .ctc-logo {
-  /* width: 50%; */
   height: 100%;
   object-fit: cover;
   display: flex;
@@ -140,8 +156,7 @@ h2:hover > .off {
 }
 
 .value p {
-  padding: 10px 30px;
-  line-height: 25px;
+  padding: 10px 25px;
 }
 
 .small-image {
@@ -166,6 +181,7 @@ h2:hover > .off {
   text-align: center;
   color: var(--dark-purple);
   text-shadow: 1px 0 var(--dark-purple);
+  margin-bottom: 70px;
 }
 
 .our-team-description {
@@ -235,7 +251,7 @@ h2:hover > .off {
 
 @media screen and (max-width: 1000px) {
   .mission-text {
-    padding-right: 40px;
+    padding-right: 20px;
   }
 }
 

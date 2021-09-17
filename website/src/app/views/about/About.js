@@ -53,7 +53,6 @@ function About() {
       <animated.div style={props} className="value">
         <h1 className="emoji">{value.emoji}</h1>
         <h2>{value.title}</h2>
-        {/* <img src={value.src} alt={value.alt} /> */}
         <p>{value.description}</p>
       </animated.div>
     );
@@ -65,7 +64,6 @@ function About() {
       <animated.div style={props} className="value">
         <h1>{value.emoji}</h1>
         <h2>{value.title}</h2>
-        {/* <img src={value.src} alt={value.alt} /> */}
         <p>{value.description}</p>
       </animated.div>
     );
@@ -155,17 +153,20 @@ function About() {
       <div className="our-mission-panel .tint" id="mission">
         <div className="mission-text">
           <h1>Our Mission</h1>
-          <p className="mission-text-description">
-            At Commit the Change, our mission is to develop high quality
-            software for non-profit organizations while giving students at UC
-            Irvine opportunities to develop tech, with purpose.
-          </p>
-          <br />
-          <p className="mission-text-description">
-            We believe in the talent of our members and provide countless
-            opportunities for growth. Many of our alumni continue to spread
-            their influence within large companies across the world.
-          </p>
+          <ul>
+            <li className="mission-text-description">
+              At Commit the Change, our mission is to develop high quality
+              software for non-profit organizations while giving students at UC
+              Irvine opportunities to develop tech, with purpose.
+            </li>
+            <br />
+            <li className="mission-text-description">
+              We believe in the talent of our members and provide countless
+              opportunities for growth. Many of our alumni continue to spread
+              their influence within large companies across the world.
+            </li>
+          </ul>
+
         </div>
         <div className="ctc-logo">
           <img src={whiteCtcLogo} alt="Commit the Change white heart logo" />
@@ -174,12 +175,6 @@ function About() {
       <div className="our-values-panel" id="values">
         <animated.div style={slideUpValuesHeader}>
           <h1>Our Values &#38; Culture</h1>
-          {/* <p className="values-description">
-            Commit the Change understands the importance of culture and is
-            committed to standing for these common values. These are not just
-            hollow sayings, we will hold ourselves accountable to constantly
-            improving and challenging ourselves through our actions and words.
-          </p> */}
         </animated.div>
         <VisibilitySensor
           partialVisibility
@@ -199,7 +194,6 @@ function About() {
         >
           <h1>The Team</h1>
         </VisibilitySensor>
-        {/* <p className="our-team-description" /> */}
         <div className="team-photos">{profileImages}</div>
       </div>
     </main>
