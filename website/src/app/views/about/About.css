@@ -96,8 +96,50 @@ h2:hover > .off {
 
 .our-values-panel {
   text-align: center;
-  margin: 100px auto;
+  /* margin: 100px auto; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   max-width: 2000px;
+  background: 
+    url('../../../images/about/triangles/clear-lt.svg'),
+    url('../../../images/about/triangles/filled-lt.svg'),
+    url('../../../images/about/triangles/clear-rb.svg'),
+    url('../../../images/about/triangles/filled-rt.svg'),
+    url('../../../images/about/triangles/filled-middle.svg'),
+    url('../../../images/about/triangles/clear-bl.svg'),
+    url('../../../images/about/triangles/filled-lb.svg'),
+    url('../../../images/about/triangles/clear-rt.svg'),
+    url('../../../images/about/triangles/filled-rb.svg');
+  background-position: 
+    3% 15%,
+    18% 11%,
+    92% 7%,
+    95% 10%,
+    46% 60%,
+    10% 90%,
+    5% 90%,
+    93% 85%,
+    89% 88%;
+  background-repeat: 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat;
+  background-size: 
+    420px, 
+    160px,
+    210px,
+    220px,
+    270px,
+    290px,
+    180px,
+    250px,
+    180px;
 }
 
 .our-values-panel h1 {
@@ -117,7 +159,7 @@ h2:hover > .off {
 }
 
 .value-row-1 {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -125,7 +167,7 @@ h2:hover > .off {
 }
 
 .value-row-2 {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -133,19 +175,19 @@ h2:hover > .off {
 }
 
 .value {
-  flex: 0 1 400px;
-  box-shadow: 0px 4px 20px rgba(99, 49, 216, 0.55);
+  flex: 0 1 280px;
+  box-shadow: 0px 4px 20px rgb(99 49 216 / 55%);
   border-radius: 20px;
   margin: 30px 10px;
-  padding: 10px 10px 0px 10px;
+  padding: 20px 20px 0px 20px;
+  background: white;
 }
 
 .value h1{
   position: absolute;
-  transform: translate(-50%, -110%);
+  transform: translate(-50%, -130%);
   left: 50%;
 }
-
 
 .value span {
   font-size: 70px;
@@ -153,6 +195,7 @@ h2:hover > .off {
 
 .value h2 {
   color: var(--dark-purple);
+  margin-bottom: 5px;
 }
 
 .value p {
@@ -241,7 +284,7 @@ h2:hover > .off {
   }
 
   .value-row-1 {
-    width: 85%;
+    /* width: 85%; */
   }
 
   .value-row-2 {
@@ -317,7 +360,7 @@ h2:hover > .off {
 
   .value h1{
     position: absolute;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -140%);
     left: 50%;
   }
 
