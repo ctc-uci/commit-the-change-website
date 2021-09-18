@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 600px) {
   .card {
-    margin: 30px 4%;
+    margin: 10px 4%;
   }
 
   .card .profile-img {
