@@ -4,7 +4,7 @@ import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import ProjectCardPurple from '../../components/ProjectCardPurple/ProjectCardPurple';
+import ProjectCardPurple from '../../components/ProjectCard/ProjectCardPurple';
 import ourWorkPic from '../../../images/ourWork/our-work.svg';
 import projects from './projectsData';
 
@@ -15,7 +15,8 @@ function OurWork() {
   const slideUpTop = useSpring(animationConfig.slideUp(true));
   const slideUpMiddle = useSpring(animationConfig.slideUp(middleViewCount > 0));
   const activeProjectsTrail = useTrail(projects.active.length, animationConfig.trail(middleViewCount > 0));
-  const fadeInProjects = useSpring(animationConfig.slideUp(bottomViewCount > 0, 500));
+  const pastProjectsTrail = useTrail(projects.inactive.length, animationConfig.trail(bottomViewCount > 0));
+  // const fadeInProjects = useSpring(animationConfig.slideUp(bottomViewCount > 0, 500));
   const slideInBottomText = useSpring(animationConfig.slideInLeft(bottomViewCount > 0));
 
   const activeProjectsAnimation = activeProjectsTrail.map((props, index) => {
@@ -28,6 +29,23 @@ function OurWork() {
         description={project.description}
         projectURL={project.projectURL}
         npoURL={project.npoURL}
+        animationProps={props}
+        isAnimated
+      />
+    );
+  });
+
+  const pastProjectsAnimation = pastProjectsTrail.map((props, index) => {
+    const project = projects.inactive[index];
+    return (
+      <ProjectCardPurple
+        src={project.src}
+        alt={project.alt}
+        projectName={project.projectName}
+        description={project.description}
+        projectURL={project.projectURL}
+        npoURL={project.npoURL}
+        mediumURL={project.mediumURL}
         animationProps={props}
         isAnimated
       />
@@ -55,42 +73,33 @@ function OurWork() {
           <img src={ourWorkPic} alt="Commit the Change team working on projects" className="our-work-panel-img" />
         </div>
       </animated.div>
+
       <div id="middle-our-work">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
           <animated.div style={slideUpMiddle} className="project-text">
-            <h1 className="upcoming-projects">Our 2020-21 Projects</h1>
-            <p className="upcoming-projects-description">
-              Here are the projects that we worked on for the 2020-21 school year!
-            </p>
+            <h1 className="upcoming-projects-title">Our Upcoming Projects</h1>
+            {/* <p className="upcoming-projects-description">
+              Here are the projects that we will be working on for the 2021-22 school year!
+            </p> */}
           </animated.div>
         </VisibilitySensor>
         <div className="projects">{activeProjectsAnimation}</div>
       </div>
 
-      <div className="past-project-section">
+      <div className="past-projects-section">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setBottomVisible(bottomViewCount + 1); }}>
-          <div className="past-project-div">
-            <animated.div style={slideInBottomText} className="past-project-content">
-              <h1 className="past-project-title">Our Past Project</h1>
-              <p className="past-project-description">
-                Commit the Change started its first project in April 2020 with the
-                nonprofit Crime Survivors. This organization wanted a way to put
-                their paper pamplets online, so that the information can be more
-                accessible and to decrease the printing cost of the pamplets.
-              </p>
-              <a
-                href="https://medium.com/@committhechange.uci/past-project-reveal-with-crime-survivors-ba557206ee10"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="common-pink-button"
-              >
-                Read More
-              </a>
-            </animated.div>
-          </div>
+          <animated.div style={slideInBottomText} className="project-text">
+            <h1 className="past-projects-title">Our Past Projects</h1>
+            {/* <p className="past-project-description">
+              Commit the Change started its first project in April 2020 with the
+              nonprofit Crime Survivors. This organization wanted a way to put
+              their paper pamplets online, so that the information can be more
+              accessible and to decrease the printing cost of the pamplets.
+            </p> */}
+          </animated.div>
         </VisibilitySensor>
-
-        <div className="bottom-card-div">
+        <div className="projects">{pastProjectsAnimation}</div>
+        {/* <div className="bottom-card-div">
           <animated.div style={fadeInProjects} className="bottom-card">
             <ProjectCardPurple
               projectName={projects.inactive[0].projectName}
@@ -100,7 +109,7 @@ function OurWork() {
               projectURL={projects.inactive[0].projectURL}
             />
           </animated.div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
