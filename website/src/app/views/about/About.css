@@ -13,6 +13,22 @@ html {
   font-weight: bold;
 }
 
+.top-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-panel-text{
+  margin-top: 0vh;
+}
+
+.top-panel .content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vh;
+}
+
 .links-div {
   background-color: var(--darkest-purple);
 }
@@ -32,6 +48,12 @@ html {
 
 .off {
   color: var(--darkest-purple);
+  font-size: 30px;
+}
+
+.link-chevron{
+  margin-left: 25px;
+  font-size: 30px;
 }
 
 h2:hover > .off {
@@ -40,13 +62,29 @@ h2:hover > .off {
 
 .our-mission-panel {
   margin: 0;
-  padding: 80px 0;
+  padding-top: 60px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background: rgba(99, 49, 216, 0.75);
   border: 1px solid #000000;
   min-height: calc(100vh - 102px);
+}
+
+.our-mission-panel .content {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.our-mission-panel > .double-chevron{
+  color: #C4C4C4;
+}
+
+.double-chevron:hover{
+  cursor:default;
 }
 
 .our-mission-panel ul{
@@ -250,6 +288,15 @@ h2:hover > .off {
   display: flex;
   justify-content: center;
   color: #C4C4C4;
+  font-size: 60px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); /* Safari */
+  -moz-transform: rotate(90deg);   /* Firefox */
+  -ms-transform: rotate(90deg);   /* IE */
+  -o-transform: rotate(90deg);  /* Opera */
 }
 
 @media screen and (max-width: 692px) {
@@ -296,6 +343,10 @@ h2:hover > .off {
   .mission-text {
     padding-right: 20px;
   }
+
+  .our-values-panel {
+    background: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -303,8 +354,35 @@ h2:hover > .off {
     font-size: 9px;
   }
 
+  .links .link-chevron{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .links .off{
+    font-size: 20px;
+  }
+
+  .top-panel .content {
+    flex-direction: column;
+    margin-top: 8vh;
+  }
+
   .about-top-panel-img {
     width: 70%;
+  }
+
+  .top-panel-pic {
+    margin-bottom: 0px !important;
+  }
+
+  .our-mission-panel{
+    justify-content: center;
+    min-height: 98vh;
+  }
+
+  .mission-text-description{
+    padding: 0 20%;
   }
 
   .mission-text h1 {
@@ -328,11 +406,6 @@ h2:hover > .off {
   .ctc-logo {
     display: none;
   }
-
-  .top-panel {
-    flex-direction: column;
-  }
-
 
   .panel-left {
     margin-bottom: 50px;

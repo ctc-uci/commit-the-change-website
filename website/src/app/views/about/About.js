@@ -73,104 +73,95 @@ function About() {
   return (
     <main>
       <animated.div style={slideUp} className="top-panel">
-        <div className="top-panel-text">
-          <div className="inside-top-panel-text">
-            <h1 className="top-panel-title">About Us</h1>
-            <p className="top-panel-description">
-              Founded in 2020, Commit the Change started as a small group of
-              undergraduate students with a shared love for coding and
-              volunteering for causes in their communities. Combined with
-              Blueprint in 2021, Commit the Change is now an established
-              student organization at UC Irvine with a team of skilled
-              designers and developers.
-            </p>
-            <a href="#mission" className="common-pink-button">
-              Learn More
-            </a>
+        <div className="content">
+          <div className="top-panel-text">
+            <div className="inside-top-panel-text">
+              <h1 className="top-panel-title">About Us</h1>
+              <p className="top-panel-description">
+                Founded in 2020, Commit the Change started as a small group of
+                undergraduate students with a shared love for coding and
+                volunteering for causes in their communities. Combined with
+                Blueprint in 2021, Commit the Change is now an established
+                student organization at UC Irvine with a team of skilled
+                designers and developers.
+              </p>
+              <a href="#mission" className="common-pink-button">
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div className="top-panel-pic">
+            <img
+              src={aboutUsGraphic}
+              className="about-top-panel-img"
+              alt="About the Commit the Change team"
+            />
           </div>
         </div>
-        <div className="top-panel-pic">
-          <img
-            src={aboutUsGraphic}
-            className="about-top-panel-img"
-            alt="About the Commit the Change team"
-          />
-        </div>
+        <span className="double-chevron rotate">
+          &#187;
+        </span>
       </animated.div>
-      <span className="double-chevron">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-down" viewBox="0 0 16 16">
-          <path fillRule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-          <path fillRule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-        </svg>
-      </span>
 
       <div className="links-div">
         <div className="links">
           <a href="#mission">
             <h2>
               Our Mission
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                <path fillRule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-              </svg>
-              {/* <span className="off">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                </svg>
-              </span> */}
+              <span className="link-chevron">&#8250;</span>
+              <span className="off">
+                &#8250;
+              </span>
             </h2>
           </a>
           <a href="#values">
             <h2>
               Our Values
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                <path fillRule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-              </svg>
-              {/* <span className="off">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                </svg>
-              </span> */}
+              <span className="link-chevron">&#8250;</span>
+              <span className="off">
+                &#8250;
+              </span>
             </h2>
           </a>
           <a href="#team">
             <h2>
               The Team
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-right" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
-                <path fillRule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
-              </svg>
-              {/* <span className="off">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                </svg>
-              </span> */}
+              <span className="link-chevron">&#8250;</span>
+              <span className="off">
+                &#8250;
+              </span>
             </h2>
           </a>
         </div>
       </div>
       <div className="our-mission-panel .tint" id="mission">
-        <div className="mission-text">
-          <h1>Our Mission</h1>
-          <ul>
-            <li className="mission-text-description">
-              At Commit the Change, our mission is to develop high quality
-              software for non-profit organizations while giving students at UC
-              Irvine opportunities to develop tech, with purpose.
-            </li>
-            <br />
-            <li className="mission-text-description">
-              We believe in the talent of our members and provide countless
-              opportunities for growth. Many of our alumni continue to spread
-              their influence within large companies across the world.
-            </li>
-          </ul>
+        <div className="content">
+          <div className="mission-text">
+            <h1>Our Mission</h1>
+            <ul>
+              <li className="mission-text-description">
+                At Commit the Change, our mission is to develop high quality
+                software for non-profit organizations while giving students at UC
+                Irvine opportunities to develop tech, with purpose.
+              </li>
+              <br />
+              <li className="mission-text-description">
+                We believe in the talent of our members and provide countless
+                opportunities for growth. Many of our alumni continue to spread
+                their influence within large companies across the world.
+              </li>
+            </ul>
 
+          </div>
+          <div className="ctc-logo">
+            <img src={whiteCtcLogo} alt="Commit the Change white heart logo" />
+          </div>
         </div>
-        <div className="ctc-logo">
-          <img src={whiteCtcLogo} alt="Commit the Change white heart logo" />
-        </div>
+
+        <span className="double-chevron rotate">
+          &#187;
+        </span>
+
       </div>
       <div className="our-values-panel" id="values">
         <animated.div style={slideUpValuesHeader}>
