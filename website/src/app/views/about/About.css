@@ -16,7 +16,7 @@ html {
 .top-panel-about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .top-panel-text-about{
@@ -67,7 +67,7 @@ h2:hover > .off {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: rgba(99, 49, 216, 0.75);
   border: 1px solid #000000;
