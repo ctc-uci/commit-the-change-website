@@ -9,7 +9,7 @@ function ProjectCard(props) {
     alt,
     projectName,
     description,
-    projectURL,
+    // projectURL,
     npoURL,
     isAnimated,
     animationProps = {},
@@ -32,7 +32,7 @@ function ProjectCard(props) {
         <h1 className="project-name">{projectName}</h1>
         <p className="description">{description}</p>
       </div>
-      <a
+      {/* <a
         href={projectURL}
         target="_blank"
         rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function ProjectCard(props) {
           Read More &#62;
           <span className="project-off">&#62;</span>
         </p>
-      </a>
+      </a> */}
     </animated.div>
   );
 }
@@ -52,7 +52,7 @@ ProjectCard.propTypes = {
   alt: PropTypes.string.isRequired,
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  projectURL: PropTypes.string.isRequired,
+  // projectURL: PropTypes.string.isRequired,
   npoURL: PropTypes.string.isRequired,
   isAnimated: PropTypes.bool.isRequired,
   animationProps: PropTypes.shape,

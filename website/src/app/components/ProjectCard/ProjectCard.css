@@ -1,11 +1,12 @@
 .project-card {
   box-shadow: 0px 4px 20px rgba(237, 49, 93, 0.5);
-  padding: 10px;
-  margin: 2%;
+  padding: 10px calc((50% - (445px * 2)) / 2);
+  margin: 3%;
   border-radius: 20px;
-  flex-basis: 20%;
-  max-width: 375px;
+  flex-basis: 50%;
+  max-width: calc((75% - 20px) / 2);
   min-width: 240px;
+  max-height: 500px;
   min-height: 450px;
   position: relative;
   background-color: white;
@@ -23,7 +24,7 @@
 .description {
   font-size: 16px;
   line-height: 25px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto 10px;
   text-align: center;
 }
@@ -82,9 +83,10 @@ p:hover > .project-off {
 @media screen and (max-width: 900px) {
   .project-card {
     margin: 15px;
-    height: 280px !important;
+    height: 310px !important;
     min-height: unset;
     width: 250px;
+    padding: 10px calc((50% - (270px * 2)) / 2);
     flex-basis: unset;
   }
 
@@ -98,7 +100,7 @@ p:hover > .project-off {
   .description {
     font-size: 14px;
     line-height: 20px;
-    width: 90%;
+    width: 85%;
     margin: 0 auto 10px;
     text-align: center;
   }

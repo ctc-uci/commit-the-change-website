@@ -1,0 +1,134 @@
+/* .project-name-purple{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #BEA9EF;
+}
+
+.description-purple{
+  font-size: 16px;
+  line-height: 25px;
+  width: 90%;
+  margin: auto;
+}
+
+.project-card-purple{
+  box-shadow: 0px 4px 20px rgba(99, 49, 216, 0.75);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.project-card-image{
+  width: 90%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:768px){
+  .project-card-purple{
+    width: 90%;
+  }
+
+  .project-name-purple{
+    font-size: 20px;
+  }
+
+  .description-purple{
+    font-size: 14px;
+    width: 95%;
+    margin: auto;
+  }
+} */
+
+.project-card-purple {
+  box-shadow: 0px 4px 20px rgba(99, 49, 216, 0.5);
+  padding: 10px calc((50% - (445px * 2)) / 2);
+  margin: 3%;
+  border-radius: 20px;
+  flex-basis: 50%;
+  max-width: calc((75% - 20px) / 2);
+  min-width: 240px;
+  max-height: 500px;
+  min-height: 450px;
+  position: relative;
+  background-color: white;
+}
+
+.project-name-purple {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bea9ef;
+  text-align: center;
+}
+
+.project-card-more-purple {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 7%;
+  width: 100%;
+}
+
+.project-card-more-purple-link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--dark-pink);
+  font-weight: bold;
+  margin: 0 10px;
+  min-width: 28%;
+}
+
+.read-more-button {
+  background-color: #ED315D;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px calc((100% - 100px) / 2);
+}
+
+p:hover > .project-off {
+  color: var(--dark-pink);
+}
+
+@media screen and (max-width: 1450px) {
+  .project-card-more-purple {
+    bottom: 6%;
+  }
+
+  .project-card-more-purple-link {
+    min-width: 40%;
+    margin: 0 6px;
+  }
+
+  .read-more-button {
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px calc((50% - (60px)) / 2);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project-card-purple {
+    margin: 15px;
+    height: 300px !important;
+    min-height: unset;
+    width: 250px;
+    padding: 10px calc((50% - (270px * 2)) / 2);
+    flex-basis: unset;
+  }
+
+  .project-name-purple {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+}
