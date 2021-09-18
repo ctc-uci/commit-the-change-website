@@ -337,10 +337,37 @@ h2:hover > .off {
 @media screen and (max-width: 1000px) {
   .mission-text {
     padding-right: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .our-mission-panel{
+    justify-content: center;
+    min-height: 98vh;
+  }
+
+  .mission-text-description{
+    padding: 0 20%;
+  }
+
+  .mission-text h1 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 0;
+  }
+
+  .mission-text p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 20%;
   }
 
   .our-values-panel {
     background: none;
+  }
+
+  .ctc-logo {
+    display: none;
   }
 }
 
@@ -369,32 +396,6 @@ h2:hover > .off {
 
   .top-panel-pic {
     margin-bottom: 0px !important;
-  }
-
-  .our-mission-panel{
-    justify-content: center;
-    min-height: 98vh;
-  }
-
-  .mission-text-description{
-    padding: 0 20%;
-  }
-
-  .mission-text h1 {
-    text-align: center;
-    font-size: 32px;
-    padding-top: 0;
-  }
-
-  .mission-text {
-    width: 100%;
-    padding: 0;
-  }
-
-  .mission-text p {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 0 20%;
   }
 
   .ctc-logo {
