@@ -72,9 +72,9 @@ function About() {
 
   return (
     <main>
-      <animated.div style={slideUp} className="top-panel">
+      <animated.div style={slideUp} className="top-panel top-panel-about">
         <div className="content">
-          <div className="top-panel-text">
+          <div className="top-panel-text top-panel-text-about">
             <div className="inside-top-panel-text">
               <h1 className="top-panel-title">About Us</h1>
               <p className="top-panel-description">

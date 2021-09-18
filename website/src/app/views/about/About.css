@@ -13,17 +13,17 @@ html {
   font-weight: bold;
 }
 
-.top-panel{
+.top-panel-about {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.top-panel-text{
+.top-panel-text-about{
   margin-top: 0vh;
 }
 
-.top-panel .content {
+.top-panel-about .content {
   display: flex;
   flex-direction: row;
   margin-top: 20vh;
@@ -358,7 +358,7 @@ h2:hover > .off {
     font-size: 20px;
   }
 
-  .top-panel .content {
+  .top-panel-about .content {
     flex-direction: column;
     margin-top: 8vh;
   }
@@ -387,7 +387,6 @@ h2:hover > .off {
   }
 
   .mission-text {
-    text-align: center;
     width: 100%;
     padding: 0;
   }
