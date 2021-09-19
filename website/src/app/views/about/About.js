@@ -80,7 +80,7 @@ function About() {
               <p className="top-panel-description">
                 Founded in 2020, Commit the Change started as a small group of
                 undergraduate students with a shared love for coding and
-                volunteering for causes in their communities. Combined with
+                volunteering for causes in their communities. After merging with
                 Blueprint in 2021, Commit the Change is now an established
                 student organization at UC Irvine with a team of skilled
                 designers and developers.

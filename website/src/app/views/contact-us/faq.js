@@ -8,7 +8,12 @@ const faq = {
     {
       question: 'How do I join a Commit the Change project team?',
       answer:
-        "Fill out our application, which opens in late September! It's a simple form and a chance to pitch yourself to our organization. Some things we ask about are your level of experience, your reasons for applying, and more information about you, your studies, and your interests. Once all the applications are in, the Recruitment committee will reach out to you to schedule a coffee chat — not an interview, but a way for us to meet each other and to get to know you better. After that, we'll take some time to make our final decisions. While we would like to accept everyone who is interested, we have limited space on our project teams. Decisions will be sent out to everyone by mid-October.",
+        "Fill out our application! It's a simple form and a chance to pitch yourself to our organization. Some things we ask about are your level of experience, your reasons for applying, and more information about you, your studies, and your interests. Once all the applications are in, the Recruitment committee will reach out to you to schedule a coffee chat — not an interview, but a way for us to meet each other and to get to know you better. After that, we'll take some time to make our final decisions. While we would like to accept everyone who is interested, we have limited space on our project teams. Decisions will be sent out to everyone by mid-October.",
+    },
+    {
+      question: 'Will Commit the Change consist of in-person or virtual events?',
+      answer:
+        'Most Commit the Change events will be hosted virtually. Any events hosted in-person will be in compliance with CDC and university guidelines to protect the safety and wellbeing of all attendees.',
     },
     {
       question: 'What is a coffee chat?',
