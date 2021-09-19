@@ -90,7 +90,7 @@ function ContactUs() {
             </p>
             <a
               href="mailto:ctc@uci.edu"
-              className="common-pink-button get-in-touch-button"
+              className="common-pink-button"
               target="_blank"
               rel="noopener noreferrer"
             >
