@@ -98,7 +98,7 @@ function Apply() {
               <p className="experiences-description">
                 At Commit the Change, we are dedicated to building competent software
                 for non-profits while exploring and solving new technical challenges.
-                Here, we showcase Sydney’s, Sonali’s,  and Rostam’s experiences in
+                Here, we showcase our past designers&apos; and developers&apos; experiences in
                 their respective CTC projects during the 2020-2021 year.
               </p>
             </div>
