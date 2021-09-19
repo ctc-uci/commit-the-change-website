@@ -9,8 +9,30 @@ html {
   max-height: 500px;
 }
 
+.top-panel h1 {
+  font-weight: bold;
+}
+
+.top-panel-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top-panel-text-about{
+  margin-top: 0vh;
+}
+
+.top-panel-about .content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vh;
+  max-width: 2000px;
+  align-items: center;
+}
+
 .links-div {
-  background-color: var(--dark-purple);
+  background-color: var(--darkest-purple);
 }
 
 .links {
@@ -27,7 +49,13 @@ html {
 }
 
 .off {
-  color: var(--dark-purple);
+  color: var(--darkest-purple);
+  font-size: 30px;
+}
+
+.link-chevron{
+  margin-left: 25px;
+  font-size: 30px;
 }
 
 h2:hover > .off {
@@ -36,53 +64,123 @@ h2:hover > .off {
 
 .our-mission-panel {
   margin: 0;
-  padding: 80px 0;
+  padding-top: 60px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  background: linear-gradient(
-    149deg,
-    rgba(128, 88, 222, 1) 0%,
-    rgba(227, 177, 177, 1) 100%
-  );
+  background: rgba(99, 49, 216, 0.75);
+  border: 1px solid #000000;
+  min-height: 97vh;
+}
+
+.our-mission-panel .content {
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  max-width: 2000px;
+}
+
+.our-mission-panel > .double-chevron{
+  color: #C4C4C4;
+}
+
+.double-chevron:hover{
+  cursor:default;
+}
+
+.our-mission-panel ul{
+  list-style-type: none;
+  padding: 0px;
+  list-style-position: inside;
+}
+
+.our-mission-panel li:before {
+  content: '\203A'; 
+  margin-left: -15px; 
+  margin-right: 9px; 
+  font-size: 20px;
 }
 
 .mission-text {
-  width: 65%;
+  width: 50%;
   color: white;
-  padding-right: 80px;
+  padding-right: 170px;
 }
 
 .mission-text h1 {
   padding: 20px 0;
-  font-size: 45px;
+  font-size: 36px;
+  font-weight: 700;
   margin: 0 auto;
 }
 
 .mission-text-description {
-  font-size: 22px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
-.chevron {
-  font-size: 25px;
-}
-
 .ctc-logo {
-  width: 50%;
+  height: 70vh;
+  max-height: 700px;
+  object-fit: cover;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .ctc-logo img {
   width: 100%;
+  object-fit: cover;
+  object-position: left;
 }
 
 .our-values-panel {
   text-align: center;
-  margin: 100px auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
   max-width: 2000px;
+  margin: 100px auto;
+  background: 
+    url('../../../images/about/triangles/clear-lt.svg'),
+    url('../../../images/about/triangles/filled-lt.svg'),
+    url('../../../images/about/triangles/clear-rb.svg'),
+    url('../../../images/about/triangles/filled-rt.svg'),
+    url('../../../images/about/triangles/filled-middle.svg'),
+    url('../../../images/about/triangles/clear-bl.svg'),
+    url('../../../images/about/triangles/filled-lb.svg'),
+    url('../../../images/about/triangles/clear-rt.svg'),
+    url('../../../images/about/triangles/filled-rb.svg');
+  background-position: 
+    3% 15%,
+    18% 11%,
+    92% 7%,
+    95% 10%,
+    46% 60%,
+    10% 90%,
+    5% 90%,
+    93% 85%,
+    89% 88%;
+  background-repeat: 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat, 
+    no-repeat;
+  background-size: 
+    420px, 
+    160px,
+    210px,
+    220px,
+    270px,
+    290px,
+    180px,
+    250px,
+    180px;
 }
 
 .our-values-panel h1 {
@@ -102,7 +200,7 @@ h2:hover > .off {
 }
 
 .value-row-1 {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -110,7 +208,7 @@ h2:hover > .off {
 }
 
 .value-row-2 {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -118,11 +216,18 @@ h2:hover > .off {
 }
 
 .value {
-  flex: 0 1 400px;
-  box-shadow: 0px 4px 20px rgba(99, 49, 216, 0.55);
+  flex: 0 1 280px;
+  box-shadow: 0px 4px 20px rgb(99 49 216 / 55%);
   border-radius: 20px;
   margin: 30px 10px;
-  padding: 10px 10px 0px 10px;
+  padding: 20px 20px 0px 20px;
+  background: white;
+}
+
+.value h1{
+  position: absolute;
+  transform: translate(-50%, -130%);
+  left: 50%;
 }
 
 .value span {
@@ -131,11 +236,11 @@ h2:hover > .off {
 
 .value h2 {
   color: var(--dark-purple);
+  margin-bottom: 5px;
 }
 
 .value p {
-  padding: 10px 30px;
-  line-height: 25px;
+  padding: 10px 25px;
 }
 
 .small-image {
@@ -160,6 +265,7 @@ h2:hover > .off {
   text-align: center;
   color: var(--dark-purple);
   text-shadow: 1px 0 var(--dark-purple);
+  margin-bottom: 70px;
 }
 
 .our-team-description {
@@ -179,6 +285,21 @@ h2:hover > .off {
   height: 240px;
   width: 240px;
   margin: 25px;
+}
+
+.double-chevron{
+  display: flex;
+  justify-content: center;
+  color: #C4C4C4;
+  font-size: 60px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); /* Safari */
+  -moz-transform: rotate(90deg);   /* Firefox */
+  -ms-transform: rotate(90deg);   /* IE */
+  -o-transform: rotate(90deg);  /* Opera */
 }
 
 @media screen and (max-width: 692px) {
@@ -208,8 +329,8 @@ h2:hover > .off {
     text-align: center;
   }
 
-  .value-row-1 {
-    width: 85%;
+  .mission-text {
+    padding-right: 100px;
   }
 
   .value-row-2 {
@@ -217,13 +338,20 @@ h2:hover > .off {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .links {
-    font-size: 9px;
+@media screen and (max-width: 1000px) {
+  .mission-text {
+    padding-right: 20px;
+    width: 100%;
+    padding: 0;
   }
 
-  .about-top-panel-img {
-    width: 70%;
+  .our-mission-panel{
+    justify-content: center;
+    min-height: 98vh;
+  }
+
+  .mission-text-description{
+    padding: 0 20%;
   }
 
   .mission-text h1 {
@@ -232,24 +360,50 @@ h2:hover > .off {
     padding-top: 0;
   }
 
-  .mission-text {
-    text-align: center;
-    width: 100%;
-    padding: 0;
-  }
-
   .mission-text p {
     font-size: 14px;
     line-height: 22px;
     padding: 0 20%;
   }
 
+  .our-values-panel {
+    background: none;
+  }
+
   .ctc-logo {
     display: none;
   }
+}
 
-  .top-panel {
+@media screen and (max-width: 800px) {
+  .links {
+    font-size: 9px;
+  }
+
+  .links .link-chevron{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .links .off{
+    font-size: 20px;
+  }
+
+  .top-panel-about .content {
     flex-direction: column;
+    margin-top: 8vh;
+  }
+
+  .about-top-panel-img {
+    width: 70%;
+  }
+
+  .top-panel-pic {
+    margin-bottom: 0px !important;
+  }
+
+  .ctc-logo {
+    display: none;
   }
 
   .panel-left {
@@ -274,6 +428,12 @@ h2:hover > .off {
   .value {
     flex: 0;
     margin: 30px auto;
+  }
+
+  .value h1{
+    position: absolute;
+    transform: translate(-50%, -140%);
+    left: 50%;
   }
 
   .value h2 {

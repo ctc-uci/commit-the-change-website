@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 25px;
+  margin: 25px 50px;
 }
 
 .card-container{
@@ -9,8 +9,8 @@
 }
 
 .card .profile-img {
-  max-width: 240px;
-  max-height: 240px;
+  max-width: 206px;
+  max-height: 206px;
   flex: 1;
   border-radius: 5px;
   box-shadow: 3px 3px 10px #aaaaaa;
@@ -19,20 +19,23 @@
 
 .card-bottom {
   display: flex;
-  width: 240px;
+  width: 206px;
   min-height: 80px;
 }
 
 .info {
   flex: 1 auto;
+  color: var(--darkest-purple);
 }
 
 .card h3 {
   margin: 10px 0px 0px 5px;
+  font-size: 18px;
 }
 
 .card p {
   margin: 2px 5px;
+  font-size: 14px;
 }
 
 .logoborder {
@@ -40,8 +43,8 @@
 }
 
 .logoborder img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: auto;
 }
 
@@ -51,7 +54,7 @@
 
 @media screen and (max-width: 600px) {
   .card {
-    margin: 30px 4%;
+    margin: 10px 4%;
   }
 
   .card .profile-img {
