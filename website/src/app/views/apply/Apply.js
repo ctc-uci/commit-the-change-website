@@ -84,34 +84,36 @@ function Apply() {
           />
         </div>
       </animated.div>
-      <div className="our-team-experiences-panel">
-        <VisibilitySensor
-          onChange={(isVisible) => {
-            if (isVisible) setExperienceHeaderVisible(experienceHeaderCount + 1);
-          }}
-        >
-          <h1 className="experiences-title">Our Team&#39;s Experiences</h1>
-        </VisibilitySensor>
-        <animated.div style={slideUpExperienceHeader}>
-          <div className="team-experiences-text">
-            <p className="experiences-description">
-              At Commit the Change, we are dedicated to building competent software
-              for non-profits while exploring and solving new technical challenges.
-              Here, we showcase Sydney’s, Sonali’s,  and Rostam’s experiences in
-              their respective CTC projects during the 2020-2021 year.
-            </p>
-          </div>
-        </animated.div>
-        <VisibilitySensor
-          partialVisibility
-          onChange={(isVisible) => {
-            if (isVisible) setExperienceViewVisible(experienceViewCount + 1);
-          }}
-        >
-          <div className="experiences">
-            {experiences}
-          </div>
-        </VisibilitySensor>
+      <div id="our-team-experiences-panel">
+        <div className="our-team-experiences-panel">
+          <VisibilitySensor
+            onChange={(isVisible) => {
+              if (isVisible) setExperienceHeaderVisible(experienceHeaderCount + 1);
+            }}
+          >
+            <h1 className="experiences-title">Our Team&#39;s Experiences</h1>
+          </VisibilitySensor>
+          <animated.div style={slideUpExperienceHeader}>
+            <div className="team-experiences-text">
+              <p className="experiences-description">
+                At Commit the Change, we are dedicated to building competent software
+                for non-profits while exploring and solving new technical challenges.
+                Here, we showcase Sydney’s, Sonali’s,  and Rostam’s experiences in
+                their respective CTC projects during the 2020-2021 year.
+              </p>
+            </div>
+          </animated.div>
+          <VisibilitySensor
+            partialVisibility
+            onChange={(isVisible) => {
+              if (isVisible) setExperienceViewVisible(experienceViewCount + 1);
+            }}
+          >
+            <div className="experiences">
+              {experiences}
+            </div>
+          </VisibilitySensor>
+        </div>
       </div>
       <div id="application-steps">
         <div className="application-steps-panel">

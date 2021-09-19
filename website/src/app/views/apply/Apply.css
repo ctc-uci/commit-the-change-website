@@ -9,14 +9,8 @@ html {
   max-height: 400px;
 }
 
-.our-team-experiences-panel {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+#our-team-experiences-panel {
   background-color: #6331D8BF;
-  color: #FFFFFF;
-  padding: 60px;
-
   position: relative;
   background-image:
     url('../../../images/apply/solid-purple-1.svg'),
@@ -43,6 +37,16 @@ html {
     260px,
     600px,
     375px;
+}
+
+.our-team-experiences-panel {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  padding: 60px;
 }
 
 .experiences-title {
