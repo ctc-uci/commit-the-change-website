@@ -21,7 +21,7 @@
   border-spacing: 0 60px;
 }
 
-.tl-row h2, h4, p {
+.tl-row h2, .tl-row h4, .tl-row p {
   margin: 0;
 }
 
