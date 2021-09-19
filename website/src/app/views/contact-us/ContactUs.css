@@ -89,6 +89,10 @@
   flex-basis: 30%;
 }
 
+.get-in-touch-button {
+  line-height: 70px;
+}
+
 @media screen and (max-width: 800px) {
   .question-text{
     font-size: 18px !important;
