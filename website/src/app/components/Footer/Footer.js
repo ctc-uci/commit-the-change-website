@@ -14,10 +14,10 @@ function Footer() {
         <div className="left-column">
           <div className="inner-left">
             © Commit the Change
-            <br />
+            {/* <br />
             Icons by
             {' '}
-            <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons" style={{ color: 'white' }}>Flat Icons</a>
+            <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons" style={{ color: 'white' }}>Flat Icons</a> */}
             <br />
             Created in Irvine, CA
             <br />
