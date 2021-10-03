@@ -1,4 +1,4 @@
-import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
+// import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
 import crs from '../../../images/nonprofits/Crime-Survivors.png';
 import ccl from '../../../images/nonprofits/Child-Creativity-Lab.png';
 import jff from '../../../images/nonprofits/Justice-For-Families.png';
@@ -6,6 +6,7 @@ import wm from '../../../images/nonprofits/Waymakers.png';
 import och from '../../../images/nonprofits/OC-Habitats.png';
 import tlp from '../../../images/nonprofits/The-Literacy-Project.png';
 import afc from '../../../images/nonprofits/Abound-Food-Care.png';
+import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
 
 const projects = {
   active: [
@@ -37,14 +38,23 @@ const projects = {
       npoURL: 'https://www.aboundfoodcare.org/',
     },
     {
-      src: ctc,
-      alt: 'Incoming project #4',
-      projectName: 'TBD',
+      src: fya,
+      alt: 'Find Your Anchor incoming project',
+      projectName: 'Find Your Anchor',
       description:
-        'We\'re currently still in the process of finalizing our fourth project. Check back on our website and social media for updates coming soon!',
+        'We will be creating a tracking map for them to see where their mental health anchor boxes are traveling throughout the world!',
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
-      npoURL: 'https://www.ctc-uci.com/',
+      npoURL: 'https://findyouranchor.us/',
     },
+    // {
+    //   src: ctc,
+    //   alt: 'Incoming project #4',
+    //   projectName: 'TBD',
+    //   description:
+    //     'We\'re currently still in the process of finalizing our fourth project. Check back on our website and social media for updates coming soon!',
+    //   projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
+    //   npoURL: 'https://www.ctc-uci.com/',
+    // },
   ],
   inactive: [
     {
