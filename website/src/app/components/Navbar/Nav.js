@@ -59,14 +59,14 @@ function Nav() {
               >
                 Contact Us
               </Link>
-              <Link
+              {/* <Link
                 onClick={() => {
                   toggleVisibility(false);
                 }}
                 to="/apply"
               >
                 Apply Now
-              </Link>
+              </Link> */}
             </div>
             <button
               type="button"
@@ -104,17 +104,19 @@ function Nav() {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="elem">
-                Contact Us
-              </Link>
+              <button type="button" className="elem apply-button">
+                <Link to="/contact" id="apply-link">
+                  Contact Us
+                </Link>
+              </button>
             </li>
-            <li>
+            {/* <li>
               <button type="button" className="elem apply-button">
                 <Link to="/apply" id="apply-link">
                   Apply
                 </Link>
               </button>
-            </li>
+            </li> */}
           </ul>
           <button
             type="button"

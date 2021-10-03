@@ -3,12 +3,7 @@ const faq = {
     {
       question: 'Who can join Commit the Change and work on the projects?',
       answer:
-        'We look for passionate, committed UC Irvine students who are interested in learning new technical skills by working on projects for non-profit organizations with other like-minded peers. Ideally, students would be in an ICS or related major, but if not, they are expected to have skills to back themselves up. There are no specific technical experience requirements, but it definitely helps to have something that demonstrates your initiative to learn and be involved!',
-    },
-    {
-      question: 'How do I join a Commit the Change project team?',
-      answer:
-        "Fill out our application! It's a simple form and a chance to pitch yourself to our organization. Some things we ask about are your level of experience, your reasons for applying, and more information about you, your studies, and your interests. Once all the applications are in, the Recruitment committee will reach out to you to schedule a coffee chat — not an interview, but a way for us to meet each other and to get to know you better. After that, we'll take some time to make our final decisions. While we would like to accept everyone who is interested, we have limited space on our project teams. Decisions will be sent out to everyone by mid-October.",
+        'We look for passionate, committed UC Irvine students who are interested in learning new technical skills by working on projects for non-profit organizations with other like-minded peers. Ideally, students would be in an ICS or related major, but if not, they are expected to have skills to back themselves up. There are no specific technical experience requirements, but it definitely helps to have something that demonstrates your initiative to learn and be involved! Our applications for the 2021-2022 school year are now CLOSED. We do not have any plans for future recruitment throughout the school year, but please follow us on our social medias for any updates! Thanks for your interest.',
     },
     {
       question: 'Will Commit the Change consist of in-person or virtual events?',
@@ -45,9 +40,19 @@ const faq = {
   ],
   past: [
     {
-      question: 'Who can join Commit the Change and work on the projects?',
+      question: 'Who can join Commit the Change and work on the projects?', // F2020
       answer:
         "We are looking for passionate, committed, UC Irvine students with an interest in learning new technical skills by working on projects for non-profit organizations with other like-minded peers. Ideally, students would be in an ICS or related major, but if not, they are expected to have skills to back themselves up. There are no specific technical experience requirements, but it definitely helps to have something that demonstrates your initiative to learn and be involved! We're currently seeking Designers and Developers for the upcoming school year, so if this sounds like you, don't hesitate to apply!",
+    },
+    {
+      question: 'Who can join Commit the Change and work on the projects?', // F2021
+      answer:
+        'We look for passionate, committed UC Irvine students who are interested in learning new technical skills by working on projects for non-profit organizations with other like-minded peers. Ideally, students would be in an ICS or related major, but if not, they are expected to have skills to back themselves up. There are no specific technical experience requirements, but it definitely helps to have something that demonstrates your initiative to learn and be involved!',
+    },
+    {
+      question: 'How do I join a Commit the Change project team?',
+      answer:
+        "Fill out our application! It's a simple form and a chance to pitch yourself to our organization. Some things we ask about are your level of experience, your reasons for applying, and more information about you, your studies, and your interests. Once all the applications are in, the Recruitment committee will reach out to you to schedule a coffee chat — not an interview, but a way for us to meet each other and to get to know you better. After that, we'll take some time to make our final decisions. While we would like to accept everyone who is interested, we have limited space on our project teams. Decisions are sent out to everyone by mid-October.",
     },
   ],
 };
