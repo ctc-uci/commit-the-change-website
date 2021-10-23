@@ -43,6 +43,7 @@ import sabrina from '../../../images/about/memberImages/sabrina.jpg';
 import vani from '../../../images/about/memberImages/vani.jpg';
 import vivian from '../../../images/about/memberImages/vivian.jpg';
 import jordan from '../../../images/about/memberImages/jordan.jpg';
+import sam from '../../../images/about/memberImages/sam.jpg';
 
 const members = {
   info: [
@@ -316,6 +317,12 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
+    },
+    {
+      name: 'Sam Der',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sam-der',
+      imageURL: sam,
     },
   ],
 };
