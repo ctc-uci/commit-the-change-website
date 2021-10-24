@@ -290,6 +290,12 @@ const members = {
       imageURL: zoya,
     },
     {
+      name: 'Sam Der',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sam-der',
+      imageURL: sam,
+    },
+    {
       name: 'Riley Champion',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
@@ -324,12 +330,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Sam Der',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/sam-der',
-      imageURL: sam,
     },
   ],
 };
