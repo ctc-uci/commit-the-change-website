@@ -273,6 +273,12 @@ const members = {
       imageURL: rileychampion,
     },
     {
+      name: 'Riley Wong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
+      imageURL: rileywong,
+    },
+    {
       name: 'Sam Der',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/sam-der',
@@ -295,12 +301,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/alecc3/',
       imageURL: alec,
-    },
-    {
-      name: 'Riley Wong',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
-      imageURL: rileywong,
     },
     {
       name: 'Angeline Pho',
