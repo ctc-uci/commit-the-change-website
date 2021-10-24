@@ -117,7 +117,7 @@ const members = {
     },
     {
       name: 'Jane Vo',
-      position: 'VP of Recruitment, Developer',
+      position: 'VP of Recruitment, Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/janehv/',
       imageURL: jane,
     },
@@ -171,6 +171,12 @@ const members = {
       imageURL: meredith,
     },
     {
+      name: 'Rashmi Sharma',
+      position: 'Tech Lead',
+      linkedinURL: 'https://www.linkedin.com/in/rashmi-sharma-432b31178/',
+      imageURL: rashmi,
+    },
+    {
       name: 'Sabrina Nguyen Hoang',
       position: 'Design Lead',
       linkedinURL: 'https://www.linkedin.com/in/sabrina-nguyen-hoang/',
@@ -183,12 +189,6 @@ const members = {
       imageURL: sylvester,
     },
     {
-      name: 'Alec Chen',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/alecc3/',
-      imageURL: alec,
-    },
-    {
       name: 'Alvin Chen',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/alvinchenn',
@@ -199,12 +199,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ashley-liu-6314731b9/',
       imageURL: ashley,
-    },
-    {
-      name: 'Becky Dinh',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/becky-dinh-27b85018b/',
-      imageURL: becky,
     },
     {
       name: 'Claude Yan',
@@ -273,10 +267,16 @@ const members = {
       imageURL: preston,
     },
     {
-      name: 'Rashmi Sharma',
+      name: 'Riley Champion',
       position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rashmi-sharma-432b31178/',
-      imageURL: rashmi,
+      linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
+      imageURL: rileychampion,
+    },
+    {
+      name: 'Sam Der',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sam-der',
+      imageURL: sam,
     },
     {
       name: 'Xuan Vu',
@@ -291,16 +291,10 @@ const members = {
       imageURL: zoya,
     },
     {
-      name: 'Sam Der',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/sam-der',
-      imageURL: sam,
-    },
-    {
-      name: 'Riley Champion',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
-      imageURL: rileychampion,
+      name: 'Alec Chen',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/alecc3/',
+      imageURL: alec,
     },
     {
       name: 'Riley Wong',
@@ -313,6 +307,12 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/angeline-pho-19743319a/',
       imageURL: angeline,
+    },
+    {
+      name: 'Becky Dinh',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/becky-dinh-27b85018b/',
+      imageURL: becky,
     },
     {
       name: 'Hannah Limary',
