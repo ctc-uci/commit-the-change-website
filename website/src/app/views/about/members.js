@@ -44,6 +44,7 @@ import vani from '../../../images/about/memberImages/vani.jpg';
 import vivian from '../../../images/about/memberImages/vivian.jpg';
 import jordan from '../../../images/about/memberImages/jordan.jpg';
 import sam from '../../../images/about/memberImages/sam.jpg';
+import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 
 const members = {
   info: [
@@ -287,6 +288,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
+    },
+    {
+      name: 'Riley Champion',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
+      imageURL: rileychampion,
     },
     {
       name: 'Angeline Pho',
