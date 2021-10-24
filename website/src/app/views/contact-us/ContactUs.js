@@ -47,7 +47,7 @@ function ContactUs() {
               Read FAQ
             </a>
             {/* <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScraPyuZDOV2WQZXacd2QHPqf3qBFN9SpBT09z2VULVuJRaCg/viewform"
+              href="replace with new interest form"
               className="common-pink-button"
             >
               Interest Form

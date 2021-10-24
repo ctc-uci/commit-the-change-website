@@ -1,4 +1,3 @@
-// import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
 import crs from '../../../images/nonprofits/Crime-Survivors.png';
 import ccl from '../../../images/nonprofits/Child-Creativity-Lab.png';
 import jff from '../../../images/nonprofits/Justice-For-Families.png';
@@ -46,15 +45,6 @@ const projects = {
       projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
       npoURL: 'https://findyouranchor.us/',
     },
-    // {
-    //   src: ctc,
-    //   alt: 'Incoming project #4',
-    //   projectName: 'TBD',
-    //   description:
-    //     'We\'re currently still in the process of finalizing our fourth project. Check back on our website and social media for updates coming soon!',
-    //   projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
-    //   npoURL: 'https://www.ctc-uci.com/',
-    // },
   ],
   inactive: [
     {
@@ -93,7 +83,6 @@ const projects = {
       projectName: 'Crime Survivors',
       description:
         'We created a website to replace their paper pamphlets with important resources and information for crime victims!',
-      // 'We created a website to replace their paper pamphlets that detail important resources and information for crime victims in different counties throughout Southern California. This project will save the organization thousands of dollars every year in printing and distribution costs, which will go directly back into helping survivors get necessity items!',
       mediumURL: 'https://medium.com/@committhechange.uci/past-project-reveal-with-crime-survivors-ba557206ee10',
       npoURL: 'https://crimesurvivors.org/',
       projectURL: 'https://github.com/ctc-uci/crime-survivors',
