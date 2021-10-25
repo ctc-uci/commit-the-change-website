@@ -46,6 +46,7 @@ import vivian from '../../../images/about/memberImages/vivian.jpg';
 import jordan from '../../../images/about/memberImages/jordan.jpg';
 import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
+import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 
 const members = {
   info: [
@@ -261,7 +262,7 @@ const members = {
       imageURL: phillip,
     },
     {
-      name: 'Po\'okela Moana',
+      name: "Po'okela Moana",
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/cullen-moana/',
       imageURL: kela,
@@ -277,6 +278,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
       imageURL: rileychampion,
+    },
+    {
+      name: 'Riley Wong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
+      imageURL: rileywong,
     },
     {
       name: 'Sam Der',
