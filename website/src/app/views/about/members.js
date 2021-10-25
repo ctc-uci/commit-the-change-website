@@ -23,6 +23,7 @@ import henry from '../../../images/about/memberImages/henry.jpg';
 import chris from '../../../images/about/memberImages/chris.jpg';
 import preston from '../../../images/about/memberImages/preston.jpg';
 import kasey from '../../../images/about/memberImages/kasey.jpg';
+import madhusudhan from '../../../images/about/memberImages/madhusudhan.jpg';
 import sylvester from '../../../images/about/memberImages/sylvester.jpg';
 import jane from '../../../images/about/memberImages/jane.jpg';
 import zoya from '../../../images/about/memberImages/zoya.jpg';
@@ -246,6 +247,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Madhusudhan Sharma',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
+      imageURL: madhusudhan,
     },
     {
       name: 'Phillip Chan',
