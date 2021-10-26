@@ -51,7 +51,6 @@ import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
 
-
 const members = {
   info: [
     {
