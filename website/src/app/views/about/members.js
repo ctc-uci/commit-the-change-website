@@ -49,7 +49,7 @@ import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
-import michellelin from '../../images/about/memberImages/michellelin.jpg';
+import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 
 const members = {
   info: [
