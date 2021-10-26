@@ -32,7 +32,6 @@ import jules from '../../../images/about/memberImages/jules.JPG';
 import alvin from '../../../images/about/memberImages/alvin.JPG';
 import allen from '../../../images/about/memberImages/allen.jpg';
 import cyre from '../../../images/about/memberImages/cyre.jpg';
-import kela from '../../../images/about/memberImages/cullenmoana.jpg';
 import anikait from '../../../images/about/memberImages/anikait.jpg';
 import becky from '../../../images/about/memberImages/becky.jpg';
 import angeline from '../../../images/about/memberImages/angeline.jpg';
@@ -274,12 +273,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/chnphllp/',
       imageURL: phillip,
-    },
-    {
-      name: "Po'okela Moana",
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/cullen-moana/',
-      imageURL: kela,
     },
     {
       name: 'Preston Young',
