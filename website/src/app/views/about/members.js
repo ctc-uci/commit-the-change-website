@@ -23,6 +23,8 @@ import henry from '../../../images/about/memberImages/henry.jpg';
 import chris from '../../../images/about/memberImages/chris.jpg';
 import preston from '../../../images/about/memberImages/preston.jpg';
 import kasey from '../../../images/about/memberImages/kasey.jpg';
+import madhusudhan from '../../../images/about/memberImages/madhusudhan.jpg';
+import maxim from '../../../images/about/memberImages/maxim.jpeg';
 import sylvester from '../../../images/about/memberImages/sylvester.jpg';
 import jane from '../../../images/about/memberImages/jane.jpg';
 import zoya from '../../../images/about/memberImages/zoya.jpg';
@@ -47,6 +49,8 @@ import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
+import mia from '../../../images/about/memberImages/mia.jpg';
+
 
 const members = {
   info: [
@@ -248,6 +252,24 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Madhusudhan Sharma',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
+      imageURL: madhusudhan,
+    },
+    {
+      name: 'Maxim Alayev',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
+      imageURL: maxim,
+    },
+    {
+      name: 'Mia Schroeder',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mia-schroeder',
+      imageURL: mia,
     },
     {
       name: 'Michelle Lin',
