@@ -49,6 +49,7 @@ import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
+import kei from '../../../images/about/memberImages/kei.jpg';
 
 const members = {
   info: [
@@ -250,6 +251,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Kei Asakawa',
+      position: 'Developer',
+      linkedinURL: 'www.linkedin.com/in/kei-asakawa',
+      imageURL: kei,
     },
     {
       name: 'Madhusudhan Sharma',
