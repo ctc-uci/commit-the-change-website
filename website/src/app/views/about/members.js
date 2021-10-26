@@ -46,6 +46,7 @@ import jordan from '../../../images/about/memberImages/jordan.jpg';
 import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
+import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
 
 const members = {
   info: [
@@ -247,6 +248,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Michelle Lin',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/michellelin1',
+      imageURL: michelleblin,
     },
     {
       name: 'Phillip Chan',
