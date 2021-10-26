@@ -49,6 +49,7 @@ import rileychampion from '../../../images/about/memberImages/rileychampion.jpg'
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
+import matthew from '../../../images/about/memberImages/matthew.jpg';
 
 const members = {
   info: [
@@ -256,6 +257,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
       imageURL: madhusudhan,
+    },
+    {
+      name: 'Matthew Wu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/matthew-caleb-wu/',
+      imageURL: matthew,
     },
     {
       name: 'Maxim Alayev',
