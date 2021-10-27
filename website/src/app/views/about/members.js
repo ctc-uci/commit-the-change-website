@@ -53,6 +53,7 @@ import matthew from '../../../images/about/memberImages/matthew.jpg';
 import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
+import crystal from '../../../images/about/memberImages/crystal.jpg';
 
 const members = {
   info: [
@@ -212,6 +213,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/claude-yan-b41a3216a/',
       imageURL: claude,
+    },
+    {
+      name: 'Crystal Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/crystalleesf/',
+      imageURL: crystal,
     },
     {
       name: 'Cyre Jorin To',
