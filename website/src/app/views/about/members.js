@@ -50,6 +50,7 @@ import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
 import matthew from '../../../images/about/memberImages/matthew.jpg';
+import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 
 const members = {
@@ -282,6 +283,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/mia-schroeder',
       imageURL: mia,
+    },
+    {
+      name: 'Michelle Lin',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
+      imageURL: michellelin,
     },
     {
       name: 'Michelle Lin',
