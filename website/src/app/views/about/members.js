@@ -54,6 +54,7 @@ import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
+import thomas from '../../../images/about/memberImages/thomas.jpg';
 
 const members = {
   info: [
@@ -339,6 +340,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/sam-der',
       imageURL: sam,
+    },
+    {
+      name: 'Thomas Neill',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
+      imageURL: thomas,
     },
     {
       name: 'Xuan Vu',
