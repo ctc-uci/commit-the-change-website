@@ -55,6 +55,7 @@ import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
+import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 
 const members = {
   info: [
@@ -310,6 +311,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/michellelin1',
       imageURL: michelleblin,
+    },
+    {
+      name: 'Mignon April Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mignon-april-lee/',
+      imageURL: mignonaprillee,
     },
     {
       name: 'Phillip Chan',
