@@ -57,6 +57,7 @@ import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
 import ted from '../../../images/about/memberImages/ted.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
+import kory from '../../../images/about/memberImages/kory.jpg';
 
 const members = {
   info: [
@@ -276,6 +277,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'www.linkedin.com/in/kei-asakawa',
       imageURL: kei,
+    },
+    {
+      name: 'Kory Zhang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
+      imageURL: kory,
     },
     {
       name: 'Madhusudhan Sharma',
