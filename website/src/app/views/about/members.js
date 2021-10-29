@@ -55,6 +55,7 @@ import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
+import daniel from '../../../images/about/memberImages/daniel.jpg';
 
 const members = {
   info: [
@@ -226,6 +227,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/cyrejorin/',
       imageURL: cyre,
+    },
+    {
+      name: 'Daniel Ian Reyes',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
+      imageURL: daniel,
     },
     {
       name: 'Hang Cao',
