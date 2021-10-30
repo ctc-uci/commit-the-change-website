@@ -61,6 +61,7 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import daniel from '../../../images/about/memberImages/daniel.jpg';
 
+
 const members = {
   info: [
     {
