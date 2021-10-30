@@ -53,6 +53,7 @@ import matthew from '../../../images/about/memberImages/matthew.jpg';
 import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
+import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 
 const members = {
   info: [
@@ -344,6 +345,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
+    },
+    {
+      name: 'Hayden Powers',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
+      imageURL: haydenp,
     },
     {
       name: 'Alec Chen',
