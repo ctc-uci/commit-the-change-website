@@ -61,7 +61,6 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 
-
 const members = {
   info: [
     {
