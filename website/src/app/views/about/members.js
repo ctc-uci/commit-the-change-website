@@ -56,9 +56,10 @@ import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
 import ted from '../../../images/about/memberImages/ted.jpg';
-import daniel from '../../../images/about/memberImages/daniel.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
-
+import kory from '../../../images/about/memberImages/kory.jpg';
+import charles from '../../../images/about/memberImages/charles.jpg';
+import daniel from '../../../images/about/memberImages/daniel.jpg';
 
 const members = {
   info: [
@@ -214,6 +215,12 @@ const members = {
       imageURL: ashley,
     },
     {
+      name: 'Charles Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
+      imageURL: charles,
+    },
+    {
       name: 'Claude Yan',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/claude-yan-b41a3216a/',
@@ -284,6 +291,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'www.linkedin.com/in/kei-asakawa',
       imageURL: kei,
+    },
+    {
+      name: 'Kory Zhang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
+      imageURL: kory,
     },
     {
       name: 'Madhusudhan Sharma',
