@@ -58,6 +58,7 @@ import thomas from '../../../images/about/memberImages/thomas.jpg';
 import ted from '../../../images/about/memberImages/ted.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
+import keagan from '../../../images/about/memberImages/keagan.jpg';
 
 const members = {
   info: [
@@ -271,6 +272,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Keagan Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/keagan-nguyen-a425a2176/',
+      imageURL: keagan,
     },
     {
       name: 'Kei Asakawa',
