@@ -245,6 +245,12 @@ const members = {
       imageURL: hang,
     },
     {
+      name: 'Hayden Powers',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
+      imageURL: haydenp,
+    },
+    {
       name: 'Jenny Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
@@ -387,12 +393,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
-    },
-    {
-      name: 'Hayden Powers',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
-      imageURL: haydenp,
     },
     {
       name: 'Alec Chen',
