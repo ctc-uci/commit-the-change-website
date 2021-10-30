@@ -53,6 +53,12 @@ import matthew from '../../../images/about/memberImages/matthew.jpg';
 import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
+import crystal from '../../../images/about/memberImages/crystal.jpg';
+import thomas from '../../../images/about/memberImages/thomas.jpg';
+import ted from '../../../images/about/memberImages/ted.jpg';
+import phil from '../../../images/about/memberImages/phil.jpg';
+import kory from '../../../images/about/memberImages/kory.jpg';
+import charles from '../../../images/about/memberImages/charles.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 
 const members = {
@@ -209,10 +215,22 @@ const members = {
       imageURL: ashley,
     },
     {
+      name: 'Charles Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
+      imageURL: charles,
+    },
+    {
       name: 'Claude Yan',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/claude-yan-b41a3216a/',
       imageURL: claude,
+    },
+    {
+      name: 'Crystal Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/crystalleesf/',
+      imageURL: crystal,
     },
     {
       name: 'Cyre Jorin To',
@@ -269,6 +287,12 @@ const members = {
       imageURL: kei,
     },
     {
+      name: 'Kory Zhang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
+      imageURL: kory,
+    },
+    {
       name: 'Madhusudhan Sharma',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
@@ -311,6 +335,12 @@ const members = {
       imageURL: phillip,
     },
     {
+      name: 'Phil Truong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/philip-truong/',
+      imageURL: phil,
+    },
+    {
       name: 'Preston Young',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
@@ -333,6 +363,18 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/sam-der',
       imageURL: sam,
+    },
+    {
+      name: 'Ted Kim',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ted-kim-471573203/',
+      imageURL: ted,
+    },
+    {
+      name: 'Thomas Neill',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
+      imageURL: thomas,
     },
     {
       name: 'Xuan Vu',
