@@ -49,6 +49,7 @@ import rileychampion from '../../../images/about/memberImages/rileychampion.jpg'
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 import michelleblin from '../../../images/about/memberImages/michelleblin.jpg';
 import mia from '../../../images/about/memberImages/mia.jpg';
+<<<<<<< Updated upstream
 import matthew from '../../../images/about/memberImages/matthew.jpg';
 import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
@@ -62,6 +63,9 @@ import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+=======
+import rayan from '../../../images/about/memberImages/rayan.jpg';
+>>>>>>> Stashed changes
 
 const members = {
   info: [
@@ -360,6 +364,12 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
       imageURL: preston,
     },
+    {
+      name: 'Rayan Tighiouart',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
+      imageURL: rayan,
+    }
     {
       name: 'Riley Champion',
       position: 'Developer',
