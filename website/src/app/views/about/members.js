@@ -63,6 +63,7 @@ import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import jose from '../../../images/about/memberImages/jose.jpg';
 
 const members = {
   info: [
@@ -264,6 +265,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jordanbyoung19/',
       imageURL: jordan,
+    },
+    {
+      name: 'Jose Martinez',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jdmartinez4/',
+      imageURL: jose,
     },
     {
       name: 'Joshua Chan',
