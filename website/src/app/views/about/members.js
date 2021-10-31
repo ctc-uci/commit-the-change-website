@@ -60,6 +60,7 @@ import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import orvielalzate from '../../../images/about/memberImages/orvielalzate.jpg';
 
 const members = {
   info: [
@@ -333,6 +334,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/michellelin1',
       imageURL: michelleblin,
+    },
+    {
+      name: 'Orviel Alzate',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/orviel-marie-alzate-42898a224/',
+      imageURL: orvielalzate,
     },
     {
       name: 'Phillip Chan',
