@@ -72,6 +72,7 @@ import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
+import orviel from '../../../images/about/memberImages/orvielalzate.jpg';
 
 const members = {
   info: [
@@ -399,6 +400,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/olivia-ih/',
       imageURL: olivia,
+    },
+    {
+      name: 'Orviel Alzate',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/orviel-marie-alzate-42898a224/',
+      imageURL: orvielalzate,
     },
     {
       name: 'Phillip Chan',
