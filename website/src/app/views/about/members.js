@@ -72,6 +72,7 @@ import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
+import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
 
 const members = {
   info: [
@@ -447,6 +448,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/sam-der',
       imageURL: sam,
+    },
+    {
+      name: 'Sravan Tallapaka',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sravan-tallapaka-514288225/',
+      imageURL: sravantallapaka,
     },
     {
       name: 'Ted Kim',
