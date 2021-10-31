@@ -457,7 +457,6 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
     },
-
   ],
 };
 
