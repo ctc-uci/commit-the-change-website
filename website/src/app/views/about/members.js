@@ -60,6 +60,7 @@ import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import melayna from '../../../images/about/memberImages/melayna.jpg';
 
 const members = {
   info: [
@@ -315,6 +316,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
+    },
+    {
+      name: 'Melayna Navarro',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/melayna-navarro/',
+      imageURL: melayna,
     },
     {
       name: 'Mia Schroeder',
