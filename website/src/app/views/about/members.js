@@ -71,6 +71,7 @@ import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
+import david from '../../../images/about/memberImages/david.jpg';
 
 const members = {
   info: [
@@ -266,6 +267,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dang-nguyen-nguyen-39b481223/',
       imageURL: dang,
+    },
+    {
+      name: 'David Lu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/david-lin-yi-lu/',
+      imageURL: david,
     },
     {
       name: 'Hang Cao',
