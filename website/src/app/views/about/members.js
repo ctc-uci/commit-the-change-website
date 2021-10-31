@@ -62,14 +62,12 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
-import tony from '../../../images/about/memberImages/tonyliu.jpg';
-import austin from '../../../images/about/memberImages/austin.jpg';
 import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
-import rachel from '../../../images/about/memberImages/rachel.jpg';
+import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 
 const members = {
   info: [
@@ -225,12 +223,6 @@ const members = {
       imageURL: ashley,
     },
     {
-      name: 'Austin Truong',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
-      imageURL: austin,
-    },
-    {
       name: 'Charles Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
@@ -381,6 +373,12 @@ const members = {
       imageURL: michelleblin,
     },
     {
+      name: 'Mignon April Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mignon-april-lee/',
+      imageURL: mignonaprillee,
+    },
+    {
       name: 'Olivia Ih',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/olivia-ih/',
@@ -403,12 +401,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
       imageURL: preston,
-    },
-    {
-      name: 'Rachel Villamor',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
-      imageURL: rachel,
     },
     {
       name: 'Riley Champion',
@@ -445,12 +437,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
       imageURL: thomas,
-    },
-    {
-      name: 'Tony Liu',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/tonyliu02/',
-      imageURL: tony,
     },
     {
       name: 'Xuan Vu',
