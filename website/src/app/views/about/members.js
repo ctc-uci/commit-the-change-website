@@ -62,6 +62,7 @@ import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import kyle from '../../../images/about/memberImages/kyle.jpg';
 
 const members = {
   info: [
@@ -305,6 +306,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
       imageURL: kory,
+    },
+    {
+      name: 'Kyle Pan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kylerpan/',
+      imageURL: kyle,
     },
     {
       name: 'Madhusudhan Sharma',
