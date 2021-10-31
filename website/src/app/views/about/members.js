@@ -57,6 +57,12 @@ import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
 import ted from '../../../images/about/memberImages/ted.jpg';
 import michaelpien from '../../../images/about/memberImages/michaelpien.jpg';
+import phil from '../../../images/about/memberImages/phil.jpg';
+import kory from '../../../images/about/memberImages/kory.jpg';
+import charles from '../../../images/about/memberImages/charles.jpg';
+import keagan from '../../../images/about/memberImages/keagan.jpg';
+import rochelle from '../../../images/about/memberImages/rochelle.jpg';
+import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 
 const members = {
   info: [
@@ -212,6 +218,12 @@ const members = {
       imageURL: ashley,
     },
     {
+      name: 'Charles Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
+      imageURL: charles,
+    },
+    {
       name: 'Claude Yan',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/claude-yan-b41a3216a/',
@@ -234,6 +246,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hang-m-cao/',
       imageURL: hang,
+    },
+    {
+      name: 'Hannah Chang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hannahchang10',
+      imageURL: hannahc,
     },
     {
       name: 'Jenny Lee',
@@ -272,10 +290,22 @@ const members = {
       imageURL: kasey,
     },
     {
+      name: 'Keagan Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/keagan-nguyen-a425a2176/',
+      imageURL: keagan,
+    },
+    {
       name: 'Kei Asakawa',
       position: 'Developer',
       linkedinURL: 'www.linkedin.com/in/kei-asakawa',
       imageURL: kei,
+    },
+    {
+      name: 'Kory Zhang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
+      imageURL: kory,
     },
     {
       name: 'Madhusudhan Sharma',
@@ -302,6 +332,12 @@ const members = {
       imageURL: mia,
     },
     {
+      name: 'Michael Pien',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
+      imageURL: michaelpien,
+    },
+    {
       name: 'Michelle Lin',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
@@ -320,6 +356,12 @@ const members = {
       imageURL: phillip,
     },
     {
+      name: 'Phil Truong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/philip-truong/',
+      imageURL: phil,
+    },
+    {
       name: 'Preston Young',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
@@ -336,6 +378,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
       imageURL: rileywong,
+    },
+    {
+      name: 'Rochelle Nixon',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+      imageURL: rochelle,
     },
     {
       name: 'Sam Der',
@@ -408,12 +456,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Michael Pien',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
-      imageURL: michaelpien,
     },
   ],
 };
