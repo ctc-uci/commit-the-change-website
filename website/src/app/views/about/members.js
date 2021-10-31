@@ -54,6 +54,23 @@ import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
+import thomas from '../../../images/about/memberImages/thomas.jpg';
+import ted from '../../../images/about/memberImages/ted.jpg';
+import michaelpien from '../../../images/about/memberImages/michaelpien.jpg';
+import phil from '../../../images/about/memberImages/phil.jpg';
+import kory from '../../../images/about/memberImages/kory.jpg';
+import anna from '../../../images/about/memberImages/anna.jpeg';
+import charles from '../../../images/about/memberImages/charles.jpg';
+import haydenp from '../../../images/about/memberImages/haydenp.jpg';
+import keagan from '../../../images/about/memberImages/keagan.jpg';
+import tony from '../../../images/about/memberImages/tonyliu.jpg';
+import austin from '../../../images/about/memberImages/austin.jpg';
+import olivia from '../../../images/about/memberImages/olivia.JPG';
+import rochelle from '../../../images/about/memberImages/rochelle.jpg';
+import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import kyle from '../../../images/about/memberImages/kyle.jpg';
+import dang from '../../../images/about/memberImages/dang.jpg';
+import rachel from '../../../images/about/memberImages/rachel.jpg';
 import thien from '../../../images/about/memberImages/Thien.jpg';
 
 const members = {
