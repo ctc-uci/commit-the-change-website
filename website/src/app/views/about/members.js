@@ -72,7 +72,6 @@ import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
 
-
 const members = {
   info: [
     {
