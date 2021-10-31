@@ -317,7 +317,6 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
     },
-
     {
       name: 'Meryl Marasigan',
       position: 'Developer',
@@ -342,7 +341,6 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/michellelin1',
       imageURL: michelleblin,
     },
-
     {
       name: 'Phillip Chan',
       position: 'Developer',
