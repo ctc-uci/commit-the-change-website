@@ -54,6 +54,7 @@ import michellelin from '../../../images/about/memberImages/michellelin.jpg';
 import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
+import thien from '../../../images/about/memberImages/Thien.jpg';
 
 const members = {
   info: [
@@ -351,6 +352,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
+    },
+    {
+      name: 'Thien Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
+      imageURL: thien,
     },
     {
       name: 'Alec Chen',
