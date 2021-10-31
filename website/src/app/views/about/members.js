@@ -60,6 +60,7 @@ import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import meryl from '../../../images/about/memberImages/meryl.jpg';
 
 const members = {
   info: [
@@ -316,6 +317,13 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
     },
+
+    {
+      name: 'Meryl Marasigan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/meryl-marasigan/',
+      imageURL: meryl,
+    },
     {
       name: 'Mia Schroeder',
       position: 'Developer',
@@ -334,6 +342,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/michellelin1',
       imageURL: michelleblin,
     },
+
     {
       name: 'Phillip Chan',
       position: 'Developer',
