@@ -60,6 +60,7 @@ import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import tony from '../../../images/about/memberImages/tonyliu.jpg';
 
 const members = {
   info: [
@@ -381,6 +382,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
       imageURL: thomas,
+    },
+    {
+      name: 'Tony Liu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/tonyliu02/',
+      imageURL: tony,
     },
     {
       name: 'Xuan Vu',
