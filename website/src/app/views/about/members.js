@@ -62,11 +62,14 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import tony from '../../../images/about/memberImages/tonyliu.jpg';
+import austin from '../../../images/about/memberImages/austin.jpg';
 import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
+import rachel from '../../../images/about/memberImages/rachel.jpg';
 
 const members = {
   info: [
@@ -220,6 +223,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ashley-liu-6314731b9/',
       imageURL: ashley,
+    },
+    {
+      name: 'Austin Truong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
+      imageURL: austin,
     },
     {
       name: 'Charles Lee',
@@ -396,6 +405,12 @@ const members = {
       imageURL: preston,
     },
     {
+      name: 'Rachel Villamor',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
+      imageURL: rachel,
+    },
+    {
       name: 'Riley Champion',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
@@ -430,6 +445,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
       imageURL: thomas,
+    },
+    {
+      name: 'Tony Liu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/tonyliu02/',
+      imageURL: tony,
     },
     {
       name: 'Xuan Vu',
