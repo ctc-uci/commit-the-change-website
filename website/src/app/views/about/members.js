@@ -60,7 +60,8 @@ import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
-import olivia from '../../../images/about/memberImages/olivia.JPG';
+import rochelle from '../../../images/about/memberImages/rochelle.jpg';
+import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 
 const members = {
   info: [
@@ -246,6 +247,12 @@ const members = {
       imageURL: hang,
     },
     {
+      name: 'Hannah Chang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hannahchang10',
+      imageURL: hannahc,
+    },
+    {
       name: 'Jenny Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
@@ -370,6 +377,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
       imageURL: rileywong,
+    },
+    {
+      name: 'Rochelle Nixon',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+      imageURL: rochelle,
     },
     {
       name: 'Sam Der',
