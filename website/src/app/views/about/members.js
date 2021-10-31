@@ -216,6 +216,12 @@ const members = {
       imageURL: ashley,
     },
     {
+      name: 'Austin Truong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
+      imageURL: austin,
+    },
+    {
       name: 'Charles Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
@@ -394,12 +400,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
-    },
-    {
-      name: 'Austin Truong',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
-      imageURL: austin,
     },
     {
       name: 'Alec Chen',
