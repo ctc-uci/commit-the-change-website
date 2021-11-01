@@ -83,6 +83,7 @@ import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
 import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
+import ivyn from '../../../images/about/memberImages/ivyn.jpg';
 
 const members = {
   info: [
@@ -596,6 +597,11 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
+    },
+    {
+      name: 'Ivy Nguyen',
+      position: 'Developer',
+      imageURL: ivyn,
     },
   ],
 };
