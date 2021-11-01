@@ -259,6 +259,12 @@ const members = {
       imageURL: charles,
     },
     {
+      name: 'Christine Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/christine-nguyen-89abb4172/',
+      imageURL: christine,
+    },
+    {
       name: 'Claude Yan',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/claude-yan-b41a3216a/',
@@ -569,12 +575,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Christine Nguyen',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/christine-nguyen-89abb4172/',
-      imageURL: christine,
     },
   ],
 };
