@@ -82,6 +82,7 @@ import joshuamontellano from '../../../images/about/memberImages/joshuamontellan
 import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
+import jackie from '../../../images/about/memberImages/jackie.jpg';
 
 const members = {
   info: [
@@ -319,6 +320,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
       imageURL: haydenp,
+    },
+    {
+      name: 'Jacqueline Thai',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jthai-1201/',
+      imageURL: jackie,
     },
     {
       name: 'Jenny Lee',
