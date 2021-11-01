@@ -69,9 +69,9 @@ import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
+import celine from '../../../images/about/memberImages/celine.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
-import celine from '../../../images/about/memberImages/celine.jpg'
 
 const members = {
   info: [
