@@ -256,16 +256,16 @@ const members = {
       imageURL: cyre,
     },
     {
-      name: 'Daniel Ian Reyes',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
-      imageURL: daniel,
-    },
-    {
       name: 'Dang Nguyen',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dang-nguyen-nguyen-39b481223/',
       imageURL: dang,
+    },
+    {
+      name: 'Daniel Ian Reyes',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
+      imageURL: daniel,
     },
     {
       name: 'Hang Cao',
