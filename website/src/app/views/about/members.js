@@ -463,6 +463,12 @@ const members = {
       imageURL: ted,
     },
     {
+      name: 'Thien Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
+      imageURL: thien,
+    },
+    {
       name: 'Thomas Neill',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
@@ -485,12 +491,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
       imageURL: zoya,
-    },
-    {
-      name: 'Thien Nguyen',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
-      imageURL: thien,
     },
     {
       name: 'Alec Chen',
