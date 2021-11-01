@@ -296,6 +296,12 @@ const members = {
       imageURL: dang,
     },
     {
+      name: 'Daniel Ian Reyes',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
+      imageURL: daniel,
+    },
+    {
       name: 'Dingyi (Jaedyn) Chang',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dingyi-chang/',
@@ -305,7 +311,6 @@ const members = {
       name: 'Donghyun Daniel Koo',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/koo-donghyun/',
-      imageURL: daniel,
     },
     {
       name: 'Ethan So',
