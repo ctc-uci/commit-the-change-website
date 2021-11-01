@@ -74,7 +74,6 @@ import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
 
-
 const members = {
   info: [
     {
