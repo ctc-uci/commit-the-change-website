@@ -55,6 +55,7 @@ import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
+import noaharsala from '../../../images/about/memberImages/noaharsala.jpeg';
 import ted from '../../../images/about/memberImages/ted.jpg';
 import michaelpien from '../../../images/about/memberImages/michaelpien.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
@@ -508,6 +509,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
       imageURL: thomas,
+    },
+    {
+      name: 'Noah Arsala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/noah-arsala-0324911b3/',
+      imageURL: noaharsala,
     },
     {
       name: 'Tony Liu',
