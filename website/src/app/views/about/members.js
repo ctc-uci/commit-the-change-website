@@ -72,6 +72,7 @@ import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
+import andrea from '../../../images/about/memberImages/andrea.jpg';
 
 const members = {
   info: [
@@ -213,6 +214,12 @@ const members = {
       position: 'Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/sylvester-yue/',
       imageURL: sylvester,
+    },
+    {
+      name: 'Andrea AhSue',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/andrea-ahsue',
+      imageURL: andrea,
     },
     {
       name: 'Alvin Chen',
