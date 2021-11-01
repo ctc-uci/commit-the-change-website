@@ -71,7 +71,6 @@ import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
-import celine from '../../../images/about/memberImages/celine.jpg'
 
 const members = {
   info: [
@@ -237,12 +236,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
       imageURL: austin,
-    },
-    {
-      name: 'Celine Kim',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/sellin-celine-kim-5303271b4/',
-      imageURL: celine,
     },
     {
       name: 'Charles Lee',
