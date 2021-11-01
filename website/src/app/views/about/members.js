@@ -83,6 +83,10 @@ import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
 import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
+import allisonliu from '../../../images/about/memberImages/allison.jpg';
+import alyssa from '../../../images/about/memberImages/alyssa.png';
+import ashleyyeh from '../../../images/about/memberImages/ashley.png';
+import ashlyn from '../../../images/about/memberImages/ashlyn.png';
 
 const members = {
   info: [
@@ -565,13 +569,13 @@ const members = {
       name: 'Allison Liu',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
-      imageURL: alec,
+      imageURL: allisonliu,
     },
     {
       name: 'Alyssa Harvey',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/alyssajharvey/',
-      imageURL: alec,
+      imageURL: alyssa,
     },
     {
       name: 'Angeline Pho',
@@ -583,13 +587,13 @@ const members = {
       name: 'Ashley Yeh',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/ashley-yeh/',
-      imageURL: alec,
+      imageURL: ashleyyeh,
     },
     {
       name: 'Ashlyn Riambon',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/ashlynriambon/',
-      imageURL: alec,
+      imageURL: ashlyn,
     },
     {
       name: 'Becky Dinh',
