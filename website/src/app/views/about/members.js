@@ -84,6 +84,7 @@ import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jp
 import andrea from '../../../images/about/memberImages/andrea.jpg';
 import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
 import johnny from '../../../images/about/memberImages/johnny.jpg';
+import ethanso from '../../../images/about/memberImages/ethanso.jpg';
 
 const members = {
   info: [
@@ -303,6 +304,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/koo-donghyun/',
       imageURL: daniel,
+    },
+    {
+      name: 'Ethan So',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ethansso/',
+      imageURL: ethanso,
     },
     {
       name: 'Hang Cao',
