@@ -59,16 +59,30 @@ import ted from '../../../images/about/memberImages/ted.jpg';
 import michaelpien from '../../../images/about/memberImages/michaelpien.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
+import parsa from '../../../images/about/memberImages/parsa.jpg';
+import anna from '../../../images/about/memberImages/anna.jpeg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import meryl from '../../../images/about/memberImages/meryl.jpg';
+import orvielalzate from '../../../images/about/memberImages/orvielalzate.jpg';
+import tony from '../../../images/about/memberImages/tonyliu.jpg';
 import austin from '../../../images/about/memberImages/austin.jpg';
 import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
+<<<<<<< HEAD
 import dingyi from '../../../images/about/memberImages/dingyi.jpg';
+=======
+import rachel from '../../../images/about/memberImages/rachel.jpg';
+import thien from '../../../images/about/memberImages/Thien.jpg';
+import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
+import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
+import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
+import andrea from '../../../images/about/memberImages/andrea.jpg';
+>>>>>>> dev
 
 const members = {
   info: [
@@ -212,10 +226,22 @@ const members = {
       imageURL: sylvester,
     },
     {
+      name: 'Andrea AhSue',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/andrea-ahsue',
+      imageURL: andrea,
+    },
+    {
       name: 'Alvin Chen',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/alvinchenn',
       imageURL: alvin,
+    },
+    {
+      name: 'Anna Chan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/anna-channa',
+      imageURL: anna,
     },
     {
       name: 'Ashley Liu',
@@ -314,6 +340,12 @@ const members = {
       imageURL: justin,
     },
     {
+      name: 'Joshua Montellano',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/joshua-montellano-b753391a3/',
+      imageURL: joshuamontellano,
+    },
+    {
       name: 'Kasey Chuang',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
@@ -362,6 +394,12 @@ const members = {
       imageURL: maxim,
     },
     {
+      name: 'Meryl Marasigan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/meryl-marasigan/',
+      imageURL: meryl,
+    },
+    {
       name: 'Mia Schroeder',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/mia-schroeder',
@@ -386,10 +424,28 @@ const members = {
       imageURL: michelleblin,
     },
     {
+      name: 'Mignon April Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mignon-april-lee/',
+      imageURL: mignonaprillee,
+    },
+    {
       name: 'Olivia Ih',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/olivia-ih/',
       imageURL: olivia,
+    },
+    {
+      name: 'Orviel Alzate',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/orviel-marie-alzate-42898a224/',
+      imageURL: orvielalzate,
+    },
+    {
+      name: 'Parsa Karamat',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/parsa-karamat/',
+      imageURL: parsa,
     },
     {
       name: 'Phillip Chan',
@@ -408,6 +464,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
       imageURL: preston,
+    },
+    {
+      name: 'Rachel Villamor',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
+      imageURL: rachel,
     },
     {
       name: 'Riley Champion',
@@ -434,16 +496,34 @@ const members = {
       imageURL: sam,
     },
     {
+      name: 'Sravan Tallapaka',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sravan-tallapaka-514288225/',
+      imageURL: sravantallapaka,
+    },
+    {
       name: 'Ted Kim',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ted-kim-471573203/',
       imageURL: ted,
     },
     {
+      name: 'Thien Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
+      imageURL: thien,
+    },
+    {
       name: 'Thomas Neill',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thomas-neill-038b65224/',
       imageURL: thomas,
+    },
+    {
+      name: 'Tony Liu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/tonyliu02/',
+      imageURL: tony,
     },
     {
       name: 'Xuan Vu',
