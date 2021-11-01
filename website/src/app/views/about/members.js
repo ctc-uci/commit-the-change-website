@@ -63,6 +63,7 @@ import charles from '../../../images/about/memberImages/charles.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import daniel from '../../../images/about/memberImages/daniel.jpg';
 
 const members = {
   info: [
@@ -240,6 +241,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/cyrejorin/',
       imageURL: cyre,
+    },
+    {
+      name: 'Donghyun Daniel Koo',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/koo-donghyun/',
+      imageURL: daniel,
     },
     {
       name: 'Hang Cao',
