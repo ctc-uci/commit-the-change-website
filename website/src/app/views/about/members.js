@@ -381,6 +381,12 @@ const members = {
       imageURL: kyle,
     },
     {
+      name: 'Lee Bahir',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/lee-bahir/',
+      imageURL: lee,
+    },
+    {
       name: 'Madhusudhan Sharma',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
@@ -583,12 +589,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Lee Bahir',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/lee-bahir/',
-      imageURL: lee,
     },
   ],
 };
