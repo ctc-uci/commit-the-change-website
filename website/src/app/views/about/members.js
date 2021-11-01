@@ -544,6 +544,12 @@ const members = {
       imageURL: xuan,
     },
     {
+      name: 'Yasper De Jong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/yasper-de-jong-4b3082207/',
+      imageURL: yasperdejong,
+    },
+    {
       name: 'Zoya Hajee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
@@ -590,12 +596,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Yasper De Jong',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/yasper-de-jong-4b3082207/',
-      imageURL: yasperdejong,
     },
   ],
 };
