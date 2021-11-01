@@ -76,8 +76,9 @@ import rachel from '../../../images/about/memberImages/rachel.jpg';
 import thien from '../../../images/about/memberImages/Thien.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
 import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
-import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg'
+import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
+import rithvikT from '../../../images/about/memberImages/rithvikT.jpg';
 
 const members = {
   info: [
@@ -471,6 +472,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
       imageURL: rochelle,
+    },
+    {
+      name: 'Rithvik Tirumala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
+      imageURL: rithvikT,
     },
     {
       name: 'Sam Der',
