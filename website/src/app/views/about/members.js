@@ -72,6 +72,7 @@ import austin from '../../../images/about/memberImages/austin.jpg';
 import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import daniel from '../../../images/about/memberImages/daniel.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import dingyi from '../../../images/about/memberImages/dingyi.jpg';
@@ -82,6 +83,7 @@ import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
 import lee from '../../../images/about/memberImages/lee.jpg';
+import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
 
 const members = {
   info: [
@@ -295,6 +297,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dingyi-chang/',
       imageURL: dingyi,
+    },
+    {
+      name: 'Donghyun Daniel Koo',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/koo-donghyun/',
+      imageURL: daniel,
     },
     {
       name: 'Hang Cao',
@@ -541,6 +549,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/xuanbvu/',
       imageURL: xuan,
+    },
+    {
+      name: 'Yasper De Jong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/yasper-de-jong-4b3082207/',
+      imageURL: yasperdejong,
     },
     {
       name: 'Zoya Hajee',
