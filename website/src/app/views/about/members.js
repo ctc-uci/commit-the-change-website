@@ -333,6 +333,12 @@ const members = {
       imageURL: haydenp,
     },
     {
+      name: 'Jared Lai',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jared-l-02aa8b126',
+      imageURL: jared,
+    },
+    {
       name: 'Jenny Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
@@ -625,12 +631,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
-    },
-    {
-      name: 'Jared Lai',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/jared-l-02aa8b126',
-      imageURL: jared,
     },
   ],
 };
