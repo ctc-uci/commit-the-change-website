@@ -87,6 +87,7 @@ import lee from '../../../images/about/memberImages/lee.jpg';
 import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
 import johnny from '../../../images/about/memberImages/johnny.jpg';
 import ethanso from '../../../images/about/memberImages/ethanso.jpg';
+import danielian from '../../../images/about/memberImages/danielian.jpg';
 
 const members = {
   info: [
@@ -294,6 +295,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dang-nguyen-nguyen-39b481223/',
       imageURL: dang,
+    },
+    {
+      name: 'Daniel Ian Reyes',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
+      imageURL: danielian,
     },
     {
       name: 'Dingyi (Jaedyn) Chang',
