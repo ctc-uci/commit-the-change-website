@@ -93,6 +93,7 @@ import ethanso from '../../../images/about/memberImages/ethanso.jpg';
 import danielian from '../../../images/about/memberImages/danielian.jpg';
 import jared from '../../../images/about/memberImages/jared.jpg';
 import ruslan from '../../../images/about/memberImages/ruslan.jpg';
+import derek from '../../../images/about/memberImages/derek.jpg';
 
 const members = {
   info: [
@@ -306,6 +307,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
       imageURL: danielian,
+    },
+    {
+      name: 'Derek Lam',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/derekblam/',
+      imageURL: derek,
     },
     {
       name: 'Dingyi (Jaedyn) Chang',
