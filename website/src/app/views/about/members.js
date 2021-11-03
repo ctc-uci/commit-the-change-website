@@ -541,12 +541,6 @@ const members = {
       imageURL: rileychampion,
     },
     {
-      name: 'Ruslan Manoharan',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/ruslan-manoharan-3b18801a4/',
-      imageURL: ruslan,
-    },
-    {
       name: 'Riley Wong',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
@@ -563,6 +557,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
       imageURL: rithvikT,
+    },
+    {
+      name: 'Ruslan Manoharan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ruslan-manoharan-3b18801a4/',
+      imageURL: ruslan,
     },
     {
       name: 'Sam Der',
