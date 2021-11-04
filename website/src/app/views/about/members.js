@@ -104,6 +104,7 @@ import serena from '../../../images/about/memberImages/serenatrang.jpg';
 import vivianlin from '../../../images/about/memberImages/vivianlin.jpg';
 import viviannguyen from '../../../images/about/memberImages/viviannguyen.jpeg';
 import zoyasoy from '../../../images/about/memberImages/zoyasoy.png';
+import kaitlyn from '../../../images/about/memberImages/kaitlynsuzuki.jpg';
 
 const members = {
   info: [
@@ -694,7 +695,7 @@ const members = {
       name: 'Kaitlyn Suzuki',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/kaitlyn-suzuki/',
-      imageURL: alec,
+      imageURL: kaitlyn,
     },
     {
       name: 'Lancy Tan',
