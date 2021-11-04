@@ -433,6 +433,12 @@ const members = {
       imageURL: kei,
     },
     {
+      name: 'Kenny Tran',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kenny-tran-3020a715a/',
+      imageURL: kenny,
+    },
+    {
       name: 'Kory Zhang',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
@@ -622,12 +628,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
       imageURL: thien,
-    },
-    {
-      name: 'Kenny Tran',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/kenny-tran-3020a715a/',
-      imageURL: kenny,
     },
     {
       name: 'Thomas Neill',
