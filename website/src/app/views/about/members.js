@@ -123,7 +123,6 @@ import ruslan from '../../../images/about/memberImages/ruslan.jpg';
 import derek from '../../../images/about/memberImages/derek.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 
-
 const members = {
   info: [
     {
@@ -408,7 +407,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jared-l-02aa8b126',
       imageURL: jared,
-
     },
     {
       name: 'Jenny Lee',
