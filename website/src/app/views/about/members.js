@@ -56,6 +56,7 @@ import kei from '../../../images/about/memberImages/kei.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
 import crystal from '../../../images/about/memberImages/crystal.jpg';
 import thomas from '../../../images/about/memberImages/thomas.jpg';
+import noah from '../../../images/about/memberImages/noah.jpeg';
 import ted from '../../../images/about/memberImages/ted.jpg';
 import michaelpien from '../../../images/about/memberImages/michaelpien.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
@@ -65,6 +66,8 @@ import anna from '../../../images/about/memberImages/anna.jpeg';
 import charles from '../../../images/about/memberImages/charles.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
+import melayna from '../../../images/about/memberImages/melayna.jpg';
+import pham from '../../../images/about/memberImages/pham.jpg';
 import meryl from '../../../images/about/memberImages/meryl.jpg';
 import orvielalzate from '../../../images/about/memberImages/orvielalzate.jpg';
 import tony from '../../../images/about/memberImages/tonyliu.jpg';
@@ -72,17 +75,54 @@ import austin from '../../../images/about/memberImages/austin.jpg';
 import olivia from '../../../images/about/memberImages/olivia.JPG';
 import rochelle from '../../../images/about/memberImages/rochelle.jpg';
 import hannahc from '../../../images/about/memberImages/hannahc.jpg';
+import rayan from '../../../images/about/memberImages/rayan.jpg';
+import jose from '../../../images/about/memberImages/jose.jpg';
 import daniel from '../../../images/about/memberImages/daniel.jpg';
 import kyle from '../../../images/about/memberImages/kyle.jpg';
+import celine from '../../../images/about/memberImages/celine.jpg';
 import dang from '../../../images/about/memberImages/dang.jpg';
 import dingyi from '../../../images/about/memberImages/dingyi.jpg';
 import rachel from '../../../images/about/memberImages/rachel.jpg';
+import david from '../../../images/about/memberImages/david.jpg';
 import thien from '../../../images/about/memberImages/Thien.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
 import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
 import jackie from '../../../images/about/memberImages/jackie.jpg';
+import rithvikT from '../../../images/about/memberImages/rithvikT.jpg';
+import lee from '../../../images/about/memberImages/lee.jpg';
+import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
+import allisonliu from '../../../images/about/memberImages/allison.jpg';
+import alyssa from '../../../images/about/memberImages/alyssa.png';
+import ashleyyeh from '../../../images/about/memberImages/ashley.png';
+import ashlyn from '../../../images/about/memberImages/ashlyn.png';
+import carlos from '../../../images/about/memberImages/carlos.jpg';
+import christina from '../../../images/about/memberImages/christinavu.jpg';
+import claire from '../../../images/about/memberImages/clairehyon.jpg';
+import erica from '../../../images/about/memberImages/ericayi.jpg';
+import fiona from '../../../images/about/memberImages/fionawu.jpg';
+import isabel from '../../../images/about/memberImages/isabelpham.png';
+import jacqueline from '../../../images/about/memberImages/jacquelinele.jpeg';
+import jade from '../../../images/about/memberImages/jadeluu.JPG';
+import james from '../../../images/about/memberImages/jamesmolamphy.jpg';
+import juhi from '../../../images/about/memberImages/juhipatel.jpg';
+import kaila from '../../../images/about/memberImages/kailalong.jpeg';
+import maireen from '../../../images/about/memberImages/maireenespiritu.jpg';
+import minh from '../../../images/about/memberImages/minhnguyen.jpg';
+import serena from '../../../images/about/memberImages/serenatrang.jpg';
+import vivianlin from '../../../images/about/memberImages/vivianlin.jpg';
+import viviannguyen from '../../../images/about/memberImages/viviannguyen.jpeg';
+import zoyasoy from '../../../images/about/memberImages/zoyasoy.png';
+import kaitlyn from '../../../images/about/memberImages/kaitlynsuzuki.jpg';
+import johnny from '../../../images/about/memberImages/johnny.jpg';
+import ethanso from '../../../images/about/memberImages/ethanso.jpg';
+import danielian from '../../../images/about/memberImages/danielian.jpg';
+import jared from '../../../images/about/memberImages/jared.jpg';
+import ruslan from '../../../images/about/memberImages/ruslan.jpg';
+import derek from '../../../images/about/memberImages/derek.jpg';
+import duongvu from '../../../images/about/memberImages/duongvu.jpg';
+
 
 const members = {
   info: [
@@ -256,6 +296,12 @@ const members = {
       imageURL: austin,
     },
     {
+      name: 'Celine Kim',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/sellin-celine-kim-5303271b4/',
+      imageURL: celine,
+    },
+    {
       name: 'Charles Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/charles-min-lee-978834214/',
@@ -292,6 +338,24 @@ const members = {
       imageURL: dang,
     },
     {
+      name: 'Daniel Ian Reyes',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/daniel-ian-reyes-7a7378224',
+      imageURL: danielian,
+    },
+    {
+      name: 'David Lu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/david-lin-yi-lu/',
+      imageURL: david,
+    },
+    {
+      name: 'Derek Lam',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/derekblam/',
+      imageURL: derek,
+    },
+    {
       name: 'Dingyi (Jaedyn) Chang',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/dingyi-chang/',
@@ -302,6 +366,18 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/koo-donghyun/',
       imageURL: daniel,
+    },
+    {
+      name: 'Duong Vu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/duong-vu-641a861b2/',
+      imageURL: duongvu,
+    },
+    {
+      name: 'Ethan So',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ethansso/',
+      imageURL: ethanso,
     },
     {
       name: 'Hang Cao',
@@ -328,16 +404,35 @@ const members = {
       imageURL: jackie,
     },
     {
+      name: 'Jared Lai',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jared-l-02aa8b126',
+      imageURL: jared,
+
+    },
+    {
       name: 'Jenny Lee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
       imageURL: jenny,
     },
     {
+      name: 'Johnny Phan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jphan345/',
+      imageURL: johnny,
+    },
+    {
       name: 'Jordan Young',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jordanbyoung19/',
       imageURL: jordan,
+    },
+    {
+      name: 'Jose Martinez',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/jdmartinez4/',
+      imageURL: jose,
     },
     {
       name: 'Joshua Chan',
@@ -394,6 +489,12 @@ const members = {
       imageURL: kyle,
     },
     {
+      name: 'Lee Bahir',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/lee-bahir/',
+      imageURL: lee,
+    },
+    {
       name: 'Madhusudhan Sharma',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
@@ -410,6 +511,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
+    },
+    {
+      name: 'Melayna Navarro',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/melayna-navarro/',
+      imageURL: melayna,
     },
     {
       name: 'Meryl Marasigan',
@@ -448,6 +555,12 @@ const members = {
       imageURL: mignonaprillee,
     },
     {
+      name: 'Noah Arsala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/noah-arsala-0324911b3/',
+      imageURL: noah,
+    },
+    {
       name: 'Olivia Ih',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/olivia-ih/',
@@ -466,6 +579,12 @@ const members = {
       imageURL: parsa,
     },
     {
+      name: 'Pham',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/nicoleminhpham/',
+      imageURL: pham,
+    },
+    {
       name: 'Phillip Chan',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/chnphllp/',
@@ -482,6 +601,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/preston-c-young/',
       imageURL: preston,
+    },
+    {
+      name: 'Rayan Tighiouart',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
+      imageURL: rayan,
     },
     {
       name: 'Rachel Villamor',
@@ -506,6 +631,18 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
       imageURL: rochelle,
+    },
+    {
+      name: 'Rithvik Tirumala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
+      imageURL: rithvikT,
+    },
+    {
+      name: 'Ruslan Manoharan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ruslan-manoharan-3b18801a4/',
+      imageURL: ruslan,
     },
     {
       name: 'Sam Der',
@@ -550,6 +687,12 @@ const members = {
       imageURL: xuan,
     },
     {
+      name: 'Yasper De Jong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/yasper-de-jong-4b3082207/',
+      imageURL: yasperdejong,
+    },
+    {
       name: 'Zoya Hajee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
@@ -562,10 +705,34 @@ const members = {
       imageURL: alec,
     },
     {
+      name: 'Allison Liu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
+      imageURL: allisonliu,
+    },
+    {
+      name: 'Alyssa Harvey',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/alyssajharvey/',
+      imageURL: alyssa,
+    },
+    {
       name: 'Angeline Pho',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/angeline-pho-19743319a/',
       imageURL: angeline,
+    },
+    {
+      name: 'Ashley Yeh',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/ashley-yeh/',
+      imageURL: ashleyyeh,
+    },
+    {
+      name: 'Ashlyn Riambon',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/ashlynriambon/',
+      imageURL: ashlyn,
     },
     {
       name: 'Becky Dinh',
@@ -574,10 +741,82 @@ const members = {
       imageURL: becky,
     },
     {
+      name: 'Carlos Lim',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
+      imageURL: carlos,
+    },
+    {
+      name: 'Christina Vu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/christina-vu-493560164/',
+      imageURL: christina,
+    },
+    {
+      name: 'Claire Hyon',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/clairehyon/',
+      imageURL: claire,
+    },
+    {
+      name: 'Erica Yi',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/ericakyi/',
+      imageURL: erica,
+    },
+    {
+      name: 'Fiona Wu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/fiona-wu-0/',
+      imageURL: fiona,
+    },
+    {
       name: 'Hannah Limary',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/hannah-limary/',
       imageURL: hannah,
+    },
+    {
+      name: 'Isabel Pham',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/isabe1pham/',
+      imageURL: isabel,
+    },
+    {
+      name: 'Jacqueline Le',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/jacquelinexle/',
+      imageURL: jacqueline,
+    },
+    {
+      name: 'Jade Luu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/jade-luu-883209203/',
+      imageURL: jade,
+    },
+    {
+      name: 'James Molamphy',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/james-molamphy/',
+      imageURL: james,
+    },
+    {
+      name: 'Juhi Patel',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/juhipatel21/',
+      imageURL: juhi,
+    },
+    {
+      name: 'Kailia Long',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/kaila-long-3952b7210/',
+      imageURL: kaila,
+    },
+    {
+      name: 'Kaitlyn Suzuki',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/kaitlyn-suzuki/',
+      imageURL: kaitlyn,
     },
     {
       name: 'Lancy Tan',
@@ -586,16 +825,52 @@ const members = {
       imageURL: lancy,
     },
     {
+      name: 'Maireen Espiritu',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/maireen-espiritu/',
+      imageURL: maireen,
+    },
+    {
       name: 'Michelle Huynh',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/michelleyhuynh/',
       imageURL: michelle,
     },
     {
+      name: 'Minh Nguyen',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/minh-nguyen16/',
+      imageURL: minh,
+    },
+    {
+      name: 'Serena Trang',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/serenatrang/',
+      imageURL: serena,
+    },
+    {
       name: 'Vani Anilkumar',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/vani-anilkumar-670819137/',
       imageURL: vani,
+    },
+    {
+      name: 'Vivian Lin',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/vivianplin/',
+      imageURL: vivianlin,
+    },
+    {
+      name: 'Vivian Nguyen',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/vivvnguyenn/',
+      imageURL: viviannguyen,
+    },
+    {
+      name: 'Zoya Soy',
+      position: 'Designer',
+      linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
+      imageURL: zoyasoy,
     },
   ],
 };
