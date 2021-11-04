@@ -856,7 +856,6 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
       imageURL: zoyasoy,
     },
-
   ],
 };
 
