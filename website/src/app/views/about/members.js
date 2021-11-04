@@ -119,6 +119,7 @@ import danielian from '../../../images/about/memberImages/danielian.jpg';
 import jared from '../../../images/about/memberImages/jared.jpg';
 import ruslan from '../../../images/about/memberImages/ruslan.jpg';
 import derek from '../../../images/about/memberImages/derek.jpg';
+import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 
 const members = {
   info: [
@@ -358,6 +359,12 @@ const members = {
       imageURL: daniel,
     },
     {
+      name: 'Duong Vu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/duong-vu-641a861b2/',
+      imageURL: duongvu,
+    },
+    {
       name: 'Ethan So',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ethansso/',
@@ -585,6 +592,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
       imageURL: rayan,
     },
+    {
       name: 'Rachel Villamor',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
@@ -848,6 +856,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
       imageURL: zoyasoy,
     },
+
   ],
 };
 
