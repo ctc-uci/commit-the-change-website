@@ -121,6 +121,7 @@ import jared from '../../../images/about/memberImages/jared.jpg';
 import ruslan from '../../../images/about/memberImages/ruslan.jpg';
 import derek from '../../../images/about/memberImages/derek.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
+import evan from '../../../images/about/memberImages/evan.JPG';
 
 const members = {
   info: [
@@ -376,6 +377,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ethansso/',
       imageURL: ethanso,
+    },
+    {
+      name: 'Evan Servito',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
+      imageURL: evan,
     },
     {
       name: 'Hang Cao',
