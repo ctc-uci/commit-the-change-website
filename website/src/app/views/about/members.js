@@ -585,6 +585,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
       imageURL: rayan,
     },
+    {
       name: 'Rachel Villamor',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
