@@ -146,7 +146,7 @@ const members = {
     {
       name: 'Rostam Vakhshoori',
       position: 'Co-VP of Projects',
-      linkedinURL: 'https://www.linkedin.com/in/rostamvakhshoori/',
+      linkedinURL: 'https://www.linkedin.com/in/trungmd/',
       imageURL: rostam,
     },
     {
