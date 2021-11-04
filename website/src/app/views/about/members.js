@@ -97,6 +97,7 @@ import danielian from '../../../images/about/memberImages/danielian.jpg';
 import jared from '../../../images/about/memberImages/jared.jpg';
 import ruslan from '../../../images/about/memberImages/ruslan.jpg';
 import derek from '../../../images/about/memberImages/derek.jpg';
+import kenny from '../../../images/about/memberImages/kenny.jpg';
 
 const members = {
   info: [
@@ -621,6 +622,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/thiennguyen2001/',
       imageURL: thien,
+    },
+    {
+      name: 'Kenny Tran',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kenny-tran-3020a715a/',
+      imageURL: kenny,
     },
     {
       name: 'Thomas Neill',
