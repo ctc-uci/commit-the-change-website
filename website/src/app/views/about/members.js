@@ -86,6 +86,7 @@ import rachel from '../../../images/about/memberImages/rachel.jpg';
 import david from '../../../images/about/memberImages/david.jpg';
 import thien from '../../../images/about/memberImages/Thien.jpg';
 import joshuamontellano from '../../../images/about/memberImages/joshuamontellano.jpg';
+import megan from '../../../images/about/memberImages/megan.jpg';
 import sravantallapaka from '../../../images/about/memberImages/sravantallapaka.jpg';
 import mignonaprillee from '../../../images/about/memberImages/mignonaprillee.jpg';
 import andrea from '../../../images/about/memberImages/andrea.jpg';
@@ -402,6 +403,12 @@ const members = {
       imageURL: evan,
     },
     {
+      name: 'Hana Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hanalee394/',
+      imageURL: hana,
+    },
+    {
       name: 'Hang Cao',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hang-m-cao/',
@@ -544,6 +551,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
+    },
+    {
+      name: 'Megan Voong',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/meganvoong/',
+      imageURL: megan,
     },
     {
       name: 'Melayna Navarro',
