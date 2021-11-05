@@ -127,6 +127,7 @@ import derek from '../../../images/about/memberImages/derek.jpg';
 import kenny from '../../../images/about/memberImages/kenny.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
+import hana from '../../../images/about/memberImages/hanalee.jpg';
 
 const members = {
   info: [
@@ -399,6 +400,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
       imageURL: evan,
+    },
+    {
+      name: 'Hana Lee',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hanalee394/',
+      imageURL: hana,
     },
     {
       name: 'Hang Cao',
