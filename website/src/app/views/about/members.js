@@ -126,6 +126,7 @@ import derek from '../../../images/about/memberImages/derek.jpg';
 import kenny from '../../../images/about/memberImages/kenny.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
+import kavan from '../../../images/about/memberImages/kavan.JPG'
 
 const members = {
   info: [
@@ -482,6 +483,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kaseyychuang',
       imageURL: kasey,
+    },
+    {
+      name: 'Kavan Dharia',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kavan-dharia-803861199/',
+      imageURL: kavan,
     },
     {
       name: 'Keagan Nguyen',
