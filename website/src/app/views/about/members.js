@@ -93,6 +93,7 @@ import jackie from '../../../images/about/memberImages/jackie.jpg';
 import rithvikT from '../../../images/about/memberImages/rithvikT.jpg';
 import lee from '../../../images/about/memberImages/lee.jpg';
 import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
+import alexandria from '../../../images/about/memberImages/alexandria.jpg';
 import allisonliu from '../../../images/about/memberImages/allison.jpg';
 import alyssa from '../../../images/about/memberImages/alyssa.png';
 import ashleyyeh from '../../../images/about/memberImages/ashley.png';
@@ -107,6 +108,7 @@ import jacqueline from '../../../images/about/memberImages/jacquelinele.jpeg';
 import jade from '../../../images/about/memberImages/jadeluu.JPG';
 import james from '../../../images/about/memberImages/jamesmolamphy.jpg';
 import juhi from '../../../images/about/memberImages/juhipatel.jpg';
+import justine from '../../../images/about/memberImages/justinechou.jpg';
 import kaila from '../../../images/about/memberImages/kailalong.jpeg';
 import maireen from '../../../images/about/memberImages/maireenespiritu.jpg';
 import minh from '../../../images/about/memberImages/minhnguyen.jpg';
@@ -210,7 +212,12 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/acxyz/',
       imageURL: alan,
     },
-
+    {
+      name: 'Alexandria Wang',
+      position: 'Design Lead',
+      linkedinURL: 'https://www.linkedin.com/in/alexandria-wang-44066a187/',
+      imageURL: alexandria,
+    },
     {
       name: 'Allen Luo',
       position: 'Tech Lead',
@@ -234,6 +241,12 @@ const members = {
       position: 'Tech Lead',
       linkedinURL: 'https://www.linkedin.com/in/henry--gip/',
       imageURL: henry,
+    },
+    {
+      name: 'Justine Chou',
+      position: 'Design Lead',
+      linkedinURL: 'https://www.linkedin.com/in/justine-chou/',
+      imageURL: justine,
     },
     {
       name: 'Megha Kak',
