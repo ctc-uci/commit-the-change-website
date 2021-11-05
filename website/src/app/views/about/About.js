@@ -18,24 +18,34 @@ function About() {
   );
 
   // TEAM ***********************
-  const grid = useTrail(
-    membersData.info.length,
-    animationConfig.fadeInStiff(teamViewCount > 0),
-  );
+  // const grid = useTrail(
+  //   membersData.info.length,
+  //   animationConfig.fadeInStiff(teamViewCount > 0),
+  // );
 
-  const profileImages = grid.map((props, index) => {
-    const person = membersData.info[index];
-    return (
-      <animated.div className="card" style={props}>
-        <ProfileCard
-          name={person.name}
-          position={person.position}
-          linkedinURL={person.linkedinURL}
-          imageURL={person.imageURL}
-        />
-      </animated.div>
-    );
-  });
+  // const profileImages = grid.map((props, index) => {
+  //   const person = membersData.info[index];
+  //   return (
+  //     <animated.div className="card" style={props}>
+  //       <ProfileCard
+  //         name={person.name}
+  //         position={person.position}
+  //         linkedinURL={person.linkedinURL}
+  //         imageURL={person.imageURL}
+  //       />
+  //     </animated.div>`
+  //   );
+  // });
+  const profileImages = membersData.info.map((memberInfo) => (
+    <div className="card">
+      <ProfileCard
+        name={memberInfo.name}
+        position={memberInfo.position}
+        linkedinURL={memberInfo.linkedinURL}
+        imageURL={memberInfo.imageURL}
+      />
+    </div>
+  ));
 
   // VALUES ***********************
   const valuesAnimationTopRow = useTrail(
