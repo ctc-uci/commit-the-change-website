@@ -126,7 +126,8 @@ import derek from '../../../images/about/memberImages/derek.jpg';
 import kenny from '../../../images/about/memberImages/kenny.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
-import kavan from '../../../images/about/memberImages/kavan.JPG'
+import hana from '../../../images/about/memberImages/hanalee.jpg';
+import kavan from '../../../images/about/memberImages/kavan.jpeg';
 
 const members = {
   info: [
