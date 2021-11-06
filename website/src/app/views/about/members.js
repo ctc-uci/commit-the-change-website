@@ -129,6 +129,7 @@ import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
 import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
+import caroline from '../../../images/about/memberImages/caroline.jpeg';
 
 const members = {
   info: [
@@ -311,6 +312,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
       imageURL: austin,
+    },
+    {
+      name: 'Caroline Wang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/caroline-wang-55b3711b8',
+      imageURL: caroline,
     },
     {
       name: 'Celine Kim',
