@@ -129,6 +129,7 @@ import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
 import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
+import qiranwang from '../../../images/about/memberImages/qiranwang.png';
 
 const members = {
   info: [
@@ -649,6 +650,12 @@ const members = {
       imageURL: preston,
     },
     {
+      name: 'Qiran Wang',
+      position: 'Developer',
+      linkedinURL: '',
+      imageURL: qiranwang,
+    },
+    {
       name: 'Rayan Tighiouart',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
@@ -918,6 +925,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
       imageURL: zoyasoy,
     },
+
   ],
 };
 
