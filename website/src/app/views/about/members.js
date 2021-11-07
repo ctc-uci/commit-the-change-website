@@ -652,7 +652,7 @@ const members = {
     {
       name: 'Qiran Wang',
       position: 'Developer',
-      linkedinURL: 'fdsafsd',
+      linkedinURL: 'https://www.linkedin.com/in/%E5%90%AF%E7%84%B6-%E6%B1%AA-7191b8225/',
       imageURL: qiranwang,
     },
     {
