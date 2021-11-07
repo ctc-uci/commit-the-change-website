@@ -117,6 +117,7 @@ import serena from '../../../images/about/memberImages/serenatrang.jpg';
 import vivianlin from '../../../images/about/memberImages/vivianlin.jpg';
 import viviannguyen from '../../../images/about/memberImages/viviannguyen.jpeg';
 import zoyasoy from '../../../images/about/memberImages/zoyasoy.png';
+import arzoo from '../../../images/about/memberImages/arzoo.jpg';
 import kaitlyn from '../../../images/about/memberImages/kaitlynsuzuki.jpg';
 import johnny from '../../../images/about/memberImages/johnny.jpg';
 import ethanso from '../../../images/about/memberImages/ethanso.jpg';
@@ -299,6 +300,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/anna-channa',
       imageURL: anna,
+    },
+    {
+      name: 'Arzoo Singh',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/arzoosingh/',
+      imageURL: arzoo,
     },
     {
       name: 'Ashley Liu',
