@@ -105,6 +105,7 @@ import claire from '../../../images/about/memberImages/clairehyon.jpg';
 import erica from '../../../images/about/memberImages/ericayi.jpg';
 import fiona from '../../../images/about/memberImages/fionawu.jpg';
 import isabel from '../../../images/about/memberImages/isabelpham.png';
+import ivyn from '../../../images/about/memberImages/ivyn.jpg';
 import jacqueline from '../../../images/about/memberImages/jacquelinele.jpeg';
 import jade from '../../../images/about/memberImages/jadeluu.JPG';
 import james from '../../../images/about/memberImages/jamesmolamphy.jpg';
@@ -439,6 +440,11 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
       imageURL: haydenp,
+    },
+    {
+      name: 'Ivy Nguyen',
+      position: 'Developer',
+      imageURL: ivyn,
     },
     {
       name: 'Jacqueline Thai',
