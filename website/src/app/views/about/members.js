@@ -131,7 +131,6 @@ import evan from '../../../images/about/memberImages/evan.JPG';
 import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
 import caroline from '../../../images/about/memberImages/caroline.jpeg';
-import kanu from '../../../images/about/memberImages/kanu.jpeg';
 
 const members = {
   info: [
@@ -500,12 +499,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/joshua-montellano-b753391a3/',
       imageURL: joshuamontellano,
-    },
-    {
-      name: 'Kanu Chandra',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/kanu-chandra-30310916b/',
-      imageURL: kanu,
     },
     {
       name: 'Kasey Chuang',
