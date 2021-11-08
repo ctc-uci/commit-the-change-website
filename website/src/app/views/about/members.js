@@ -132,6 +132,7 @@ import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
 import caroline from '../../../images/about/memberImages/caroline.jpeg';
 import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
+import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 
 const members = {
   info: [
@@ -566,6 +567,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
       imageURL: maxim,
+    },
+    {
+      name: 'Mazen Ghosn',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mazen-ghosn/',
+      imageURL: mazenghosn,
     },
     {
       name: 'Megan Voong',
