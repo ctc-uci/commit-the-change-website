@@ -867,7 +867,7 @@ const members = {
       imageURL: juhi,
     },
     {
-      name: 'Kailia Long',
+      name: 'Kaila Long',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/kaila-long-3952b7210/',
       imageURL: kaila,
