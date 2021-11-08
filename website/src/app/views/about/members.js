@@ -131,6 +131,7 @@ import evan from '../../../images/about/memberImages/evan.JPG';
 import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
 import caroline from '../../../images/about/memberImages/caroline.jpeg';
+import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
 
 const members = {
   info: [
@@ -867,7 +868,7 @@ const members = {
       imageURL: juhi,
     },
     {
-      name: 'Kailia Long',
+      name: 'Kaila Long',
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/kaila-long-3952b7210/',
       imageURL: kaila,
@@ -931,6 +932,12 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
       imageURL: zoyasoy,
+    },
+    {
+      name: 'Kyle Doliente',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
+      imageURL: kyledoliente,
     },
   ],
 };
