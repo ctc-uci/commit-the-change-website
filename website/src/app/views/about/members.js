@@ -410,6 +410,12 @@ const members = {
       imageURL: duongvu,
     },
     {
+      name: 'Edward Wu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/edward-william-wu/',
+      imageURL: edwardwu,
+    },
+    {
       name: 'Ethan So',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ethansso/',
@@ -960,12 +966,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
       imageURL: kyledoliente,
-    },
-    {
-      name: 'Edward Wu',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/edward-william-wu/',
-      imageURL: edwardwu,
     },
   ],
 };
