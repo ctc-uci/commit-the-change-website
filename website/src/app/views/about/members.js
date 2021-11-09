@@ -135,7 +135,7 @@ import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
 import kanu from '../../../images/about/memberImages/kanu.jpeg';
 import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
-import EdWu from '../../../images/about/memberImages/EdWu.jpeg';
+import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 
 const members = {
   info: [
@@ -965,7 +965,7 @@ const members = {
       name: 'Edward Wu',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/edward-william-wu/',
-      imageURL: EdWu,
+      imageURL: edwardwu,
     },
   ],
 };
