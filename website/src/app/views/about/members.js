@@ -135,6 +135,7 @@ import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
 import kanu from '../../../images/about/memberImages/kanu.jpeg';
 import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
+import EdWu from '../../../images/about/memberImages/EdWu.jpeg';
 
 const members = {
   info: [
@@ -959,6 +960,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
       imageURL: kyledoliente,
+    },
+    {
+      name: 'Edward Wu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/edward-william-wu/',
+      imageURL: EdWu,
     },
   ],
 };
