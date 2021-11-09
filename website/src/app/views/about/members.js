@@ -135,6 +135,7 @@ import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
 import kanu from '../../../images/about/memberImages/kanu.jpeg';
 import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
+import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 
 const members = {
   info: [
@@ -725,6 +726,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ruslan-manoharan-3b18801a4/',
       imageURL: ruslan,
+    },
+    {
+      name: 'Ryan Cho',
+      position: 'Developer',
+      linkedinURL: 'www.linkedin.com/in/ryanjhcho',
+      imageURL: ryancho,
     },
     {
       name: 'Sam Der',
