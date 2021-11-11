@@ -59,6 +59,7 @@ import ted from '../../../images/about/memberImages/ted.jpg';
 import phil from '../../../images/about/memberImages/phil.jpg';
 import kory from '../../../images/about/memberImages/kory.jpg';
 import charles from '../../../images/about/memberImages/charles.jpg';
+import rongmu from '../../../images/about/memberImages/rongmu.jpg';
 
 const members = {
   info: [
@@ -351,11 +352,17 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
       imageURL: rileychampion,
     },
-    {
+   {
       name: 'Riley Wong',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
       imageURL: rileywong,
+    },
+    {
+      name: 'Rong Mu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rong-lynn-mu-028992180/',
+      imageURL: rongmu,
     },
     {
       name: 'Sam Der',
