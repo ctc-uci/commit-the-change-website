@@ -444,6 +444,7 @@ const members = {
     {
       name: 'Ivy Nguyen',
       position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ivy-nguyen-19b87b220/',
       imageURL: ivyn,
     },
     {
