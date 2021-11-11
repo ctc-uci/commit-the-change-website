@@ -352,7 +352,7 @@ const members = {
       linkedinURL: 'https://www.linkedin.com/in/rileychampion/',
       imageURL: rileychampion,
     },
-   {
+    {
       name: 'Riley Wong',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/riley-wong/',
