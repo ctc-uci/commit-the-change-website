@@ -130,11 +130,14 @@ import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
 import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
+import qiranwang from '../../../images/about/memberImages/qiranwang.png';
 import caroline from '../../../images/about/memberImages/caroline.jpeg';
 import kyledoliente from '../../../images/about/memberImages/kyledoliente.jpg';
 import kanu from '../../../images/about/memberImages/kanu.jpeg';
 import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
+import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
+import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 import charleswu from '../../../images/about/memberImages/charleswu.jpg';
 
 const members = {
@@ -416,6 +419,12 @@ const members = {
       imageURL: duongvu,
     },
     {
+      name: 'Edward Wu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/edward-william-wu/',
+      imageURL: edwardwu,
+    },
+    {
       name: 'Ethan So',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ethansso/',
@@ -692,6 +701,12 @@ const members = {
       imageURL: preston,
     },
     {
+      name: 'Qiran Wang',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/%E5%90%AF%E7%84%B6-%E6%B1%AA-7191b8225/',
+      imageURL: qiranwang,
+    },
+    {
       name: 'Rayan Tighiouart',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
@@ -732,6 +747,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/ruslan-manoharan-3b18801a4/',
       imageURL: ruslan,
+    },
+    {
+      name: 'Ryan Cho',
+      position: 'Developer',
+      linkedinURL: 'www.linkedin.com/in/ryanjhcho',
+      imageURL: ryancho,
     },
     {
       name: 'Sam Der',
