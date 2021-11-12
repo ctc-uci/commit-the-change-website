@@ -64,6 +64,7 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import parsa from '../../../images/about/memberImages/parsa.jpg';
 import anna from '../../../images/about/memberImages/anna.jpeg';
 import charles from '../../../images/about/memberImages/charles.jpg';
+import rongmu from '../../../images/about/memberImages/rongmu.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import melayna from '../../../images/about/memberImages/melayna.jpg';
@@ -105,6 +106,7 @@ import claire from '../../../images/about/memberImages/clairehyon.jpg';
 import erica from '../../../images/about/memberImages/ericayi.jpg';
 import fiona from '../../../images/about/memberImages/fionawu.jpg';
 import isabel from '../../../images/about/memberImages/isabelpham.png';
+import ivyn from '../../../images/about/memberImages/ivyn.jpg';
 import jacqueline from '../../../images/about/memberImages/jacquelinele.jpeg';
 import jade from '../../../images/about/memberImages/jadeluu.JPG';
 import james from '../../../images/about/memberImages/jamesmolamphy.jpg';
@@ -139,6 +141,7 @@ import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 import charleswu from '../../../images/about/memberImages/charleswu.jpg';
+import ileen from '../../../images/about/memberImages/ileen.jpg';
 
 const members = {
   info: [
@@ -467,6 +470,18 @@ const members = {
       imageURL: haydenp,
     },
     {
+      name: 'Ileen Fan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ileen-fan',
+      imageURL: ileen,
+    },
+    {
+      name: 'Ivy Nguyen',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ivy-nguyen-19b87b220/',
+      imageURL: ivyn,
+    },
+    {
       name: 'Jacqueline Thai',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jthai-1201/',
@@ -731,16 +746,22 @@ const members = {
       imageURL: rileywong,
     },
     {
+      name: 'Rithvik Tirumala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
+      imageURL: rithvikT,
+    },
+    {
       name: 'Rochelle Nixon',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
       imageURL: rochelle,
     },
     {
-      name: 'Rithvik Tirumala',
+      name: 'Rong Mu',
       position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
-      imageURL: rithvikT,
+      linkedinURL: 'https://www.linkedin.com/in/rong-lynn-mu-028992180/',
+      imageURL: rongmu,
     },
     {
       name: 'Ruslan Manoharan',
