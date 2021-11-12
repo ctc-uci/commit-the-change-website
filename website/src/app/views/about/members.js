@@ -564,6 +564,12 @@ const members = {
       imageURL: kenny,
     },
     {
+      name: 'Koji Hirai',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/koji-hirai-5b508414a/',
+      imageURL: kojihirai,
+    },
+    {
       name: 'Kory Zhang',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kory-zhang-00b86718b/',
@@ -988,12 +994,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
       imageURL: kyledoliente,
-    },
-    {
-      name: 'Koji Hirai',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/koji-hirai-5b508414a/',
-      imageURL: kojihirai,
     },
   ],
 };
