@@ -139,6 +139,7 @@ import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
+import ileen from '../../../images/about/memberImages/ileen.jpg';
 
 const members = {
   info: [
@@ -459,6 +460,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
       imageURL: haydenp,
+    },
+    {
+      name: 'Ileen Fan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ileen-fan',
+      imageURL: ileen,
     },
     {
       name: 'Ivy Nguyen',
