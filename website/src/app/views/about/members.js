@@ -64,6 +64,7 @@ import kory from '../../../images/about/memberImages/kory.jpg';
 import parsa from '../../../images/about/memberImages/parsa.jpg';
 import anna from '../../../images/about/memberImages/anna.jpeg';
 import charles from '../../../images/about/memberImages/charles.jpg';
+import rongmu from '../../../images/about/memberImages/rongmu.jpg';
 import haydenp from '../../../images/about/memberImages/haydenp.jpg';
 import keagan from '../../../images/about/memberImages/keagan.jpg';
 import melayna from '../../../images/about/memberImages/melayna.jpg';
@@ -140,6 +141,8 @@ import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 import kojihirai from '../../../images/about/memberImages/kojihirai.jpg';
+import charleswu from '../../../images/about/memberImages/charleswu.jpg';
+import ileen from '../../../images/about/memberImages/ileen.jpg';
 
 const members = {
   info: [
@@ -348,6 +351,12 @@ const members = {
       imageURL: charles,
     },
     {
+      name: 'Charles Wu',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/charles-wu-b2ba09225/',
+      imageURL: charleswu,
+    },
+    {
       name: 'Christine Nguyen',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/christine-nguyen-89abb4172/',
@@ -460,6 +469,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hmpowers/',
       imageURL: haydenp,
+    },
+    {
+      name: 'Ileen Fan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/ileen-fan',
+      imageURL: ileen,
     },
     {
       name: 'Ivy Nguyen',
@@ -738,16 +753,22 @@ const members = {
       imageURL: rileywong,
     },
     {
+      name: 'Rithvik Tirumala',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
+      imageURL: rithvikT,
+    },
+    {
       name: 'Rochelle Nixon',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
       imageURL: rochelle,
     },
     {
-      name: 'Rithvik Tirumala',
+      name: 'Rong Mu',
       position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rithvik-tirumala/',
-      imageURL: rithvikT,
+      linkedinURL: 'https://www.linkedin.com/in/rong-lynn-mu-028992180/',
+      imageURL: rongmu,
     },
     {
       name: 'Ruslan Manoharan',
