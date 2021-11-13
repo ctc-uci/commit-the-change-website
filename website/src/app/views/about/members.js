@@ -144,6 +144,7 @@ import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 import kojihirai from '../../../images/about/memberImages/kojihirai.jpg';
 import charleswu from '../../../images/about/memberImages/charleswu.jpg';
 import ileen from '../../../images/about/memberImages/ileen.jpg';
+import gurneetcheema from '../../../images/about/memberImages/gurneetcheema.jpeg'
 
 const members = {
   info: [
@@ -440,6 +441,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
       imageURL: evan,
+    },
+    {
+      name: 'Gurneet Cheema',
+      position: "Developer",
+      linkedinURL: 'https://www.linkedin.com/in/jeff-cheema/',
+      imageURL: gurneetcheema
     },
     {
       name: 'Hana Lee',
