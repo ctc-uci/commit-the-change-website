@@ -144,7 +144,7 @@ import ryancho from '../../../images/about/memberImages/ryancho.jpg';
 import kojihirai from '../../../images/about/memberImages/kojihirai.jpg';
 import charleswu from '../../../images/about/memberImages/charleswu.jpg';
 import ileen from '../../../images/about/memberImages/ileen.jpg';
-import gurneetcheema from '../../../images/about/memberImages/gurneetcheema.jpeg'
+import gurneetcheema from '../../../images/about/memberImages/gurneetcheema.jpeg';
 
 const members = {
   info: [
@@ -444,9 +444,9 @@ const members = {
     },
     {
       name: 'Gurneet Cheema',
-      position: "Developer",
+      position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jeff-cheema/',
-      imageURL: gurneetcheema
+      imageURL: gurneetcheema,
     },
     {
       name: 'Hana Lee',
@@ -603,6 +603,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/krish-mehta-3bb92519a/',
       imageURL: krish,
+    },
+    {
+      name: 'Kyle Doliente',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
+      imageURL: kyledoliente,
     },
     {
       name: 'Kyle Pan',
@@ -1023,12 +1029,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
       imageURL: zoyasoy,
-    },
-    {
-      name: 'Kyle Doliente',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/kyle-doliente-877133225/',
-      imageURL: kyledoliente,
     },
   ],
 };
