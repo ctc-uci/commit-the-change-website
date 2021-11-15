@@ -139,6 +139,7 @@ import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
+import mandy from '../../../images/about/memberImages/mandy.jpg';
 
 const members = {
   info: [
@@ -585,6 +586,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
       imageURL: madhusudhan,
+    },
+    {
+      name: 'Mandy Feng',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mandy-feng',
+      imageURL: mandy,
     },
     {
       name: 'Matthew Wu',
