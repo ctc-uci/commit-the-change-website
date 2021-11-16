@@ -131,7 +131,6 @@ import kenny from '../../../images/about/memberImages/kenny.jpg';
 import duongvu from '../../../images/about/memberImages/duongvu.jpg';
 import evan from '../../../images/about/memberImages/evan.JPG';
 import katie from '../../../images/about/memberImages/katie.jpg';
-import hana from '../../../images/about/memberImages/hanalee.jpg';
 import kavan from '../../../images/about/memberImages/kavan.jpeg';
 import krish from '../../../images/about/memberImages/krish.jpg';
 import qiranwang from '../../../images/about/memberImages/qiranwang.png';
@@ -448,12 +447,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jeff-cheema/',
       imageURL: gurneetcheema,
-    },
-    {
-      name: 'Hana Lee',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/hanalee394/',
-      imageURL: hana,
     },
     {
       name: 'Hassan Al-Najjar',
