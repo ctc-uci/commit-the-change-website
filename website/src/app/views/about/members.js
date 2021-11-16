@@ -44,7 +44,6 @@ import michelle from '../../../images/about/memberImages/michelle.jpg';
 import sabrina from '../../../images/about/memberImages/sabrina.jpg';
 import vani from '../../../images/about/memberImages/vani.jpg';
 import vivian from '../../../images/about/memberImages/vivian.jpg';
-import jordan from '../../../images/about/memberImages/jordan.jpg';
 import sam from '../../../images/about/memberImages/sam.jpg';
 import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
 import rileywong from '../../../images/about/memberImages/rileywong.jpg';
@@ -299,16 +298,16 @@ const members = {
       imageURL: sylvester,
     },
     {
-      name: 'Andrea AhSue',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/andrea-ahsue',
-      imageURL: andrea,
-    },
-    {
       name: 'Alvin Chen',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/alvinchenn',
       imageURL: alvin,
+    },
+    {
+      name: 'Andrea AhSue',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/andrea-ahsue',
+      imageURL: andrea,
     },
     {
       name: 'Anna Chan',
@@ -449,12 +448,6 @@ const members = {
       imageURL: gurneetcheema,
     },
     {
-      name: 'Hassan Al-Najjar',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/hassan-al-najjar-438184215/',
-      imageURL: hassan,
-    },
-    {
       name: 'Hang Cao',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hang-m-cao/',
@@ -465,6 +458,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/hannahchang10',
       imageURL: hannahc,
+    },
+    {
+      name: 'Hassan Al-Najjar',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/hassan-al-najjar-438184215/',
+      imageURL: hassan,
     },
     {
       name: 'Hayden Powers',
@@ -507,12 +506,6 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/jphan345/',
       imageURL: johnny,
-    },
-    {
-      name: 'Jordan Young',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/jordanbyoung19/',
-      imageURL: jordan,
     },
     {
       name: 'Jose Martinez',
@@ -725,16 +718,16 @@ const members = {
       imageURL: pham,
     },
     {
-      name: 'Phillip Chan',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/chnphllp/',
-      imageURL: phillip,
-    },
-    {
       name: 'Phil Truong',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/philip-truong/',
       imageURL: phil,
+    },
+    {
+      name: 'Phillip Chan',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/chnphllp/',
+      imageURL: phillip,
     },
     {
       name: 'Preston Young',
@@ -749,16 +742,16 @@ const members = {
       imageURL: qiranwang,
     },
     {
-      name: 'Rayan Tighiouart',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
-      imageURL: rayan,
-    },
-    {
       name: 'Rachel Villamor',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/rachel-villamor/',
       imageURL: rachel,
+    },
+    {
+      name: 'Rayan Tighiouart',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/rayan-tighiouart-b36989224/',
+      imageURL: rayan,
     },
     {
       name: 'Riley Champion',
