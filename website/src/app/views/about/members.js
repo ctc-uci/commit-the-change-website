@@ -139,7 +139,7 @@ import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
-import mandy from '../../../images/about/memberImages/mandy.jpg';
+import mandy from '../../../images/about/memberImages/mandy.jpeg';
 
 const members = {
   info: [
