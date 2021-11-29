@@ -28,6 +28,7 @@ function App() {
               <Route path="/apply" exact render={() => <Apply />} />
               <Route path="/projects" exact render={() => <Projects />} />
               <Route path="/contact" exact render={() => <ContactUs />} />
+              <Route path="/discord" exact render={() => window.location.replace('https://discord.gg/bNTTT83Kgk')} />
             </Switch>
           </div>
         </div>
