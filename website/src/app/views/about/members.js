@@ -93,7 +93,6 @@ import andrea from '../../../images/about/memberImages/andrea.jpg';
 import jackie from '../../../images/about/memberImages/jackie.jpg';
 import rithvikT from '../../../images/about/memberImages/rithvikT.jpg';
 import lee from '../../../images/about/memberImages/lee.jpg';
-import yasperdejong from '../../../images/about/memberImages/yasperdejong.jpg';
 import alexandria from '../../../images/about/memberImages/alexandria.jpg';
 import allisonliu from '../../../images/about/memberImages/allison.jpg';
 import alyssa from '../../../images/about/memberImages/alyssa.png';
@@ -101,7 +100,6 @@ import ashleyyeh from '../../../images/about/memberImages/ashley.png';
 import ashlyn from '../../../images/about/memberImages/ashlyn.png';
 import carlos from '../../../images/about/memberImages/carlos.jpg';
 import christina from '../../../images/about/memberImages/christinavu.jpg';
-import claire from '../../../images/about/memberImages/clairehyon.jpg';
 import erica from '../../../images/about/memberImages/ericayi.jpg';
 import fiona from '../../../images/about/memberImages/fionawu.jpg';
 import isabel from '../../../images/about/memberImages/isabelpham.png';
@@ -838,12 +836,6 @@ const members = {
       imageURL: xuan,
     },
     {
-      name: 'Yasper De Jong',
-      position: 'Developer',
-      linkedinURL: 'https://www.linkedin.com/in/yasper-de-jong-4b3082207/',
-      imageURL: yasperdejong,
-    },
-    {
       name: 'Zoya Hajee',
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/zoyahajee/',
@@ -902,12 +894,6 @@ const members = {
       position: 'Designer',
       linkedinURL: 'https://www.linkedin.com/in/christina-vu-493560164/',
       imageURL: christina,
-    },
-    {
-      name: 'Claire Hyon',
-      position: 'Designer',
-      linkedinURL: 'https://www.linkedin.com/in/clairehyon/',
-      imageURL: claire,
     },
     {
       name: 'Erica Yi',
