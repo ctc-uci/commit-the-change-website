@@ -49,7 +49,7 @@ function ContactUs() {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeP9T6ov7Q8Q6C6LSuvpHWy4Q_SIfATvWhkbMy6nzgsLaDOMQ/viewform"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="common-pink-button"
             >
               Interest Form
