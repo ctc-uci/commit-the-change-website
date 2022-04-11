@@ -47,7 +47,9 @@ function ContactUs() {
               Read FAQ
             </a>
             <a
-              href="https://forms.gle/mDWcyaBaGYtGMANp8"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeP9T6ov7Q8Q6C6LSuvpHWy4Q_SIfATvWhkbMy6nzgsLaDOMQ/viewform"
+              target="_blank"
+              rel="noreferrer"
               className="common-pink-button"
             >
               Interest Form
