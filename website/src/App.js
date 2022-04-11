@@ -10,6 +10,7 @@ import Projects from './app/views/our-work/OurWork';
 import ContactUs from './app/views/contact-us/ContactUs';
 import Footer from './app/components/Footer/Footer';
 import topRightBlob from './images/navbar/nav-blob.svg';
+import Blueprint from './app/views/blueprint/Blueprint';
 
 function App() {
   ReactGA.initialize('UA-178250253-1');
@@ -29,6 +30,7 @@ function App() {
               <Route path="/projects" exact render={() => <Projects />} />
               <Route path="/contact" exact render={() => <ContactUs />} />
               <Route path="/discord" exact render={() => window.location.replace('https://discord.gg/bNTTT83Kgk')} />
+              <Route path="/blueprint" exact render={() => <Blueprint />} />
             </Switch>
           </div>
         </div>
