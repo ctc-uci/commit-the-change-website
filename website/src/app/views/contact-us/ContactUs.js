@@ -4,6 +4,7 @@ import { animated, useSpring } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
 import ContactUsData from './ContactUs.json';
+import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
 import QuestionData from './faq';
 import Question from '../../components/Question/Question';
 import contactUsImage from '../../../images/contactUs/contact-us-header.svg';
@@ -90,6 +91,14 @@ function ContactUs() {
               {inlineEmail}
               !
             </p>
+            <a
+              href={Portfolio}
+              className="common-pink-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View our Portfolio
+            </a>
             <a
               href="mailto:ctc@uci.edu"
               className="common-pink-button"

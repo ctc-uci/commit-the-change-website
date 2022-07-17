@@ -3,6 +3,7 @@ import './OurWork.css';
 import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
+import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ProjectCardPurple from '../../components/ProjectCard/ProjectCardPurple';
 import ourWorkPic from '../../../images/ourWork/our-work.svg';
@@ -67,6 +68,14 @@ function OurWork() {
             <a href="#middle-our-work" className="common-pink-button">
               Learn More
             </a>
+            <a
+              href={Portfolio}
+              className="common-pink-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View our Portfolio
+            </a>
           </div>
         </div>
         <div className="top-panel-pic">
@@ -77,10 +86,10 @@ function OurWork() {
       <div id="middle-our-work">
         <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
           <animated.div style={slideUpMiddle} className="project-text">
-            <h1 className="upcoming-projects-title">Our Upcoming Projects</h1>
-            {/* <p className="upcoming-projects-description">
-              Here are the projects that we will be working on for the 2021-22 school year!
-            </p> */}
+            <h1 className="upcoming-projects-title">Our 2021-22 Projects</h1>
+            <p className="upcoming-projects-description">
+              Here are the projects that we worked on for the 2021-22 school year!
+            </p>
           </animated.div>
         </VisibilitySensor>
         <div className="projects">{activeProjectsAnimation}</div>
