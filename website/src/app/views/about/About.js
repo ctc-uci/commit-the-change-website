@@ -3,7 +3,6 @@ import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import ReactPageScroller from 'react-page-scroller';
 
-import Navbar from '../../components/Navbar/Nav';
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import aboutUsGraphic from '../../../images/about/about-us.svg';
 import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
@@ -95,7 +94,6 @@ function About() {
         customPageNumber={currentPage}
       >
         <div className="ctc-about-1-bg">
-          <Navbar />
           <div className="ctc-about-1-text">
             <p className="ctc-about-1-header">About Us</p>
             <p className="ctc-about-1-desc">

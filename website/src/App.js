@@ -21,8 +21,8 @@ function App() {
       <div className="App">
         <div className="page-container">
           <div className="content-wrap">
-            {/* <img className="top-blob" src={topRightBlob} alt="blob" />
-            <Nav /> */}
+            {/* <img className="top-blob" src={topRightBlob} alt="blob" /> */}
+            <Nav />
             <Switch>
               <Route path="/" exact render={() => <Home />} />
               <Route path="/about" exact render={() => <About />} />

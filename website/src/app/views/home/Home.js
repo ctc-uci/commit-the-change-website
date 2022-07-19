@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Home.css';
 import ReactPageScroller from 'react-page-scroller';
 import { animated, useSpring, useTrail } from 'react-spring';
-import Navbar from '../../components/Navbar/Nav';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
 import Timeline from '../../components/Timeline/Timeline';
@@ -83,7 +82,6 @@ function Home() {
         customPageNumber={currentPage}
       >
         <div className="ctc-home-1-bg">
-          <Navbar />
           <div className="ctc-home-1-container">
             <animated.div className="ctc-home-1-left" style={slideUp}>
               <p className="ctc-home-1-header">Commit the Change</p>
