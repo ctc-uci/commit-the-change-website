@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import './Home.css';
+import ReactPageScroller from 'react-page-scroller';
 import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import animationConfig from '../animationConstants';
 import Timeline from '../../components/Timeline/Timeline';
 import homeLandingPic from '../../../images/home/home-top-panel.svg';
+import ctcShadowedLogo from '../../../images/home/ctc-logo-yellow-shadowed.svg';
 import fblogo from '../../../images/home/facebooklogo.svg';
 import instagramlogo from '../../../images/home/instagramlogo.svg';
 import mediumlogo from '../../../images/home/mediumlogo.svg';
@@ -14,6 +16,10 @@ function Home() {
   const [middleViewCount, setMiddleVisible] = useState(0);
   const [bottomViewCount, setBottomVisible] = useState(0);
   const [bottomButtonViewCount, setBottomButtonVisible] = useState(0);
+  
+  // Playing around with react-page-scroller
+  const [currentPage, setCurrentPage] = useState(0);
+  const handlePageChange = pageNum => setCurrentPage(pageNum);
 
   // todo: make these into components
   const socialMediaList = [
@@ -52,6 +58,7 @@ function Home() {
   ];
 
   const slideUp = useSpring(animationConfig.slideUp(true));
+  const slideInLeft = useSpring(animationConfig.slideInLeft(true));
   const fadeInMiddle = useSpring(animationConfig.fadeIn(middleViewCount > 0));
   const fadeInBottom = useSpring(animationConfig.fadeIn(bottomViewCount > 0));
   const trail = useTrail(
@@ -67,105 +74,36 @@ function Home() {
       {socialMediaList[index]}
     </animated.a>
   ));
-
+  
   return (
     <main>
-      <animated.div style={slideUp} className="top-panel">
-        <div className="top-panel-text">
-          <div className="inside-top-panel-text">
-            <h1 className="top-panel-title">Commit the Change</h1>
-            <p className="top-panel-description">
-              We are an organization at UC Irvine that delivers high quality
-              software for non-profit organizations while providing meaningful
-              opportunities for students to develop tech with purpose.
-            </p>
-            <a
-              href="https://medium.com/@committhechange.uci/what-is-commit-the-change-uci-e389de8d1ab0"
-              className="common-pink-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn More
-            </a>
+      <ReactPageScroller
+        pageOnChange={handlePageChange}
+        customPageNumber={currentPage}
+      >
+        <div className="ctc-home-1-bg">
+          <div className="ctc-home-1-container">
+            <animated.div className="ctc-home-1-left" style={slideUp}>
+              <p className="ctc-home-1-header">Commit the Change</p>
+              <p className="ctc-home-1-subhead">Tech with Purpose</p>
+              <p className="ctc-home-1-desc">
+                We help non-profit organizations maximize their social impact with better tools and technologies, by giving opportunities to UC Irvine students to design and develop high-quality software projects.
+              </p>
+              <a onClick={() => handlePageChange(1)} className="no-text-decoration">
+                <div className="ctc-home-1-button">
+                  Learn More
+                </div>  
+              </a>
+            </animated.div>
+            <animated.div className="ctc-home-1-right" style={slideInLeft}>
+              <img className="ctc-home-1-shadowed-logo" src={ctcShadowedLogo} />
+            </animated.div>
           </div>
         </div>
-        <div className="top-panel-pic">
-          <img
-            src={homeLandingPic}
-            className="home-top-panel-img"
-            alt="Commit the Change team collaborating"
-          />
-        </div>
-      </animated.div>
-      <div className="social-media-section">
-        <div className="media-content">
-          <VisibilitySensor
-            onChange={(isVisible) => {
-              if (isVisible) setMiddleVisible(middleViewCount + 1);
-            }}
-          >
-            <animated.div style={fadeInMiddle}>
-              <h2>Connect With Us!</h2>
-              <p className="social-media-description">
-                Stay in the loop with us on our mission to create
-                <br />
-                <b>Tech With Purpose.</b>
-              </p>
-            </animated.div>
-          </VisibilitySensor>
-          <div className="media-links">{socialMediaLinks}</div>
-        </div>
-      </div>
-      <div className="bottom-panel">
-        <div className="purple-tint">
-          <VisibilitySensor
-            onChange={(isVisible) => {
-              if (isVisible) setBottomVisible(bottomViewCount + 1);
-            }}
-          >
-            <animated.div style={fadeInBottom}>
-              <h2>STUDENTS</h2>
-              <p className="join-team">Want to join the team?</p>
-              <p className="interested">
-                Interested in using your skills in
-                {' '}
-                <b>programming</b>
-                {' '}
-                or
-                {' '}
-                <b>design</b>
-                {' '}
-                on projects that help non-profit organizations?
-                <br />
-                Join Commit the Change!
-              </p>
-            </animated.div>
-          </VisibilitySensor>
-          <Timeline />
-          <VisibilitySensor
-            onChange={(isVisible) => {
-              if (isVisible) setBottomButtonVisible(bottomButtonViewCount + 1);
-            }}
-          >
-            <animated.div style={popButtons} className="buttons">
-              <a
-                href="/projects#middle-our-work"
-                className="timeline-btn projects-btn"
-              >
-                View Projects
-              </a>
-              {/* <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdhMFr1ZT8J5ENi2uEe62L54w-hNH8aVIAQLMDNqvPgWkhsWg/viewform?usp=sf_link"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="timeline-btn apply-btn"
-              >
-                Apply Here!
-              </a> */}
-            </animated.div>
-          </VisibilitySensor>
-        </div>
-      </div>
+        {/* Placeholder pages go here */}
+        <div className="ctc-home-1-bg" />
+        <div className="ctc-home-1-bg" />
+      </ReactPageScroller>
     </main>
   );
 }

@@ -4,6 +4,9 @@ Commit the Change website environment styles.
 
 **/
 
+/* Inter Font */
+@import url('https://rsms.me/inter/inter.css');
+
 /* Montserrat Font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */

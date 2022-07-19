@@ -4,6 +4,94 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.ctc-home-1-bg {
+    background-color: #E9E0FF;
+    background-image: linear-gradient(to right, white 0.25px, transparent 1px), linear-gradient(to bottom, white 0.25px, transparent 1px);
+    background-size: 30px 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.ctc-home-1-container {
+    position: absolute;
+    height: 20%;
+    top: 30%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctc-home-1-left {
+    width: calc(50% - 20px);
+    height: 100%;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+.ctc-home-1-right {
+    width: calc(40% - 10px);
+    margin-left: 10px;
+    margin-right: 10%;
+}
+
+.ctc-home-1-header {
+    font-family: "Inter";
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    color: #6331d8;
+    padding: 0;
+    margin: 0;
+}
+
+.ctc-home-1-subhead {
+    font-family: "Inter";
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000;
+    padding: 0;
+    margin: 0 0 0 2px;
+}
+
+.ctc-home-1-desc {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    padding: 0;
+    margin: 15px 0 0 4px;
+}
+
+.ctc-home-1-button {
+    background-color: var(--dark-pink);
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 50%);
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 2px 25px;
+    margin-top: 20px;
+    margin-left: 2px;
+    width: 105px;
+    cursor: pointer;
+}
+
+.ctc-home-1-shadowed-logo {
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    margin: 25px 0 0 25px;
+}
+
 /* Top Panel */
 
 .home-top-panel-img {
