@@ -11,8 +11,8 @@ html {
 
 .ctc-about-1-text {
   float: left;
-  width: 38%;
-  padding: 2% 6% 0% 6%;
+  width: 36%;
+  padding: 3% 2% 0% 6%;
 }
 
 .ctc-about-1-header {
@@ -38,10 +38,10 @@ html {
 .ctc-about-1-photo {
   background-image: url('../../../images/about/DSC01143.jpg');
   background-size: auto 100%;
-  background-position-x: 40%;
-  clip-path: ellipse(100% 80% at 100% 50%);
+  background-position: 38% 100%;
+  clip-path: ellipse(100% 85% at 105% 60%);
   height: 100%;
-  width: 50%;
+  width: 55%;
   float: right;
 }
 
