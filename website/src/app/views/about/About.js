@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
+import ReactPageScroller from 'react-page-scroller';
+
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import aboutUsGraphic from '../../../images/about/about-us.svg';
 import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
@@ -16,6 +18,11 @@ function About() {
   const slideUpValuesHeader = useSpring(
     animationConfig.slideUp(valuesViewCount > 0),
   );
+  const slideInLeft = useSpring(animationConfig.slideInLeft(true));
+
+  // Playing around with react-page-scroller
+  const [currentPage, setCurrentPage] = useState(0);
+  const handlePageChange = pageNum => setCurrentPage(pageNum);
 
   // TEAM ***********************
   // const grid = useTrail(
@@ -82,7 +89,32 @@ function About() {
 
   return (
     <main>
-      <animated.div style={slideUp} className="top-panel top-panel-about">
+      <ReactPageScroller
+        pageOnChange={handlePageChange}
+        customPageNumber={currentPage}
+      >
+        <div className="ctc-about-1-bg">
+          <div className="ctc-about-1-text">
+            <p className="ctc-about-1-header">About Us</p>
+            <p className="ctc-about-1-desc">
+              Founded in 2020, Commit the Change started as a small group of
+              undergraduate students with a shared love for coding and volunteering
+              for causes in their communities.
+              After merging with Blueprint in 2021, Commit the Change
+              is now an established student organization at UC Irvine with a team of
+              skilled designers and developers.
+            </p>
+            <a onClick={() => handlePageChange(1)} className="no-text-decoration">
+              <div className="ctc-about-1-button">
+                Learn More
+              </div>  
+            </a>
+          </div>
+          <div className="ctc-about-1-photo" />
+        </div>
+        <div className="ctc-about-1-bg" />
+      </ReactPageScroller>
+      {/* <animated.div style={slideUp} className="top-panel top-panel-about">
         <div className="content">
           <div className="top-panel-text top-panel-text-about">
             <div className="inside-top-panel-text">
@@ -196,7 +228,7 @@ function About() {
           <h1>The Team</h1>
         </VisibilitySensor>
         <div className="team-photos">{profileImages}</div>
-      </div>
+      </div> */}
     </main>
   );
 }
