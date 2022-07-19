@@ -39,6 +39,8 @@ html {
   background-image: url('../../../images/about/DSC01143.jpg');
   background-size: auto 100%;
   background-position: 38% 100%;
+  /* background-size: auto 120%;
+  background-position: 42.5% 93%; */
   clip-path: ellipse(100% 85% at 105% 60%);
   height: 100%;
   width: 55%;
@@ -54,7 +56,7 @@ html {
   font-weight: 500;
   line-height: 36px;
   text-decoration: none;
-  padding: 0px 25px;
+  padding: 0px 30px;
   margin-top: 30px;
   width: 105px;
   cursor: pointer;
