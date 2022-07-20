@@ -236,7 +236,55 @@
     color: var(--light-purple);
 }
 
+@media screen and (max-width: 1400px) {
+    .ctc-home-1-container {
+        width: 90%;
+        left: 4%;
+    }
+    
+    .ctc-home-1-left {
+        width: calc(50% - 20px);
+    }
+    
+    .ctc-home-1-right {
+        width: calc(45% - 10px);
+    }
+    
+    .ctc-home-1-header {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    
+    .ctc-home-1-subhead {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .ctc-home-1-desc {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+    
+    .ctc-home-1-button {
+        font-size: 18px;
+        line-height: 36px;
+        /* box-shadow: 0px 2px 4px rgb(0 0 0 / 50%); */
+        width: 100px;
+    }
+}
+
 @media screen and (max-width: 800px) {
+    .ctc-home-1-container {
+        height: 80%;
+        top: 15%;
+        left: 2.5%;
+    }
+
+    .ctc-home-1-header {
+        margin-bottom: 5px;
+    }
+
     .social-media-link{
         margin: 0 30px;
     }
@@ -252,7 +300,28 @@
     }
 }
 
+/* TODO Make mobile homepage views to get rid of these */
 @media screen and (max-width: 600px) {
+    
+    .ctc-home-1-left {
+        width: calc(55% - 20px);
+    }
+    
+    .ctc-home-1-right {
+        width: calc(40% - 10px);
+        margin-right: 5%;
+    }
+    
+    .ctc-home-1-header {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .ctc-home-1-subhead {
+        font-size: 24px;
+        line-height: 40px;
+    }
+        
     .bottom-panel h2 {
         font-size: 18px;
     }
