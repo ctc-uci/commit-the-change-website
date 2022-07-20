@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { animated, useSpring, config } from 'react-spring';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 import ctcLogo from '../../../images/logo/purple-ctc.svg';
 import closeIcon from '../../../images/navbar/close.svg';
@@ -19,7 +20,12 @@ function Nav() {
   const slideDownMobileNav = useSpring(animationConfigs.slideDownNav(open));
 
   return (
-    <nav className="nav-bar">
+    <motion.nav
+      className="nav-bar"
+      initial={{height: 0, opacity: 0}}
+      animate={{height: "auto", opacity: 1}}
+      transition={{delay: 0.25, duration: 0.5}}
+    >
       <Link to="/">
         <div className="navbar-logo" />
       </Link>
@@ -40,7 +46,7 @@ function Nav() {
           </div>
         </div>
       </animated.div> */}
-    </nav>
+    </motion.nav>
     // <nav>
     //   <div>
     //     <animated.div
