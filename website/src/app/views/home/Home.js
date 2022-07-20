@@ -87,6 +87,7 @@ function Home() {
           className="ctc-home-1-bg"
           initial={{width: 0, height: 0}}
           animate={{width: "100%", height: "100%"}}
+          exit={{x: "100%", y: "100%"}}
           transition={{duration: 1}}
         >
           <div className="ctc-home-1-container">
@@ -114,7 +115,7 @@ function Home() {
                 transition={{delay: 0.8, duration: 0.75}}
               >
                 We help non-profit organizations maximize their social impact
-                with better tools and technologies, by giving opportunities to UC Irvine
+                with better tools and technologies, by providing opportunities to UC Irvine
                 students to design and develop high-quality software projects.
               </motion.p>
               <a onClick={() => handlePageChange(1)} className="no-text-decoration">

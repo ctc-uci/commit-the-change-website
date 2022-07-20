@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { animated, useSpring, useTrail } from 'react-spring';
 import VisibilitySensor from 'react-visibility-sensor';
 import ReactPageScroller from 'react-page-scroller';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import aboutUsGraphic from '../../../images/about/about-us.svg';
@@ -20,9 +21,16 @@ function About() {
   );
   const slideInLeft = useSpring(animationConfig.slideInLeft(true));
 
-  // Playing around with react-page-scroller
+  // Playing around with react-page-scroller and framer-motion
   const [currentPage, setCurrentPage] = useState(0);
   const handlePageChange = pageNum => setCurrentPage(pageNum);
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    const load = setTimeout(() => {
+      setLoaded(true);
+    }, 750);
+    return () => clearTimeout(load);
+  }, [])
 
   // TEAM ***********************
   // const grid = useTrail(
@@ -95,22 +103,48 @@ function About() {
       >
         <div className="ctc-about-1-bg">
           <div className="ctc-about-1-text">
-            <p className="ctc-about-1-header">About Us</p>
-            <p className="ctc-about-1-desc">
+            <motion.p
+              className="ctc-about-1-header"
+              initial={{x: -50, y: -30, opacity: 0}}
+              animate={{x: 0, y: 0, opacity: 1}}
+              exit={{opacity: 0}}
+              transition={{delay: loaded ? 0 : 0.25, duration: loaded ? 0.5 : 0.75}}
+            >
+              About Us
+            </motion.p>
+            <motion.p
+              className="ctc-about-1-desc"
+              initial={{x: 50, y: 50, opacity: 0}}
+              animate={{x: 0, y: 0, opacity: 1}}
+              exit={{opacity: 0}}
+              transition={{delay: loaded ? 0 : 0.4, duration: loaded ? 0.5 : 0.75}}
+            >
               Founded in 2020, Commit the Change started as a small group of
               undergraduate students with a shared love for coding and volunteering
               for causes in their communities.
               After merging with Blueprint in 2021, Commit the Change
               is now an established student organization at UC Irvine with a team of
               skilled designers and developers.
-            </p>
+            </motion.p>
             <a onClick={() => handlePageChange(1)} className="no-text-decoration">
-              <div className="ctc-about-1-button">
+              <motion.div
+                className="ctc-about-1-button"
+                initial={{height: 0, opacity: 0}}
+                animate={{height: "auto", opacity: 1}}
+                exit={{opacity: 0}}
+                transition={{delay: loaded ? 0 : 0.75, duration: 0.5}}
+              >
                 Learn More
-              </div>  
+              </motion.div>  
             </a>
           </div>
-          <div className="ctc-about-1-photo" />
+          <motion.div
+            className="ctc-about-1-photo"
+            initial={{ x: 500, y: 300, opacity: 0 }}
+            animate={{ x: 0, y: 0, opacity: 1 }}
+            exit={{opacity: 0}}
+            transition={{ duration: loaded ? 0.5 : 1.5, type: "spring", bounce: 0.05 }}
+          />
         </div>
         <div className="ctc-about-1-bg" />
       </ReactPageScroller>
