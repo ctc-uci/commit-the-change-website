@@ -122,7 +122,7 @@ function Home() {
                   className="ctc-home-1-button"
                   initial={{height: 0, opacity: 0}}
                   animate={{height: "auto", opacity: 1}}
-                  transition={{delay: 1, duration: 0.5}}
+                  transition={{delay: 0.8, duration: 0.5}}
                 >
                   Learn More
                 </motion.div>  
@@ -149,7 +149,7 @@ function Home() {
                 src={ctcShadowedLogo}
                 initial={{opacity: 0, x: -100, y: -20}}
                 animate={{opacity: 1, x: 0, y: 0}}
-                transition={{delay: 0.75, duration: 1, type: "spring", bounce: 0.4}}
+                transition={{delay: 0.5, duration: 1, type: "spring", bounce: 0.4}}
                 drag
                 dragSnapToOrigin
                 dragConstraints={{left: 50, right: -100, top: 100, bottom: 80}}
