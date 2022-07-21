@@ -22,7 +22,7 @@ nav {
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
-  margin: 5px 5px 5px 15px;
+  margin: 5px 5px 5px 25px;
 }
 
 .navbar-links {
@@ -151,7 +151,7 @@ button:focus {
     overflow: hidden;
     position: absolute;
     display: block;
-    background-color: #6331D8;
+    background-color: var(--darkest-purple);
   }
   
   .mobile-nav-links-container a {

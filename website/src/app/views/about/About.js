@@ -128,7 +128,7 @@ function About() {
             </motion.p>
             <a onClick={() => handlePageChange(1)} className="no-text-decoration">
               <motion.div
-                className="ctc-about-1-button"
+                className="ctc-about-1-button common-button"
                 initial={{height: 0, opacity: 0}}
                 animate={{height: "auto", opacity: 1}}
                 exit={{opacity: 0}}

@@ -16,7 +16,6 @@ html {
 }
 
 .ctc-about-1-header {
-  font-family: "Inter";
   font-size: 48px;
   line-height: 72px;
   font-weight: 600;
@@ -26,7 +25,6 @@ html {
 }
 
 .ctc-about-1-desc {
-  font-family: "Inter";
   font-size: 18px;
   line-height: 30px;
   font-weight: 300;
@@ -38,7 +36,7 @@ html {
 .ctc-about-1-photo {
   background-image: url('../../../images/about/DSC01143.jpg');
   background-size: auto 100%;
-  background-position: 38% 100%;
+  background-position: calc(33% - 35px) 100%;
   /* background-size: auto 120%;
   background-position: 42.5% 93%; */
   clip-path: ellipse(100% 85% at 105% 60%);
@@ -49,18 +47,6 @@ html {
 
 .ctc-about-1-button {
   background-color: var(--dark-purple);
-  border-radius: 4px;
-  font-size: 18px;
-  color: white;
-  /* box-shadow: 0px 2px 4px rgb(0 0 0 / 50%); */
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 36px;
-  text-decoration: none;
-  padding: 0px 30px;
-  margin-top: 30px;
-  width: 100px;
-  cursor: pointer;
 }
 
 .about-top-panel-img {
