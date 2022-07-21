@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
-import { useLocation, BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { useLocation, BrowserRouter as Switch, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 
 import Nav from './app/components/Navbar/Nav';
