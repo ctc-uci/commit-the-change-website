@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
 
 import membersData from './members';
+import LinkedIn from '../../../images/about/linkedin.svg';
 
 import './OurTeam.css';
 
@@ -23,20 +24,28 @@ const mapMembersToCards = (members, loaded) => (
                 exit={{opacity: 0, height: 0, width: 0}}
                 transition={{delay: loaded ? 0 : 1.5, duration: 0.5}}
             >
-                <a
-                    className="ctc-ourteam-card-link"
-                    href={member.linkedinURL}
-                    target="_blank noreferrer noopener"
-                >
-                    <img
-                        alt={`${member.name}`}
-                        className="ctc-ourteam-card-photo"
-                        src={member.imageURL} 
-                    />
-                    <p className="ctc-ourteam-card-name">{member.name}</p>
+                
+                <img
+                    alt={`${member.name}`}
+                    className="ctc-ourteam-card-photo"
+                    src={member.imageURL} 
+                />
+                <p className="ctc-ourteam-card-name">{member.name}</p>
+                <div className="ctc-ourteam-card-bottom-row">
                     <p className="ctc-ourteam-card-pos">{member.position}</p>
-                    <div className="ctc-ourteam-card-overlay" />
-                </a>
+                    <a
+                        className="ctc-ourteam-card-link"
+                        href={member.linkedinURL}
+                        target="_blank noreferrer noopener"
+                    >
+                        <img
+                            alt={`${member.name} LinkedIn`}
+                            className="ctc-ourteam-card-linkedin"
+                            src={LinkedIn}
+                        />
+                    </a>
+                </div>
+                <div className="ctc-ourteam-card-overlay" />
             </motion.div>
         ))}
     </motion.div>
