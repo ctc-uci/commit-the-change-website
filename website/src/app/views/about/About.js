@@ -7,7 +7,7 @@ import { motion } from 'framer-motion/dist/framer-motion';
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
 import aboutUsGraphic from '../../../images/about/about-us.svg';
 import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
-import membersData from './members';
+// import membersData from './members';
 import values from './values';
 import animationConfig from '../animationConstants';
 import './About.css';
@@ -51,16 +51,16 @@ function About() {
   //     </animated.div>`
   //   );
   // });
-  const profileImages = membersData.info.map((memberInfo) => (
-    <div className="card">
-      <ProfileCard
-        name={memberInfo.name}
-        position={memberInfo.position}
-        linkedinURL={memberInfo.linkedinURL}
-        imageURL={memberInfo.imageURL}
-      />
-    </div>
-  ));
+  // const profileImages = membersData.info.map((memberInfo) => (
+  //   <div className="card">
+  //     <ProfileCard
+  //       name={memberInfo.name}
+  //       position={memberInfo.position}
+  //       linkedinURL={memberInfo.linkedinURL}
+  //       imageURL={memberInfo.imageURL}
+  //     />
+  //   </div>
+  // ));
 
   // VALUES ***********************
   const valuesAnimationTopRow = useTrail(
@@ -146,7 +146,9 @@ function About() {
             transition={{ duration: loaded ? 0.5 : 1.5, type: "spring", bounce: 0.05 }}
           />
         </div>
-        <div className="ctc-about-1-bg" />
+        <div className="ctc-about-2-bg">
+
+        </div>     
       </ReactPageScroller>
       {/* <animated.div style={slideUp} className="top-panel top-panel-about">
         <div className="content">

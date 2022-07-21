@@ -9,6 +9,7 @@ import Home from './app/views/home/Home';
 import About from './app/views/about/About';
 import Apply from './app/views/apply/Apply';
 import Projects from './app/views/our-work/OurWork';
+import Team from './app/views/our-team/OurTeam';
 import ContactUs from './app/views/contact-us/ContactUs';
 import Footer from './app/components/Footer/Footer';
 import topRightBlob from './images/navbar/nav-blob.svg';
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/about" exact render={() => <About />} />
                 <Route path="/apply" exact render={() => <Apply />} />
                 <Route path="/projects" exact render={() => <Projects />} />
+                <Route path="/team" exact render={() => <Team />} />
                 <Route path="/contact" exact render={() => <ContactUs />} />
                 <Route path="/discord" exact render={() => window.location.replace('https://discord.gg/bNTTT83Kgk')} />
                 <Route path="/blueprint" exact render={() => <Blueprint />} />

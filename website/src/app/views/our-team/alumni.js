@@ -19,6 +19,35 @@
 // import harkirat from '../../../images/about/memberImages/harkirat.jpg';
 // import angela from '../../../images/about/memberImages/angela.jpg';
 // import ryanhartanto from '../../../images/about/memberImages/RyanHartanto.jpg';
+// import ethan from '../../../images/about/memberImages/ethan.jpg';
+// import sonali from '../../../images/about/memberImages/sonali.jpg';
+// import kamille from '../../../images/about/memberImages/kamille.jpg';
+// import joshualiu from '../../../images/about/memberImages/joshualiu.jpg';
+// import megha from '../../../images/about/memberImages/megha.jpeg';
+// import xuan from '../../../images/about/memberImages/xuan.jpg';
+// import joshuachan from '../../../images/about/memberImages/joshuachan.jpg';
+// import phillip from '../../../images/about/memberImages/phillip.jpg';
+// import zubair from '../../../images/about/memberImages/zubair.jpg';
+// import sydney from '../../../images/about/memberImages/sydney.jpg';
+// import rostam from '../../../images/about/memberImages/rostam.jpeg';
+// import chase from '../../../images/about/memberImages/chase.jpg';
+// import rashmi from '../../../images/about/memberImages/rashmi.jpg';
+// import duron from '../../../images/about/memberImages/duron.jpg';
+// import henry from '../../../images/about/memberImages/henry.jpg';
+// import preston from '../../../images/about/memberImages/preston.jpg';
+// import kasey from '../../../images/about/memberImages/kasey.jpg';
+// import zoya from '../../../images/about/memberImages/zoya.jpg';
+// import jules from '../../../images/about/memberImages/jules.JPG';
+// import cyre from '../../../images/about/memberImages/cyre.jpg';
+// import becky from '../../../images/about/memberImages/becky.jpg';
+// import angeline from '../../../images/about/memberImages/angeline.jpg';
+// import christine from '../../../images/about/memberImages/christine.jpg';
+// import lancy from '../../../images/about/memberImages/lancy.JPG';
+// import michelle from '../../../images/about/memberImages/michelle.jpg';
+// import vani from '../../../images/about/memberImages/vani.jpg';
+// import alec from '../../../images/about/memberImages/alec.jpg';
+// import rileychampion from '../../../images/about/memberImages/rileychampion.jpg';
+// import rileywong from '../../../images/about/memberImages/rileywong.jpg';
 
 const alumni = {
   // {

@@ -1,0 +1,13 @@
+@import "../../../styles/common.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.ctc-ourteam-1-bg {
+  background-image: url('../../../images/ourTeam/bg-triangles.svg');
+  background-size: 100px;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+}
