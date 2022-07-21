@@ -18,6 +18,7 @@ const mapMembersToCards = (members, loaded) => (
     >
         {members?.map(member => (
             <motion.div
+                key={`card-${member.name}`}
                 className="ctc-ourteam-card"
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
