@@ -101,6 +101,7 @@
 .ctc-ourteam-card-link {
   text-decoration: none;
   color: white;
+  z-index: 5;
 }
 
 .ctc-ourteam-card-photo {
