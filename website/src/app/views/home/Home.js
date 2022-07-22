@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Home.css';
 import ReactPageScroller from 'react-page-scroller';
 import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
@@ -222,7 +224,7 @@ function Home() {
                 us closer to our communities and the causes that we're passionate about.
               </motion.p>
               <div class="flexbox">
-                <a href="/apply" className="no-text-decoration">
+                <Link to="/apply" className="no-text-decoration">
                   <motion.div
                     className="ctc-home-2-button common-button"
                     initial={{height: 0, opacity: 0}}
@@ -236,8 +238,8 @@ function Home() {
                       Join the Club!
                     </p>
                   </motion.div>  
-                </a>
-                <a href="/contact" className="no-text-decoration">
+                </Link>
+                <Link to="/contact" className="no-text-decoration">
                   <motion.div
                     className="ctc-home-2-button common-button"
                     initial={{height: 0, opacity: 0}}
@@ -251,7 +253,7 @@ function Home() {
                       Get in Touch!
                     </p>
                   </motion.div>  
-                </a>
+                </Link>
               </div>
             </div>
           </div>
