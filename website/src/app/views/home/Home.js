@@ -161,8 +161,101 @@ function Home() {
           </div>
         </motion.div>
         {/* Placeholder pages go here */}
-        <div className="ctc-home-1-bg" />
-        <div className="ctc-home-1-bg" />
+        <motion.div
+          className="ctc-home-2-bg"
+          initial={{width: 0, height: 0}}
+          whileInView={{width: "100%", height: "100%"}}
+          exit={{x: "100%", y: "100%"}}
+          transition={{duration: 1}}
+        >
+          <div className="ctc-home-2-container">
+            <div className="ctc-home-2-left" style={slideUp}>
+            <motion.img
+                className="ctc-home-2-shadowed-logo"
+                src={ctcShadowedLogo}
+                initial={{opacity: 0, x: -100, y: -20}}
+                animate={{opacity: 1, x: 0, y: 0}}
+                transition={{delay: 0.5, duration: 1, type: "spring", bounce: 0.4}}
+                drag
+                dragSnapToOrigin
+                dragConstraints={{left: 50, right: -100, top: 100, bottom: 80}}
+                dragElastic={0.45}
+                dragTransition={{bounceStiffness: 200, bounceDamping: 10}}
+              />
+            </div>
+            <div className="ctc-home-2-right">
+              <motion.p
+                className="ctc-home-2-header"
+                initial={{height: 0, opacity: 0}}
+                animate={{height: "auto", opacity: 1}}
+                transition={{delay: 0.5, duration: 0.75}}
+              >
+                Who are we?
+              </motion.p>
+              {/* <motion.p
+                className="ctc-home-2-subhead"
+                initial={{height: 0, opacity: 0}}
+                animate={{height: "auto", opacity: 1}}
+                transition={{delay: 0.65, duration: 0.75}}
+              >
+                Tech with Purpose
+              </motion.p> */}
+              <motion.p
+                className="ctc-home-2-desc"
+                initial={{height: 0, opacity: 0}}
+                animate={{height: "auto", opacity: 1}}
+                transition={{delay: 0.8, duration: 0.75}}
+              >
+                Commit the Change is a student organization based at the University of
+                California, Irvine and affiliated with the Donald Bren School of Information
+                and Computer Sciences.
+              </motion.p>
+              <motion.p
+                className="ctc-home-2-desc"
+                initial={{height: 0, opacity: 0}}
+                animate={{height: "auto", opacity: 1}}
+                transition={{delay: 0.8, duration: 0.75}}
+              >
+                We're focused on improving workflows and general
+                quality of life for our partner nonprofits and the ICS community,
+                by creating meaningful technology and hosting unique events which connect
+                us closer to our communities and the causes that we're passionate about.
+              </motion.p>
+              <div class="flexbox">
+                <a href="/apply" className="no-text-decoration">
+                  <motion.div
+                    className="ctc-home-2-button common-button"
+                    initial={{height: 0, opacity: 0}}
+                    animate={{height: "auto", opacity: 1}}
+                    transition={{delay: 0.8, duration: 0.5}}
+                  >
+                    <p className="ctc-home-2-button-top-line">
+                      Students
+                    </p>
+                    <p className="ctc-home-2-button-bottom-line">
+                      Join the Club!
+                    </p>
+                  </motion.div>  
+                </a>
+                <a href="/contact" className="no-text-decoration">
+                  <motion.div
+                    className="ctc-home-2-button common-button"
+                    initial={{height: 0, opacity: 0}}
+                    animate={{height: "auto", opacity: 1}}
+                    transition={{delay: 0.8, duration: 0.5}}
+                  >
+                    <p className="ctc-home-2-button-top-line">
+                      Nonprofits
+                    </p>
+                    <p className="ctc-home-2-button-bottom-line">
+                      Get in Touch!
+                    </p>
+                  </motion.div>  
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </ReactPageScroller>
     </main>
   );

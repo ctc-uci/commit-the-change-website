@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+.flexbox {
+    display: flex;
+}
+
 .ctc-home-1-bg {
     background-color: #E9E0FF;
     background-image: linear-gradient(to right, white 0.25px, transparent 1px), linear-gradient(to bottom, white 0.25px, transparent 1px);
@@ -72,6 +76,100 @@
 }
 
 .ctc-home-1-shadowed-logo {
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+    margin: 25px 0 0 25px;
+}
+
+.ctc-home-2-bg {
+    border-top: 2px solid var(--dark-purple);
+    background-color: white;
+    background-image: linear-gradient(to right, #E9E0FF 0.25px, transparent 1px), linear-gradient(to bottom, #E9E0FF 0.25px, transparent 1px);
+    background-size: 30px 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.ctc-home-2-container {
+    position: relative;
+    height: 40%;
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctc-home-2-left {
+    width: calc(40% - 10px);
+    margin-left: 10px;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.ctc-home-2-right {
+    width: calc(50% - 20px);
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    padding: 2%;
+}
+
+.ctc-home-2-header {
+    font-family: "Inter";
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    color: var(--dark-pink);
+    padding: 0;
+    margin: 0;
+}
+
+.ctc-home-2-subhead {
+    font-family: "Inter";
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000;
+    padding: 0;
+    margin: 0 0 0 2px;
+}
+
+.ctc-home-2-desc {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #000;
+    padding: 0;
+    margin: 15px 0 20px 2px;
+}
+
+.ctc-home-2-button {
+    background-color: var(--orange);
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 20px;
+}
+
+.ctc-home-2-button-top-line {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.ctc-home-2-button-bottom-line {
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.ctc-home-2-shadowed-logo {
     min-width: 200px;
     width: 100%;
     height: auto;
