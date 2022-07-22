@@ -80,9 +80,9 @@ const OurTeam = () => {
     <main>
       <motion.div
         className="ctc-ourteam-bg"
-        initial={{ width: 0, height: 0, opacity: 0 }}
+        initial={{ rotate: -135, width: 0, height: 0, opacity: 0 }}
         animate={{
-          rotate: -360, width: '100%', height: '100vh', opacity: 1,
+          rotate: 0, width: '100%', height: '100vh', opacity: 1,
         }}
         exit={{ rotate: -90, width: 0, height: 0 }}
         transition={{ duration: loaded ? 1 : 1.5 }}
