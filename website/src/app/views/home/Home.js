@@ -223,7 +223,7 @@ function Home() {
                 by creating meaningful technology and hosting unique events which connect
                 us closer to our communities and the causes that we're passionate about.
               </motion.p>
-              <div class="flexbox">
+              <div className="flexbox">
                 <Link to="/apply" className="no-text-decoration">
                   <motion.div
                     className="ctc-home-2-button common-button"

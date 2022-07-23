@@ -4,6 +4,43 @@ html {
   scroll-behavior: smooth;
 }
 
+.ctc-apply-bg {
+  background-color: var(--dark-purple); 
+  background-size: 30px 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.ctc-apply-starfield {
+  position: absolute;
+  height: 200%;
+  width: 100%;
+  z-index: 5;
+}
+
+.ctc-apply-1-container {
+  position: absolute;
+  height: 20%;
+  top: 30%;
+  width: 80%;
+  left: 10%;
+}
+
+.ctc-apply-1-header {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.ctc-apply-1-subhead {
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  margin: 0 0 40px 1px;
+}
+
 .apply-top-panel-img {
   width: 80%;
   max-height: 400px;
