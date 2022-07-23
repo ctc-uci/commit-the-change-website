@@ -132,6 +132,7 @@ import mazenghosn from '../../../images/about/memberImages/mazenghosn.jpg';
 import hassan from '../../../images/about/memberImages/hassan.jpg';
 import edwardwu from '../../../images/about/memberImages/edwardwu.jpeg';
 import ryancho from '../../../images/about/memberImages/ryancho.jpg';
+import mandy from '../../../images/about/memberImages/mandy.jpeg';
 import kojihirai from '../../../images/about/memberImages/kojihirai.jpg';
 import charleswu from '../../../images/about/memberImages/charleswu.jpg';
 import gurneetcheema from '../../../images/about/memberImages/gurneetcheema.jpeg';
@@ -587,6 +588,12 @@ const members = {
       position: 'Developer',
       linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
       imageURL: madhusudhan,
+    },
+    {
+      name: 'Mandy Feng',
+      position: 'Developer',
+      linkedinURL: 'https://www.linkedin.com/in/mandy-feng',
+      imageURL: mandy,
     },
     {
       name: 'Matthew Wu',
