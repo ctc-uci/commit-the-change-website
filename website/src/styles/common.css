@@ -30,6 +30,19 @@ Commit the Change website environment styles.
   font-family: Inter;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: var(--dark-purple);
+}
+
+::-webkit-scrollbar-button {
+  height: 0px;
+}
+
 .top-panel {
   max-width: 2000px;
   margin: 0 auto;

@@ -14,7 +14,7 @@ const mapMembersToCards = (members, loaded) => (
     initial={{ x: -1500 }}
     animate={{ x: 0 }}
     exit={{ x: 1500 }}
-    transition={{ duration: 1, staggerChildren: 0.5 }}
+    transition={{ duration: 1.25, staggerChildren: 0.25 }}
   >
     {members?.map((member) => (
       <motion.div
@@ -93,21 +93,22 @@ const OurTeam = () => {
             initial={{ opacity: 0, fontSize: 0 }}
             animate={{ opacity: 1, fontSize: '48px' }}
             transition={{
-              delay: 1.5, duration: 1, type: 'spring', bounce: 0.25,
+              delay: 1.25, duration: 1.25, type: 'spring', bounce: 0.25,
             }}
           >
             Meet the Team
           </motion.h1>
           <div className="ctc-ourteam-centered-container">
             <div className="ctc-ourteam-tabs">
-              {tabs.map((tab) => (
+              {tabs.map(tab => (
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${tab === currentTab && 'ctc-ourteam-tab-active'}`}
                   onClick={() => setCurrentTab(tab)}
                   initial={{ opacity: 0, width: 0 }}
-                  animate={{ rotate: 360, opacity: 1, width: '50px' }}
-                  transition={{ delay: 0.7, duration: 0.45 }}
+                  animate={{ opacity: 1, width: '50px' }}
+                  exit={{ opacity: 0, width: 0 }}
+                  transition={{ delay: 1.25, duration: 0.75 }}
                 >
                   {membersData[tab].name}
                 </motion.div>
