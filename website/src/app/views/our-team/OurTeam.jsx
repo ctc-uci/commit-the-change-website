@@ -80,11 +80,13 @@ const OurTeam = () => {
     <main>
       <motion.div
         className="ctc-ourteam-bg"
-        initial={{ rotate: -135, width: 0, height: 0, opacity: 0 }}
+        initial={{
+          rotate: -135, width: 0, height: 0, opacity: 0,
+        }}
         animate={{
           rotate: 0, width: '100%', height: '100vh', opacity: 1,
         }}
-        exit={{ rotate: -90, width: 0, height: 0 }}
+        exit={{ y: 1000 }}
         transition={{ duration: loaded ? 1 : 1.5 }}
       >
         <div className="ctc-ourteam-container">
@@ -100,7 +102,7 @@ const OurTeam = () => {
           </motion.h1>
           <div className="ctc-ourteam-centered-container">
             <div className="ctc-ourteam-tabs">
-              {tabs.map(tab => (
+              {tabs.map((tab) => (
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${tab === currentTab && 'ctc-ourteam-tab-active'}`}
