@@ -1,12 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import linkedinLogo from '../../../images/about/linkedin.svg';
-import './ProfileCard.css';
+import React from "react";
+import PropTypes from "prop-types";
+import linkedinLogo from "../../../images/about/linkedin.svg";
+import "./ProfileCard.css";
 
 function ProfileCard(props) {
-  const {
-    name, position, linkedinURL, imageURL,
-  } = props;
+  const { name, position, linkedinURL, imageURL } = props;
   return (
     <div className="card-container">
       <img className="profile-img" src={imageURL} alt="team member" />
@@ -16,7 +14,9 @@ function ProfileCard(props) {
           <p>{position}</p>
         </div>
         <div className="logoborder">
-          <a href={linkedinURL} target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="linkedin logo" /></a>
+          <a href={linkedinURL} target="_blank" rel="noopener noreferrer">
+            <img src={linkedinLogo} alt="linkedin logo" />
+          </a>
         </div>
       </div>
     </div>

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './OurWork.css';
-import { animated, useSpring, useTrail } from 'react-spring';
-import VisibilitySensor from 'react-visibility-sensor';
-import animationConfig from '../animationConstants';
-import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import ProjectCardPurple from '../../components/ProjectCard/ProjectCardPurple';
-import ourWorkPic from '../../../images/ourWork/our-work.svg';
-import projects from './projectsData';
+import React, { useState } from "react";
+import "./OurWork.css";
+import { animated, useSpring, useTrail } from "react-spring";
+import VisibilitySensor from "react-visibility-sensor";
+import animationConfig from "../animationConstants";
+import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCardPurple from "../../components/ProjectCard/ProjectCardPurple";
+import ourWorkPic from "../../../images/ourWork/our-work.svg";
+import projects from "./projectsData";
 
 function OurWork() {
   const [middleViewCount, setMiddleVisible] = useState(0);
@@ -15,10 +15,18 @@ function OurWork() {
 
   const slideUpTop = useSpring(animationConfig.slideUp(true));
   const slideUpMiddle = useSpring(animationConfig.slideUp(middleViewCount > 0));
-  const activeProjectsTrail = useTrail(projects.active.length, animationConfig.trail(middleViewCount > 0));
-  const pastProjectsTrail = useTrail(projects.inactive.length, animationConfig.trail(bottomViewCount > 0));
+  const activeProjectsTrail = useTrail(
+    projects.active.length,
+    animationConfig.trail(middleViewCount > 0)
+  );
+  const pastProjectsTrail = useTrail(
+    projects.inactive.length,
+    animationConfig.trail(bottomViewCount > 0)
+  );
   // const fadeInProjects = useSpring(animationConfig.slideUp(bottomViewCount > 0, 500));
-  const slideInBottomText = useSpring(animationConfig.slideInLeft(bottomViewCount > 0));
+  const slideInBottomText = useSpring(
+    animationConfig.slideInLeft(bottomViewCount > 0)
+  );
 
   const activeProjectsAnimation = activeProjectsTrail.map((props, index) => {
     const project = projects.active[index];
@@ -79,16 +87,25 @@ function OurWork() {
           </div>
         </div>
         <div className="top-panel-pic">
-          <img src={ourWorkPic} alt="Commit the Change team working on projects" className="our-work-panel-img" />
+          <img
+            src={ourWorkPic}
+            alt="Commit the Change team working on projects"
+            className="our-work-panel-img"
+          />
         </div>
       </animated.div>
 
       <div id="middle-our-work">
-        <VisibilitySensor onChange={(isVisible) => { if (isVisible) setMiddleVisible(middleViewCount + 1); }}>
+        <VisibilitySensor
+          onChange={(isVisible) => {
+            if (isVisible) setMiddleVisible(middleViewCount + 1);
+          }}
+        >
           <animated.div style={slideUpMiddle} className="project-text">
             <h1 className="upcoming-projects-title">Our 2021-22 Projects</h1>
             <p className="upcoming-projects-description">
-              Here are the projects that we worked on for the 2021-22 school year!
+              Here are the projects that we worked on for the 2021-22 school
+              year!
             </p>
           </animated.div>
         </VisibilitySensor>
@@ -96,7 +113,11 @@ function OurWork() {
       </div>
 
       <div className="past-projects-section">
-        <VisibilitySensor onChange={(isVisible) => { if (isVisible) setBottomVisible(bottomViewCount + 1); }}>
+        <VisibilitySensor
+          onChange={(isVisible) => {
+            if (isVisible) setBottomVisible(bottomViewCount + 1);
+          }}
+        >
           <animated.div style={slideInBottomText} className="project-text">
             <h1 className="past-projects-title">Our Past Projects</h1>
             {/* <p className="past-project-description">

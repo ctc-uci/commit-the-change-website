@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import './ContactUs.css';
-import { animated, useSpring } from 'react-spring';
-import VisibilitySensor from 'react-visibility-sensor';
-import animationConfig from '../animationConstants';
-import ContactUsData from './ContactUs.json';
-import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
-import QuestionData from './faq';
-import Question from '../../components/Question/Question';
-import contactUsImage from '../../../images/contactUs/contact-us-header.svg';
-import purpleLogo from '../../../images/contactUs/purple_ctc 2.svg';
+import React, { useState } from "react";
+import "./ContactUs.css";
+import { animated, useSpring } from "react-spring";
+import VisibilitySensor from "react-visibility-sensor";
+import animationConfig from "../animationConstants";
+import ContactUsData from "./ContactUs.json";
+import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
+import QuestionData from "./faq";
+import Question from "../../components/Question/Question";
+import contactUsImage from "../../../images/contactUs/contact-us-header.svg";
+import purpleLogo from "../../../images/contactUs/purple_ctc 2.svg";
 
 function ContactUs() {
   const slideUp = useSpring(animationConfig.slideUp(true));
   const [middleViewCount, setMiddleVisible] = useState(0);
   const slideUpInactiveNpo = useSpring(
-    animationConfig.fadeIn(middleViewCount > 0),
+    animationConfig.fadeIn(middleViewCount > 0)
   );
 
   const [expandedIndex, setExpandedIndex] = useState(null);
@@ -27,7 +27,11 @@ function ContactUs() {
     }
   };
 
-  const inlineEmail = <a href={`mailto:${ContactUsData.contactEmail}`}>{ContactUsData.contactEmail}</a>;
+  const inlineEmail = (
+    <a href={`mailto:${ContactUsData.contactEmail}`}>
+      {ContactUsData.contactEmail}
+    </a>
+  );
 
   return (
     <div className="contact-us-page">
@@ -41,10 +45,7 @@ function ContactUs() {
             <p className="top-panel-description">
               {ContactUsData.topThird.description}
             </p>
-            <a
-              href="#faq-section"
-              className="common-pink-button"
-            >
+            <a href="#faq-section" className="common-pink-button">
               Read FAQ
             </a>
             <a
@@ -68,7 +69,11 @@ function ContactUs() {
 
       <div className="contact-us-middle-third">
         <div className="contact-us-middle-items">
-          <img src={purpleLogo} alt="Commit the Change purple heart logo" className="heart-logo" />
+          <img
+            src={purpleLogo}
+            alt="Commit the Change purple heart logo"
+            className="heart-logo"
+          />
           <animated.div
             style={slideUpInactiveNpo}
             className="middle-third-info"
@@ -88,8 +93,7 @@ function ContactUs() {
             <p>{ContactUsData.middleThird.topDescription}</p>
             <p>
               {ContactUsData.middleThird.bottomDescription}
-              {inlineEmail}
-              !
+              {inlineEmail}!
             </p>
             <a
               href={Portfolio}

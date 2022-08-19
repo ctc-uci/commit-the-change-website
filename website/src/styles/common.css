@@ -5,7 +5,7 @@ Commit the Change website environment styles.
 **/
 
 /* Inter Font */
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 /* Montserrat Font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -16,7 +16,7 @@ Commit the Change website environment styles.
 
 /* Secondary and Accent Colors */
 :root {
-  --darkest-purple: #481DAB;
+  --darkest-purple: #481dab;
   --dark-purple: #6331d8;
   --light-purple: #bea9ef;
   --orange: #fc5d03;
@@ -28,6 +28,7 @@ Commit the Change website environment styles.
 
 * {
   font-family: Inter;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -41,45 +42,6 @@ Commit the Change website environment styles.
 
 ::-webkit-scrollbar-button {
   height: 0px;
-}
-
-.top-panel {
-  max-width: 2000px;
-  margin: 0 auto;
-  min-height: calc(100vh - 102px);
-  display: flex;
-  flex-direction: row;
-}
-
-.top-panel-text {
-  padding-right: 2%;
-  margin-top: 20vh;
-  flex: 1;
-}
-
-.inside-top-panel-text {
-  padding-left: 10%;
-  max-width: 700px;
-  float: right;
-}
-
-.top-panel-pic {
-  flex: 1;
-  margin: auto 0;
-}
-
-.top-panel-title {
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 51px;
-  color: var(--dark-purple);
-  text-shadow: 1px 0 var(--dark-purple);
-}
-
-.top-panel-description {
-  font-size: 16px;
-  line-height: 25px;
-  margin-bottom: 30px;
 }
 
 .common-button {

@@ -23,8 +23,7 @@
 .faq-title {
   font-size: 40px;
   margin: 0 20px 40px 20px;
-  text-shadow: 1px 0 var(--dark-pink)
-
+  text-shadow: 1px 0 var(--dark-pink);
 }
 
 .contact-us-middle-third {
@@ -62,7 +61,7 @@
   font-size: 40px;
   line-height: 44px;
   color: var(--dark-purple);
-  text-shadow: 1px 0 var(--dark-purple)
+  text-shadow: 1px 0 var(--dark-purple);
 }
 
 .contact-us-bottom-third {
@@ -90,7 +89,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .question-text{
+  .question-text {
     font-size: 18px !important;
   }
 
@@ -121,7 +120,7 @@
 @media screen and (max-width: 1100px) {
   .contact-us-bottom-third-items {
     width: 60vw;
-  }    
+  }
 
   .middle-third-info {
     padding-top: 0;
@@ -153,7 +152,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 0 5%;
-  }   
+  }
 }
 
 @media screen and (max-width: 768px) {

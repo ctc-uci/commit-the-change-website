@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './VerticalTimeline.css';
+import "./VerticalTimeline.css";
 
 const VerticalTimeline = ({ timelineValues }) => {
   const timeline = timelineValues.map((value) => (
@@ -33,12 +33,14 @@ const VerticalTimeline = ({ timelineValues }) => {
 };
 
 VerticalTimeline.propTypes = {
-  timelineValues: PropTypes.arrayOf(PropTypes.shape({
-    leftText: PropTypes.string.isRequired,
-    header: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-  })).isRequired,
+  timelineValues: PropTypes.arrayOf(
+    PropTypes.shape({
+      leftText: PropTypes.string.isRequired,
+      header: PropTypes.string.isRequired,
+      date: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default VerticalTimeline;

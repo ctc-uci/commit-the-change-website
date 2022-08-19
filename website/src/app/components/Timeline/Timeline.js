@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
-import './Timeline.css';
-import {
-  animated, useTrail,
-} from 'react-spring';
-import VisibilitySensor from 'react-visibility-sensor';
-import animationConfig from '../../views/animationConstants';
+import React, { useState } from "react";
+import "./Timeline.css";
+import { animated, useTrail } from "react-spring";
+import VisibilitySensor from "react-visibility-sensor";
+import animationConfig from "../../views/animationConstants";
 
 function Timeline() {
   const [viewCount, set] = useState(0);
@@ -33,10 +31,17 @@ function Timeline() {
     </div>,
   ];
 
-  const trailAnimation = useTrail(timeline.length, animationConfig.scale(viewCount > 0));
+  const trailAnimation = useTrail(
+    timeline.length,
+    animationConfig.scale(viewCount > 0)
+  );
 
   return (
-    <VisibilitySensor onChange={(isVisible) => { if (isVisible) set(viewCount + 1); }}>
+    <VisibilitySensor
+      onChange={(isVisible) => {
+        if (isVisible) set(viewCount + 1);
+      }}
+    >
       <div className="timeline">
         {trailAnimation.map((props, index) => (
           <animated.div className="event" style={props}>

@@ -1,36 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import { animated, useSpring, useTrail } from 'react-spring';
-import VisibilitySensor from 'react-visibility-sensor';
-import ReactPageScroller from 'react-page-scroller';
-import { motion } from 'framer-motion/dist/framer-motion';
+import React, { useEffect, useState } from "react";
+import { animated, useSpring, useTrail } from "react-spring";
+import VisibilitySensor from "react-visibility-sensor";
+import ReactPageScroller from "react-page-scroller";
+import { motion } from "framer-motion/dist/framer-motion";
 
-import ProfileCard from '../../components/ProfileCard/ProfileCard';
-import aboutUsGraphic from '../../../images/about/about-us.svg';
-import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
+import ProfileCard from "../../components/ProfileCard/ProfileCard";
+import aboutUsGraphic from "../../../images/about/about-us.svg";
+import whiteCtcLogo from "../../../images/logo/cropped-white-ctc.svg";
+import Footer from "../../components/Footer/Footer";
 // import membersData from './members';
-import values from './values';
-import animationConfig from '../animationConstants';
-import './About.css';
+import values from "./values";
+import animationConfig from "../animationConstants";
+import "./About.css";
 
-function About() {
+const About = () => {
   const [teamViewCount, setTeamVisible] = useState(0);
   const [valuesViewCount, setValuesVisible] = useState(0);
   const slideUp = useSpring(animationConfig.slideUp(true));
   const slideUpValuesHeader = useSpring(
-    animationConfig.slideUp(valuesViewCount > 0),
+    animationConfig.slideUp(valuesViewCount > 0)
   );
   const slideInLeft = useSpring(animationConfig.slideInLeft(true));
 
   // Playing around with react-page-scroller and framer-motion
   const [currentPage, setCurrentPage] = useState(0);
-  const handlePageChange = pageNum => setCurrentPage(pageNum);
+  const handlePageChange = (pageNum) => setCurrentPage(pageNum);
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
     const load = setTimeout(() => {
       setLoaded(true);
     }, 750);
     return () => clearTimeout(load);
-  }, [])
+  }, []);
 
   // TEAM ***********************
   // const grid = useTrail(
@@ -65,11 +66,11 @@ function About() {
   // VALUES ***********************
   const valuesAnimationTopRow = useTrail(
     values.top.length,
-    animationConfig.trail(valuesViewCount > 0),
+    animationConfig.trail(valuesViewCount > 0)
   );
   const valuesAnimationBottomRow = useTrail(
     values.bottom.length,
-    animationConfig.trail(valuesViewCount > 0),
+    animationConfig.trail(valuesViewCount > 0)
   );
 
   const topRow = valuesAnimationTopRow.map((props, index) => {
@@ -105,168 +106,66 @@ function About() {
           <div className="ctc-about-1-text">
             <motion.p
               className="ctc-about-1-header"
-              initial={{x: -50, y: -30, opacity: 0}}
-              animate={{x: 0, y: 0, opacity: 1}}
-              exit={{opacity: 0}}
-              transition={{delay: loaded ? 0 : 0.25, duration: loaded ? 0.5 : 0.75}}
+              initial={{ x: -50, y: -30, opacity: 0 }}
+              animate={{ x: 0, y: 0, opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{
+                delay: loaded ? 0 : 0.25,
+                duration: loaded ? 0.5 : 0.75,
+              }}
             >
               About Us
             </motion.p>
             <motion.p
               className="ctc-about-1-desc"
-              initial={{x: 50, y: 50, opacity: 0}}
-              animate={{x: 0, y: 0, opacity: 1}}
-              exit={{opacity: 0}}
-              transition={{delay: loaded ? 0 : 0.4, duration: loaded ? 0.5 : 0.75}}
+              initial={{ x: 50, y: 50, opacity: 0 }}
+              animate={{ x: 0, y: 0, opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{
+                delay: loaded ? 0 : 0.4,
+                duration: loaded ? 0.5 : 0.75,
+              }}
             >
               Founded in 2020, Commit the Change started as a small group of
-              undergraduate students with a shared love for coding and volunteering
-              for causes in their communities.
-              After merging with Blueprint in 2021, Commit the Change
-              is now an established student organization at UC Irvine with a team of
-              skilled designers and developers.
+              undergraduate students with a shared love for coding and
+              volunteering for causes in their communities. After merging with
+              Blueprint in 2021, Commit the Change is now an established student
+              organization at UC Irvine with a team of skilled designers and
+              developers.
             </motion.p>
-            <a onClick={() => handlePageChange(1)} className="no-text-decoration">
+            <a
+              onClick={() => handlePageChange(1)}
+              className="no-text-decoration"
+            >
               <motion.div
                 className="ctc-about-1-button common-button"
-                initial={{height: 0, opacity: 0}}
-                animate={{height: "auto", opacity: 1}}
-                exit={{opacity: 0}}
-                transition={{delay: loaded ? 0 : 0.75, duration: 0.5}}
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: "auto", opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ delay: loaded ? 0 : 0.75, duration: 0.5 }}
               >
                 Learn More
-              </motion.div>  
+              </motion.div>
             </a>
           </div>
           <motion.div
             className="ctc-about-1-photo"
             initial={{ x: 500, y: 300, opacity: 0 }}
             animate={{ x: 0, y: 0, opacity: 1 }}
-            exit={{opacity: 0}}
-            transition={{ duration: loaded ? 0.5 : 1.5, type: "spring", bounce: 0.05 }}
+            exit={{ opacity: 0 }}
+            transition={{
+              duration: loaded ? 0.5 : 1.5,
+              type: "spring",
+              bounce: 0.05,
+            }}
           />
         </div>
         <div className="ctc-about-2-bg">
-
-        </div>     
+          <Footer className="about-footer" />
+        </div>
       </ReactPageScroller>
-      {/* <animated.div style={slideUp} className="top-panel top-panel-about">
-        <div className="content">
-          <div className="top-panel-text top-panel-text-about">
-            <div className="inside-top-panel-text">
-              <h1 className="top-panel-title">About Us</h1>
-              <p className="top-panel-description">
-                Founded in 2020, Commit the Change started as a small group of
-                undergraduate students with a shared love for coding and
-                volunteering for causes in their communities. After merging with
-                Blueprint in 2021, Commit the Change is now an established
-                student organization at UC Irvine with a team of skilled
-                designers and developers.
-              </p>
-              <a href="#mission" className="common-pink-button">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div className="top-panel-pic">
-            <img
-              src={aboutUsGraphic}
-              className="about-top-panel-img"
-              alt="About the Commit the Change team"
-            />
-          </div>
-        </div>
-        <span className="double-chevron rotate">
-          &#187;
-        </span>
-      </animated.div>
-
-      <div className="links-div">
-        <div className="links">
-          <a href="#mission">
-            <h2>
-              Our Mission
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
-          <a href="#values">
-            <h2>
-              Our Values
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
-          <a href="#team">
-            <h2>
-              The Team
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
-        </div>
-      </div>
-      <div className="our-mission-panel .tint" id="mission">
-        <div className="content">
-          <div className="mission-text">
-            <h1>Our Mission</h1>
-            <ul>
-              <li className="mission-text-description">
-                At Commit the Change, our mission is to develop high quality
-                software for non-profit organizations while giving students at UC
-                Irvine opportunities to develop tech, with purpose.
-              </li>
-              <br />
-              <li className="mission-text-description">
-                We believe in the talent of our members and provide countless
-                opportunities for growth. Many of our alumni continue to spread
-                their influence within large companies across the world.
-              </li>
-            </ul>
-
-          </div>
-          <div className="ctc-logo">
-            <img src={whiteCtcLogo} alt="Commit the Change white heart logo" />
-          </div>
-        </div>
-
-        <span className="double-chevron rotate">
-          &#187;
-        </span>
-
-      </div>
-      <div className="our-values-panel" id="values">
-        <animated.div style={slideUpValuesHeader}>
-          <h1>Our Values &#38; Culture</h1>
-        </animated.div>
-        <VisibilitySensor
-          partialVisibility
-          onChange={(isVisible) => {
-            if (isVisible) setValuesVisible(valuesViewCount + 1);
-          }}
-        >
-          <div className="value-row-1">{topRow}</div>
-        </VisibilitySensor>
-        <div className="value-row-2">{bottomRow}</div>
-      </div>
-      <div className="our-team-panel" id="team">
-        <VisibilitySensor
-          onChange={(isVisible) => {
-            if (isVisible) setTeamVisible(teamViewCount + 1);
-          }}
-        >
-          <h1>The Team</h1>
-        </VisibilitySensor>
-        <div className="team-photos">{profileImages}</div>
-      </div> */}
     </main>
   );
-}
+};
 
 export default About;

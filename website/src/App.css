@@ -1,29 +1,19 @@
 @import "styles/common.css";
 
-.top-blob {
-    width: 45%;
-    min-width: 800px;
-    height: auto;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
 .content-wrap {
-    flex: 1;
+  flex: 1;
 }
 
 @media screen and (max-width: 850px) {
-    .top-blob {
-        width: 70%;
-        min-width: 270px;
-        height: auto;
-    }
+  .top-blob {
+    width: 70%;
+    min-width: 270px;
+    height: auto;
+  }
 }

@@ -5,7 +5,7 @@ html {
 }
 
 .ctc-apply-bg {
-  background-color: var(--dark-purple); 
+  background-color: var(--dark-purple);
   background-size: 30px 30px;
   height: 100%;
   width: 100%;
@@ -47,33 +47,22 @@ html {
 }
 
 #our-team-experiences-panel {
-  background-color: #6331D8BF;
+  background-color: #6331d8bf;
   position: relative;
-  background-image:
-    url('../../../images/apply/solid-purple-1.svg'),
-    url('../../../images/apply/clear-purple-1.svg'),
-    url('../../../images/apply/solid-purple-2.svg'),
-    url('../../../images/apply/clear-purple-2.svg'),
-    url('../../../images/apply/solid-purple-3.svg'),
-    url('../../../images/apply/clear-purple-3.svg'),
-    url('../../../images/apply/clear-and-solid-purple-4.svg'),
-    url('../../../images/apply/clear-and-solid-purple-5.svg');
-  background-position:
-    calc(70% - 45px) calc(5% + 10px), calc(75% - 40px) calc(-5% + 30px),
-    0 calc(25% - 40px), 0 25%,
-    70% calc(50% - 50px), calc(70% - 40px),
-    calc(10% - 30px) 110%,
-    100% 150%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 
-    180px,
-    260px,
-    90px,
-    210px,
-    180px,
-    260px,
-    600px,
-    375px;
+  background-image: url("../../../images/apply/solid-purple-1.svg"),
+    url("../../../images/apply/clear-purple-1.svg"),
+    url("../../../images/apply/solid-purple-2.svg"),
+    url("../../../images/apply/clear-purple-2.svg"),
+    url("../../../images/apply/solid-purple-3.svg"),
+    url("../../../images/apply/clear-purple-3.svg"),
+    url("../../../images/apply/clear-and-solid-purple-4.svg"),
+    url("../../../images/apply/clear-and-solid-purple-5.svg");
+  background-position: calc(70% - 45px) calc(5% + 10px),
+    calc(75% - 40px) calc(-5% + 30px), 0 calc(25% - 40px), 0 25%,
+    70% calc(50% - 50px), calc(70% - 40px), calc(10% - 30px) 110%, 100% 150%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat, no-repeat;
+  background-size: 180px, 260px, 90px, 210px, 180px, 260px, 600px, 375px;
 }
 
 .our-team-experiences-panel {
@@ -82,7 +71,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 60px;
 }
 
@@ -91,7 +80,7 @@ html {
   font-weight: bold;
   line-height: 51px;
   text-align: center;
-  text-shadow: 1px 0 #FFFFFF
+  text-shadow: 1px 0 #ffffff;
 }
 
 .team-experiences-text .experiences-description {
@@ -117,39 +106,26 @@ html {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  background:
-    url('../../../images/apply/solid-red-1.svg'), 
-    url('../../../images/apply/clear-red-1.svg'),
-    url('../../../images/apply/solid-red-2.svg'),
-    url('../../../images/apply/clear-red-2.svg'),
-    url('../../../images/apply/solid-red-3.svg'),
-    url('../../../images/apply/clear-red-3.svg'),
-    url('../../../images/apply/solid-red-4.svg'),
-    url('../../../images/apply/clear-red-4.svg'),
-    url('../../../images/apply/solid-red-5.svg'),
-    url('../../../images/apply/clear-red-5.svg'),
-    url('../../../images/apply/solid-red-6.svg'),
-    url('../../../images/apply/clear-red-6.svg');
-  background-position: 
-    10% 5%, calc(10% - 100px) 5%,
-    95% calc(15% + 45px), calc(95% - 50px) 10%, 
-    5% calc(55% + 20px), 5% 50%,
-    calc(95% + 65px) calc(45% + 25px),
-    calc(95% + 50px) calc(50% + 30px),
+  background: url("../../../images/apply/solid-red-1.svg"),
+    url("../../../images/apply/clear-red-1.svg"),
+    url("../../../images/apply/solid-red-2.svg"),
+    url("../../../images/apply/clear-red-2.svg"),
+    url("../../../images/apply/solid-red-3.svg"),
+    url("../../../images/apply/clear-red-3.svg"),
+    url("../../../images/apply/solid-red-4.svg"),
+    url("../../../images/apply/clear-red-4.svg"),
+    url("../../../images/apply/solid-red-5.svg"),
+    url("../../../images/apply/clear-red-5.svg"),
+    url("../../../images/apply/solid-red-6.svg"),
+    url("../../../images/apply/clear-red-6.svg");
+  background-position: 10% 5%, calc(10% - 100px) 5%, 95% calc(15% + 45px),
+    calc(95% - 50px) 10%, 5% calc(55% + 20px), 5% 50%,
+    calc(95% + 65px) calc(45% + 25px), calc(95% + 50px) calc(50% + 30px),
     2% calc(75% + 50px), calc(5% + 30px) calc(95% + 20px),
-    calc(90% - 20px) calc(95% + 20px),
-    calc(95% + 10px) calc(80% + 90px);
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 
-    130px,
-    250px,
-    130px,
-    250px, 
-    130px, 
-    250px, 
-    130px, 
-    250px,
-    130px,
+    calc(90% - 20px) calc(95% + 20px), calc(95% + 10px) calc(80% + 90px);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat, no-repeat;
+  background-size: 130px, 250px, 130px, 250px, 130px, 250px, 130px, 250px, 130px,
     250px;
 }
 
@@ -193,7 +169,7 @@ html {
   .team-experiences-text .experiences-description {
     max-width: 100%;
   }
-  
+
   .contact-us-bottom-third-items {
     width: 80% !important;
   }

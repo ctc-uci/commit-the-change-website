@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './ProjectCard.css';
-import { animated } from 'react-spring';
+import React from "react";
+import PropTypes from "prop-types";
+import "./ProjectCard.css";
+import { animated } from "react-spring";
 
 function ProjectCard(props) {
   const {
@@ -21,11 +21,7 @@ function ProjectCard(props) {
     >
       <div className="project-card-image-div">
         <a href={npoURL} target="_blank" rel="noopener noreferrer">
-          <img
-            src={src}
-            alt={alt}
-            className="upcoming-project-card-image"
-          />
+          <img src={src} alt={alt} className="upcoming-project-card-image" />
         </a>
       </div>
       <div className="project-card-text">

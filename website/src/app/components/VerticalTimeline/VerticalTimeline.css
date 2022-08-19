@@ -21,7 +21,9 @@
   border-spacing: 0 60px;
 }
 
-.tl-row h2, .tl-row h4, .tl-row p {
+.tl-row h2,
+.tl-row h4,
+.tl-row p {
   margin: 0;
 }
 
@@ -36,7 +38,7 @@
   padding-top: 3px;
 }
 
-.tl-row .dot-cell{
+.tl-row .dot-cell {
   vertical-align: top;
 }
 
@@ -83,12 +85,12 @@
   }
   .tl-row .tl-description {
     margin-top: 8px;
-  }  
+  }
 }
 
 /* Hack for safari only CSS */
-@media not all and (min-resolution:.001dpcm) {
-  @supports (-webkit-appearance:none) {
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
     .tl-vert-line {
       left: 93px;
     }
