@@ -118,6 +118,12 @@ button:focus {
 .mobile-nav-social-icon {
   width: 20px;
   padding: 12px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
   filter: invert(100%) sepia(0%) saturate(7479%) hue-rotate(70deg)
     brightness(99%) contrast(107%);
 }
@@ -177,6 +183,12 @@ button:focus {
     text-decoration: none;
     font-size: 25px;
     color: white;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
   }
 
   .navbar-apply-button {

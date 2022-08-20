@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import ctcLogo from "../../../images/logo/white-ctc.svg";
 import iglogo from "../../../images/home/instagramlogo.svg";
 import fblogo from "../../../images/home/facebooklogo.svg";
@@ -79,22 +80,22 @@ const Footer = ({ className }) => {
           <div className="right-column">
             <div className="inner-right">
               <div className="footer-right-link">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </div>
               <div className="footer-right-link">
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
               </div>
               <div className="footer-right-link">
-                <a href="/projects">Projects</a>
+                <Link to="/projects">Projects</Link>
               </div>
               <div className="footer-right-link">
-                <a href="/team">Our Team</a>
+                <Link to="/team">Our Team</Link>
               </div>
               <div className="footer-right-link">
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </div>
               <div className="footer-right-link">
-                <a href="/apply">Apply</a>
+                <Link to="/apply">Apply</Link>
               </div>
             </div>
           </div>

@@ -71,6 +71,12 @@
   width: 20px;
   filter: invert(100%) sepia(0%) saturate(7479%) hue-rotate(70deg)
     brightness(99%) contrast(107%);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .social-logos-medium {
@@ -112,6 +118,12 @@
 .footer-right-link {
   flex: 0 0 33%;
   margin: 5px 20px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 1200px) {
