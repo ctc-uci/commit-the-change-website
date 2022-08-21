@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
 
-import membersData from "./members";
-import LinkedIn from "../../../images/about/linkedin.svg";
-import Footer from "../../components/Footer/Footer";
+import membersData from './members';
+import LinkedIn from '../../../images/about/linkedin.svg';
+import Footer from '../../components/Footer/Footer';
 
-import "./OurTeam.css";
+import './OurTeam.css';
 
 const mapMembersToCards = (members, loaded) => (
   <motion.div
@@ -15,7 +15,7 @@ const mapMembersToCards = (members, loaded) => (
     initial={{ x: -1500 }}
     animate={{ x: 0 }}
     exit={{ x: 1500 }}
-    transition={{ duration: 1.25, staggerChildren: 0.25 }}
+    transition={{ duration: 1 }}
   >
     {members?.map((member) => (
       <motion.div
@@ -92,23 +92,23 @@ const OurTeam = () => {
         }}
         animate={{
           rotate: 0,
-          width: "100%",
-          height: "100vh",
+          width: '100%',
+          height: '100vh',
           opacity: 1,
         }}
-        exit={{ position: "absolute", y: "100%" }}
+        exit={{ position: 'absolute', y: '100%' }}
         transition={{ duration: loaded ? 1 : 1.5 }}
       >
         <div className="ctc-ourteam-container">
           <motion.h1
             className="ctc-ourteam-header"
-            initial={{ opacity: 0, fontSize: 0 }}
-            animate={{ opacity: 1, fontSize: "48px" }}
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{
               delay: 1.25,
-              duration: 1.25,
-              type: "spring",
-              bounce: 0.25,
+              duration: 1,
+              type: 'spring',
+              bounce: 0.2,
             }}
           >
             Meet the Team
@@ -119,13 +119,13 @@ const OurTeam = () => {
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${
-                    tab === currentTab && "ctc-ourteam-tab-active"
+                    tab === currentTab && 'ctc-ourteam-tab-active'
                   }`}
                   onClick={() => setCurrentTab(tab)}
-                  initial={{ opacity: 0, width: 0 }}
-                  animate={{ opacity: 1, width: "50px" }}
-                  exit={{ opacity: 0, width: 0 }}
-                  transition={{ delay: 1.25, duration: 0.75 }}
+                  initial={{ opacity: 0, y: 100 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 100 }}
+                  transition={{ duration: 1 }}
                 >
                   {membersData[tab].name}
                 </motion.div>
