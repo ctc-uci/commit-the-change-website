@@ -37,7 +37,7 @@ Commit the Change website environment styles.
 
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background-color: var(--dark-purple);
+  background-color: #888;
 }
 
 ::-webkit-scrollbar-button {

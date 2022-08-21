@@ -27,12 +27,8 @@ function Question(styleProps) {
   return (
     <div className="question-card">
       <div
-        onClick={() => {
-          handleClick(index);
-        }}
-        onKeyDown={() => {
-          handleClick(index);
-        }}
+        onClick={() => handleClick(index)}
+        onKeyDown={() => handleClick(index)}
         role="tab"
         tabIndex={index}
         className="top-half"
@@ -47,9 +43,11 @@ function Question(styleProps) {
           {questionText}
         </h2>
       </div>
-      <animated.div style={slideDown} className="bottom-half">
-        <p>{answerText}</p>
-      </animated.div>
+      {expanded && (
+        <animated.div style={slideDown} className="bottom-half">
+          <p className="bottom-text">{answerText}</p>
+        </animated.div>
+      )}
     </div>
   );
 }

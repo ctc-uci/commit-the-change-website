@@ -16,10 +16,14 @@ const Nav = () => {
   const { width } = useViewport();
   const [open, toggleVisibility] = useState(false);
   const location = useLocation();
-  const isActiveLink = (pathname) =>
+  const isActiveLink = pathname =>
     location.pathname === pathname
       ? "navbar-active-link navbar-link"
       : "navbar-link";
+  const isActiveMobileLink = pathname =>
+    location.pathname === pathname
+      ? "mobile-nav-active-link mobile-nav-link"
+      : "mobile-nav-link";
   return (
     <motion.nav
       className="nav-bar"
@@ -88,35 +92,35 @@ const Nav = () => {
                 <div className="mobile-nav-links">
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className="mobile-nav-link"
+                    className={isActiveMobileLink('/')}
                     to="/"
                   >
                     Home
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className="mobile-nav-link"
+                    className={isActiveMobileLink('/about')}
                     to="/about"
                   >
                     About Us
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className="mobile-nav-link"
+                    className={isActiveMobileLink('/projects')}
                     to="/projects"
                   >
                     Projects
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className="mobile-nav-link"
+                    className={isActiveMobileLink('/contact')}
                     to="/contact"
                   >
                     Contact
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className="mobile-nav-link"
+                    className={isActiveMobileLink('/team')}
                     to="/team"
                   >
                     Our Team

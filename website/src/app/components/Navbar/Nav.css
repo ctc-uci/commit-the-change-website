@@ -109,6 +109,10 @@ button:focus {
   text-align: center;
 }
 
+.mobile-nav-active-link {
+  font-weight: 700;
+}
+
 .mobile-nav-social-icons {
   display: flex;
   justify-content: center;
