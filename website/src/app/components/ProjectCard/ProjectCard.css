@@ -1,4 +1,43 @@
-.project-card {
+.card-wrapper {
+  width: 400px;
+  height: 433px;
+  line-height: 0;
+}
+
+.project-image {
+  width: 400px;
+  height: 335px;
+  margin: 0;
+}
+
+.project-info {
+  width: 400px;
+  height: 98px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.project-name {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.fi-arrow {
+  margin-top: 10px;
+}
+
+.project-desc {
+  margin-left: 10px;
+  font-size: 14px;
+  white-space: normal;
+  line-height: 15px;
+}
+
+/* .project-card {
   box-shadow: 0px 4px 20px rgba(237, 49, 93, 0.5);
   padding: 10px calc((50% - (445px * 2)) / 2);
   margin: 3%;
@@ -115,4 +154,4 @@ p:hover > .project-off {
     height: 100px;
     width: 100%;
   }
-}
+} */

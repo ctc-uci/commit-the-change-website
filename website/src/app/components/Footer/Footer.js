@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import ctcLogo from "../../../images/logo/white-ctc.svg";
-import iglogo from "../../../images/home/instagramlogo.svg";
-import fblogo from "../../../images/home/facebooklogo.svg";
-import mediumlogo from "../../../images/home/mediumlogo.svg";
-import linkedinlogo from "../../../images/home/linkedinlogo.svg";
-import maillogo from "../../../images/home/envelope-solid.svg";
+import iglogo from "../../../images/nav/instagramlogo.svg";
+import fblogo from "../../../images/nav/facebooklogo.svg";
+import mediumlogo from "../../../images/nav/mediumlogo.svg";
+import linkedinlogo from "../../../images/nav/linkedinlogo.svg";
+import maillogo from "../../../images/nav/maillogo.svg";
 import { motion } from "framer-motion/dist/framer-motion";
 
 import useViewport from "../../../util/useViewport";

@@ -132,8 +132,13 @@ button:focus {
     brightness(99%) contrast(107%);
 }
 
-.mobile-nav-special-icon {
-  width: 23px;
+.mobile-nav-mail-icon {
+  padding: 15px 13px;
+}
+
+.mobile-nav-medium-icon {
+  width: 19px;
+  padding: 14px 12px;
 }
 
 @media screen and (max-width: 850px) {

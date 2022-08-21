@@ -32,13 +32,7 @@ const App = () => {
                 <Route path="/projects" exact render={() => <Projects />} />
                 <Route path="/team" exact render={() => <Team />} />
                 <Route path="/contact" exact render={() => <ContactUs />} />
-                <Route
-                  path="/discord"
-                  exact
-                  render={() =>
-                    window.location.replace("https://discord.gg/bNTTT83Kgk")
-                  }
-                />
+                <Route path="/discord" exact render={() => window.location.replace('https://discord.gg/bNTTT83Kgk')} />
                 <Route path="/blueprint" exact render={() => <Blueprint />} />
               </Switch>
             </AnimatePresence>

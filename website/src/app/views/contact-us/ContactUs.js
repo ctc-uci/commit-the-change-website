@@ -19,7 +19,7 @@ const SocialMediaIcons = () => {
       name: "Email",
       image: maillogo,
       link: "mailto:ctc@uci.edu",
-      special: true,
+      special: 'ctc-contact-2-email-img',
     },
     {
       name: "Facebook",
@@ -37,7 +37,7 @@ const SocialMediaIcons = () => {
       name: "Medium",
       image: mediumlogo,
       link: "https://medium.com/@committhechange.uci",
-      special: true,
+      special: 'ctc-contact-2-medium-img',
     },
     {
       name: "LinkedIn",
@@ -61,7 +61,7 @@ const SocialMediaIcons = () => {
               alt={`CTC ${card.name}`}
               className={
                 card.special
-                ? 'ctc-contact-2-special-social-img'
+                ? card.special
                 : 'ctc-contact-2-social-img'
               }
             />
@@ -236,7 +236,7 @@ const ContactUs = () => {
                   href={Portfolio}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="no-text-decoration"
+                  className="ctc-contact-1-link"
                 >
                   <div className="ctc-contact-1-portfolio">View our portfolio</div>
                 </a>
@@ -244,7 +244,7 @@ const ContactUs = () => {
                   href="mailto:ctc@uci.edu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="no-text-decoration"
+                  className="ctc-contact-1-link"
                 >
                   <div className="ctc-contact-1-getintouch">Get in touch</div>
                 </a>
