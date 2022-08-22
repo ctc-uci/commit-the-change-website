@@ -54,7 +54,7 @@ const projects = {
       alt: 'OC Habitats project',
       projectName: 'OC Habitats',
       description:
-        'We will be creating digital forms for their habitat overseers to provide them with better data on their conservation efforts!',
+        'We constructed digital forms for their habitat overseers to provide them with better data on their conservation efforts!',
       projectURL:
         'https://github.com/ctc-uci/oc-habitats-frontend',
       npoURL: 'https://www.ochabitats.org/',
@@ -66,7 +66,7 @@ const projects = {
       alt: 'The Literacy Project project',
       projectName: 'The Literacy Project',
       description:
-        'We will be creating a platform to manage literacy scorecards for children enrolled in their award-winning reading program!',
+        'We created a platform to manage literacy scorecards for children enrolled in their award-winning reading program!',
       projectURL:
         'https://github.com/ctc-uci/the-literacy-project-frontend',
       npoURL: 'https://www.literacyproj.org/',
