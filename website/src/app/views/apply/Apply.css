@@ -152,6 +152,7 @@ html {
   border: 1.5px solid var(--dark-purple);
   color: var(--dark-purple);
   background-color: white;
+  font-size: 20px;
   font-weight: 500;
   padding: 6px 30px;
   border-radius: 3px;
@@ -327,6 +328,7 @@ html {
   border: 1.5px solid var(--dark-purple);
   color: var(--dark-purple);
   background-color: white;
+  font-size: 20px;
   font-weight: 500;
   padding: 6px 30px;
   border-radius: 3px;
