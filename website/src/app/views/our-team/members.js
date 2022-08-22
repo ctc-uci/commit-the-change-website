@@ -876,12 +876,6 @@ const members = {
         imageURL: becky,
       },
       {
-        name: 'Carlos Lim',
-        position: 'Designer',
-        linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
-        imageURL: carlos,
-      },
-      {
         name: 'Christina Vu',
         position: 'Designer',
         linkedinURL: 'https://www.linkedin.com/in/christina-vu-493560164/',
