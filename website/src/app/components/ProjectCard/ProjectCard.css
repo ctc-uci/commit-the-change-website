@@ -1,79 +1,56 @@
-.card-wrapper {
-  width: 400px;
-  height: 433px;
-  line-height: 0;
-}
-
-.project-image {
-  width: 400px;
-  height: 335px;
-  margin: 0;
-}
-
-.project-info {
-  width: 400px;
-  height: 98px;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-
-.project-name {
-  font-size: 24px;
-  margin-left: 10px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-decoration: none;
-}
-
-.fi-arrow {
-  margin-top: 10px;
-}
-
-.project-desc {
-  margin-left: 10px;
-  font-size: 14px;
-  white-space: normal;
-  line-height: 15px;
-}
-
-/* .project-card {
-  box-shadow: 0px 4px 20px rgba(237, 49, 93, 0.5);
-  padding: 10px calc((50% - (445px * 2)) / 2);
-  margin: 3%;
+.project-card {
+  box-shadow: 0px 4px 15px rgba(237, 49, 93, 0.19);
   border-radius: 20px;
-  flex-basis: 50%;
-  max-width: calc((75% - 20px) / 2);
-  min-width: 240px;
-  max-height: 500px;
-  min-height: 450px;
+  width: calc((100vw - 350px) / 2);
+  min-height: 400px;
   position: relative;
   background-color: white;
 }
 
+.project-card-text {
+  font-family: Inter;
+  max-height: 300px;
+  padding: 20px 30px;
+}
+
+.project-card-arrow-up-right {
+  margin-left: 10px;
+}
+
+.project-timeline {
+  font-family: Source Code Pro;
+  color: var(--light-gray);
+}
+
 .project-name {
+  display: flex;
+  align-items: center;
+
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  color: #f58ea6;
-  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 .description {
   font-size: 16px;
   line-height: 25px;
-  width: 80%;
-  margin: 0 auto 10px;
-  text-align: center;
 }
 
 .project-card-image-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  height: 400px;
   width: 100%;
+  /* background-image: url(https://static-koimoi.akamaized.net/wp-content/new-galleries/2022/08/the-batman-2-starring-robert-pattison-is-yet-to-be-greenlit-001.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .project-card-image-div a {
@@ -83,10 +60,10 @@
   display: flex;
 }
 
-.upcoming-project-card-image {
+.project-card-image {
   margin: auto;
-  max-height: 90%;
-  max-width: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 .upcoming-project-card-image:hover {
@@ -122,10 +99,9 @@ p:hover > .project-off {
 @media screen and (max-width: 900px) {
   .project-card {
     margin: 15px;
-    height: 310px !important;
-    min-height: unset;
-    width: 250px;
-    padding: 10px calc((50% - (270px * 2)) / 2);
+    height: 415px !important;
+    min-width: 0px;
+    max-width: unset;
     flex-basis: unset;
   }
 
@@ -140,8 +116,6 @@ p:hover > .project-off {
     font-size: 14px;
     line-height: 20px;
     width: 85%;
-    margin: 0 auto 10px;
-    text-align: center;
   }
 
   .project-card-more {
@@ -151,7 +125,7 @@ p:hover > .project-off {
   .project-card-image-div {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 220px;
     width: 100%;
   }
 } */
