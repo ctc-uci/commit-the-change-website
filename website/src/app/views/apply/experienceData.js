@@ -42,7 +42,7 @@ const experiences = [
     src: mingjiaImage,
     alt: "Image of Mingjia",
     name: "Mingjia Wang",
-    position: "Developer, Waymakers",
+    position: "Developer, OC Habitats",
     experience:
       '"My experience as a developer taught me a lot about programming and teamwork in the tech industry, and I feel much more prepared for a future in the workforce."',
   },

@@ -11,7 +11,6 @@ import Apply from "./app/views/apply/Apply";
 import Projects from "./app/views/our-work/OurWork";
 import Team from "./app/views/our-team/OurTeam";
 import ContactUs from "./app/views/contact-us/ContactUs";
-// import Blueprint from "./app/views/blueprint/Blueprint";
 
 const App = () => {
   ReactGA.initialize("UA-178250253-1");
@@ -26,12 +25,12 @@ const App = () => {
             <Nav />
             <AnimatePresence exitBeforeEnter>
               <Switch key={location.pathname} location={location}>
-                <Route path="/" exact render={() => <Home />} />
-                <Route path="/about" exact render={() => <About />} />
-                <Route path="/apply" exact render={() => <Apply />} />
-                <Route path="/projects" exact render={() => <Projects />} />
-                <Route path="/team" exact render={() => <Team />} />
-                <Route path="/contact" exact render={() => <ContactUs />} />
+                <Route path="/" exact component={Home} />
+                <Route path="/about" exact component={About} />
+                <Route path="/apply" exact component={Apply} />
+                <Route path="/projects" exact component={Projects} />
+                <Route path="/team" exact component={Team} />
+                <Route path="/contact" exact component={ContactUs} />
                 <Route
                   path="/discord"
                   exact
@@ -39,7 +38,6 @@ const App = () => {
                     window.location.replace("https://discord.gg/bNTTT83Kgk")
                   }
                 />
-                {/* <Route path="/blueprint" exact render={() => <Blueprint />} /> */}
               </Switch>
             </AnimatePresence>
           </div>
