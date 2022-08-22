@@ -2,7 +2,7 @@
 
 .vert-tl-wrapper {
   position: relative;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -11,9 +11,9 @@
   right: 0;
   background-color: var(--light-purple);
   height: 80%;
-  width: 5px;
+  width: 2px;
   top: 65px;
-  left: 86.5px;
+  left: 95px;
   z-index: -1;
 }
 
@@ -21,36 +21,40 @@
   border-spacing: 0 60px;
 }
 
-.tl-row h2, .tl-row h4, .tl-row p {
+.tl-row h2,
+.tl-row h4,
+.tl-row p {
   margin: 0;
 }
 
 .tl-row h4 {
-  font-family: "Source Code Pro", monospace;
+  font-family: Source Code Pro, monospace;
+  font-size: 18px;
   color: var(--dark-purple);
 }
 
 .tl-row .tl-left-text {
   white-space: nowrap;
   vertical-align: top;
-  padding-top: 3px;
+  padding-top: 1px;
 }
 
-.tl-row .dot-cell{
+.tl-row .dot-cell {
   vertical-align: top;
 }
 
 .timeline-table > tr:last-child > td.dot-cell {
-  background-color: white;
+  background-color: #fff6ec;
 }
 
 .tl-row .dot {
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
-  border: 5px solid var(--light-purple);
+  border: 4px solid var(--light-purple);
   background-color: var(--dark-purple);
   margin: -1px 15px;
+  z-index: 3;
 }
 
 .tl-row .tl-header {
@@ -60,35 +64,55 @@
 
 .tl-row .header-text {
   color: var(--dark-purple);
+  font-size: 26px;
   line-height: 26px;
 }
 
 .tl-row .date-text {
   color: var(--dark-grey);
   align-self: flex-end;
-  margin-left: 14px;
+  margin-left: 20px;
+  margin-bottom: 2px;
 }
 
 .tl-row .tl-description {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
+  .tl-vert-line {
+    background-color: var(--light-purple);
+    height: 80%;
+    width: 2px;
+    top: 45px;
+    left: 96px;
+    z-index: -1;
+  }
+  .timeline-table {
+    border-spacing: 0 25px;
+  }
   .tl-row .tl-header {
     flex-direction: column;
   }
+  .tl-row .header-text {
+    color: var(--dark-purple);
+    font-size: 20px;
+    line-height: 26px;
+  }
   .tl-row .date-text {
-    margin: 5px 0 0 0;
+    margin: 5px 0 5px 0;
     align-self: flex-start;
   }
   .tl-row .tl-description {
-    margin-top: 8px;
-  }  
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 /* Hack for safari only CSS */
-@media not all and (min-resolution:.001dpcm) {
-  @supports (-webkit-appearance:none) {
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
     .tl-vert-line {
       left: 93px;
     }

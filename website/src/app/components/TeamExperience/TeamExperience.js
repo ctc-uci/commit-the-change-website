@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './TeamExperience.css';
-import { animated } from 'react-spring';
+import React from "react";
+import PropTypes from "prop-types";
+import "./TeamExperience.css";
+import { animated } from "react-spring";
 
 const TeamExperience = ({
   src,
@@ -17,14 +17,12 @@ const TeamExperience = ({
     style={isAnimated ? animationProps : null}
     className="team-experience-container"
   >
-    <div className={`image-container ${index % 2 === 0 ? 'padding-class' : ''}`}>
-      <img
-        src={src}
-        alt={alt}
-        className="member-image"
-      />
+    <div
+      className={`image-container ${index % 2 === 0 ? "padding-class" : ""}`}
+    >
+      <img src={src} alt={alt} className="member-image" />
     </div>
-    <div className={`member-details ${index % 2 === 1 ? 'padding-class' : ''}`}>
+    <div className={`member-details ${index % 2 === 1 ? "padding-class" : ""}`}>
       <div className="member-section-1">
         <h2 className="member-name">{name}</h2>
         <h3 className="member-position">{position}</h3>

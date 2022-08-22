@@ -4,6 +4,9 @@ Commit the Change website environment styles.
 
 **/
 
+/* Inter Font */
+@import url("https://rsms.me/inter/inter.css");
+
 /* Montserrat Font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
@@ -13,7 +16,7 @@ Commit the Change website environment styles.
 
 /* Secondary and Accent Colors */
 :root {
-  --darkest-purple: #481DAB;
+  --darkest-purple: #481dab;
   --dark-purple: #6331d8;
   --light-purple: #bea9ef;
   --orange: #fc5d03;
@@ -21,58 +24,47 @@ Commit the Change website environment styles.
   --dark-pink: #ed315d;
   --light-pink: #f58ea6;
   --lighter-pink: #fed4dd;
+  --light-gray: #9b9b9b;
+  -webkit-overflow-scrolling: touch;
 }
 
-.top-panel {
-  max-width: 2000px;
-  margin: 0 auto;
-  min-height: calc(100vh - 102px);
-  display: flex;
-  flex-direction: row;
+* {
+  font-family: Inter;
+  max-width: 100%;
 }
 
-.top-panel-text {
-  padding-right: 2%;
-  margin-top: 20vh;
-  flex: 1;
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-.inside-top-panel-text {
-  padding-left: 10%;
-  max-width: 700px;
-  float: right;
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #888;
 }
 
-.top-panel-pic {
-  flex: 1;
-  margin: auto 0;
+::-webkit-scrollbar-button {
+  height: 0px;
 }
 
-.top-panel-title {
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 51px;
-  color: var(--dark-purple);
-  text-shadow: 1px 0 var(--dark-purple);
+::selection {
+  background: var(--light-purple); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--light-purple); /* Gecko Browsers */
 }
 
-.top-panel-description {
-  font-size: 16px;
-  line-height: 25px;
-  margin-bottom: 30px;
-}
-
-.common-pink-button {
-  background-color: var(--dark-pink);
-  border-radius: 30px;
+.common-button {
+  border-radius: 4px;
   font-size: 18px;
   color: white;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: 600;
-  line-height: 40px;
+  /* box-shadow: 0px 2px 4px rgb(0 0 0 / 50%); */
+  font-weight: 500;
+  line-height: 36px;
   text-decoration: none;
-  padding: 10px 30px;
-  margin-right: 12px;
+  padding: 0px 30px;
+  margin-top: 30px;
+  width: 100px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './ProjectCardPurple.css';
-import { animated } from 'react-spring';
+import React from "react";
+import PropTypes from "prop-types";
+import "./ProjectCardPurple.css";
+import { animated } from "react-spring";
 
 function ProjectCardPurple(props) {
   const {
@@ -22,11 +22,7 @@ function ProjectCardPurple(props) {
     >
       <div className="project-card-image-div">
         <a href={npoURL} target="_blank" rel="noopener noreferrer">
-          <img
-            src={src}
-            alt={alt}
-            className="upcoming-project-card-image"
-          />
+          <img src={src} alt={alt} className="upcoming-project-card-image" />
         </a>
       </div>
       <div className="project-card-text">
@@ -40,9 +36,7 @@ function ProjectCardPurple(props) {
           rel="noopener noreferrer"
           className="project-card-more-purple-link"
         >
-          <div className="read-more-button">
-            View Project
-          </div>
+          <div className="read-more-button">View Project</div>
         </a>
         <a
           href={projectURL}
@@ -50,9 +44,7 @@ function ProjectCardPurple(props) {
           rel="noopener noreferrer"
           className="project-card-more-purple-link"
         >
-          <div className="read-more-button">
-            View Code
-          </div>
+          <div className="read-more-button">View Code</div>
         </a>
       </div>
     </animated.div>

@@ -1,10 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './ProjectCard.css';
-import { animated } from 'react-spring';
+import React from "react";
+import PropTypes from "prop-types";
+import "./ProjectCard.css";
+import { animated } from "react-spring";
+import { ArrowUpRight } from "react-feather";
 
 function ProjectCard(props) {
   const {
+    start,
+    end,
     src,
     alt,
     projectName,
@@ -19,47 +22,36 @@ function ProjectCard(props) {
       style={isAnimated ? animationProps : null}
       className="project-card"
     >
-      <div className="project-card-image-div">
-        <a href={npoURL} target="_blank" rel="noopener noreferrer">
-          <img
-            src={src}
-            alt={alt}
-            className="upcoming-project-card-image"
-          />
-        </a>
-      </div>
+      <div
+        className="project-card-image-div"
+        style={{ backgroundImage: `url(${src})` }}
+        alt={{alt}}
+      />
       <div className="project-card-text">
-        <h1 className="project-name">{projectName}</h1>
+        <a
+          href={npoURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-name"
+        >
+          {projectName}
+          <ArrowUpRight className="project-card-arrow-up-right" />
+        </a>
+        <p className="project-timeline">
+          {start} - {end}
+        </p>
         <p className="description">{description}</p>
       </div>
-      {/* <a
-        href={projectURL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="project-card-more"
-      >
-        <p className="read-more">
-          Read More &#62;
-          <span className="project-off">&#62;</span>
-        </p>
-      </a> */}
     </animated.div>
   );
 }
 
 ProjectCard.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
-  projectName: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  // projectURL: PropTypes.string.isRequired,
-  npoURL: PropTypes.string.isRequired,
-  isAnimated: PropTypes.bool.isRequired,
-  animationProps: PropTypes.shape,
 };
 
-ProjectCard.defaultProps = {
-  animationProps: {},
-};
+ProjectCard.defaultProps = {};
 
 export default ProjectCard;

@@ -1,468 +1,333 @@
-@import "../../../styles/common.css";
+@import '../../../styles/common.css';
 
-html {
-  scroll-behavior: smooth;
+.ctc-about-bg {
+  background-color: white;
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
 }
 
-.about-top-panel-img {
-  width: 80%;
-  max-height: 500px;
+.about-footer.about-footer {
+  position: static;
+  margin-top: 0px;
 }
 
-.top-panel h1 {
-  font-weight: bold;
+.about-panel-1 {
+  height: 1100px;
+  background-image: url(../../../../src/images/about/aboutus-img.jpg);
+  background-color: rgba(24, 9, 58, 0.25);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.top-panel-about {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.top-panel-text-about{
-  margin-top: 0vh;
-}
-
-.top-panel-about .content {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20vh;
-  max-width: 2000px;
-  align-items: center;
-}
-
-.links-div {
-  background-color: var(--darkest-purple);
-}
-
-.links {
-  max-width: 2000px;
-  display: flex;
-  justify-content: space-around;
-  padding: 0.7em 0;
-  margin: 0 auto;
-}
-
-.links a {
-  color: white;
-  text-decoration: none;
-}
-
-.off {
-  color: var(--darkest-purple);
-  font-size: 30px;
-}
-
-.link-chevron{
-  margin-left: 25px;
-  font-size: 30px;
-}
-
-h2:hover > .off {
+.about-1-left {
   color: white;
 }
 
-.our-mission-panel {
-  margin: 0;
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background: rgba(99, 49, 216, 0.75);
-  border: 1px solid #000000;
-  min-height: 97vh;
+.about-1-left-body {
+  margin: 60px 10%;
+  height: 281px;
+  width: 32%;
 }
 
-.our-mission-panel .content {
-  flex-direction: row-reverse;
-  display: flex;
-  align-items: center;
-  margin-bottom: 60px;
-  max-width: 2000px;
+.about-1-left-heading {
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 350px;
+  margin-bottom: 25px;
 }
 
-.our-mission-panel > .double-chevron{
-  color: #C4C4C4;
-}
-
-.double-chevron:hover{
-  cursor:default;
-}
-
-.our-mission-panel ul{
-  list-style-type: none;
-  padding: 0px;
-  list-style-position: inside;
-}
-
-.our-mission-panel li:before {
-  content: '\203A'; 
-  margin-left: -15px; 
-  margin-right: 9px; 
+.about-1-left-paragraph {
   font-size: 20px;
+  line-height: 32px;
+  margin-left: 1px;
 }
 
-.mission-text {
-  width: 50%;
-  color: white;
-  padding-right: 170px;
+.about-panel-2 {
+  height: 850px;
 }
 
-.mission-text h1 {
-  padding: 20px 0;
-  font-size: 36px;
-  font-weight: 700;
-  margin: 0 auto;
-}
-
-.mission-text-description {
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-.ctc-logo {
-  height: 70vh;
-  max-height: 700px;
-  object-fit: cover;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.ctc-logo img {
-  width: 100%;
-  object-fit: cover;
-  object-position: left;
-}
-
-.our-values-panel {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  max-width: 2000px;
-  margin: 100px auto;
-  background: 
-    url('../../../images/about/triangles/clear-lt.svg'),
-    url('../../../images/about/triangles/filled-lt.svg'),
-    url('../../../images/about/triangles/clear-rb.svg'),
-    url('../../../images/about/triangles/filled-rt.svg'),
-    url('../../../images/about/triangles/filled-middle.svg'),
-    url('../../../images/about/triangles/clear-bl.svg'),
-    url('../../../images/about/triangles/filled-lb.svg'),
-    url('../../../images/about/triangles/clear-rt.svg'),
-    url('../../../images/about/triangles/filled-rb.svg');
-  background-position: 
-    3% 15%,
-    18% 11%,
-    92% 7%,
-    95% 10%,
-    46% 60%,
-    10% 90%,
-    5% 90%,
-    93% 85%,
-    89% 88%;
-  background-repeat: 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat, 
-    no-repeat;
-  background-size: 
-    420px, 
-    160px,
-    210px,
-    220px,
-    270px,
-    290px,
-    180px,
-    250px,
-    180px;
-}
-
-.our-values-panel h1 {
-  color: var(--dark-purple);
-  font-size: 40px;
-  text-shadow: 1px 0 var(--dark-purple);
-}
-
-.values-description {
-  width: 60%;
-  margin: 0px auto 20px auto;
-  line-height: 25px;
-}
-
-.value img {
-  height: 100px;
-}
-
-.value-row-1 {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 10px auto;
-}
-
-.value-row-2 {
+.about-2-text {
   width: 70%;
+  height: 20%;
+  margin: auto;
+  align-items: center;
+}
+
+.about-2-header {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 60px;
+  font-size: 48px;
+  color: var(--dark-pink);
+  font-weight: 600;
+}
+
+.about-2-paragraph-1 {
+  text-align: center;
+  line-height: 145%;
+  font-size: 24px;
+}
+
+.about-2-paragraph-2 {
+  text-align: center;
+  line-height: 145%;
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.yellow-semicircle {
+  margin-bottom: -712px;
+  width: 100%;
+}
+
+.about-panel-3 {
+  height: 1150px;
+  background-color: var(--dark-purple);
+}
+
+.about-3-header {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  padding-top: 70px;
+  padding-left: 70px;
+  margin-bottom: 75px;
+}
+
+.values-container {
+  width: 70%;
+  height: 60%;
+  margin-left: 15%;
+}
+
+.value-container {
+  width: calc(33% - 50px);
+  height: 310px;
+  margin: auto;
+}
+
+.values-row-2 .value-container {
+  margin: auto 65px;
+}
+
+.value-info {
+  width: 100%;
+}
+
+.values-row-1 {
+  width: 90%;
+  height: 30%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin: 10px auto;
+  justify-content: center;
+  margin: calc(20px + 2vh) 5% 0 5%;
 }
 
-.value {
-  flex: 0 1 280px;
-  box-shadow: 0px 4px 20px rgb(99 49 216 / 55%);
-  border-radius: 20px;
-  margin: 30px 10px;
-  padding: 20px 20px 0px 20px;
-  background: white;
-}
-
-.value h1{
-  position: absolute;
-  transform: translate(-50%, -130%);
-  left: 50%;
-}
-
-.value span {
-  font-size: 70px;
-}
-
-.value h2 {
-  color: var(--dark-purple);
-  margin-bottom: 5px;
-}
-
-.value p {
-  padding: 10px 25px;
-}
-
-.small-image {
-  width: 200px;
-  height: auto;
-  padding: 20px;
-}
-
-.our-team-panel {
-  max-width: 2000px;
-  margin: 50px auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 100px;
-  min-height: 100vh;
-}
-
-.our-team-panel > h1 {
-  font-size: 40px;
-  text-align: center;
-  color: var(--dark-purple);
-  text-shadow: 1px 0 var(--dark-purple);
-  margin-bottom: 70px;
-}
-
-.our-team-description {
-  font-size: 18px;
-  line-height: 25px;
-}
-
-.team-photos {
-  max-width: 2000px;
+.values-row-2 {
   width: 90%;
+  height: 30%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  margin: calc(80px + 8vh - 5vw) 5% 0 5%;
 }
 
-.empty-placeholder {
-  height: 240px;
-  width: 240px;
-  margin: 25px;
+.value-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
 
-.double-chevron{
+img.value-icon {
+  display: block;
+  width: auto;
+  margin: 24px auto;
+}
+
+.value-name, .value-desc {
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.value-desc {
+  line-height: 28px;
+}
+
+.about-panel-4 {
+  height: 1000px;
+  background-color: #fefefe;
+}
+
+.about-4-header {
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  padding-top: 80px;
+  margin-top: 0;
+}
+
+.about-4-p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  width: 85%;
+  margin-left: 7.5%;
+  padding: 30px 0;
+  margin-top: 0;
+}
+
+.about-4-alumni-container {
   display: flex;
   justify-content: center;
-  color: #C4C4C4;
-  font-size: 60px;
+  margin: 80px 0;
 }
 
-.rotate {
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg); /* Safari */
-  -moz-transform: rotate(90deg);   /* Firefox */
-  -ms-transform: rotate(90deg);   /* IE */
-  -o-transform: rotate(90deg);  /* Opera */
+.about-4-alumni-img {
+  background-image: url('../../../images/about/alumni.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  width: 80%;
+  height: 500px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
-@media screen and (max-width: 692px) {
-
-  .team-photos {
-    flex-direction: column;
-    margin-bottom: 0;
+@media screen and (max-width: 1200px) {
+  .values-row-2 .value-container {
+    width: calc(50% - 100px);
   }
+}
 
-  .empty-placeholder {
-    display: none;
+@media screen and (max-width: 850px) {
+  .about-panel-3 {
+    height: calc(1550px + 25vh);
+    background-color: var(--dark-purple);
   }
-
-}
-
-@media screen and (max-height: 500px) {
-  .empty-placeholder {
-    height: 260px;
-    width: 260px;
-    margin: 2%;
-  }    
-}
-
-@media screen and (max-width: 1290px) {
-  .links a {
-    padding: 0em 1em;
+  .about-3-header {
     text-align: center;
+    padding-left: 0;
+    padding-bottom: 20px;
   }
-
-  .mission-text {
-    padding-right: 100px;
-  }
-
-  .value-row-2 {
+  .value-container {
     width: 60%;
+    height: calc(220px + 5vh);
+    margin-bottom: calc(20px + 2vh);
+  }
+  .about-panel-4 {
+    height: 700px;
+    background-color: #fefefe;
+  } 
+  .about-4-header {
+    padding-top: 60px;
+    margin-bottom: 35px;
+  }
+  .about-4-p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 36px;
+    width: 78%;
+    margin-left: 11%;
+  } 
+  .about-4-alumni-img {
+    height: 250px;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .mission-text {
-    padding-right: 20px;
-    width: 100%;
-    padding: 0;
+@media screen and (max-width: 600px) {
+  .about-panel-1 {
+    height: 500px;
   }
-
-  .our-mission-panel{
-    justify-content: center;
-    min-height: 98vh;
-  }
-
-  .mission-text-description{
-    padding: 0 20%;
-  }
-
-  .mission-text h1 {
+  .about-1-left-body {
+    margin: 60px 10%;
+    height: 281px;
+    width: 85%;
+    margin-left: 7.5%;
+  } 
+  .about-1-left-heading {
     text-align: center;
     font-size: 32px;
-    padding-top: 0;
+    padding-top: 60px;
+    margin-bottom: 30px;
   }
-
-  .mission-text p {
-    font-size: 14px;
-    line-height: 22px;
-    padding: 0 20%;
-  }
-
-  .our-values-panel {
-    background: none;
-  }
-
-  .ctc-logo {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .links {
-    font-size: 9px;
-  }
-
-  .links .link-chevron{
-    font-size: 20px;
-    margin-left: 10px;
-  }
-
-  .links .off{
-    font-size: 20px;
-  }
-
-  .top-panel-about .content {
-    flex-direction: column;
-    margin-top: 8vh;
-  }
-
-  .about-top-panel-img {
-    width: 70%;
-  }
-
-  .top-panel-pic {
-    margin-bottom: 0px !important;
-  }
-
-  .ctc-logo {
-    display: none;
-  }
-
-  .panel-left {
-    margin-bottom: 50px;
-  }
-
-  .panel-right img {
-    height: 20vh;
-    flex: 1 1 50%;
-  }
-
-  .ctc-logo {
-    display: none;
-  }
-
-  .value-row-1,
-  .value-row-2 {
-    flex-direction: column;
-    width: 80%;
-  }
-
-  .value {
-    flex: 0;
-    margin: 30px auto;
-  }
-
-  .value h1{
-    position: absolute;
-    transform: translate(-50%, -140%);
-    left: 50%;
-  }
-
-  .value h2 {
-    margin: 10px;
-    font-size: 22px;
-  }
-
-  .value p {
-    font-size: 14px;
-    margin: 10px;
-  }
-
-  .our-values-panel > p {
-    width: 80%;
-    margin: 0px auto 15px auto;
-    font-size: 14px;
-  }
-
-  .our-team-panel h1 {
-    font-size: 32px;
-  }
-
-  .our-team-description {
-    font-size: 14px;
+  .about-1-left-paragraph {
     text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 32px;
+  }
+  .about-panel-2 {
+    height: 550px;
+  }
+  .about-2-text {
     width: 85%;
   }
-
-  .our-values-panel h1 {
+  .about-2-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
     font-size: 32px;
+    color: var(--dark-pink);
+  }
+  .about-2-paragraph-1 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .about-2-paragraph-2 {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 32px;
+  }
+  .yellow-semicircle {
+    margin-bottom: -456px;
+    width: 100%;
+  }
+  .about-panel-3 {
+    height: 2100px;
+  }
+  .about-3-header {
+    font-size: 32px;
+    padding-top: 35px;
+  }
+  .value-container {
+    width: 85%;
+    height: 340px;
+    margin-bottom: 40px;
+  }
+  .about-panel-4 {
+    height: 630px;
+    background-color: #fefefe;
+  } 
+  .about-4-header {
+    font-size: 32px;
+    padding-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  } 
+  .about-4-p {
+    font-size: 16px;
+    line-height: 32px;
+    width: 85%;
+    margin-left: 7.5%;
+    padding: 20px 0;
+  } 
+  .about-4-alumni-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  } 
+  .about-4-alumni-img {
+    height: 150px;
   }
 }

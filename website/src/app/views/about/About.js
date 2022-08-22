@@ -1,204 +1,396 @@
-import React, { useState } from 'react';
-import { animated, useSpring, useTrail } from 'react-spring';
-import VisibilitySensor from 'react-visibility-sensor';
-import ProfileCard from '../../components/ProfileCard/ProfileCard';
-import aboutUsGraphic from '../../../images/about/about-us.svg';
-import whiteCtcLogo from '../../../images/logo/cropped-white-ctc.svg';
-import membersData from './members';
-import values from './values';
-import animationConfig from '../animationConstants';
-import './About.css';
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion/dist/framer-motion";
 
-function About() {
-  const [teamViewCount, setTeamVisible] = useState(0);
-  const [valuesViewCount, setValuesVisible] = useState(0);
-  const slideUp = useSpring(animationConfig.slideUp(true));
-  const slideUpValuesHeader = useSpring(
-    animationConfig.slideUp(valuesViewCount > 0),
-  );
+import values from "./values";
+import Footer from '../../components/Footer/Footer';
+import useViewport from '../../../util/useViewport';
 
-  // TEAM ***********************
-  // const grid = useTrail(
-  //   membersData.info.length,
-  //   animationConfig.fadeInStiff(teamViewCount > 0),
-  // );
+import "./About.css";
+import yellowSemicircle from '../../../images/about/ourmission-design.svg';
 
-  // const profileImages = grid.map((props, index) => {
-  //   const person = membersData.info[index];
-  //   return (
-  //     <animated.div className="card" style={props}>
-  //       <ProfileCard
-  //         name={person.name}
-  //         position={person.position}
-  //         linkedinURL={person.linkedinURL}
-  //         imageURL={person.imageURL}
-  //       />
-  //     </animated.div>`
-  //   );
-  // });
-  const profileImages = membersData.info.map((memberInfo) => (
-    <div className="card">
-      <ProfileCard
-        name={memberInfo.name}
-        position={memberInfo.position}
-        linkedinURL={memberInfo.linkedinURL}
-        imageURL={memberInfo.imageURL}
-      />
-    </div>
-  ));
-
-  // VALUES ***********************
-  const valuesAnimationTopRow = useTrail(
-    values.top.length,
-    animationConfig.trail(valuesViewCount > 0),
-  );
-  const valuesAnimationBottomRow = useTrail(
-    values.bottom.length,
-    animationConfig.trail(valuesViewCount > 0),
-  );
-
-  const topRow = valuesAnimationTopRow.map((props, index) => {
-    const value = values.top[index];
-    return (
-      <animated.div style={props} className="value">
-        <h1 className="emoji">{value.emoji}</h1>
-        <h2>{value.title}</h2>
-        <p>{value.description}</p>
-      </animated.div>
-    );
-  });
-
-  const bottomRow = valuesAnimationBottomRow.map((props, index) => {
-    const value = values.bottom[index];
-    return (
-      <animated.div style={props} className="value">
-        <h1>{value.emoji}</h1>
-        <h2>{value.title}</h2>
-        <p>{value.description}</p>
-      </animated.div>
-    );
-  });
-  // ***********************
+const About = () => {
+  const [loaded, setLoaded] = useState(false);
+  const { width } = useViewport();
+  useEffect(() => {
+    const load = setTimeout(() => {
+      setLoaded(true);
+    }, 500);
+    return () => clearTimeout(load);
+  }, []);
 
   return (
-    <main>
-      <animated.div style={slideUp} className="top-panel top-panel-about">
-        <div className="content">
-          <div className="top-panel-text top-panel-text-about">
-            <div className="inside-top-panel-text">
-              <h1 className="top-panel-title">About Us</h1>
-              <p className="top-panel-description">
-                Founded in 2020, Commit the Change started as a small group of
-                undergraduate students with a shared love for coding and
-                volunteering for causes in their communities. After merging with
-                Blueprint in 2021, Commit the Change is now an established
-                student organization at UC Irvine with a team of skilled
-                designers and developers.
-              </p>
-              <a href="#mission" className="common-pink-button">
-                Learn More
-              </a>
-            </div>
+    <div className="ctc-about-bg">
+      <motion.div
+        className="about-panel-1"
+        initial={{
+          opacity: 0,
+        }}
+        animate={{
+          opacity: 1,
+        }}
+        exit={{
+          opacity: 0,
+        }}
+        transition={{
+          duration: loaded ? 0.2 : 0.8,
+        }}
+      >
+        <div className="about-1-left">
+          <div className="about-1-left-body">
+            <motion.p
+              className="about-1-left-heading"
+              initial={{
+                opacity: 0,
+                y: -100,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              viewport={{ once: true }}
+              exit={{
+                opacity: 0,
+                y: -100,
+              }}
+              transition={{
+                duration: 0.75,
+                delay: loaded ? 0.5 : 0,
+              }}
+            >
+              About Us
+            </motion.p>
+            <motion.p
+              className="about-1-left-paragraph"
+              initial={{
+                x: 100,
+                opacity: 0,
+              }}
+              animate={{
+                x: 0,
+                opacity: 1,
+              }}
+              exit={{
+                x: 100,
+                opacity: 0,
+              }}
+              transition={{
+                duration: 0.75,
+                delay: loaded ? 0.5 : 0,
+              }}
+            >
+              Founded in 2020, Commit the Change started as a small group
+              of undergraduate students with a shared love for coding and 
+              volunteering for causes in their communities.
+              After merging with Blueprint in 2021, Commit the Change is
+              now an established student organization at UC Irvine with a
+              team of skilled designers and developers.
+            </motion.p>
           </div>
-          <div className="top-panel-pic">
-            <img
-              src={aboutUsGraphic}
-              className="about-top-panel-img"
-              alt="About the Commit the Change team"
-            />
-          </div>
+          <motion.div
+            className="ctc-about-1-photo"
+            initial={{ x: 500, y: 300, opacity: 0 }}
+            animate={{ x: 0, y: 0, opacity: 1 }}
+            exit={{opacity: 0}}
+            transition={{ duration: loaded ? 0.5 : 1.5, type: "spring", bounce: 0.05 }}
+          />
         </div>
-        <span className="double-chevron rotate">
-          &#187;
-        </span>
-      </animated.div>
-
-      <div className="links-div">
-        <div className="links">
-          <a href="#mission">
-            <h2>
-              Our Mission
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
-          <a href="#values">
-            <h2>
-              Our Values
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
-          <a href="#team">
-            <h2>
-              The Team
-              <span className="link-chevron">&#8250;</span>
-              <span className="off">
-                &#8250;
-              </span>
-            </h2>
-          </a>
+      </motion.div>
+      <div className="about-panel-2">
+        <div className="about-2-text">
+          <motion.p
+            className="about-2-header"
+            initial={{
+              opacity: 0,
+              y: -50,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{ once: true }}
+            exit={{
+              opacity: 0,
+              y: -50,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            Our Mission
+          </motion.p>
+          <motion.p
+            className="about-2-paragraph-1"
+            initial={{
+              opacity: 0,
+              x: -50,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            viewport={{ once: true }}
+            exit={{
+              opacity: 0,
+              x: -50,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            At Commit the Change, our mission is to{' '}
+            <b>
+              develop high quality software for non-profit organizations
+              while giving students at UC Irvine opportunities to develop
+              tech with purpose.
+            </b>
+          </motion.p>
+          <motion.p
+            className="about-2-paragraph-2"
+            initial={{
+              opacity: 0,
+              x: 50,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            viewport={{ once: true }}
+            exit={{
+              opacity: 0,
+              x: 50,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            We believe in the talent of our members and provide countless
+            opportunities for growth. Many of our alumni continue to spread
+            their influence within large companies throughout the world.
+          </motion.p>
         </div>
+        <motion.img
+          src={yellowSemicircle}
+          className="yellow-semicircle"
+          alt="yellow semicircle"
+          initial={{
+            opacity: 0,
+            y: 200,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            y: 200,
+          }}
+          transition={{
+            duration: loaded ? 0.25 : 1,
+            type: "spring",
+            bounce: 0.15,
+          }}
+        />
       </div>
-      <div className="our-mission-panel .tint" id="mission">
-        <div className="content">
-          <div className="mission-text">
-            <h1>Our Mission</h1>
-            <ul>
-              <li className="mission-text-description">
-                At Commit the Change, our mission is to develop high quality
-                software for non-profit organizations while giving students at UC
-                Irvine opportunities to develop tech, with purpose.
-              </li>
-              <br />
-              <li className="mission-text-description">
-                We believe in the talent of our members and provide countless
-                opportunities for growth. Many of our alumni continue to spread
-                their influence within large companies across the world.
-              </li>
-            </ul>
-
-          </div>
-          <div className="ctc-logo">
-            <img src={whiteCtcLogo} alt="Commit the Change white heart logo" />
-          </div>
-        </div>
-
-        <span className="double-chevron rotate">
-          &#187;
-        </span>
-
-      </div>
-      <div className="our-values-panel" id="values">
-        <animated.div style={slideUpValuesHeader}>
-          <h1>Our Values &#38; Culture</h1>
-        </animated.div>
-        <VisibilitySensor
-          partialVisibility
-          onChange={(isVisible) => {
-            if (isVisible) setValuesVisible(valuesViewCount + 1);
+      <motion.div
+        className="about-panel-3"
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        viewport={{ once: true }}
+        exit={{
+          opacity: 0,
+        }}
+        transition={{
+          duration: 0.3,
+        }}
+      >
+        <div className="header-top-margin" />
+        <motion.p
+          className="about-3-header"
+          initial={{
+            opacity: 0,
+            rotate: 15,
+            y: -50,
+          }}
+          whileInView={{
+            opacity: 1,
+            rotate: 0,
+            y: 0,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            rotate: 15,
+            y: -50,
+          }}
+          transition={{
+            duration: 0.5,
           }}
         >
-          <div className="value-row-1">{topRow}</div>
-        </VisibilitySensor>
-        <div className="value-row-2">{bottomRow}</div>
-      </div>
-      <div className="our-team-panel" id="team">
-        <VisibilitySensor
-          onChange={(isVisible) => {
-            if (isVisible) setTeamVisible(teamViewCount + 1);
+          Our Values &amp; Culture
+        </motion.p>
+        {width > 850 ? (
+        <motion.div
+          initial={{
+            opacity: 0,
+            x: -100,
+          }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            x: 100,
+          }}
+          transition={{
+            duration: 0.5,
           }}
         >
-          <h1>The Team</h1>
-        </VisibilitySensor>
-        <div className="team-photos">{profileImages}</div>
+          <div className="values-row-1">
+            {values.top.map(v => (
+              <div className="value-container">
+                <div className="value-info">
+                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <p className="value-name">{v.title}</p>
+                  <p className="value-desc">{v.description}</p>
+                </div>
+              </div>  
+            ))}
+          </div>
+          <div className="values-row-2">
+            {values.bottom.map(v => (
+              <div className="value-container">
+                <div className="value-info">
+                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <p className="value-name">{v.title}</p>
+                  <p className="value-desc">{v.description}</p>
+                </div>
+              </div>  
+            ))}
+          </div>
+        </motion.div>
+        ) : (
+          <motion.div
+            className="mobile-values"
+            initial={{
+              opacity: 0,
+              x: -100,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            viewport={{ once: true }}
+            exit={{
+              opacity: 0,
+              x: 100,
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            {values.top.map(v => (
+              <div className="value-container">
+                <div className="value-info">
+                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <p className="value-name">{v.title}</p>
+                  <p className="value-desc">{v.description}</p>
+                </div>
+              </div>  
+            ))}
+            {values.bottom.map(v => (
+              <div className="value-container">
+                <div className="value-info">
+                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <p className="value-name">{v.title}</p>
+                  <p className="value-desc">{v.description}</p>
+                </div>
+              </div>  
+            ))}
+          </motion.div>
+        )}
+      </motion.div>
+      <div className="about-panel-4">
+        <motion.p
+          className="about-4-header"
+          initial={{
+            opacity: 0,
+            y: -50,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            y: -50,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+        >
+          What are our alumni up to?
+        </motion.p>
+        <motion.p
+          className="about-4-p"
+          initial={{
+            opacity: 0,
+            y: 100,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            scale: 1,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            rotate: -15,
+            scale: 0.8,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+        >
+          After graduating from UC Irvine, alumni of Commit the Change
+          go on to pursue careers in a variety of tech-related fields,
+          including software engineering, computer science, UI/UX design,
+          product design, and product management.{' '}
+          <b>Take a look at where our alumni have landed below!</b>
+        </motion.p>
+        <motion.div
+          className="about-4-alumni-container"
+          initial={{
+            opacity: 0,
+            y: 100,
+            scale: 0.8,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            scale: 1,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            y: 100,
+            scale: 0.8,
+          }}
+          transition={{
+            duration: 0.4,
+          }}
+        >
+          <div className="about-4-alumni-img" />
+        </motion.div>
       </div>
-    </main>
+      <Footer className="about-footer" />
+    </div>
   );
-}
+};
 
 export default About;

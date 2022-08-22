@@ -1,10 +1,23 @@
+@import "../../../styles/common.css";
+
 .question-card {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin: 0px 80px;
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
+}
+
+.faq-p {
+  margin: 16px 0;
+}
+
+.faq-link {
+  text-decoration: underline;
+  font-family: Inter;
+  font-weight: 600;
+  color: var(--dark-pink);
 }
 
 .top-half:focus {
@@ -22,7 +35,9 @@
 }
 
 .expand-symbol {
-  font-size: 44px;
+  font-size: 36px;
+  margin-top: 2px;
+  margin-left: 8px;
   color: var(--dark-pink);
 }
 
@@ -35,25 +50,49 @@
 .top-half .question-text {
   width: 100%;
   font-size: 24px;
-  color: var(--light-pink);
-  transform: translateY(10px);
-  margin: 0 0 10px 0;
+  line-height: 32px;
+  font-weight: 500;
+  transform: translateY(5px);
+  margin: 0 0 5px 0;
 }
 
 .top-half:hover h2 {
   color: var(--dark-pink);
 }
 
-.bottom-half p {
-  margin-left: 54px;
+.bottom-text {
+  margin-left: 52px;
+  margin-top: 5px;
   line-height: 25px;
+  font-weight: 400;
 }
 
 .minus {
-  transform: translate(4px, -4px);
+  font-size: 40px;
+  transform: translate(3px, -2px);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  .question-card {
+    margin-left: 5%;
+  }
+  .expand-symbol {
+    font-size: 30px;
+    margin-top: 3px;
+    margin-left: 12px;
+    color: var(--dark-pink);
+  }
+  .top-half .question-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .minus {
+    font-size: 30px;
+    transform: translate(3px, 0px);
+  }
+}
+
+@media screen and (max-width: 850px) {
   .symbol {
     flex: 0 0 40px;
   }
@@ -62,8 +101,14 @@
     font-size: 36px;
   }
 
-  .bottom-half p {
+  .top-half .question-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .bottom-text {
     margin-left: 40px;
+    font-size: 14px;
     line-height: 22px;
   }
 }
