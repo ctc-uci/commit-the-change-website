@@ -3,7 +3,7 @@ import sonaliImage from "../../../images/apply/sonali.png";
 import rostamImage from "../../../images/apply/rostam.jpeg";
 import janeImage from "../../../images/apply/jane.jpg";
 import mingjiaImage from "../../../images/apply/mingjia.jpg";
-import meghnaImage from '../../../images/apply/meghna.jpg';
+import meghnaImage from "../../../images/apply/meghna.jpg";
 
 const experiences = [
   {
@@ -52,7 +52,7 @@ const experiences = [
     name: "Meghna Kaligotla",
     position: "Designer, Justice for Families",
     experience:
-      '“Being a part of CTC has been a highlight of my undergraduate journey and has taught me so much about iterative development, design, and common tech industry practices.”',
+      "“Being a part of CTC has been a highlight of my undergraduate journey and has taught me so much about iterative development, design, and common tech industry practices.”",
   },
 ];
 

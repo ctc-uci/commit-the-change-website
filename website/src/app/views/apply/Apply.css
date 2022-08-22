@@ -10,7 +10,7 @@ html {
   border-radius: 9px;
   margin: 30px 35px 40px 35px;
   padding: 20px;
-  background-color: #C0ABF2;
+  background-color: #c0abf2;
   filter: drop-shadow(0 5px 8px #aaa);
 }
 
@@ -87,7 +87,9 @@ html {
 .ctc-apply-1-bg {
   width: 100vw;
   height: 70%;
-  background-image: url('../../../images/apply/join.jpg');
+  background-image: url("../../../images/apply/join.jpg");
+  background-color: rgba(24, 9, 58, 0.3);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -218,7 +220,7 @@ html {
   height: auto;
   float: right;
   padding: 2% 8% 2% 9%;
-  border-left: 5px solid #FFE9EE;
+  border-left: 5px solid #ffe9ee;
 }
 
 .ctc-apply-2-column-image {
@@ -274,7 +276,7 @@ html {
 .ctc-apply-4-bg {
   width: 100%;
   height: calc(1800px - 35%);
-  background-color: #FFF6EC;
+  background-color: #fff6ec;
   position: relative;
   z-index: 1;
 }
@@ -362,7 +364,7 @@ html {
 }
 
 .ctc-apply-5-top {
-  background-image: url('../../../images/apply/ellipse.svg');
+  background-image: url("../../../images/apply/ellipse.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% calc(10px - 10%);
@@ -485,7 +487,7 @@ html {
     height: auto;
     float: right;
     padding: 2% 7% 2% 8%;
-    border-left: 3px solid #FFE9EE;
+    border-left: 3px solid #ffe9ee;
   }
   .ctc-apply-2-column-image {
     height: 80px;
@@ -542,7 +544,7 @@ html {
     color: white;
     padding-top: calc(5.5% + 20px);
     margin: 0;
-  }  
+  }
   .ctc-apply-5-faq-container {
     display: flex;
     justify-content: center;

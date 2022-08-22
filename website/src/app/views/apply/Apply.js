@@ -3,14 +3,14 @@ import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
 
 import TeamExperience from "../../components/TeamExperience/TeamExperience";
 import experienceData from "./experienceData";
-import questionData from '../contact-us/faq';
+import questionData from "../contact-us/faq";
 
 import "./Apply.css";
 import applyGraphic from "../../../images/apply/apply.svg";
-import designGraphic from '../../../images/apply/designer_graphic.svg';
-import devGraphic from '../../../images/apply/dev_graphic.svg';
+import designGraphic from "../../../images/apply/designer_graphic.svg";
+import devGraphic from "../../../images/apply/dev_graphic.svg";
 import timelineValues from "./TimelineValues";
-import useViewport from '../../../util/useViewport';
+import useViewport from "../../../util/useViewport";
 import VerticalTimeline from "../../components/VerticalTimeline/VerticalTimeline";
 import Question from "../../components/Question/Question";
 import Footer from "../../components/Footer/Footer";
@@ -19,7 +19,7 @@ const Apply = () => {
   const [loaded, setLoaded] = useState(false);
   const [expandedIndex, setExpandedIndex] = useState(null);
   const { width } = useViewport();
-  const handleClick = index => {
+  const handleClick = (index) => {
     if (expandedIndex === index) {
       setExpandedIndex(null);
     } else {
@@ -35,10 +35,7 @@ const Apply = () => {
   const applicationLink = "https://tinyurl.com/ctc-app-2021";
   const contactEmail = "ctc@uci.edu";
   const inlineEmail = (
-    <a
-      href="mailto:ctc@uci.edu"
-      className="ctc-apply-email-link"
-    >
+    <a href="mailto:ctc@uci.edu" className="ctc-apply-email-link">
       ctc@uci.edu
     </a>
   );
@@ -56,7 +53,7 @@ const Apply = () => {
       transition={{
         delay: 0.1,
         duration: 0.75,
-        type: 'spring',
+        type: "spring",
         damping: 15,
       }}
     >
@@ -165,9 +162,9 @@ const Apply = () => {
                 delay: loaded ? 0 : 0.9,
               }}
             >
-              Apply to join our team as a designer or developer
-              for the &apos;22-23 school year! Applications open around
-              late September and close mid-October.
+              Apply to join our team as a designer or developer for the
+              &apos;22-23 school year! Applications open around late September
+              and close mid-October.
             </motion.p>
             <motion.div
               className="ctc-apply-1-buttons"
@@ -198,10 +195,9 @@ const Apply = () => {
               >
                 {/* <div className="ctc-apply-1-apply">Apply Now</div> */}
                 <div className="ctc-apply-1-apply-disabled">
-                  {width > 850 ?
-                    'The 2022-23 application opens in late September!'
-                    : 'Check back in late September!'
-                  }
+                  {width > 850
+                    ? "The 2022-23 application opens in late September!"
+                    : "Check back in late September!"}
                 </div>
               </a>
             </motion.div>
@@ -221,7 +217,7 @@ const Apply = () => {
           transition={{
             duration: loaded ? 0.5 : 0.75,
             delay: loaded ? 0 : 0.5,
-            type: 'spring',
+            type: "spring",
             damping: 15,
           }}
           exit={{
@@ -248,21 +244,25 @@ const Apply = () => {
                 dragElastic={0.4}
                 dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
               />
-              <p className="ctc-apply-2-column-title">
-                Designer
-              </p>
+              <p className="ctc-apply-2-column-title">Designer</p>
               <p className="ctc-apply-2-column-p">
                 As a designer, you&apos;ll learn about the UI/UX design process
-                (research, wireframing, prototyping, usability testing, and more)
-                as you create designs for the software your team is building. 
+                (research, wireframing, prototyping, usability testing, and
+                more) as you create designs for the software your team is
+                building.
               </p>
-              <p className="ctc-apply-2-column-p">
-                Additionally you will: 
-              </p>
+              <p className="ctc-apply-2-column-p">Additionally you will:</p>
               <ul>
-                <li className="ctc-apply-2-list-item">Consolidate your design process into a case study at the end of the year</li>
-                <li className="ctc-apply-2-list-item">Learn about working in a cross-functional team</li>
-                <li className="ctc-apply-2-list-item">Use Figma to create your designs</li>
+                <li className="ctc-apply-2-list-item">
+                  Consolidate your design process into a case study at the end
+                  of the year
+                </li>
+                <li className="ctc-apply-2-list-item">
+                  Learn about working in a cross-functional team
+                </li>
+                <li className="ctc-apply-2-list-item">
+                  Use Figma to create your designs
+                </li>
               </ul>
             </div>
             <div className="ctc-apply-2-rightcolumn">
@@ -280,12 +280,10 @@ const Apply = () => {
                 dragElastic={0.4}
                 dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
               />
-              <p className="ctc-apply-2-column-title">
-                Developer
-              </p>
+              <p className="ctc-apply-2-column-title">Developer</p>
               <p className="ctc-apply-2-column-p">
-                {width > 850 ?
-                  `As a developer, you’ll learn several frontend
+                {width > 850
+                  ? `As a developer, you’ll learn several frontend
                   technologies including HTML, CSS/SASS, JavaScript
                   and React, as well as backend technologies including
                   working with APIs, databases, and middleware as you work
@@ -293,19 +291,19 @@ const Apply = () => {
                   : `As a developer, you’ll learn languages such as
                   HTML, CSS/SASS, JavaScript and React, as well as concepts
                   including APIs, databases, and middleware as you work
-                  to implement designs in code for real-life applications.`
-                }
-                
+                  to implement designs in code for real-life applications.`}
               </p>
-              <p className="ctc-apply-2-column-p">
-                Additionally you will: 
-              </p>
+              <p className="ctc-apply-2-column-p">Additionally you will:</p>
               <ul>
-                <li className="ctc-apply-2-list-item">Learn about version control using Git</li>
-                <li className="ctc-apply-2-list-item">Participate in code reviews with your leads and team members</li>
                 <li className="ctc-apply-2-list-item">
-                  Follow industry best practices to
-                  write high-quality, sustainable code
+                  Learn about version control using Git
+                </li>
+                <li className="ctc-apply-2-list-item">
+                  Participate in code reviews with your leads and team members
+                </li>
+                <li className="ctc-apply-2-list-item">
+                  Follow industry best practices to write high-quality,
+                  sustainable code
                 </li>
               </ul>
             </div>
@@ -327,7 +325,7 @@ const Apply = () => {
               transition={{
                 duration: loaded ? 0.5 : 0.75,
                 delay: loaded ? 0 : 0.5,
-                type: 'spring',
+                type: "spring",
                 damping: 15,
               }}
               exit={{
@@ -352,7 +350,7 @@ const Apply = () => {
             transition={{
               duration: loaded ? 0.5 : 0.75,
               delay: loaded ? 0 : 0.5,
-              type: 'spring',
+              type: "spring",
               damping: 15,
               staggerChildren: 0.5,
             }}
@@ -372,7 +370,7 @@ const Apply = () => {
           transition={{
             duration: loaded ? 0.5 : 0.75,
             delay: loaded ? 0 : 0.5,
-            type: 'spring',
+            type: "spring",
             damping: 15,
           }}
         >
@@ -394,7 +392,7 @@ const Apply = () => {
             transition={{
               duration: loaded ? 0.5 : 0.75,
               delay: loaded ? 0 : 0.5,
-              type: 'spring',
+              type: "spring",
               damping: 15,
             }}
           >
@@ -418,14 +416,16 @@ const Apply = () => {
             transition={{
               duration: loaded ? 0.5 : 0.75,
               delay: loaded ? 0 : 0.5,
-              type: 'spring',
+              type: "spring",
               damping: 15,
             }}
           >
-            All applicants will go through the same process, regardless of the role they&apos;re applying
-            for. Keep reading for a brief timeline of our application process.
-            <span className="ctc-apply-4-bold">{' '}Have any questions?{' '}</span>
-            Reach out to us on any of our social platforms or email us at {inlineEmail}.
+            All applicants will go through the same process, regardless of the
+            role they&apos;re applying for. Keep reading for a brief timeline of
+            our application process.
+            <span className="ctc-apply-4-bold"> Have any questions? </span>
+            Reach out to us on any of our social platforms or email us at{" "}
+            {inlineEmail}.
           </motion.p>
           <motion.div
             className="ctc-apply-4-timeline-container"
@@ -444,7 +444,7 @@ const Apply = () => {
             viewport={{ once: true }}
             transition={{
               duration: loaded ? 0.5 : 1,
-              type: 'spring',
+              type: "spring",
               damping: 15,
             }}
           >
@@ -461,10 +461,9 @@ const Apply = () => {
             >
               {/* <div className="ctc-apply-4-apply">Apply Now</div> */}
               <div className="ctc-apply-4-apply-disabled">
-                {width > 850 ?
-                  'The 2022-23 application opens in late September!'
-                  : 'Check back in late September!'
-                }
+                {width > 850
+                  ? "The 2022-23 application opens in late September!"
+                  : "Check back in late September!"}
               </div>
             </a>
           </div>
@@ -490,9 +489,7 @@ const Apply = () => {
               delay: loaded ? 0 : 0.5,
             }}
           >
-            <p className="ctc-apply-5-header">
-              Got Questions?
-            </p>
+            <p className="ctc-apply-5-header">Got Questions?</p>
           </motion.div>
           <motion.div
             className="ctc-apply-5-faq-container"
@@ -512,7 +509,7 @@ const Apply = () => {
             transition={{
               duration: loaded ? 0.5 : 0.75,
               delay: loaded ? 0 : 0.5,
-              type: 'spring',
+              type: "spring",
               damping: 15,
             }}
           >

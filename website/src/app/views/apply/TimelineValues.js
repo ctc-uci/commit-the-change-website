@@ -17,7 +17,8 @@ const timelineValues = [
         Our application consists of a few short response questions so we can
         learn more about your experience, your goals, and your background. If
         you don't have experience, that's fine too! Your responses will help us
-        gauge your interest and fit for the club in the coming weeks of recruitment.
+        gauge your interest and fit for the club in the coming weeks of
+        recruitment.
         {/* Applications open <b>September 19th</b> and will close{" "}
         <b>October 1st</b>. */}
       </p>

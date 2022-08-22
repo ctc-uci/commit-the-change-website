@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
 
-import membersData from './members';
-import LinkedIn from '../../../images/about/linkedin.svg';
-import Footer from '../../components/Footer/Footer';
+import membersData from "./members";
+import LinkedIn from "../../../images/about/linkedin.svg";
+import Footer from "../../components/Footer/Footer";
 
-import './OurTeam.css';
+import "./OurTeam.css";
 
 const mapMembersToCards = members => (
   <motion.div
@@ -106,7 +106,7 @@ const OurTeam = () => {
             transition={{
               delay: 0.25,
               duration: 1,
-              type: 'spring',
+              type: "spring",
               bounce: 0.2,
             }}
           >
@@ -118,7 +118,7 @@ const OurTeam = () => {
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${
-                    tab === currentTab && 'ctc-ourteam-tab-active'
+                    tab === currentTab && "ctc-ourteam-tab-active"
                   }`}
                   onClick={() => setCurrentTab(tab)}
                   initial={{ opacity: 0, y: 100 }}

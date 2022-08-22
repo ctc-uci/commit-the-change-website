@@ -57,8 +57,6 @@ ProjectCard.propTypes = {
   animationProps: PropTypes.shape,
 };
 
-ProjectCard.defaultProps = {
-  animationProps: {},
-};
+ProjectCard.defaultProps = {};
 
 export default ProjectCard;

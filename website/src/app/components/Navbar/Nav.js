@@ -16,11 +16,11 @@ const Nav = () => {
   const { width } = useViewport();
   const [open, toggleVisibility] = useState(false);
   const location = useLocation();
-  const isActiveLink = pathname =>
+  const isActiveLink = (pathname) =>
     location.pathname === pathname
       ? "navbar-active-link navbar-link"
       : "navbar-link";
-  const isActiveMobileLink = pathname =>
+  const isActiveMobileLink = (pathname) =>
     location.pathname === pathname
       ? "mobile-nav-active-link mobile-nav-link"
       : "mobile-nav-link";
@@ -92,35 +92,35 @@ const Nav = () => {
                 <div className="mobile-nav-links">
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink('/')}
+                    className={isActiveMobileLink("/")}
                     to="/"
                   >
                     Home
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink('/about')}
+                    className={isActiveMobileLink("/about")}
                     to="/about"
                   >
                     About Us
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink('/projects')}
+                    className={isActiveMobileLink("/projects")}
                     to="/projects"
                   >
                     Projects
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink('/contact')}
+                    className={isActiveMobileLink("/contact")}
                     to="/contact"
                   >
                     Contact
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink('/team')}
+                    className={isActiveMobileLink("/team")}
                     to="/team"
                   >
                     Our Team

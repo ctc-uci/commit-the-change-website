@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion/dist/framer-motion";
-import Footer from '../../components/Footer/Footer';
+import Footer from "../../components/Footer/Footer";
 
 import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
 // import QuestionData from "./faq";
@@ -19,7 +19,7 @@ const SocialMediaIcons = () => {
       name: "Email",
       image: maillogo,
       link: "mailto:ctc@uci.edu",
-      special: 'ctc-contact-2-email-img',
+      special: "ctc-contact-2-email-img",
     },
     {
       name: "Facebook",
@@ -37,7 +37,7 @@ const SocialMediaIcons = () => {
       name: "Medium",
       image: mediumlogo,
       link: "https://medium.com/@committhechange.uci",
-      special: 'ctc-contact-2-medium-img',
+      special: "ctc-contact-2-medium-img",
     },
     {
       name: "LinkedIn",
@@ -48,7 +48,7 @@ const SocialMediaIcons = () => {
   ];
   return (
     <div className="ctc-contact-2-socials">
-      {cards.map(card => (
+      {cards.map((card) => (
         <a
           href={card.link}
           target="_blank"
@@ -60,14 +60,10 @@ const SocialMediaIcons = () => {
               src={card.image}
               alt={`CTC ${card.name}`}
               className={
-                card.special
-                ? card.special
-                : 'ctc-contact-2-social-img'
+                card.special ? card.special : "ctc-contact-2-social-img"
               }
             />
-            <div className="ctc-contact-2-social-text">
-              {card.name}
-            </div>
+            <div className="ctc-contact-2-social-text">{card.name}</div>
           </div>
         </a>
       ))}
@@ -85,10 +81,7 @@ const ContactUs = () => {
   }, []);
 
   const inlineEmail = (
-    <a
-      href="mailto:ctc@uci.edu"
-      className="ctc-contact-1-email-link"
-    >
+    <a href="mailto:ctc@uci.edu" className="ctc-contact-1-email-link">
       ctc@uci.edu
     </a>
   );
@@ -186,8 +179,9 @@ const ContactUs = () => {
                 }}
               >
                 We work with non-profit organizations throughout the school year
-                (September 2022 - June 2023) on software projects that will have a meaningful,
-                positive impact and will be a good learning experience for our team.
+                (September 2022 - June 2023) on software projects that will have
+                a meaningful, positive impact and will be a good learning
+                experience for our team.
               </motion.p>
               <motion.p
                 className="ctc-contact-1-p"
@@ -208,10 +202,9 @@ const ContactUs = () => {
                   duration: 0.5,
                 }}
               >
-                If you would like to learn more about our organization or talk about
-                how we can partner together in the future, please email us at{' '}
-                {inlineEmail}
-                !
+                If you would like to learn more about our organization or talk
+                about how we can partner together in the future, please email us
+                at {inlineEmail}!
               </motion.p>
               <motion.div
                 className="ctc-contact-1-buttons"
@@ -238,7 +231,9 @@ const ContactUs = () => {
                   rel="noopener noreferrer"
                   className="ctc-contact-1-link"
                 >
-                  <div className="ctc-contact-1-portfolio">View our portfolio</div>
+                  <div className="ctc-contact-1-portfolio">
+                    View our portfolio
+                  </div>
                 </a>
                 <a
                   href="mailto:ctc@uci.edu"
@@ -270,12 +265,10 @@ const ContactUs = () => {
               duration: loaded ? 0.5 : 0.5,
             }}
           >
-            <p className="ctc-contact-2-heading">
-              Contact Us
-            </p>
+            <p className="ctc-contact-2-heading">Contact Us</p>
             <p className="ctc-contact-2-subhead">
-              Want to stay in the loop? Got a question or an
-              awesome project idea? Here&apos;s where to find us!
+              Want to stay in the loop? Got a question or an awesome project
+              idea? Here&apos;s where to find us!
             </p>
             <SocialMediaIcons />
           </motion.div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import ctcLogo from "../../../images/logo/white-ctc.svg";
 import iglogo from "../../../images/nav/instagramlogo.svg";
 import fblogo from "../../../images/nav/facebooklogo.svg";
@@ -20,6 +20,7 @@ const Footer = ({ className }) => {
         className={`${className ?? ""} footer`}
         initial={{ height: 0 }}
         animate={{ height: "auto" }}
+        exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
         <div className="columns">

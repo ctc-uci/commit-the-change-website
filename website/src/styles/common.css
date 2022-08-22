@@ -45,6 +45,13 @@ Commit the Change website environment styles.
   height: 0px;
 }
 
+::selection {
+  background: var(--light-purple); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--light-purple); /* Gecko Browsers */
+}
+
 .common-button {
   border-radius: 4px;
   font-size: 18px;
