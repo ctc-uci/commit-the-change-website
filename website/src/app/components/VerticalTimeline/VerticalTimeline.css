@@ -72,7 +72,7 @@
   color: var(--dark-grey);
   align-self: flex-end;
   margin-left: 20px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .tl-row .tl-description {
@@ -100,7 +100,7 @@
     line-height: 26px;
   }
   .tl-row .date-text {
-    margin: 5px 0 0 0;
+    margin: 5px 0 5px 0;
     align-self: flex-start;
   }
   .tl-row .tl-description {

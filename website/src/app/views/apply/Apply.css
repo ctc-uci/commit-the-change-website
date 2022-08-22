@@ -438,7 +438,7 @@ html {
 
 @media screen and (max-width: 1050px) {
   .ctc-apply-4-bg {
-    height: 1250px;
+    height: 1300px;
   }
 }
 
@@ -534,7 +534,7 @@ html {
     margin: 0 0 20px 0;
   }
   .ctc-apply-4-bg {
-    height: calc(980px - 12vh);
+    height: calc(1200px - 12vh);
   }
   .ctc-apply-4-header {
     font-size: 32px;
@@ -584,7 +584,7 @@ html {
     height: 950px;
   }
   .ctc-apply-4-bg {
-    height: 1200px;
+    height: 1550px;
   }
   .ctc-apply-5-header {
     font-size: 24px;
