@@ -11,7 +11,10 @@ import fya from "../../../images/nonprofits/Find-Your-Anchor.png";
 const projects = {
   active: [
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: och,
+      start: "Fall 2022",
       alt: "OC Habitats incoming project",
       projectName: "OC Habitats",
       description:
@@ -21,6 +24,8 @@ const projects = {
       npoURL: "https://www.ochabitats.org/",
     },
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: tlp,
       alt: "The Literacy Project incoming project",
       projectName: "The Literacy Project",
@@ -31,6 +36,8 @@ const projects = {
       npoURL: "https://www.literacyproj.org/",
     },
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: afc,
       alt: "Abound Food Care incoming project",
       projectName: "Abound Food Care",
@@ -41,6 +48,8 @@ const projects = {
       npoURL: "https://www.aboundfoodcare.org/",
     },
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: fya,
       alt: "Find Your Anchor incoming project",
       projectName: "Find Your Anchor",
@@ -62,6 +71,8 @@ const projects = {
   ],
   inactive: [
     {
+      start: "Fall 2020",
+      end: "Spring 2021",
       src: jff,
       alt: "Justice for Families past project",
       projectName: "Justice for Families",
@@ -73,6 +84,8 @@ const projects = {
       projectURL: "https://github.com/ctc-uci/justice-for-families",
     },
     {
+      start: "Fall 2020",
+      end: "Spring 2021",
       src: wm,
       alt: "Waymakers past project",
       projectName: "Waymakers",
@@ -84,6 +97,8 @@ const projects = {
       projectURL: "https://github.com/ctc-uci/waymakers",
     },
     {
+      start: "Fall 2020",
+      end: "Spring 2021",
       src: ccl,
       alt: "Child Creativity Lab past project",
       projectName: "Child Creativity Lab",
@@ -95,6 +110,8 @@ const projects = {
       projectURL: "https://github.com/ctc-uci/ccl-videos",
     },
     {
+      start: "Spring 2020",
+      end: "Spring 2020",
       src: crs,
       alt: "Crime Survivors past project",
       projectName: "Crime Survivors",
