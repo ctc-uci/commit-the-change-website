@@ -563,10 +563,10 @@ html {
 
 @media screen and (max-width: 600px) {
   .ctc-apply-2-bg {
-    height: calc(1020px + 8vh);
+    height: 950px;
   }
   .ctc-apply-4-bg {
-    height: calc(1530px - 12vh);
+    height: 1200px;
   }
   .ctc-apply-5-header {
     font-size: 24px;
