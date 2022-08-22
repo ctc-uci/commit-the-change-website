@@ -426,12 +426,6 @@ const members = {
         imageURL: arzoo,
       },
       {
-        name: 'Ashley Liu',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/ashley-liu-6314731b9/',
-        imageURL: ashley,
-      },
-      {
         name: 'Austin Truong',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/austin-truong-b32b68165/',
@@ -526,12 +520,6 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
         imageURL: evan,
-      },
-      {
-        name: 'Gurneet Cheema',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/jeff-cheema/',
-        imageURL: gurneetcheema,
       },
       {
         name: 'Hannah Chang',
@@ -862,12 +850,6 @@ const members = {
         position: 'Designer',
         linkedinURL: 'https://www.linkedin.com/in/alecc3/',
         imageURL: alec,
-      },
-      {
-        name: 'Allison Liu',
-        position: 'Designer',
-        linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
-        imageURL: allisonliu,
       },
       {
         name: 'Alyssa Harvey',
