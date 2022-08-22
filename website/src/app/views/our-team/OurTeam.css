@@ -12,7 +12,7 @@
 .ctc-ourteam-container {
   padding: 3% 2% 0 2%;
   width: 96%;
-  min-height: calc(96% - 305px);
+  min-height: calc(96% - 275px);
   color: white;
   text-align: center;
   overflow: scroll;
@@ -48,6 +48,12 @@
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .ctc-ourteam-tab:hover {
@@ -158,6 +164,9 @@
     margin-top: 50px;
     font-size: 32px;
     line-height: 40px;
+  }
+  .ctc-ourteam-container {
+    min-height: calc(96% - 265px);
   }
   .ctc-ourteam-tabs {
     width: 90%;
