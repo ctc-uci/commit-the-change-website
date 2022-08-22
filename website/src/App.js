@@ -11,7 +11,7 @@ import Apply from "./app/views/apply/Apply";
 import Projects from "./app/views/our-work/OurWork";
 import Team from "./app/views/our-team/OurTeam";
 import ContactUs from "./app/views/contact-us/ContactUs";
-import Blueprint from "./app/views/blueprint/Blueprint";
+// import Blueprint from "./app/views/blueprint/Blueprint";
 
 const App = () => {
   ReactGA.initialize("UA-178250253-1");

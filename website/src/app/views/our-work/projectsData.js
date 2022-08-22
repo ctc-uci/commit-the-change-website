@@ -12,30 +12,36 @@ import fya from "../../../images/nonprofits/Find-Your-Anchor.png";
 const projects = {
   active: [
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: placeholder,
       alt: 'Incoming project #1',
       projectName: 'TBD',
       description:
         'Check back on our website and social media for our project reveals in the coming weeks!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
+      projectURL: '',
       npoURL: 'https://www.ctc-uci.com/',
     },
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: placeholder,
       alt: 'Incoming project #1',
       projectName: 'TBD',
       description:
         'Check back on our website and social media for our project reveals in the coming weeks!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
+      projectURL: '',
       npoURL: 'https://www.ctc-uci.com/',
     },
     {
+      start: "Fall 2022",
+      end: "Spring 2023",
       src: placeholder,
       alt: 'Incoming project #3',
       projectName: 'TBD',
       description:
         'Check back on our website and social media for our project reveals in the coming weeks!',
-      projectURL: 'https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835',
+      projectURL: '',
       npoURL: 'https://www.ctc-uci.com/',
     },
     
@@ -51,7 +57,7 @@ const projects = {
       description:
         "We will be creating digital forms for their habitat overseers to provide them with better data on their conservation efforts!",
       projectURL:
-        "https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835",
+        "https://github.com/ctc-uci/oc-habitats-frontend",
       npoURL: "https://www.ochabitats.org/",
     },
     {
@@ -63,7 +69,7 @@ const projects = {
       description:
         "We will be creating a platform to manage literacy scorecards for children enrolled in their award-winning reading program!",
       projectURL:
-        "https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835",
+        "https://github.com/ctc-uci/the-literacy-project-frontend",
       npoURL: "https://www.literacyproj.org/",
     },
     {
@@ -75,7 +81,7 @@ const projects = {
       description:
         "We made a map for them to track where their mental health anchor boxes are traveling throughout the world!",
       projectURL:
-        "https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835",
+        "https://github.com/ctc-uci/find-your-anchor-frontend",
       npoURL: "https://findyouranchor.us/",
     },
     {
@@ -87,7 +93,7 @@ const projects = {
       description:
         "We created a digital system for them to better connect with their volunteers and engage them in events!",
       projectURL:
-        "https://medium.com/@committhechange.uci/upcoming-project-1-reveal-with-child-creativity-lab-e9fb41fe7835",
+        "https://github.com/ctc-uci/abound-food-care-frontend",
       npoURL: "https://www.aboundfoodcare.org/",
     },
     {

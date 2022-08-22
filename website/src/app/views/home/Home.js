@@ -226,7 +226,7 @@ const Home = () => {
     </motion.div>
     <motion.div
       className="ctc-home-2-bg"
-      intiial={{
+      initial={{
         opacity: 0,
       }}
       whileInView={{

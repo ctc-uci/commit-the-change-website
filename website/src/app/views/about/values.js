@@ -1,9 +1,8 @@
-import community from "../../../images/about/values/community.svg";
-import product from "../../../images/about/values/authentication.svg";
-import authentic from "../../../images/about/values/heart-2.svg";
-import initiative from "../../../images/about/values/startup.svg";
-import impact from "../../../images/about/values/social-responsibility.svg";
-
+import community from '../../../images/about/values/community-icon.svg';
+import product from '../../../images/about/values/products-icon.svg';
+import authentic from '../../../images/about/values/authentic-icon.svg';
+import initiative from '../../../images/about/values/initiative-icon.svg';
+import impact from '../../../images/about/values/socialimpact-icon.svg';
 const values = {
   top: [
     {

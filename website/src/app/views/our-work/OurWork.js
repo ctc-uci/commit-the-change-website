@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion/dist/framer-motion";
 import { ArrowUpRight } from "react-feather";
 import "./OurWork.css";
-import animationConfig from "../animationConstants";
 import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import ProjectCardPurple from "../../components/ProjectCard/ProjectCardPurple";
+import Footer from '../../components/Footer/Footer';
+
 import projects from "./projectsData";
 
 const pastProjects = projects.inactive.map(project => (
@@ -97,31 +97,33 @@ const OurWork = () => {
         >
           2022-2023 Projects
         </motion.p>
-        <motion.div
-          className="ctc-ourwork-current-projects"
-          initial={{
-            opacity: 0,
-            y: 50,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{ once: true }}
-          transition={{
-            duration: loaded ? 0.5 : 0.75,
-            delay: loaded ? 0 : 0.5,
-            type: "spring",
-            damping: 15,
-            staggerChildren: 0.5,
-          }}
-          exit={{
-            opacity: 0,
-            y: 50,
-          }}
-        >
-          {projects.active.map(project => <ProjectCard {...project} />)}
-        </motion.div>
+        <div className="ctc-ourwork-centered-container">
+          <motion.div
+            className="ctc-ourwork-current-projects"
+            initial={{
+              opacity: 0,
+              y: 50,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{ once: true }}
+            transition={{
+              duration: loaded ? 0.5 : 0.75,
+              delay: loaded ? 0 : 0.5,
+              type: "spring",
+              damping: 15,
+              staggerChildren: 0.5,
+            }}
+            exit={{
+              opacity: 0,
+              y: 50,
+            }}
+          >
+            {projects.active.map(project => <ProjectCard {...project} />)}
+          </motion.div>
+        </div>
         <motion.p
           className="ctc-ourwork-past-projects-header"
           initial={{
@@ -147,31 +149,34 @@ const OurWork = () => {
         >
           Past Projects
         </motion.p>
-        <motion.div
-          className="ctc-ourwork-past-projects"
-          initial={{
-            opacity: 0,
-            y: -50,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{ once: true }}
-          transition={{
-            duration: loaded ? 0.5 : 0.75,
-            delay: loaded ? 0 : 0.5,
-            type: "spring",
-            damping: 15,
-            staggerChildren: 0.5,
-          }}
-          exit={{
-            opacity: 0,
-            y: -50,
-          }}
-        >
-          {pastProjects}
-        </motion.div>
+        <div className="ctc-ourwork-centered-container">
+          <motion.div
+            className="ctc-ourwork-past-projects"
+            initial={{
+              opacity: 0,
+              y: -50,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{ once: true }}
+            transition={{
+              duration: loaded ? 0.5 : 0.75,
+              delay: loaded ? 0 : 0.5,
+              type: "spring",
+              damping: 15,
+              staggerChildren: 0.5,
+            }}
+            exit={{
+              opacity: 0,
+              y: -50,
+            }}
+          >
+            {pastProjects}
+          </motion.div>
+        </div>
+        <Footer className="ourwork-footer" />
       </div>
     </main>
   );

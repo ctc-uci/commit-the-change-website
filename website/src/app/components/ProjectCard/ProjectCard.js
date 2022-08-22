@@ -47,14 +47,9 @@ function ProjectCard(props) {
 }
 
 ProjectCard.propTypes = {
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
-  projectName: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  // projectURL: PropTypes.string.isRequired,
-  npoURL: PropTypes.string.isRequired,
-  isAnimated: PropTypes.bool.isRequired,
-  animationProps: PropTypes.shape,
 };
 
 ProjectCard.defaultProps = {};

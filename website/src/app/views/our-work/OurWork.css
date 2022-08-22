@@ -5,14 +5,15 @@ html {
 }
 
 .ctc-ourwork-bg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   background-color: white;
   min-height: 100%;
+  height: 100vh;
   overflow: auto;
-  padding-top: 60px;
+}
+
+.ourwork-footer.ourwork-footer {
+  position: static;
+  margin-top: 40px;
 }
 
 .ctc-ourwork-header {
@@ -22,7 +23,12 @@ html {
   font-weight: 600;
   line-height: 48px;
   color: var(--dark-pink);
-  margin: 40px 0 45px 0;
+  margin: 100px 0 45px 0;
+}
+
+.ctc-ourwork-centered-container {
+  display: flex;
+  justify-content: center;
 }
 
 .ctc-ourwork-past-projects-header {
