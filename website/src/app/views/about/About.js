@@ -4,13 +4,8 @@ import { motion } from "framer-motion/dist/framer-motion";
 import values from "./values";
 import Footer from '../../components/Footer/Footer';
 import useViewport from '../../../util/useViewport';
-import "./About.css";
 
-import communityIcon from '../../../images/about/values/community-icon.svg';
-import productsIcon from '../../../images/about/values/products-icon.svg';
-import authenticIcon from '../../../images/about/values/authentic-icon.svg';
-import initiativeIcon from '../../../images/about/values/initiative-icon.svg';
-import socialImpactIcon from '../../../images/about/values/socialimpact-icon.svg';
+import "./About.css";
 import yellowSemicircle from '../../../images/about/ourmission-design.svg';
 
 const About = () => {

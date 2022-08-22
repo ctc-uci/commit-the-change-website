@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
-import TeamExperience from "../../components/TeamExperience/TeamExperience";
 import experienceData from "./experienceData";
 import questionData from "../contact-us/faq";
 
 import "./Apply.css";
-import applyGraphic from "../../../images/apply/apply.svg";
 import designGraphic from "../../../images/apply/designer_graphic.svg";
 import devGraphic from "../../../images/apply/dev_graphic.svg";
 import timelineValues from "./TimelineValues";
@@ -19,7 +17,7 @@ const Apply = () => {
   const [loaded, setLoaded] = useState(false);
   const [expandedIndex, setExpandedIndex] = useState(null);
   const { width } = useViewport();
-  const handleClick = (index) => {
+  const handleClick = index => {
     if (expandedIndex === index) {
       setExpandedIndex(null);
     } else {
@@ -35,12 +33,12 @@ const Apply = () => {
   const applicationLink = "https://tinyurl.com/ctc-app-2021";
   const contactEmail = "ctc@uci.edu";
   const inlineEmail = (
-    <a href="mailto:ctc@uci.edu" className="ctc-apply-email-link">
-      ctc@uci.edu
+    <a href={`mailto:${contactEmail}`} className="ctc-apply-email-link">
+      {contactEmail}
     </a>
   );
 
-  const experiences = experienceData.map((e, index) => (
+  const experiences = experienceData.map(e => (
     <motion.div
       className="t-card"
       initial={{
@@ -58,7 +56,7 @@ const Apply = () => {
       }}
     >
       <div className="t-card-img-container">
-        <img src={e.src} className="t-card-img" />
+        <img src={e.src} className="t-card-img" alt={`${e.name}'s CTC experience`} />
       </div>
       <p className="t-card-name">{e.name}</p>
       <p className="t-card-pos">{e.position}</p>
@@ -69,19 +67,6 @@ const Apply = () => {
   return (
     <main>
       <div className="ctc-apply-bg">
-        {/* <motion.div
-          className="ctc-apply-1-overlay"
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          exit={{
-            opacity: 0,
-          }}
-          transition={{ duration: loaded ? 0.5 : 0.75 }}
-        /> */}
         <motion.div
           className="ctc-apply-1-bg"
           initial={{

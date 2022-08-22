@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion/dist/framer-motion";
 
 import maillogo from "../../../images/home/mail-new.svg";
@@ -333,6 +332,7 @@ const Home = () => {
         Current Projects
       </motion.h1>
       <div className="ctc-home-3-projects-container">
+        {/* eslint-disable-next-line eslint-disable jsx-props-no-spreading */}
         {projectData.active.map(p => <ProjectCard {...p} />)}
       </div>
       <motion.div
