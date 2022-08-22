@@ -281,4 +281,9 @@
   .ctc-contact-1-container {
     height: 800px;
   }
+  .ctc-contact-2-social-card {
+    flex: 0 0 33%;
+    width: 120px;
+    padding-bottom: 10px;
+  }
 }
