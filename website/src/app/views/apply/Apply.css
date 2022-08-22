@@ -424,6 +424,24 @@ html {
     250px;
 } */
 
+@media screen and (max-width: 1600px) {
+  .ctc-apply-4-bg {
+    height: 1150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .ctc-apply-2-bg {
+    height: 1500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .ctc-apply-4-bg {
+    height: 1250px;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .t-card {
     height: 420px;
