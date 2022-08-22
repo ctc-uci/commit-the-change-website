@@ -109,6 +109,10 @@
   margin: auto;
 }
 
+.values-row-2 .value-container {
+  margin: auto 65px;
+}
+
 .value-info {
   width: 100%;
 }
