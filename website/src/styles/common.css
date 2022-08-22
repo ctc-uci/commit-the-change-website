@@ -25,6 +25,7 @@ Commit the Change website environment styles.
   --light-pink: #f58ea6;
   --lighter-pink: #fed4dd;
   --light-gray: #9b9b9b;
+  -webkit-overflow-scrolling: touch;
 }
 
 * {

@@ -210,7 +210,7 @@ const Apply = () => {
           exit={{
             opacity: 0,
             rotate: -45,
-            scale: 0.8,
+            scale: 0.7,
           }}
         >
           <p className="ctc-apply-2-header" id="roles">
