@@ -22,7 +22,11 @@ function ProjectCard(props) {
       style={isAnimated ? animationProps : null}
       className="project-card"
     >
-      <div className="project-card-image-div" />
+      <div
+        className="project-card-image-div"
+        style={{ backgroundImage: `url(${src})` }}
+        alt={{alt}}
+      />
       <div className="project-card-text">
         <a
           href={npoURL}
