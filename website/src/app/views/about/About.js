@@ -345,11 +345,13 @@ const About = () => {
           whileInView={{
             opacity: 1,
             y: 0,
+            scale: 1,
           }}
           viewport={{ once: true }}
           exit={{
             opacity: 0,
             rotate: -15,
+            scale: 0.8,
           }}
           transition={{
             duration: 0.5,
@@ -366,18 +368,21 @@ const About = () => {
           initial={{
             opacity: 0,
             y: 100,
+            scale: 0.8,
           }}
           whileInView={{
             opacity: 1,
             y: 0,
+            scale: 1,
           }}
           viewport={{ once: true }}
           exit={{
             opacity: 0,
             y: 100,
+            scale: 0.8,
           }}
           transition={{
-            duration: 0.5,
+            duration: 0.4,
           }}
         >
           <div className="about-4-alumni-img" />

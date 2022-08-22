@@ -87,14 +87,17 @@ const OurTeam = () => {
         initial={{
           rotate: -10,
           opacity: 0,
+          scale: 0.8,
         }}
         animate={{
           rotate: 0,
           opacity: 1,
+          scale: 1,
         }}
         exit={{
           rotate: -5,
           opacity: 0,
+          scale: 0.8,
         }}
         transition={{ duration: loaded ? 0.25 : 0.5 }}
       >

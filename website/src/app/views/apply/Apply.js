@@ -193,10 +193,12 @@ const Apply = () => {
           initial={{
             opacity: 0,
             rotate: 45,
+            scale: 0.5,
           }}
           whileInView={{
             opacity: 1,
             rotate: 0,
+            scale: 1,
           }}
           viewport={{ once: true }}
           transition={{
@@ -208,6 +210,7 @@ const Apply = () => {
           exit={{
             opacity: 0,
             rotate: -45,
+            scale: 0.8,
           }}
         >
           <p className="ctc-apply-2-header" id="roles">
@@ -458,15 +461,15 @@ const Apply = () => {
             className="ctc-apply-5-top"
             initial={{
               opacity: 0,
-              y: "-20%",
+              scaleY: 0,
             }}
             whileInView={{
               opacity: 1,
-              y: 0,
+              scaleY: 1,
             }}
             exit={{
               opacity: 0,
-              y: "-20%",
+              scaleY: 0,
             }}
             viewport={{ once: true }}
             transition={{
