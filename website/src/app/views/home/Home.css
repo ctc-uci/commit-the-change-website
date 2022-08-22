@@ -26,14 +26,14 @@
 
 .ctc-home-1-left {
   height: calc(6% - 10vh);
-  padding: calc(12% + 5vh) 10%;
+  padding: calc(10% + 7.5vh) 10%;
   width: 40%;
   float: left;
   color: white;
 }
 
 .ctc-home-1-heading-left {
-  margin-top: 25%;
+  margin-top: 20%;
   margin-bottom: 0;
   color: #E9E0FF;
   font-family: Inter;
@@ -401,6 +401,9 @@
     float: left;
     color: white;
   }
+  .ctc-home-1-heading-left {
+    margin-top: 20%;
+  }
   .ctc-home-1-right {
     width: 0%;
     padding: 0;
@@ -512,7 +515,7 @@
   }
   .ctc-home-1-heading-left {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 30%;
     margin-bottom: 30px;
     font-size: 40px;
   }
@@ -614,20 +617,19 @@
     height: calc(65vh + 250px);
   }
   .ctc-home-1-heading-left {
-    margin-top: 40%;
-    margin-bottom: 30px;
+    margin-top: 45%;
+    margin-bottom: 25px;
     font-size: 28px;
   }
   .ctc-home-1-subheading-left {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     font-size: 22px;
   } 
   .ctc-home-1-paragraph-left {
     width: 90%;
     text-align: center;
-    margin-top: 32px;
+    margin-top: 35px;
     margin-bottom: 50px;
     font-size: 18px;
     line-height: 32px;
