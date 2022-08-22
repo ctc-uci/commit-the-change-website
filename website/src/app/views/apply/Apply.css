@@ -182,7 +182,7 @@ html {
 
 .ctc-apply-2-bg {
   width: 100%;
-  height: calc(1550px - 15vw);
+  height: 1150px;
   /* background-image: url("../../../images/apply/solid-purple-1.svg"),
     url("../../../images/apply/clear-purple-1.svg"),
     url("../../../images/apply/solid-purple-2.svg"),
@@ -275,7 +275,7 @@ html {
 
 .ctc-apply-4-bg {
   width: 100%;
-  height: calc(1800px - 35%);
+  height: 1020px;
   background-color: #fff6ec;
   position: relative;
   z-index: 1;
