@@ -359,7 +359,7 @@ html {
 
 .ctc-apply-5-bg {
   width: 100%;
-  height: calc(40vw + 45vh + 30px);
+  height: 1200px;
   background-color: white;
   position: relative;
   z-index: 1;

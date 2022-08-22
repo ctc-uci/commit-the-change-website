@@ -14,7 +14,7 @@ import noah from '../../../images/about/memberImages/noah.jpeg';
 
 import hang from '../../../images/about/memberImages/hang.jpg';
 import justin from '../../../images/about/memberImages/justin.jpg';
-import zoya from '../../../images/about/memberImages/zoyasoy.png';
+import zoyasoy from '../../../images/about/memberImages/zoyasoy.png';
 import jenny from '../../../images/about/memberImages/jenny.jpg';
 import ashley from '../../../images/about/memberImages/ashley.jpg';
 import allisonliu from '../../../images/about/memberImages/allison.jpg';
@@ -50,6 +50,7 @@ import angeline from '../../../images/about/memberImages/angeline.jpg';
 import vani from '../../../images/about/memberImages/vani.jpg';
 import michelle from '../../../images/about/memberImages/michelle.jpg';
 import lancy from '../../../images/about/memberImages/lancy.JPG';
+import zoya from '../../../images/about/memberImages/zoya.jpg';
 
 import chris from '../../../images/about/memberImages/chris.jpg';
 import sylvester from '../../../images/about/memberImages/sylvester.jpg';
@@ -240,7 +241,7 @@ const members = {
         name: 'Zoya Soy',
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
-        imageURL: zoya,
+        imageURL: zoyasoy,
       },
     ],
   },
