@@ -658,12 +658,14 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .ctc-home-4-socials-container {
+    height: 250px;
+  }
   .ctc-home-4-social-container {
     flex: 0 0 40%;
   }
   .ctc-home-4-options-container {
     display: block;
-    margin-top: 30px;
   }
   .ctc-home-4-left {
     width: 89%;
