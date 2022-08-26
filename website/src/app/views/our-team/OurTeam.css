@@ -15,6 +15,8 @@
   min-height: calc(96% - 275px);
   color: white;
   text-align: center;
+  z-index: 100000; 
+  position: fixed;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
