@@ -15,7 +15,7 @@
 
 .ctc-home-1-bg {
   width: 100vw;
-  height: clamp(1100px, 100%, 100%);
+  height: 100%;
   background-image: url("../../../images/home/CTC-group-pic.jpg");
   background-color: rgba(24, 9, 58, 0.7);
   background-blend-mode: multiply;
@@ -119,7 +119,7 @@
 
 .ctc-home-2-bg {
   width: 100%;
-  height: clamp(700px, calc(35% + 10vw + 20vh));
+  height: calc(35% + 10vw + 20vh);
   display: flex;
   flex-direction: row;
   background-image: url('../../../images/home/wave-left.svg'),

@@ -141,7 +141,7 @@ const projects = {
       alt: 'Crime Survivors past project',
       projectName: 'Crime Survivors',
       description:
-        'We created a website to replace their paper pamphlets with resources and information for crime victims!',
+        'We created a website to replace their paper pamphlets with important resources and information for crime victims!',
       mediumURL:
         'https://medium.com/@committhechange.uci/past-project-reveal-with-crime-survivors-ba557206ee10',
       npoURL: 'https://crimesurvivors.org/',

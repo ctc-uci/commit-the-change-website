@@ -30,7 +30,7 @@ const Apply = () => {
     }, 750);
     return () => clearTimeout(load);
   }, []);
-  // const applicationLink = "https://tinyurl.com/ctc-app-2021";
+  const applicationLink = "https://tinyurl.com/ctc-app-2021";
   const contactEmail = "ctc@uci.edu";
   const inlineEmail = (
     <a href={`mailto:${contactEmail}`} className="ctc-apply-email-link">
@@ -148,8 +148,8 @@ const Apply = () => {
               }}
             >
               Apply to join our team as a designer or developer for the
-              &apos;22-23 school year! Applications open September 18th
-              and close September 30th.
+              &apos;22-23 school year! Applications open around late September
+              and close mid-October.
             </motion.p>
             <motion.div
               className="ctc-apply-1-buttons"
@@ -181,8 +181,8 @@ const Apply = () => {
                 {/* <div className="ctc-apply-1-apply">Apply Now</div> */}
                 <div className="ctc-apply-1-apply-disabled">
                   {width > 850
-                    ? "The 2022-23 application opens September 18th!"
-                    : "Check back on September 18th!"}
+                    ? "The 2022-23 application opens in late September!"
+                    : "Check back in late September!"}
                 </div>
               </a>
             </motion.div>
@@ -450,8 +450,8 @@ const Apply = () => {
               {/* <div className="ctc-apply-4-apply">Apply Now</div> */}
               <div className="ctc-apply-4-apply-disabled">
                 {width > 850
-                  ? "The 2022-23 application opens September 18th!"
-                  : "Check back on September 18th!"}
+                  ? "The 2022-23 application opens in late September!"
+                  : "Check back in late September!"}
               </div>
             </a>
           </div>
