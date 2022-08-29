@@ -99,7 +99,7 @@ p:hover > .project-off {
 @media screen and (max-width: 900px) {
   .project-card {
     margin: 15px;
-    height: 415px !important;
+    height: 420px !important;
     min-width: 0px;
     max-width: unset;
     flex-basis: unset;

@@ -8,19 +8,20 @@ import och from '../../../images/nonprofits/OC-Habitats.png';
 import tlp from '../../../images/nonprofits/The-Literacy-Project.png';
 import afc from '../../../images/nonprofits/Abound-Food-Care.png';
 import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
+import gins from '../../../images/nonprofits/Get-Inspired.png';
 
 const projects = {
   active: [
     {
       start: 'Fall 2022',
       end: 'Spring 2023',
-      src: placeholder,
-      alt: 'Incoming project #1',
-      projectName: 'To Be Announced 🚧',
+      src: gins,
+      alt: 'Get Inspired',
+      projectName: 'Get Inspired',
       description:
-        'Check back on our website and social media for our project reveals in the coming weeks!',
+        'We will be building a new database system for them to better organize and report their Pismo Clam restoration data!',
       projectURL: '',
-      npoURL: 'https://www.ctc-uci.com/',
+      npoURL: 'https://getinspiredinc.org/',
     },
     {
       start: 'Fall 2022',
