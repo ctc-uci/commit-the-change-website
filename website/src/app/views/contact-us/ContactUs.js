@@ -5,11 +5,11 @@ import Footer from "../../components/Footer/Footer";
 import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
 // import QuestionData from "./faq";
 // import Question from "../../components/Question/Question";
-import iglogo from "../../../images/contactUs/instagramlogo.svg";
-import fblogo from "../../../images/contactUs/facebooklogo.svg";
-import mediumlogo from "../../../images/contactUs/mediumlogo.svg";
-import linkedinlogo from "../../../images/contactUs/linkedinlogo.svg";
-import maillogo from "../../../images/contactUs/envelope-solid.svg";
+import iglogo from "../../../images/contactUs/ig.svg";
+import fblogo from "../../../images/contactUs/fb.svg";
+import mediumlogo from "../../../images/contactUs/md.svg";
+import linkedinlogo from "../../../images/contactUs/li.svg";
+import maillogo from "../../../images/contactUs/mail.svg";
 
 import "./ContactUs.css";
 

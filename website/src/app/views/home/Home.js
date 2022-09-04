@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion/dist/framer-motion";
 
-import maillogo from "../../../images/home/mail-new.svg";
-import fblogo from "../../../images/home/fb-icon-purple.svg";
-import instagramlogo from "../../../images/home/ig-icon-purple.svg";
-import mediumlogo from "../../../images/home/medium-new.svg";
-import linkedinlogo from "../../../images/home/linkedin-icon-purple.svg";
+import maillogo from "../../../images/home/mail.svg";
+import fblogo from "../../../images/home/fb.svg";
+import instagramlogo from "../../../images/home/ig.svg";
+import mediumlogo from "../../../images/home/md.svg";
+import linkedinlogo from "../../../images/home/li.svg";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Footer from '../../components/Footer/Footer';

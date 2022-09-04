@@ -6,11 +6,11 @@ import useViewport from "../../../util/useViewport";
 import { Menu, X } from "react-feather";
 import "./Nav.css";
 import ctcLogo from "../../../images/logo/white-ctc.svg";
-import iglogo from "../../../images/nav/instagramlogo.svg";
-import fblogo from "../../../images/nav/facebooklogo.svg";
-import mediumlogo from "../../../images/nav/mediumlogo.svg";
-import linkedinlogo from "../../../images/nav/linkedinlogo.svg";
-import maillogo from "../../../images/nav/maillogo.svg";
+import iglogo from "../../../images/nav/ig.svg";
+import fblogo from "../../../images/nav/fb.svg";
+import mediumlogo from "../../../images/nav/md.svg";
+import linkedinlogo from "../../../images/nav/li.svg";
+import maillogo from "../../../images/nav/mail.svg";
 
 const Nav = () => {
   const { width } = useViewport();
