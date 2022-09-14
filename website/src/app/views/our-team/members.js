@@ -19,7 +19,7 @@ import jenny from '../../../images/ourTeam/memberImages/jenny.jpg';
 import ashley from '../../../images/ourTeam/memberImages/ashley.jpg';
 import allisonliu from '../../../images/ourTeam/memberImages/allison.jpg';
 import gurneetcheema from '../../../images/ourTeam/memberImages/gurneetcheema.jpeg';
-import madhusudhan from '../../../images/ourTeam/memberImages/madhusudhan.jpg';
+import madhusudhan from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 import ethan from '../../../images/ourTeam/memberImages/ethan.jpg';
@@ -223,7 +223,7 @@ const members = {
     ],
   },
   npo1: {
-    name: 'NPO 1',
+    name: 'Patriots and Paws',
     members: [
       {
         name: 'Hang Cao',
@@ -246,7 +246,7 @@ const members = {
     ],
   },
   npo2: {
-    name: 'NPO 2',
+    name: 'Get Inspired',
     members: [
       {
         name: 'Jenny Lee',
@@ -269,7 +269,7 @@ const members = {
     ],
   },
   npo3: {
-    name: 'NPO 3',
+    name: 'Advance OC',
     members: [
       {
         name: 'Gurneet Cheema',
