@@ -100,9 +100,9 @@ const Home = () => {
   <div className="ctc-home-bg">
     <motion.div
       className="ctc-home-1-bg"
-      initial={{ y: "100%", opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ opacity: 0 }}
+      initial={{ scale: 0.5, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0.7, opacity: 0 }}
       transition={{
         duration: 1,
         type: "spring",
@@ -125,7 +125,7 @@ const Home = () => {
             x: "-100%",
           }}
           transition={{
-            duration: loaded ? 0.5 : 1,
+            duration: loaded ? 0.3 : 1,
           }}
         >
           Commit the Change
@@ -145,7 +145,7 @@ const Home = () => {
             x: "-100%",
           }}
           transition={{
-            duration: loaded ? 0.5 : 1,
+            duration: loaded ? 0.3 : 1,
           }}
         >
           Tech with Purpose
@@ -165,7 +165,7 @@ const Home = () => {
             x: "-100%",
           }}
           transition={{
-            duration: loaded ? 0.5 : 1,
+            duration: loaded ? 0.3 : 1,
           }}
         >
           Delivering high quality software for non-profit organizations
@@ -189,7 +189,7 @@ const Home = () => {
                 y: "1000%",
               }}
               transition={{
-                duration: loaded ? 0.5 : 1,
+                duration: loaded ? 0.25 : 1,
                 delay: loaded ? 0 : 0.5,
               }}
             >
