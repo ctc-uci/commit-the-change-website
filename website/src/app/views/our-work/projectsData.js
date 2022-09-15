@@ -1,5 +1,5 @@
 // import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
-import placeholder from '../../../images/nonprofits/project-placeholder.png';
+// import placeholder from '../../../images/nonprofits/project-placeholder.png';
 import crs from '../../../images/nonprofits/Crime-Survivors.png';
 import ccl from '../../../images/nonprofits/Child-Creativity-Lab.png';
 import jff from '../../../images/nonprofits/Justice-For-Families.png';
@@ -10,6 +10,7 @@ import afc from '../../../images/nonprofits/Abound-Food-Care.png';
 import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
 import gins from '../../../images/nonprofits/Get-Inspired.png';
 import aoc from '../../../images/nonprofits/Advance-OC.png';
+import pnp from '../../../images/nonprofits/Patriots-and-Paws.png';
 
 const projects = {
   active: [
@@ -38,13 +39,13 @@ const projects = {
     {
       start: 'Fall 2022',
       end: 'Spring 2023',
-      src: placeholder,
-      alt: 'Incoming project #3',
-      projectName: 'To Be Announced 🚧',
+      src: pnp,
+      alt: 'Patriots and Paws',
+      projectName: 'Patriots and Paws',
       description:
-        'Check back on our website and social media for our project reveals in the coming weeks!',
+        'We will be designing a system for them to manage and schedule pickups for their furniture donations for veterans!',
       projectURL: '',
-      npoURL: 'https://www.ctc-uci.com/',
+      npoURL: 'https://patriotsandpaws.org/',
     },
 
   ],
