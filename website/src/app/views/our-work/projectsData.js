@@ -8,8 +8,8 @@ import och from '../../../images/nonprofits/OC-Habitats.png';
 import tlp from '../../../images/nonprofits/The-Literacy-Project.png';
 import afc from '../../../images/nonprofits/Abound-Food-Care.png';
 import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
-import gins from '../../../images/nonprofits/Get-Inspired.png';
-import aoc from '../../../images/nonprofits/Advance-OC.png';
+import gsp from '../../../images/nonprofits/Get-Inspired.png';
+import cds from '../../../images/nonprofits/Cell-Dogs.png';
 import pnp from '../../../images/nonprofits/Patriots-and-Paws.png';
 
 const projects = {
@@ -17,7 +17,7 @@ const projects = {
     {
       start: 'Fall 2022',
       end: 'Spring 2023',
-      src: gins,
+      src: gsp,
       alt: 'Get Inspired',
       projectName: 'Get Inspired',
       description:
@@ -28,13 +28,13 @@ const projects = {
     {
       start: 'Fall 2022',
       end: 'Spring 2023',
-      src: aoc,
-      alt: 'Advance OC',
-      projectName: 'Advance OC',
+      src: cds,
+      alt: 'Cell Dogs',
+      projectName: 'Cell Dogs',
       description:
-        'We will be creating a web view for their Social Equity Map of Orange County that will be easier to navigate and read!',
+        'We will be creating a canine tracker for them to manage their trainee dogs throughout correctional programs and adoption!',
       projectURL: '',
-      npoURL: 'https://advanceoc.org/',
+      npoURL: 'https://celldogs.org/',
     },
     {
       start: 'Fall 2022',
