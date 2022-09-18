@@ -30,7 +30,7 @@ const Apply = () => {
     }, 750);
     return () => clearTimeout(load);
   }, []);
-  // const applicationLink = "https://tinyurl.com/ctc-app-2021";
+  const applicationLink = "https://tinyurl.com/ctc-app-22";
   const contactEmail = "ctc@uci.edu";
   const inlineEmail = (
     <a href={`mailto:${contactEmail}`} className="ctc-apply-email-link">
@@ -171,19 +171,19 @@ const Apply = () => {
               }}
             >
               <a
-                href={null}
-                // href={applicationLink}
+                // href={null}
+                href={applicationLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                // className="ctc-apply-1-applink"
-                className="ctc-apply-1-applink-disabled"
+                className="ctc-apply-1-applink"
+                // className="ctc-apply-1-applink-disabled"
               >
-                {/* <div className="ctc-apply-1-apply">Apply Now</div> */}
-                <div className="ctc-apply-1-apply-disabled">
+                <div className="ctc-apply-1-apply">Apply Now</div>
+                {/* <div className="ctc-apply-1-apply-disabled">
                   {width > 850
                     ? "The 2022-23 application opens September 18th!"
                     : "Check back on September 18th!"}
-                </div>
+                </div> */}
               </a>
             </motion.div>
           </div>
@@ -440,19 +440,19 @@ const Apply = () => {
           </motion.div>
           <div className="ctc-apply-4-buttons">
             <a
-              href={null}
-              // href={applicationLink}
+              // href={null}
+              href={applicationLink}
               target="_blank"
               rel="noopener noreferrer"
-              // className="ctc-apply-4-applink"
-              className="ctc-apply-4-applink-disabled"
+              className="ctc-apply-4-applink"
+              // className="ctc-apply-4-applink-disabled"
             >
-              {/* <div className="ctc-apply-4-apply">Apply Now</div> */}
-              <div className="ctc-apply-4-apply-disabled">
+              <div className="ctc-apply-4-apply">Apply Now</div>
+              {/* <div className="ctc-apply-4-apply-disabled">
                 {width > 850
                   ? "The 2022-23 application opens September 18th!"
                   : "Check back on September 18th!"}
-              </div>
+              </div> */}
             </a>
           </div>
         </motion.div>
