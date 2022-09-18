@@ -1,5 +1,5 @@
 import jane from '../../../images/ourTeam/memberImages/jane.jpg';
-import maxim from '../../../images/ourTeam/memberImages/maxim.jpeg';
+import maxim from '../../../images/ourTeam/memberImages/maxim.png';
 import meghna from '../../../images/ourTeam/memberImages/meghna.jpg';
 import alan from '../../../images/ourTeam/memberImages/alan.jpg';
 import claude from '../../../images/ourTeam/memberImages/claude.jpg';
@@ -10,7 +10,7 @@ import justine from '../../../images/ourTeam/memberImages/justinechou.jpg';
 import david from '../../../images/ourTeam/memberImages/david.jpg';
 import matthew from '../../../images/ourTeam/memberImages/matthew.jpg';
 import michellelin from '../../../images/ourTeam/memberImages/michellelin.jpg';
-import noah from '../../../images/ourTeam/memberImages/noah.jpeg';
+import noah from '../../../images/ourTeam/memberImages/noah.jpg';
 
 import hang from '../../../images/ourTeam/memberImages/hang.jpg';
 import justin from '../../../images/ourTeam/memberImages/justin.jpg';
