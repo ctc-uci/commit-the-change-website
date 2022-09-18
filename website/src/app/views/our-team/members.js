@@ -269,7 +269,7 @@ const members = {
     ],
   },
   npo3: {
-    name: 'Advance OC',
+    name: 'Cell Dogs',
     members: [
       {
         name: 'Gurneet Cheema',
