@@ -17,7 +17,7 @@ import "./Home.css";
 const Home = () => {
   // todo: make these into components
   const socialMediaList = [
-    <div className="ctc-home-4-social-container">
+    <div className="ctc-home-4-social-container" key="email">
       <a
         href="mailto:ctc@uci.edu"
         target="_blank"
@@ -30,7 +30,7 @@ const Home = () => {
         <p className="ctc-home-4-social-title">Email</p>
       </a>
     </div>,
-    <div className="ctc-home-4-social-container">
+    <div className="ctc-home-4-social-container" key="facebook">
       <a
         href="https://www.facebook.com/ctc.uci/"
         target="_blank"
@@ -43,7 +43,7 @@ const Home = () => {
         <p className="ctc-home-4-social-title">Facebook</p>
       </a>
     </div>,
-    <div className="ctc-home-4-social-container">
+    <div className="ctc-home-4-social-container" key="instagram">
       <a
         href="https://www.instagram.com/ctc.uci/"
         target="_blank"
@@ -56,7 +56,7 @@ const Home = () => {
         <p className="ctc-home-4-social-title">Instagram</p>
       </a>
     </div>,
-    <div className="ctc-home-4-social-container">
+    <div className="ctc-home-4-social-container" key="linkedin">
       <a
         href="https://www.linkedin.com/company/commit-the-change-uci/"
         target="_blank"
@@ -69,7 +69,7 @@ const Home = () => {
         <p className="ctc-home-4-social-title">Linkedin</p>
       </a>
     </div>,
-    <div className="ctc-home-4-social-container">
+    <div className="ctc-home-4-social-container" key="medium">
       <a
         href="https://medium.com/@committhechange.uci"
         target="_blank"
@@ -332,7 +332,7 @@ const Home = () => {
         Current Projects
       </motion.h1>
       <div className="ctc-home-3-projects-container">
-        {projectData.active.map(p => <ProjectCard {...p} />)}
+        {projectData.active.map(p => <ProjectCard key={p.projectName} {...p} />)}
       </div>
       <motion.div
         className="ctc-home-3-buttons"

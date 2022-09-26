@@ -11,6 +11,7 @@ import projects from "./projectsData";
 const pastProjects = projects.inactive.map(project => (
   <motion.div
     className="ctc-ourwork-past-projects-card"
+    key={project.projectName}
     initial={{
       opacity: 0,
     }}
@@ -121,7 +122,7 @@ const OurWork = () => {
               y: 50,
             }}
           >
-            {projects.active.map(project => <ProjectCard {...project} />)}
+            {projects.active.map(project => <ProjectCard key={project.projectName} {...project} />)}
           </motion.div>
         </div>
         <motion.p

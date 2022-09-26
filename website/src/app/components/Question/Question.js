@@ -14,13 +14,13 @@ function Question(styleProps) {
     leave: { opacity: 0 },
   });
 
-  const x = transitions.map(({ item, props }) =>
+  const x = transitions.map(({ item, props }, index) =>
     item ? (
-      <animated.div className="minus" style={props}>
+      <animated.div className="minus" key={index} style={props}>
         -
       </animated.div>
     ) : (
-      <animated.div style={props}>+</animated.div>
+      <animated.div key={index} style={props}>+</animated.div>
     )
   );
 

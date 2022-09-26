@@ -55,13 +55,14 @@ ProjectCard.propTypes = {
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string,
   npoURL: PropTypes.string,
-  isAnimated: PropTypes.bool.isRequired,
+  isAnimated: PropTypes.bool,
   animationProps: PropTypes.instanceOf(Object),
 };
 
 ProjectCard.defaultProps = {
   description: '',
   npoURL: 'https://ctc-uci.com',
+  isAnimated: false,
   animationProps: {},
 };
 

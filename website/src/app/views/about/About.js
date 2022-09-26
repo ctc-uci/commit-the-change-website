@@ -252,7 +252,7 @@ const About = () => {
         >
           <div className="values-row-1">
             {values.top.map(v => (
-              <div className="value-container">
+              <div className="value-container" key={v.title}>
                 <div className="value-info">
                   <img src={v.src} alt={v.alt} className="value-icon" />
                   <p className="value-name">{v.title}</p>
@@ -263,7 +263,7 @@ const About = () => {
           </div>
           <div className="values-row-2">
             {values.bottom.map(v => (
-              <div className="value-container">
+              <div className="value-container" key={v.title}>
                 <div className="value-info">
                   <img src={v.src} alt={v.alt} className="value-icon" />
                   <p className="value-name">{v.title}</p>

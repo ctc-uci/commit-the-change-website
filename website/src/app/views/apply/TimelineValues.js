@@ -5,8 +5,14 @@ const timelineValues = [
     leftText: 'Week 0',
     header: 'Meet the Club!',
     date: 'Sep. 19 - 23',
-    description:
-      'Swing by our booth at the Anteater Involvement Fair from 11am - 4pm on September 19th or attend one of our socials to meet the members of Commit the Change! More information regarding these events will be released closer to the date, so keep an eye on our social media.',
+    description: (
+      <p>
+        Swing by our booth at the Anteater Involvement Fair from 11am - 4pm
+        on September 19th or attend one of our socials to meet the members
+        of Commit the Change! More information regarding these events will
+        be released closer to the date, so keep an eye on our social media.
+      </p>
+    ),
   },
   {
     leftText: 'Week 1',
@@ -34,8 +40,13 @@ const timelineValues = [
     leftText: 'Week 2',
     header: 'Coffee Chats',
     date: 'Oct. 3 - 7',
-    description:
-      'Coffee chats are one-on-ones with a board member or project lead by invitation. But no pressure - this is a casual way for us to get to know you better and for you to learn more about Commit the Change!',
+    description: (
+      <p>
+        Coffee chats are one-on-ones with a board member or project lead by invitation.
+        But no pressure - this is a casual way for us to get to know you better
+        and for you to learn more about Commit the Change!
+      </p>
+    ),
   },
   {
     leftText: 'Week 3',

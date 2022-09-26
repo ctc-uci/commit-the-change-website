@@ -41,6 +41,7 @@ const Apply = () => {
   const experiences = experienceData.map(e => (
     <motion.div
       className="t-card"
+      key={e.name}
       initial={{
         opacity: 0,
       }}

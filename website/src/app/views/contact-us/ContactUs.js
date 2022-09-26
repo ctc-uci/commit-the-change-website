@@ -48,9 +48,10 @@ const SocialMediaIcons = () => {
   ];
   return (
     <div className="ctc-contact-2-socials">
-      {cards.map((card) => (
+      {cards.map(card => (
         <a
           href={card.link}
+          key={card.link}
           target="_blank"
           rel="noopener noreferrer"
           className="ctc-contact-2-social-link"
