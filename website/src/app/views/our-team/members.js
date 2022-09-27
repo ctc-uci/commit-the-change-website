@@ -19,7 +19,7 @@ import jenny from '../../../images/ourTeam/memberImages/jenny.jpg';
 import ashley from '../../../images/ourTeam/memberImages/ashley.jpg';
 import allisonliu from '../../../images/ourTeam/memberImages/allison.jpg';
 import gurneetcheema from '../../../images/ourTeam/memberImages/gurneetcheema.jpeg';
-import madhusudhan from '../../../images/ourTeam/memberImages/madhu.jpg';
+import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 import ethan from '../../../images/ourTeam/memberImages/ethan.jpg';
@@ -278,10 +278,10 @@ const members = {
         imageURL: gurneetcheema,
       },
       {
-        name: 'Madhusudhan Sharma',
+        name: 'Madhu Sharma',
         position: 'Tech Lead',
         linkedinURL: 'https://www.linkedin.com/in/madhuxsharma/',
-        imageURL: madhusudhan,
+        imageURL: madhu,
       },
       {
         name: 'Carlos Lim',
