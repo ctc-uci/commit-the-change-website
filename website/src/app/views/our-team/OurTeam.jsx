@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import { AnimatePresence, motion } from "framer-motion/dist/framer-motion";
+import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
+import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
-import membersData from "./members";
-import LinkedIn from "../../../images/about/linkedin.svg";
-import Footer from "../../components/Footer/Footer";
+import membersData from './members';
+import LinkedIn from '../../../images/about/linkedin.svg';
+import Footer from '../../components/Footer/Footer';
 
-import "./OurTeam.css";
+import './OurTeam.css';
 
-const mapMembersToCards = members => (
+const mapMembersToCards = (members) => (
   <motion.div
     className="ctc-ourteam-cards"
     key={members}
-    initial={{ x: -500 }}
-    animate={{ x: 0 }}
-    exit={{ x: 500 }}
-    transition={{ duration: 0.5 }}
+    variants={animationConfigs.transformX(-500, 500)}
+    transition={transitionConfigs.simple(0.5)}
+    {...animationStates.animate}
   >
     {members?.map((member) => (
       <motion.div
@@ -24,7 +24,7 @@ const mapMembersToCards = members => (
         initial={{ x: -10, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         exit={{ opacity: 0, height: 0, width: 0 }}
-        transition={{ duration: 1 }}
+        transition={transitionConfigs.simple(1)}
       >
         <img
           alt={`${member.name}`}
@@ -99,19 +99,14 @@ const OurTeam = () => {
           opacity: 0,
           scale: 0.8,
         }}
-        transition={{ duration: loaded ? 0.25 : 0.5 }}
+        transition={transitionConfigs.simple(loaded ? 0.25 : 0.5)}
       >
         <div className="ctc-ourteam-container">
           <motion.h1
             className="ctc-ourteam-header"
-            initial={{ opacity: 0, y: -100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.25,
-              duration: 1,
-              type: "spring",
-              bounce: 0.2,
-            }}
+            variants={animationConfigs.transformY(-100, 100)}
+            transition={transitionConfigs.spring(0.75, 0.25, 0.2)}
+            {...animationStates.animate}
           >
             Meet the Team
           </motion.h1>
@@ -121,13 +116,12 @@ const OurTeam = () => {
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${
-                    tab === currentTab && "ctc-ourteam-tab-active"
+                    tab === currentTab && 'ctc-ourteam-tab-active'
                   }`}
                   onClick={() => setCurrentTab(tab)}
-                  initial={{ opacity: 0, y: 100 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 100 }}
-                  transition={{ duration: 0.25 }}
+                  variants={animationConfigs.transformY(100, 100)}
+                  transition={transitionConfigs.simple(0.25)}
+                  {...animationStates.animate}
                 >
                   {membersData[tab].name}
                 </motion.div>

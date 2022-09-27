@@ -1,54 +1,53 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion/dist/framer-motion";
-import Footer from "../../components/Footer/Footer";
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion/dist/framer-motion';
+import Footer from '../../components/Footer/Footer';
+import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
-import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
-// import QuestionData from "./faq";
-// import Question from "../../components/Question/Question";
-import iglogo from "../../../images/contactUs/ig.svg";
-import fblogo from "../../../images/contactUs/fb.svg";
-import mediumlogo from "../../../images/contactUs/md.svg";
-import linkedinlogo from "../../../images/contactUs/li.svg";
-import maillogo from "../../../images/contactUs/mail.svg";
+import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
+import iglogo from '../../../images/contactUs/ig.svg';
+import fblogo from '../../../images/contactUs/fb.svg';
+import mediumlogo from '../../../images/contactUs/md.svg';
+import linkedinlogo from '../../../images/contactUs/li.svg';
+import maillogo from '../../../images/contactUs/mail.svg';
 
-import "./ContactUs.css";
+import './ContactUs.css';
 
 const SocialMediaIcons = () => {
   const cards = [
     {
-      name: "Email",
+      name: 'Email',
       image: maillogo,
-      link: "mailto:ctc@uci.edu",
-      special: "ctc-contact-2-email-img",
+      link: 'mailto:ctc@uci.edu',
+      special: 'ctc-contact-2-email-img',
     },
     {
-      name: "Facebook",
+      name: 'Facebook',
       image: fblogo,
-      link: "https://www.facebook.com/ctc.uci/",
+      link: 'https://www.facebook.com/ctc.uci/',
       special: false,
     },
     {
-      name: "Instagram",
+      name: 'Instagram',
       image: iglogo,
-      link: "https://www.instagram.com/ctc.uci/",
+      link: 'https://www.instagram.com/ctc.uci/',
       special: false,
     },
     {
-      name: "Medium",
+      name: 'Medium',
       image: mediumlogo,
-      link: "https://medium.com/@committhechange.uci",
-      special: "ctc-contact-2-medium-img",
+      link: 'https://medium.com/@committhechange.uci',
+      special: 'ctc-contact-2-medium-img',
     },
     {
-      name: "LinkedIn",
+      name: 'LinkedIn',
       image: linkedinlogo,
-      link: "https://www.linkedin.com/company/commit-the-change-uci/",
+      link: 'https://www.linkedin.com/company/commit-the-change-uci/',
       special: false,
     },
   ];
   return (
     <div className="ctc-contact-2-socials">
-      {cards.map(card => (
+      {cards.map((card) => (
         <a
           href={card.link}
           key={card.link}
@@ -61,7 +60,7 @@ const SocialMediaIcons = () => {
               src={card.image}
               alt={`CTC ${card.name}`}
               className={
-                card.special ? card.special : "ctc-contact-2-social-img"
+                card.special ? card.special : 'ctc-contact-2-social-img'
               }
             />
             <div className="ctc-contact-2-social-text">{card.name}</div>
@@ -91,93 +90,40 @@ const ContactUs = () => {
     <main>
       <motion.div
         className="ctc-contact-bg"
-        initial={{
-          opacity: 0,
-        }}
-        animate={{
-          opacity: 1,
-        }}
-        exit={{
-          opacity: 0,
-        }}
-        transition={{ duration: loaded ? 0.5 : 0.75 }}
+        variants={animationConfigs.opacity(0, 0)}
+        transition={transitionConfigs.simple(loaded ? 0.5 : 0.75)}
+        {...animationStates.animate}
       >
         <div className="ctc-contact-container">
           <div className="ctc-contact-1-container">
             <motion.div
               className="ctc-contact-1-leftcolumn"
-              initial={{
-                x: "-100%",
-              }}
-              animate={{
-                x: 0,
-              }}
-              exit={{
-                x: "-100%",
-              }}
-              transition={{ duration: loaded ? 0.5 : 1 }}
+              variants={animationConfigs.transformX('-100%', '-100%')}
+              transition={transitionConfigs.simple(loaded ? 0.5 : 1)}
+              {...animationStates.animate}
             />
             <div className="ctc-contact-1-rightcolumn">
               <motion.p
                 className="ctc-contact-1-heading"
-                initial={{
-                  y: "-100%",
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                exit={{
-                  y: "-100%",
-                  opacity: 0,
-                }}
-                transition={{
-                  delay: loaded ? 0 : 0.75,
-                  duration: loaded ? 0.5 : 0.4,
-                }}
+                variants={animationConfigs.transformY('-100%', '-100%')}
+                transition={transitionConfigs.simple(loaded ? 0.5 : 0.4, loaded ? 0 : 0.75)}
+                {...animationStates.animate}
               >
                 Hey Nonprofits!
               </motion.p>
               <motion.p
                 className="ctc-contact-1-subhead"
-                initial={{
-                  y: "-100%",
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                exit={{
-                  y: "-100%",
-                  opacity: 0,
-                }}
-                transition={{
-                  delay: loaded ? 0 : 0.75,
-                  duration: loaded ? 0.5 : 0.4,
-                }}
+                variants={animationConfigs.transformY('-100%', '-100%')}
+                transition={transitionConfigs.simple(loaded ? 0.5 : 0.4, loaded ? 0 : 0.75)}
+                {...animationStates.animate}
               >
                 Ready to work with us?
               </motion.p>
               <motion.p
                 className="ctc-contact-1-p"
-                initial={{
-                  y: "100%",
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                exit={{
-                  y: "100%",
-                  opacity: 0,
-                }}
-                transition={{
-                  delay: loaded ? 0 : 1.1,
-                  duration: 0.5,
-                }}
+                variants={animationConfigs.transformY('100%', '100%')}
+                transition={transitionConfigs.simple(0.5, loaded ? 0 : 1.1)}
+                {...animationStates.animate}
               >
                 We work with non-profit organizations throughout the school year
                 (September 2022 - June 2023) on software projects that will have
@@ -186,45 +132,22 @@ const ContactUs = () => {
               </motion.p>
               <motion.p
                 className="ctc-contact-1-p"
-                initial={{
-                  y: "100%",
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                exit={{
-                  y: "100%",
-                  opacity: 0,
-                }}
-                transition={{
-                  delay: loaded ? 0 : 1.1,
-                  duration: 0.5,
-                }}
+                variants={animationConfigs.transformY('100%', '100%')}
+                transition={transitionConfigs.simple(0.5, loaded ? 0 : 1.1)}
+                {...animationStates.animate}
               >
                 If you would like to learn more about our organization or talk
                 about how we can partner together in the future, please email us
-                at {inlineEmail}!
+                at
+                {' '}
+                {inlineEmail}
+                !
               </motion.p>
               <motion.div
                 className="ctc-contact-1-buttons"
-                initial={{
-                  y: "500%",
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                exit={{
-                  y: "500%",
-                  opacity: 0,
-                }}
-                transition={{
-                  delay: loaded ? 0 : 1.1,
-                  duration: 0.5,
-                }}
+                variants={animationConfigs.transformY('500%', '500%')}
+                transition={transitionConfigs.simple(0.5, loaded ? 0 : 1.1)}
+                {...animationStates.animate}
               >
                 <a
                   href={Portfolio}
@@ -249,22 +172,9 @@ const ContactUs = () => {
           </div>
           <motion.div
             className="ctc-contact-2-container"
-            initial={{
-              y: "-100%",
-              opacity: 0,
-            }}
-            animate={{
-              y: 0,
-              opacity: 1,
-            }}
-            exit={{
-              y: "-100%",
-              opacity: 0,
-            }}
-            transition={{
-              delay: loaded ? 0 : 0.75,
-              duration: loaded ? 0.5 : 0.5,
-            }}
+            variants={animationConfigs.transformY('-100%', '-100%')}
+            transition={transitionConfigs.simple(0.5, loaded ? 0 : 0.75)}
+            {...animationStates.animate}
           >
             <p className="ctc-contact-2-heading">Contact Us</p>
             <p className="ctc-contact-2-subhead">
@@ -278,106 +188,6 @@ const ContactUs = () => {
       </motion.div>
     </main>
   );
-
-  // return (
-  //   <div className="contact-us-page">
-  //     <animated.div style={slideUp} className="top-panel">
-  //       <div className="top-panel-text contact-mobile">
-  //         <div className="inside-top-panel-text">
-  //           <h3 className="contact-us-students">STUDENTS</h3>
-  //           <h1 className="top-panel-title">
-  //             {ContactUsData.topThird.titleText}
-  //           </h1>
-  //           <p className="top-panel-description">
-  //             {ContactUsData.topThird.description}
-  //           </p>
-  //           <a href="#faq-section" className="common-pink-button">
-  //             Read FAQ
-  //           </a>
-  //           <a
-  //             href="https://docs.google.com/forms/d/e/1FAIpQLSeP9T6ov7Q8Q6C6LSuvpHWy4Q_SIfATvWhkbMy6nzgsLaDOMQ/viewform"
-  //             target="_blank"
-  //             rel="noopener noreferrer"
-  //             className="common-pink-button"
-  //           >
-  //             Interest Form
-  //           </a>
-  //         </div>
-  //       </div>
-  //       <div className="top-panel-pic">
-  //         <img
-  //           src={contactUsImage}
-  //           alt="Join the Commit the Change team"
-  //           className="contact-us-top-panel-img"
-  //         />
-  //       </div>
-  //     </animated.div>
-
-  //     <div className="contact-us-middle-third">
-  //       <div className="contact-us-middle-items">
-  //         <img
-  //           src={purpleLogo}
-  //           alt="Commit the Change purple heart logo"
-  //           className="heart-logo"
-  //         />
-  //         <animated.div
-  //           style={slideUpInactiveNpo}
-  //           className="middle-third-info"
-  //         >
-  //           <VisibilitySensor
-  //             onChange={(isVisible) => {
-  //               if (isVisible) setMiddleVisible(middleViewCount + 1);
-  //             }}
-  //           >
-  //             <h3 className="middle-contact-header">
-  //               {ContactUsData.middleThird.header}
-  //             </h3>
-  //           </VisibilitySensor>
-  //           <h1 className="middle-contact-title">
-  //             {ContactUsData.middleThird.topTitle}
-  //           </h1>
-  //           <p>{ContactUsData.middleThird.topDescription}</p>
-  //           <p>
-  //             {ContactUsData.middleThird.bottomDescription}
-  //             {inlineEmail}!
-  //           </p>
-  //           <a
-  //             href={Portfolio}
-  //             className="common-pink-button"
-  //             target="_blank"
-  //             rel="noopener noreferrer"
-  //           >
-  //             View our Portfolio
-  //           </a>
-  //           <a
-  //             href="mailto:ctc@uci.edu"
-  //             className="common-pink-button"
-  //             target="_blank"
-  //             rel="noopener noreferrer"
-  //           >
-  //             Get in Touch
-  //           </a>
-  //         </animated.div>
-  //       </div>
-  //     </div>
-
-  //     <div className="contact-us-bottom-third" id="faq-section">
-  //       <h1 className="faq-title">Frequently Asked Questions</h1>
-  //       <div className="contact-us-bottom-third-items">
-  //         {QuestionData.current.map((el, index) => (
-  //           <Question
-  //             index={index}
-  //             key={index.toString()}
-  //             questionText={el.question}
-  //             answerText={el.answer}
-  //             expanded={index === expandedIndex}
-  //             handleClick={handleClick}
-  //           />
-  //         ))}
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
 };
 
 export default ContactUs;

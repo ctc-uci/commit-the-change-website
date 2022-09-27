@@ -75,7 +75,7 @@
   margin-bottom: 2px;
 }
 
-.tl-row .tl-description {
+.tl-description p {
   margin-top: 15px;
 }
 
@@ -103,7 +103,7 @@
     margin: 5px 0 5px 0;
     align-self: flex-start;
   }
-  .tl-row .tl-description {
+  .tl-description p {
     margin-top: 5px;
     font-size: 14px;
     line-height: 18px;

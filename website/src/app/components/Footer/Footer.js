@@ -1,15 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import ctcLogo from "../../../images/logo/white-ctc.svg";
-import iglogo from "../../../images/nav/ig.svg";
-import fblogo from "../../../images/nav/fb.svg";
-import mediumlogo from "../../../images/nav/md.svg";
-import linkedinlogo from "../../../images/nav/li.svg";
-import maillogo from "../../../images/nav/mail.svg";
-import { motion } from "framer-motion/dist/framer-motion";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion/dist/framer-motion';
+import ctcLogo from '../../../images/logo/white-ctc.svg';
+import iglogo from '../../../images/nav/ig.svg';
+import fblogo from '../../../images/nav/fb.svg';
+import mediumlogo from '../../../images/nav/md.svg';
+import linkedinlogo from '../../../images/nav/li.svg';
+import maillogo from '../../../images/nav/mail.svg';
 
-import useViewport from "../../../util/useViewport";
-import "./Footer.css";
+import useViewport from '../../../util/useViewport';
+import { transitionConfigs } from '../../views/animationConstants';
+import './Footer.css';
 
 const Footer = ({ className }) => {
   const { width } = useViewport();
@@ -17,11 +19,11 @@ const Footer = ({ className }) => {
   return (
     width > 850 && (
       <motion.footer
-        className={`${className ?? ""} footer`}
+        className={`${className ?? ''} footer`}
         initial={{ height: 0 }}
-        animate={{ height: "auto" }}
+        animate={{ height: 'auto' }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={transitionConfigs.simple(0.5)}
       >
         <div className="columns">
           <div className="left-column">
@@ -104,6 +106,14 @@ const Footer = ({ className }) => {
       </motion.footer>
     )
   );
+};
+
+Footer.propTypes = {
+  className: PropTypes.string,
+};
+
+Footer.defaultProps = {
+  className: '',
 };
 
 export default Footer;

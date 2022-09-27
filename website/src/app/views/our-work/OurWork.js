@@ -1,35 +1,26 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion/dist/framer-motion";
-import { ArrowUpRight } from "react-feather";
-import "./OurWork.css";
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion/dist/framer-motion';
+import { ArrowUpRight } from 'react-feather';
+import './OurWork.css';
 // import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import Footer from '../../components/Footer/Footer';
 
-import projects from "./projectsData";
+import projects from './projectsData';
+import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
-const pastProjects = projects.inactive.map(project => (
+const pastProjects = projects.inactive.map((project) => (
   <motion.div
     className="ctc-ourwork-past-projects-card"
     key={project.projectName}
-    initial={{
-      opacity: 0,
-    }}
-    whileInView={{
-      opacity: 1,
-    }}
-    viewport={{ once: true }}
-    transition={{
-      delay: 0.1,
-      duration: 0.75,
-      type: "spring",
-      damping: 15,
-    }}
+    variants={animationConfigs.opacity(0, 0)}
+    transition={{ ...transitionConfigs.spring(0.75, 0.1), damping: 15 }}
+    {...animationStates.whileInView(true)}
   >
     <div className="ctc-ourwork-past-projects-card-img-container">
       <div
         className="ctc-ourwork-past-projects-card-img"
-        style={{ backgroundImage: `url(${project.src})`}}
+        style={{ backgroundImage: `url(${project.src})` }}
       />
     </div>
     <div className="ctc-ourwork-past-projects-card-text">
@@ -43,20 +34,23 @@ const pastProjects = projects.inactive.map(project => (
         <ArrowUpRight className="project-card-arrow-up-right" />
       </a>
       <p className="ctc-ourwork-past-projects-card-timeline">
-        {project.start} - {project.end}
+        {project.start}
+        {' '}
+        -
+        {project.end}
       </p>
       <p className="ctc-ourwork-past-projects-card-description">
         {project.description}
       </p>
       <div className="ctc-ourwork-past-projects-card-buttons-div">
         <a href={project.projectURL} target="_blank" rel="noopener noreferrer">
-          <button className="ctc-ourwork-past-projects-card-github-button">
+          <div className="ctc-ourwork-past-projects-card-github-button">
             Github
-          </button>
+          </div>
         </a>
-        {/* <button className="ctc-ourwork-past-projects-card-case-study-button">
+        {/* <div className="ctc-ourwork-past-projects-card-case-study-button">
           Case Study
-        </button> */}
+        </div> */}
       </div>
     </div>
   </motion.div>
@@ -75,104 +69,52 @@ const OurWork = () => {
       <div className="ctc-ourwork-bg">
         <motion.p
           className="ctc-ourwork-header"
-          initial={{
-            opacity: 0,
-            y: -50,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{ once: true }}
+          variants={animationConfigs.transformY(-50, -50)}
           transition={{
-            duration: loaded ? 0.5 : 0.75,
-            delay: loaded ? 0 : 0.5,
-            type: "spring",
+            ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
             damping: 15,
             staggerChildren: 0.5,
           }}
-          exit={{
-            opacity: 0,
-            y: -50,
-          }}
+          {...animationStates.whileInView(true)}
         >
           2022-2023 Projects
         </motion.p>
         <div className="ctc-ourwork-centered-container">
           <motion.div
             className="ctc-ourwork-current-projects"
-            initial={{
-              opacity: 0,
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
-            viewport={{ once: true }}
+            variants={animationConfigs.transformY(50, 50)}
             transition={{
-              duration: loaded ? 0.5 : 0.75,
-              delay: loaded ? 0 : 0.5,
-              type: "spring",
+              ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
               damping: 15,
               staggerChildren: 0.5,
             }}
-            exit={{
-              opacity: 0,
-              y: 50,
-            }}
+            {...animationStates.whileInView(true)}
           >
-            {projects.active.map(project => <ProjectCard key={project.projectName} {...project} />)}
+            {projects.active.map((project) => <ProjectCard key={project.projectName} {...project} />)}
           </motion.div>
         </div>
         <motion.p
           className="ctc-ourwork-past-projects-header"
-          initial={{
-            opacity: 0,
-            y: -50,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{ once: true }}
+          variants={animationConfigs.transformY(-50, -50)}
           transition={{
-            duration: loaded ? 0.5 : 0.75,
-            delay: loaded ? 0 : 0.5,
-            type: "spring",
+            ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
             damping: 15,
             staggerChildren: 0.5,
           }}
-          exit={{
-            opacity: 0,
-            y: -50,
-          }}
+          {...animationStates.whileInView(true)}
         >
           Past Projects
         </motion.p>
         <div className="ctc-ourwork-centered-container">
           <motion.div
             className="ctc-ourwork-past-projects"
-            initial={{
-              opacity: 0,
-              y: -50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-            }}
-            viewport={{ once: true }}
+            variants={animationConfigs.transformY(-50, -50)}
             transition={{
-              duration: loaded ? 0.5 : 0.75,
-              delay: loaded ? 0 : 0.5,
-              type: "spring",
+              ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
               damping: 15,
               staggerChildren: 0.5,
             }}
-            exit={{
-              opacity: 0,
-              y: -50,
-            }}
+            {...animationStates.whileInView(true)}
           >
             {pastProjects}
           </motion.div>

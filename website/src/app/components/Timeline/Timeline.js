@@ -1,10 +1,19 @@
-import React, { useState } from "react";
-import "./Timeline.css";
-import { animated, useTrail } from "react-spring";
-import VisibilitySensor from "react-visibility-sensor";
-import animationConfig from "../../views/animationConstants";
+import React, { useState } from 'react';
+import './Timeline.css';
+import { animated, config, useTrail } from 'react-spring';
+import VisibilitySensor from 'react-visibility-sensor';
 
-function Timeline() {
+const scale = (state) => ({
+  config: config.stiff,
+  from: {
+    opacity: 0,
+    transform: 'scale(0)',
+  },
+  opacity: state ? 1 : 0,
+  transform: state ? 'scale(1)' : 'scale(0)',
+});
+
+const Timeline = () => {
   const [viewCount, set] = useState(0);
 
   const timeline = [
@@ -33,7 +42,7 @@ function Timeline() {
 
   const trailAnimation = useTrail(
     timeline.length,
-    animationConfig.scale(viewCount > 0)
+    scale(viewCount > 0),
   );
 
   return (
@@ -51,5 +60,6 @@ function Timeline() {
       </div>
     </VisibilitySensor>
   );
-}
+};
+
 export default Timeline;

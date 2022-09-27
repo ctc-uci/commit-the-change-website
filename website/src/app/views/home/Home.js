@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion/dist/framer-motion";
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion/dist/framer-motion';
 
-import maillogo from "../../../images/home/mail.svg";
-import fblogo from "../../../images/home/fb.svg";
-import instagramlogo from "../../../images/home/ig.svg";
-import mediumlogo from "../../../images/home/md.svg";
-import linkedinlogo from "../../../images/home/li.svg";
+import maillogo from '../../../images/home/mail.svg';
+import fblogo from '../../../images/home/fb.svg';
+import instagramlogo from '../../../images/home/ig.svg';
+import mediumlogo from '../../../images/home/md.svg';
+import linkedinlogo from '../../../images/home/li.svg';
 
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import Footer from '../../components/Footer/Footer';
-import whiteLogo from "../../../images/home/ctc-logo-white-transparent.svg";
-import ochHikePicture from "../../../images/home/OCH-hike-photo.jpg";
-import projectData from "../our-work/projectsData";
-import "./Home.css";
+import whiteLogo from '../../../images/home/ctc-logo-white-transparent.svg';
+import ochHikePicture from '../../../images/home/OCH-hike-photo.jpg';
+import projectData from '../our-work/projectsData';
+import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
+import './Home.css';
 
 const Home = () => {
   // todo: make these into components
@@ -97,391 +98,232 @@ const Home = () => {
   }, []);
 
   return (
-  <div className="ctc-home-bg">
-    <motion.div
-      className="ctc-home-1-bg"
-      initial={{ scale: 0.5, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      exit={{ scale: 0.7, opacity: 0 }}
-      transition={{
-        duration: 1,
-        type: "spring",
-        bounce: 0.2,
-      }}
-    >
-      <div className="ctc-home-1-left">
-        <motion.p
-          className="ctc-home-1-heading-left"
-          initial={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          exit={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          transition={{
-            duration: loaded ? 0.3 : 1,
-          }}
-        >
-          Commit the Change
-        </motion.p>
-        <motion.p
-          className="ctc-home-1-subheading-left"
-          initial={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          exit={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          transition={{
-            duration: loaded ? 0.3 : 1,
-          }}
-        >
-          Tech with Purpose
-        </motion.p>
-        <motion.p
-          className="ctc-home-1-paragraph-left"
-          initial={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          exit={{
-            opacity: 0,
-            x: "-100%",
-          }}
-          transition={{
-            duration: loaded ? 0.3 : 1,
-          }}
-        >
-          Delivering high quality software for non-profit organizations
-          while providing meaningful opportunities for UCI student developers
-          and designers.
-        </motion.p>
-        <div className="ctc-home-1-buttons">
-          <a href="/apply" className="ctc-home-1-apply-link">
-            <motion.div
-              className="ctc-home-1-apply-button"
-              initial={{
-                opacity: 0,
-                y: "1000%",
-              }}
-              animate={{
-                opacity: 1,
-                y: 0,
-              }}
-              exit={{
-                opacity: 0,
-                y: "1000%",
-              }}
-              transition={{
-                duration: loaded ? 0.25 : 1,
-                delay: loaded ? 0 : 0.5,
-              }}
-            >
-              Apply Now
-            </motion.div>
-          </a>
-        </div>
-      </div>
+    <div className="ctc-home-bg">
       <motion.div
-        className="ctc-home-1-right"
-        initial={{
-          opacity: 0,
-          x: "100%",
-        }}
-        animate={{
-          opacity: 1,
-          x: 0,
-        }}
-        exit={{
-          opacity: 0,
-          x: "100%",
-        }}
-        transition={{
-          duration: loaded ? 0.5 : 1,
-        }}
+        className="ctc-home-1-bg"
+        variants={animationConfigs.scale(0.5, 0.6)}
+        transition={transitionConfigs.spring(1, 0, 0.2)}
+        {...animationStates.animate}
       >
-        <img
-          className="ctc-home-1-right-logo"
-          src={whiteLogo}
-          alt="white CTC logo"
-        />
-      </motion.div>
-    </motion.div>
-    <motion.div
-      className="ctc-home-2-bg"
-      initial={{
-        opacity: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-      }}
-      viewport={{ once: true }}
-      exit={{
-        opacity: 0,
-      }}
-      transition={{
-        duration: 0.2,
-      }}
-    >
-      <motion.div
-        className="ctc-home-2-left"
-        initial={{
-          opacity: 0,
-          x: "-100%",
-        }}
-        whileInView={{
-          opacity: 1,
-          x: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          rotate: 45,
-        }}
-        transition={{
-          duration: 0.75,
-        }}
-      >
-        <img
-          className="ctc-home-2-left-image"
-          src={ochHikePicture}
-          alt="CTC members on a coastline hike with OC Habitats, our 2021-22 partner"
-        />
-      </motion.div>
-      <motion.div
-        className="ctc-home-2-right"
-        initial={{
-          opacity: 0,
-          rotate: 45,
-        }}
-        whileInView={{
-          opacity: 1,
-          rotate: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          rotate: -45,
-        }}
-        transition={{
-          duration: 0.75,
-        }}
-      >
-        <h1 className="ctc-home-2-heading-right">Who Are We?</h1>
-        <p className="ctc-home-2-paragraph-1-right">
-          Established in 2020, Commit the Change is a student
-          organization at UC Irvine committed to building high
-          quality tools &amp; technologies completely free of charge.
-        </p>
-        <p className="ctc-home-2-paragraph-2-right">
-          Each year, we partner with nonprofits in Southern California to
-          design &amp; develop new tools and apps to better support them in
-          aiding our communities.
-        </p>
-        <a href="/about" className="ctc-home-2-button-link">
-          <div className="ctc-home-2-learn-more-button">
-            Learn More
+        <div className="ctc-home-1-left">
+          <motion.p
+            className="ctc-home-1-heading-left"
+            variants={animationConfigs.transformX('-100%', '-100%')}
+            transition={transitionConfigs.simple(loaded ? 0.3 : 1)}
+            {...animationStates.animate}
+          >
+            Commit the Change
+          </motion.p>
+          <motion.p
+            className="ctc-home-1-subheading-left"
+            variants={animationConfigs.transformX('-100%', '-100%')}
+            transition={transitionConfigs.simple(loaded ? 0.3 : 1)}
+            {...animationStates.animate}
+          >
+            Tech with Purpose
+          </motion.p>
+          <motion.p
+            className="ctc-home-1-paragraph-left"
+            variants={animationConfigs.transformX('-100%', '-100%')}
+            transition={transitionConfigs.simple(loaded ? 0.3 : 1)}
+            {...animationStates.animate}
+          >
+            Delivering high quality software for non-profit organizations
+            while providing meaningful opportunities for UCI student developers
+            and designers.
+          </motion.p>
+          <div className="ctc-home-1-buttons">
+            <a href="/apply" className="ctc-home-1-apply-link">
+              <motion.div
+                className="ctc-home-1-apply-button"
+                variants={animationConfigs.transformY('1000%', '1000%')}
+                transition={transitionConfigs.simple(loaded ? 0.25 : 1, loaded ? 0 : 0.5)}
+                {...animationStates.animate}
+              >
+                Apply Now
+              </motion.div>
+            </a>
           </div>
-        </a>
-      </motion.div>
-    </motion.div>
-    <motion.div
-      className="ctc-home-3-bg"
-      exit={{
-        opacity: 0,
-      }}
-      transition={{
-        duration: 0.2,
-      }}
-    >
-      <motion.h1
-        className="ctc-home-3-header"
-        initial={{
-          opacity: 0,
-          y: "-100%",
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          y: "-100%",
-        }}
-        transition={{
-          duration: 0.75,
-        }}
-      >
-        Current Projects
-      </motion.h1>
-      <div className="ctc-home-3-projects-container">
-        {projectData.active.map(p => <ProjectCard key={p.projectName} {...p} />)}
-      </div>
-      <motion.div
-        className="ctc-home-3-buttons"
-        initial={{
-          opacity: 0,
-          y: "100%",
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          y: "100%",
-        }}
-        transition={{
-          duration: 0.5,
-        }}
-      >
-        <a href="/projects" className="ctc-home-3-button-link">
-          <div className="ctc-home-3-button">View All</div>
-        </a>
-      </motion.div>
-    </motion.div>
-    <motion.div
-      className="ctc-home-4-bg"
-      exit={{
-        opacity: 0,
-      }}
-      transition={{
-        duration: 0.2,
-      }}
-    >
-      <motion.h1
-        className="ctc-home-4-header"
-        initial={{
-          opacity: 0,
-          rotate: -20,
-        }}
-        whileInView={{
-          opacity: 1,
-          rotate: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          rotate: -20,
-        }}
-        transition={{
-          duration: 0.25,
-        }}
-      >
-        Let&apos;s Keep In Touch!
-      </motion.h1>
-      <motion.p
-        className="ctc-home-4-p"
-        initial={{
-          opacity: 0,
-          rotate: 20,
-        }}
-        whileInView={{
-          opacity: 1,
-          rotate: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          rotate: 45,
-        }}
-        transition={{
-          duration: 0.25,
-        }}
-      >
-        <span className="ctc-home-4-bold">Want to stay in the loop?</span>
-        {' '}Got a question or an awesome project idea?
-        Here’s where to find us:
-      </motion.p>
-      <motion.div
-        className="ctc-home-4-socials-container"
-        initial={{
-          opacity: 0,
-          y: "100%",
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          y: "100%",
-        }}
-        transition={{
-          duration: 0.5,
-        }}
-      >
-        {socialMediaList}
+        </div>
+        <motion.div
+          className="ctc-home-1-right"
+          variants={animationConfigs.transformX('100%', '100%')}
+          transition={transitionConfigs.simple(loaded ? 0.3 : 1)}
+          {...animationStates.animate}
+        >
+          <img
+            className="ctc-home-1-right-logo"
+            src={whiteLogo}
+            alt="white CTC logo"
+          />
+        </motion.div>
       </motion.div>
       <motion.div
-        className="ctc-home-4-options-container"
-        initial={{
-          opacity: 0,
-          y: "100%",
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{ once: true }}
-        exit={{
-          opacity: 0,
-          y: "100%",
-        }}
-        transition={{
-          duration: 0.25,
-        }}
+        className="ctc-home-2-bg"
+        variants={animationConfigs.opacity(0, 0)}
+        transition={transitionConfigs.simple(0.25)}
+        {...animationStates.whileInView(true)}
       >
-        <div className="ctc-home-4-left">
-          <p className="ctc-home-4-column-header">Students</p>
-          <p className="ctc-home-4-column-p">
-            <b>Ready to make a difference?</b> Want to learn valuable skills
-            to build professional products with positive real world impacts?
-            Send in your application today - we&apos;re excited to meet you!
+        <motion.div
+          className="ctc-home-2-left"
+          initial={{
+            opacity: 0,
+            x: '-100%',
+          }}
+          whileInView={{
+            opacity: 1,
+            x: 0,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            rotate: 45,
+          }}
+          transition={transitionConfigs.simple(0.75)}
+        >
+          <img
+            className="ctc-home-2-left-image"
+            src={ochHikePicture}
+            alt="CTC members on a coastline hike with OC Habitats, our 2021-22 partner"
+          />
+        </motion.div>
+        <motion.div
+          className="ctc-home-2-right"
+          initial={{
+            opacity: 0,
+            rotate: 45,
+          }}
+          whileInView={{
+            opacity: 1,
+            rotate: 0,
+          }}
+          viewport={{ once: true }}
+          exit={{
+            opacity: 0,
+            rotate: -45,
+          }}
+          transition={transitionConfigs.simple(0.75)}
+        >
+          <h1 className="ctc-home-2-heading-right">Who Are We?</h1>
+          <p className="ctc-home-2-paragraph-1-right">
+            Established in 2020, Commit the Change is a student
+            organization at UC Irvine committed to building high
+            quality tools &amp; technologies completely free of charge.
           </p>
-          <a href="/apply" className="ctc-home-4-button-link">
-            <div className="ctc-home-4-column-button">
-              Apply Now
+          <p className="ctc-home-2-paragraph-2-right">
+            Each year, we partner with nonprofits in Southern California to
+            design &amp; develop new tools and apps to better support them in
+            aiding our communities.
+          </p>
+          <a href="/about" className="ctc-home-2-button-link">
+            <div className="ctc-home-2-learn-more-button">
+              Learn More
             </div>
           </a>
-        </div>
-        <div className="ctc-home-4-right">
-          <p className="ctc-home-4-column-header">Non-Profits</p>
-          <p className="ctc-home-4-column-p">
-            <b>Got a project idea in mind?</b> Shoot it our way! Our
-            dedicated team of hard-working designers &amp; developers
-            are ready to assist you through the process!
-            Did we mention it&apos;s free?
-          </p>
-          <a href="/contact" className="ctc-home-4-button-link">
-            <div className="ctc-home-4-column-button">
-              Contact us
-            </div>
-          </a>
-        </div>
+        </motion.div>
       </motion.div>
-    </motion.div>
-    <Footer className="home-footer" />
-  </div>
+      <motion.div
+        className="ctc-home-3-bg"
+        variants={animationConfigs.opacity(1, 0)}
+        transition={transitionConfigs.simple(0.2)}
+        {...animationStates.animate}
+      >
+        <motion.h1
+          className="ctc-home-3-header"
+          variants={animationConfigs.transformY('-100%', '-100%')}
+          transition={transitionConfigs.simple(0.75)}
+          {...animationStates.whileInView(true)}
+        >
+          Current Projects
+        </motion.h1>
+        <div className="ctc-home-3-projects-container">
+          {projectData.active.map((p) => <ProjectCard key={p.projectName} {...p} />)}
+        </div>
+        <motion.div
+          className="ctc-home-3-buttons"
+          variants={animationConfigs.transformY('100%', '100%')}
+          transition={transitionConfigs.simple(0.5)}
+          {...animationStates.whileInView(true)}
+        >
+          <a href="/projects" className="ctc-home-3-button-link">
+            <div className="ctc-home-3-button">View All</div>
+          </a>
+        </motion.div>
+      </motion.div>
+      <motion.div
+        className="ctc-home-4-bg"
+        variants={animationConfigs.opacity(1, 0)}
+        transition={transitionConfigs.simple(0.2)}
+        {...animationStates.animate}
+      >
+        <motion.h1
+          className="ctc-home-4-header"
+          variants={animationConfigs.rotate(-20, -20)}
+          transition={transitionConfigs.simple(loaded ? 0.4 : 0.25)}
+          {...animationStates.whileInView(true)}
+        >
+          Let&apos;s Keep In Touch!
+        </motion.h1>
+        <motion.p
+          className="ctc-home-4-p"
+          variants={animationConfigs.rotate(20, 45)}
+          transition={transitionConfigs.simple(loaded ? 0.5 : 0.25)}
+          {...animationStates.whileInView(true)}
+        >
+          <span className="ctc-home-4-bold">Want to stay in the loop?</span>
+          {' '}
+          Got a question or an awesome project idea?
+          Here’s where to find us:
+        </motion.p>
+        <motion.div
+          className="ctc-home-4-socials-container"
+          variants={animationConfigs.transformY('100%', '100%')}
+          transition={transitionConfigs.simple(0.5)}
+          {...animationStates.whileInView(true)}
+        >
+          {socialMediaList}
+        </motion.div>
+        <motion.div
+          className="ctc-home-4-options-container"
+          variants={animationConfigs.transformY('100%', '100%')}
+          transition={transitionConfigs.simple(0.25)}
+          {...animationStates.whileInView(true)}
+        >
+          <div className="ctc-home-4-left">
+            <p className="ctc-home-4-column-header">Students</p>
+            <p className="ctc-home-4-column-p">
+              <b>Ready to make a difference?</b>
+              {' '}
+              Want to learn valuable skills
+              to build professional products with positive real world impacts?
+              Send in your application today - we&apos;re excited to meet you!
+            </p>
+            <a href="/apply" className="ctc-home-4-button-link">
+              <div className="ctc-home-4-column-button">
+                Apply Now
+              </div>
+            </a>
+          </div>
+          <div className="ctc-home-4-right">
+            <p className="ctc-home-4-column-header">Non-Profits</p>
+            <p className="ctc-home-4-column-p">
+              <b>Got a project idea in mind?</b>
+              {' '}
+              Shoot it our way! Our
+              dedicated team of hard-working designers &amp; developers
+              are ready to assist you through the process!
+              Did we mention it&apos;s free?
+            </p>
+            <a href="/contact" className="ctc-home-4-button-link">
+              <div className="ctc-home-4-column-button">
+                Contact us
+              </div>
+            </a>
+          </div>
+        </motion.div>
+      </motion.div>
+      <Footer className="home-footer" />
+    </div>
   );
 };
 

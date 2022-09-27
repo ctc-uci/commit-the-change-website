@@ -1,36 +1,34 @@
-import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion/dist/framer-motion";
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion';
 
-import useViewport from "../../../util/useViewport";
-import { Menu, X } from "react-feather";
-import "./Nav.css";
-import ctcLogo from "../../../images/logo/white-ctc.svg";
-import iglogo from "../../../images/nav/ig.svg";
-import fblogo from "../../../images/nav/fb.svg";
-import mediumlogo from "../../../images/nav/md.svg";
-import linkedinlogo from "../../../images/nav/li.svg";
-import maillogo from "../../../images/nav/mail.svg";
+import { Menu, X } from 'react-feather';
+import useViewport from '../../../util/useViewport';
+import { animationConfigs, animationStates, transitionConfigs } from '../../views/animationConstants';
+import './Nav.css';
+import ctcLogo from '../../../images/logo/white-ctc.svg';
+import iglogo from '../../../images/nav/ig.svg';
+import fblogo from '../../../images/nav/fb.svg';
+import mediumlogo from '../../../images/nav/md.svg';
+import linkedinlogo from '../../../images/nav/li.svg';
+import maillogo from '../../../images/nav/mail.svg';
 
 const Nav = () => {
   const { width } = useViewport();
   const [open, toggleVisibility] = useState(false);
   const location = useLocation();
-  const isActiveLink = (pathname) =>
-    location.pathname === pathname
-      ? "navbar-active-link navbar-link"
-      : "navbar-link";
-  const isActiveMobileLink = (pathname) =>
-    location.pathname === pathname
-      ? "mobile-nav-active-link mobile-nav-link"
-      : "mobile-nav-link";
+  const isActiveLink = (pathname) => (location.pathname === pathname
+    ? 'navbar-active-link navbar-link'
+    : 'navbar-link');
+  const isActiveMobileLink = (pathname) => (location.pathname === pathname
+    ? 'mobile-nav-active-link mobile-nav-link'
+    : 'mobile-nav-link');
   return (
     <motion.nav
       className="nav-bar"
-      initial={{ height: 0, opacity: 0 }}
-      animate={{ height: 60, opacity: 1 }}
-      exit={{ height: 0, opacity: 0 }}
-      transition={{ delay: 0.25, duration: 0.5 }}
+      variants={animationConfigs.height(0, 60, 0)}
+      transition={transitionConfigs.simple(0.5, 0.25)}
+      {...animationStates.animate}
     >
       <Link to="/">
         <div className="navbar-logo" />
@@ -38,21 +36,20 @@ const Nav = () => {
       {width > 850 ? (
         <motion.div
           className="navbar-links"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.25 }}
+          variants={animationConfigs.opacity(0, 0)}
+          transition={transitionConfigs.simple(0.25)}
+          {...animationStates.animate}
         >
-          <Link className={isActiveLink("/about")} to="/about">
+          <Link className={isActiveLink('/about')} to="/about">
             About Us
           </Link>
-          <Link className={isActiveLink("/projects")} to="/projects">
+          <Link className={isActiveLink('/projects')} to="/projects">
             Projects
           </Link>
-          <Link className={isActiveLink("/team")} to="/team">
+          <Link className={isActiveLink('/team')} to="/team">
             Our Team
           </Link>
-          <Link className={isActiveLink("/contact")} to="/contact">
+          <Link className={isActiveLink('/contact')} to="/contact">
             Contact
           </Link>
           <Link className="navbar-link" to="/apply">
@@ -63,10 +60,9 @@ const Nav = () => {
         <AnimatePresence exitBeforeEnter>
           <motion.button
             type="button"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
+            variants={animationConfigs.opacity(0, 0)}
+            transition={transitionConfigs.simple(0.25)}
+            {...animationStates.animate}
             className="mobile-nav"
             onClick={() => toggleVisibility(!open)}
             onKeyDown={() => toggleVisibility(!open)}
@@ -75,52 +71,50 @@ const Nav = () => {
           </motion.button>
           {open && (
             <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "100vh", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.75 }}
+              variants={animationConfigs.height(0, '100vh', 0)}
+              transition={transitionConfigs.simple(0.75)}
+              {...animationStates.animate}
               className="mobile-nav-links-container"
               key={open}
             >
               <motion.div
                 className="mobile-nav-content"
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: "100vh", opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                transition={{ delay: 0.4, duration: 0.3 }}
+                variants={animationConfigs.height(0, '100vh', 0)}
+                transition={transitionConfigs.simple(0.3, 0.4)}
+                {...animationStates.animate}
               >
                 <div className="mobile-nav-links">
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink("/")}
+                    className={isActiveMobileLink('/')}
                     to="/"
                   >
                     Home
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink("/about")}
+                    className={isActiveMobileLink('/about')}
                     to="/about"
                   >
                     About Us
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink("/projects")}
+                    className={isActiveMobileLink('/projects')}
                     to="/projects"
                   >
                     Projects
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink("/contact")}
+                    className={isActiveMobileLink('/contact')}
                     to="/contact"
                   >
                     Contact
                   </Link>
                   <Link
                     onClick={() => toggleVisibility(false)}
-                    className={isActiveMobileLink("/team")}
+                    className={isActiveMobileLink('/team')}
                     to="/team"
                   >
                     Our Team

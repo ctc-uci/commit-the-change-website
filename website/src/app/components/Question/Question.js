@@ -1,28 +1,36 @@
-import React from "react";
-import "./Question.css";
-import { animated, useSpring, useTransition } from "react-spring";
-import animationConfigs from "../../views/animationConstants";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './Question.css';
+import {
+  animated, config, useSpring, useTransition,
+} from 'react-spring';
 
-function Question(styleProps) {
-  const { index, questionText, answerText, expanded, handleClick } = styleProps;
+const openQuestion = (state) => ({
+  config: config.default,
+  opacity: state ? 1 : 0,
+  maxHeight: state ? '2000px' : '0px',
+  display: 'block',
+  from: { opacity: 0, maxHeight: '0px' },
+});
 
-  const slideDown = useSpring(animationConfigs.openQuestion(expanded));
+const Question = ({
+  index, questionText, answerText, expanded, handleClick,
+}) => {
+  const slideDown = useSpring(openQuestion(expanded));
 
   const transitions = useTransition(expanded, null, {
-    from: { position: "absolute", opacity: 0 },
+    from: { position: 'absolute', opacity: 0 },
     enter: { opacity: 1 },
     leave: { opacity: 0 },
   });
 
-  const x = transitions.map(({ item, props }, index) =>
-    item ? (
-      <animated.div className="minus" key={index} style={props}>
-        -
-      </animated.div>
-    ) : (
-      <animated.div key={index} style={props}>+</animated.div>
-    )
-  );
+  const x = transitions.map(({ item, props }, i) => (item ? (
+    <animated.div className="minus" key={i} style={props}>
+      -
+    </animated.div>
+  ) : (
+    <animated.div key={index} style={props}>+</animated.div>
+  )));
 
   return (
     <div className="question-card">
@@ -37,7 +45,7 @@ function Question(styleProps) {
           <span className="expand-symbol">{x}</span>
         </div>
         <h2
-          style={expanded ? { color: "#ed315d" } : null}
+          style={expanded ? { color: '#ed315d' } : null}
           className="question-text"
         >
           {questionText}
@@ -50,6 +58,18 @@ function Question(styleProps) {
       )}
     </div>
   );
-}
+};
+
+Question.propTypes = {
+  index: PropTypes.number.isRequired,
+  questionText: PropTypes.string.isRequired,
+  answerText: PropTypes.string.isRequired,
+  expanded: PropTypes.bool,
+  handleClick: PropTypes.func.isRequired,
+};
+
+Question.defaultProps = {
+  expanded: false,
+};
 
 export default Question;
