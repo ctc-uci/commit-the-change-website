@@ -40,6 +40,7 @@ const ProjectCard = ({
         {start}
         {' '}
         -
+        {' '}
         {end}
       </p>
       <p className="description">{description}</p>
