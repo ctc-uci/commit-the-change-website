@@ -32,7 +32,7 @@ const projects = {
       alt: 'Cell Dogs',
       projectName: 'Cell Dogs',
       description:
-        'We will be creating a canine tracker for them to manage their trainee dogs throughout correctional programs and adoption!',
+        'We will be creating a canine tracker for them to manage their trainee dogs in correctional programs and adoption!',
       projectURL: '',
       npoURL: 'https://celldogs.org/',
     },

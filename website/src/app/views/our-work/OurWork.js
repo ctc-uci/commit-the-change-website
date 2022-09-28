@@ -37,6 +37,7 @@ const pastProjects = projects.inactive.map((project) => (
         {project.start}
         {' '}
         -
+        {' '}
         {project.end}
       </p>
       <p className="ctc-ourwork-past-projects-card-description">
