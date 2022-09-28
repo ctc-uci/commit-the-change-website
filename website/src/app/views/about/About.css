@@ -140,12 +140,24 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 img.value-icon {
   display: block;
   width: auto;
   margin: 24px auto;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .value-name, .value-desc {

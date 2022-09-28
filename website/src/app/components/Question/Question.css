@@ -32,6 +32,12 @@
   flex: 0 0 50px;
   display: inline-flex;
   transform: translateY(-6px);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .expand-symbol {
@@ -68,8 +74,8 @@
 }
 
 .minus {
-  font-size: 40px;
-  transform: translate(3px, -2px);
+  font-size: 36px;
+  transform: translate(4px, 1px);
 }
 
 @media screen and (max-width: 1100px) {

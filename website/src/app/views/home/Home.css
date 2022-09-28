@@ -136,6 +136,12 @@
   width: 45%;
   float: left;
   color: white;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .ctc-home-2-left-image {
@@ -298,6 +304,12 @@
 
 .ctc-home-4-social-container {
   margin: 0 calc(10% - 50px);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .ctc-home-4-social-logo {
