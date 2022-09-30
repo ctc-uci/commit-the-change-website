@@ -150,13 +150,13 @@ const members = {
       },
       {
         name: 'Maxim Alayev',
-        position: 'Internal Vice President',
+        position: 'Internal VP',
         linkedinURL: 'https://www.linkedin.com/in/maximalayev/',
         imageURL: maxim,
       },
       {
         name: 'Meghna Kaligotla',
-        position: 'External Vice President',
+        position: 'External VP',
         linkedinURL: 'https://www.linkedin.com/in/meghna-kaligotla-605/',
         imageURL: meghna,
       },
