@@ -25,7 +25,7 @@ const Apply = () => {
     }, 750);
     return () => clearTimeout(load);
   }, []);
-  const applicationLink = 'https://tinyurl.com/ctc-app-22';
+  // const applicationLink = 'https://tinyurl.com/ctc-app-22';
   const contactEmail = 'ctc@uci.edu';
   const inlineEmail = (
     <a href={`mailto:${contactEmail}`} className="ctc-apply-email-link">
@@ -82,8 +82,9 @@ const Apply = () => {
               transition={transitionConfigs.simple(0.5, loaded ? 0 : 0.8)}
               {...animationStates.animate}
             >
+              We recruit new developers and designers at the beginning of every year!
               Apply to join our team as a designer or developer for the
-              &apos;22-23 school year! Applications open September 18th
+              &apos;22-23 school year - applications open September 18th
               and close September 30th.
             </motion.p>
             <motion.div
@@ -92,21 +93,21 @@ const Apply = () => {
               transition={transitionConfigs.simple(0.5, loaded ? 0 : 0.8)}
               {...animationStates.animate}
             >
-              <a
-                // href={null}
+              {/* <a
                 href={applicationLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ctc-apply-1-applink"
-                // className="ctc-apply-1-applink-disabled"
-              >
-                <div className="ctc-apply-1-apply">Apply Now</div>
-                {/* <div className="ctc-apply-1-apply-disabled">
+              > */}
+              <span className="ctc-apply-1-applink-disabled">
+                {/* <div className="ctc-apply-1-apply">Apply Now</div> */}
+                <div className="ctc-apply-1-apply-disabled">
                   {width > 850
-                    ? "The 2022-23 application opens September 18th!"
-                    : "Check back on September 18th!"}
-                </div> */}
-              </a>
+                    ? 'The 2022-23 application closed September 30th!'
+                    : 'Check back at a later date!'}
+                </div>
+              </span>
+              {/* </a> */}
             </motion.div>
           </div>
         </motion.div>
@@ -288,21 +289,21 @@ const Apply = () => {
             <VerticalTimeline timelineValues={timelineValues} />
           </motion.div>
           <div className="ctc-apply-4-buttons">
-            <a
-              // href={null}
+            {/* <a
               href={applicationLink}
               target="_blank"
               rel="noopener noreferrer"
               className="ctc-apply-4-applink"
-              // className="ctc-apply-4-applink-disabled"
-            >
-              <div className="ctc-apply-4-apply">Apply Now</div>
-              {/* <div className="ctc-apply-4-apply-disabled">
+            > */}
+            <span className="ctc-apply-4-applink-disabled">
+              {/* <div className="ctc-apply-4-apply">Apply Now</div> */}
+              <div className="ctc-apply-4-apply-disabled">
                 {width > 850
-                  ? "The 2022-23 application opens September 18th!"
-                  : "Check back on September 18th!"}
-              </div> */}
-            </a>
+                  ? 'The 2022-23 application closed September 30th!'
+                  : 'Check back at a later date!'}
+              </div>
+            </span>
+            {/* </a> */}
           </div>
         </motion.div>
         <div className="ctc-apply-5-bg">

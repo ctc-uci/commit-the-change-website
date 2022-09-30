@@ -4,7 +4,7 @@ const timelineValues = [
   {
     leftText: 'Week 0',
     header: 'Meet the Club!',
-    date: 'Sep. 19 - 23',
+    date: 'Late September',
     description: (
       <p>
         Swing by our booth at the Anteater Involvement Fair from 11am - 4pm
@@ -17,7 +17,7 @@ const timelineValues = [
   {
     leftText: 'Week 1',
     header: 'Applications Due',
-    date: 'Sep. 30',
+    date: 'Early October',
     description: (
       <p>
         Our application consists of a few short response questions so we can
@@ -25,11 +25,11 @@ const timelineValues = [
         you don&apos;t have experience, that&apos;s fine too! Your responses will help us
         gauge your interest and fit for the club in the coming weeks of
         recruitment.
-        Applications open
+        Applications for 2022-23 opened
         {' '}
         <b>September 18th</b>
         {' '}
-        and will close
+        and closed
         {' '}
         <b>September 30th</b>
         .
