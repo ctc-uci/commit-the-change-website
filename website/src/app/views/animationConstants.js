@@ -58,4 +58,4 @@ const transitionConfigs = {
   }),
 };
 
-module.exports = { animationConfigs, animationStates, transitionConfigs };
+export { animationConfigs, animationStates, transitionConfigs };
