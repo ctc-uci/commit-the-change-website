@@ -28,6 +28,9 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- ------- ---
 
+// Note for bootcamp task: The members attribute of each section is an ordered list.
+// You should add your member object after the leads of your respective team,
+// in alphabetical order by first name - last name.
 const members = {
   board: {
     name: 'Board',
