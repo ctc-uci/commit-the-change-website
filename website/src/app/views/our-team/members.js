@@ -1,3 +1,4 @@
+// --- Board ---
 import jane from '../../../images/ourTeam/memberImages/jane.jpg';
 import maxim from '../../../images/ourTeam/memberImages/maxim.png';
 import meghna from '../../../images/ourTeam/memberImages/meghna.jpg';
@@ -12,6 +13,7 @@ import matthew from '../../../images/ourTeam/memberImages/matthew.jpg';
 import michellelin from '../../../images/ourTeam/memberImages/michellelin.jpg';
 import noah from '../../../images/ourTeam/memberImages/noah.jpg';
 
+// --- Leads ---
 import hang from '../../../images/ourTeam/memberImages/hang.jpg';
 import justin from '../../../images/ourTeam/memberImages/justin.jpg';
 import zoyasoy from '../../../images/ourTeam/memberImages/zoyasoy.png';
@@ -21,6 +23,10 @@ import allisonliu from '../../../images/ourTeam/memberImages/allison.jpg';
 import gurneetcheema from '../../../images/ourTeam/memberImages/gurneetcheema.jpeg';
 import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
+
+// --- Members ---
+
+// --- ------- ---
 
 const members = {
   board: {
