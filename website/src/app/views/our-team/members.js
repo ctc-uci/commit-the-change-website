@@ -131,16 +131,16 @@ const members = {
         imageURL: justin,
       },
       {
-        name: 'Michael Pien',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
-        imageURL: michaelpien,
-      },
-      {
         name: 'Zoya Soy',
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
         imageURL: zoyasoy,
+      },
+      {
+        name: 'Michael Pien',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
+        imageURL: michaelpien,
       },
     ],
   },
