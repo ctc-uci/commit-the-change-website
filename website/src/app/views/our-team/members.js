@@ -25,7 +25,7 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
-
+import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -135,6 +135,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
         imageURL: zoyasoy,
+      },
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
+        imageURL: michelleblin,
       },
     ],
   },
