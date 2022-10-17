@@ -25,6 +25,7 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 
 // --- ------- ---
 
@@ -158,6 +159,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
         imageURL: allisonliu,
+      },
+      {
+        name: 'Andrew Lee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
+        imageURL: andrewlee,
       },
     ],
   },
