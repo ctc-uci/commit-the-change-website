@@ -26,7 +26,8 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
-
+import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
+import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -136,6 +137,18 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/zoyasoy/',
         imageURL: zoyasoy,
+      },
+      {
+        name: 'Caroline Nguyen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/carolibn/',
+        imageURL: carolinenguyen,
+      },
+      {
+        name: 'Michael Pien',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
+        imageURL: michaelpien,
       },
     ],
   },
