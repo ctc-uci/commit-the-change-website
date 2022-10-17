@@ -26,6 +26,7 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import dangnguyen from '../../../images/ourTeam/memberImages/dangnguyen.jpg';
 
 // --- ------- ---
 
@@ -142,6 +143,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/carolibn/',
         imageURL: carolinenguyen,
+      },
+      {
+        name: 'Dang Nguyen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/nwin/',
+        imageURL: dangnguyen,
       },
     ],
   },
