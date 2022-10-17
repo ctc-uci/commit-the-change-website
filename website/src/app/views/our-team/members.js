@@ -25,6 +25,7 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
@@ -171,6 +172,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
         imageURL: allisonliu,
+      },
+      {
+        name: 'Avent Chiu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
+        imageURL: aventchiu,
       },
     ],
   },
