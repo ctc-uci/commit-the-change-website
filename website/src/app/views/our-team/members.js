@@ -25,6 +25,7 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 
 // --- ------- ---
 
@@ -181,6 +182,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
         imageURL: carlos,
+      },
+      {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
       },
     ],
   },
