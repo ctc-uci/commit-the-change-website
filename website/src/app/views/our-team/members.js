@@ -25,7 +25,10 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
+import kei from '../../../images/ourTeam/memberImages/kei.jpg';
+import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
@@ -174,6 +177,12 @@ const members = {
         imageURL: allisonliu,
       },
       {
+        name: 'Andrew Lee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/andrew-lee-0641b380/',
+        imageURL: andrewlee,
+      },
+      {
         name: 'Avent Chiu',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
@@ -201,6 +210,24 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
         imageURL: carlos,
+      },
+      {
+        name: 'Evan Servito',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
+        imageURL: evan,
+      },
+      {
+        name: 'Kei Asakawa',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
+        imageURL: kei,
+      },
+      {
+        name: 'Evan Servito',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
+        imageURL: evan,
       },
     ],
   },
