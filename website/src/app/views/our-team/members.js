@@ -26,6 +26,7 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
+import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
@@ -201,6 +202,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
         imageURL: carlos,
+      },
+      {
+        name: 'Kei Asakawa',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
+        imageURL: kei,
       },
     ],
   },
