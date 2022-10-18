@@ -28,6 +28,7 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
+import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
@@ -215,6 +216,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
+      },
+      {
+        name: 'Evan Servito',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
+        imageURL: evan,
       },
     ],
   },
