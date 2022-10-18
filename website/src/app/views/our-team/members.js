@@ -212,6 +212,12 @@ const members = {
         imageURL: carlos,
       },
       {
+        name: 'Evan Servito',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
+        imageURL: evan,
+      },
+      {
         name: 'Kei Asakawa',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
