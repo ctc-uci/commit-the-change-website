@@ -25,6 +25,7 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
@@ -173,6 +174,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
         imageURL: allisonliu,
+      },
+      {
+        name: 'Andrew Lee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/andrew-lee-0641b380/',
+        imageURL: andrewlee,
       },
       {
         name: 'Avent Chiu',
