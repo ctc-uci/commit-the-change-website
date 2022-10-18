@@ -26,6 +26,8 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
+import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
+import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 // --- ------- ---
@@ -176,8 +178,14 @@ const members = {
       {
         name: 'Andrew Lee',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
+        linkedinURL: 'https://www.linkedin.com/in/andrew-lee-0641b380/',
         imageURL: andrewlee,
+      },
+      {
+        name: 'Avent Chiu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
+        imageURL: aventchiu,
       },
     ],
   },
@@ -201,6 +209,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
         imageURL: carlos,
+      },
+      {
+        name: 'Kei Asakawa',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
+        imageURL: kei,
       },
     ],
   },
