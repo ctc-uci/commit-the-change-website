@@ -32,7 +32,6 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
-import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -230,12 +229,6 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
-      },
-      {
-        name: 'Arjun Sivakumar',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/arjunsvkmr/',
-        imageURL: arjunsivakumar,
       },
     ],
   },
