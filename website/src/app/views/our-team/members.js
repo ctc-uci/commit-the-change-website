@@ -26,6 +26,7 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
+import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
@@ -210,6 +211,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
         imageURL: carlos,
+      },
+      {
+        name: 'Arjun Sivakumar',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/arjunsvkmr/',
+        imageURL: arjunsivakumar,
       },
       {
         name: 'Evan Servito',
