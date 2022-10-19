@@ -230,6 +230,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
       },
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
+        imageURL: michellelin,
+      },
     ],
   },
 };
