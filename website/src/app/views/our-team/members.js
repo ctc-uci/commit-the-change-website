@@ -32,7 +32,7 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
-import dangnguyen from '../../../images/ourTeam/memberImages/dangnguyen.jpg';
+import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 
 // --- ------- ---
 
@@ -154,7 +154,7 @@ const members = {
         name: 'Dang Nguyen',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/nwin/',
-        imageURL: dangnguyen,
+        imageURL: dang,
       },
       {
         name: 'Michael Pien',
