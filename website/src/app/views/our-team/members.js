@@ -186,7 +186,7 @@ const members = {
       {
         name: 'Emmy Chen',
         position: 'Developer',
-        linkedinURL: 'www.linkedin.com/in/emmy-chen-583552252',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
         imageURL: emmyc,
       },
     ],
