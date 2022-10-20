@@ -39,6 +39,8 @@ import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -250,6 +252,12 @@ const members = {
         imageURL: evan,
       },
       {
+        name: 'Josh Lipton',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
+        imageURL: joshlipton,
+      },
+      {
         name: 'Kade Na',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
@@ -261,6 +269,7 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
       },
+
       {
         name: 'Michelle Lin',
         position: 'Developer',
