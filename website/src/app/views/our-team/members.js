@@ -25,6 +25,8 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+
+import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
@@ -236,6 +238,12 @@ const members = {
         imageURL: arjunsivakumar,
       },
       {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
+      },
+      {
         name: 'Evan Servito',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
@@ -264,6 +272,7 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
         imageURL: orviela,
+
       },
     ],
   },
