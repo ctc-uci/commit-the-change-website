@@ -37,8 +37,8 @@ import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.
 import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
-
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -272,7 +272,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
         imageURL: orviela,
-
+      },
+      {
+        name: 'Raymond Yan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
+        imageURL: raymond,
       },
     ],
   },
