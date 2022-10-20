@@ -33,6 +33,9 @@ import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
+import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -150,6 +153,12 @@ const members = {
         imageURL: carolinenguyen,
       },
       {
+        name: 'Dang Nguyen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/nwin/',
+        imageURL: dang,
+      },
+      {
         name: 'Michael Pien',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
@@ -189,6 +198,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
+      },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
+        imageURL: subin,
       },
     ],
   },
