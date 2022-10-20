@@ -33,7 +33,7 @@ import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
-
+import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -243,6 +243,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
         imageURL: michellelin,
+      },
+      {
+        name: 'Raymond Yan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
+        imageURL: raymond,
       },
     ],
   },
