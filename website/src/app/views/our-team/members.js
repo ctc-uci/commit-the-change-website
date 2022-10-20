@@ -273,6 +273,7 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
         imageURL: orviela,
       },
+      {
         name: 'Raymond Yan',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
