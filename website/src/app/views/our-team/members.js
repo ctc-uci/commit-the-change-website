@@ -33,6 +33,7 @@ import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 
 // --- ------- ---
 
@@ -196,6 +197,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
+      },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
+        imageURL: subin,
       },
     ],
   },
