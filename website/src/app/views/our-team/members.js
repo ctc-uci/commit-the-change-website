@@ -25,6 +25,8 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+
+import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
@@ -32,6 +34,7 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
@@ -236,6 +239,12 @@ const members = {
         imageURL: arjunsivakumar,
       },
       {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
+      },
+      {
         name: 'Evan Servito',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
@@ -246,6 +255,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
         imageURL: joshlipton,
+      },
+      {
+        name: 'Kade Na',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
+        imageURL: kade,
       },
       {
         name: 'Kei Asakawa',
@@ -265,6 +280,7 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
         imageURL: orviela,
+
       },
     ],
   },
