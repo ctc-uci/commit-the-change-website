@@ -32,6 +32,7 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 
@@ -250,6 +251,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
         imageURL: michellelin,
+      },
+      {
+        name: 'Orviel Alzate',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
+        imageURL: orviela,
       },
     ],
   },
