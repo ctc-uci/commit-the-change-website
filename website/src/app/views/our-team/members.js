@@ -241,7 +241,7 @@ const members = {
         name: 'Orviel Alzate',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
-        imageUrl: orviela,
+        imageURL: orviela,
       },
     ],
   },
