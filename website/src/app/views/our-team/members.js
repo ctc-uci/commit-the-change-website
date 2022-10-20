@@ -35,7 +35,7 @@ import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
-import joshlipton from '../../../images/ourTeam/memberImages/josh_lipton.jpg';
+import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 
 // --- ------- ---
 
@@ -242,17 +242,18 @@ const members = {
         imageURL: evan,
       },
       {
-        name: 'Kei Asakawa',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
-        imageURL: kei,
-      },
-      {
         name: 'Josh Lipton',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
         imageURL: joshlipton,
       },
+      {
+        name: 'Kei Asakawa',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
+        imageURL: kei,
+      },
+
       {
         name: 'Michelle Lin',
         position: 'Developer',
