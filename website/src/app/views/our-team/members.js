@@ -212,7 +212,7 @@ const members = {
       {
         name: 'Kainoa Nishida',
         position: 'Developer',
-        linkedinURL: 'www.linkedin.com/in/kainoa-nishida-308b68253',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
         imageURL: kainoa,
       },
     ],
