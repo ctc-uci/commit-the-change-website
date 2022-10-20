@@ -38,7 +38,7 @@ import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
-import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpg';
+import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
 
 // --- ------- ---
 
