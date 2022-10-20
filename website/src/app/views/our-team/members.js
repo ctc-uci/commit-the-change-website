@@ -254,6 +254,12 @@ const members = {
         imageURL: kei,
       },
       {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
+        imageURL: michellelin,
+      },
+      {
         name: 'Orviel Alzate',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
