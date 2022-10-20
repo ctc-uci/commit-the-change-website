@@ -25,6 +25,8 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+
+import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
@@ -32,8 +34,11 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import kade from '../../../images/ourTeam/memberImages/kade.jpg';
+import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
+import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -197,6 +202,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
       },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
+        imageURL: subin,
+      },
     ],
   },
   npo3: {
@@ -227,10 +238,22 @@ const members = {
         imageURL: arjunsivakumar,
       },
       {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
+      },
+      {
         name: 'Evan Servito',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
         imageURL: evan,
+      },
+      {
+        name: 'Kade Na',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
+        imageURL: kade,
       },
       {
         name: 'Kei Asakawa',
@@ -245,6 +268,11 @@ const members = {
         imageURL: michellelin,
       },
       {
+        name: 'Orviel Alzate',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
+        imageURL: orviela,
+      },
         name: 'Raymond Yan',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
