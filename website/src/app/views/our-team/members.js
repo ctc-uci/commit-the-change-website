@@ -38,6 +38,7 @@ import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpg';
 
 // --- ------- ---
 
@@ -207,6 +208,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
         imageURL: subin,
+      },
+      {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'www.linkedin.com/in/kainoa-nishida-308b68253',
+        imageURL: kainoa,
       },
     ],
   },
