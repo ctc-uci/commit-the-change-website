@@ -39,6 +39,7 @@ import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -167,6 +168,13 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
         imageURL: michaelpien,
       },
+      {
+        name: 'Rochelle Nixon',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+        imageURL: rochelle,
+      },
+
     ],
   },
   npo2: {
