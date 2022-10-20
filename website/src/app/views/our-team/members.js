@@ -32,6 +32,7 @@ import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
@@ -239,6 +240,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
         imageURL: evan,
+      },
+      {
+        name: 'Kade Na',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
+        imageURL: kade,
       },
       {
         name: 'Kei Asakawa',
