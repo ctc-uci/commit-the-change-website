@@ -37,8 +37,12 @@ import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.
 import kade from '../../../images/ourTeam/memberImages/kade.jpg';
 import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
+import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
+import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
+import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 
 // --- ------- ---
 
@@ -163,10 +167,22 @@ const members = {
         imageURL: dang,
       },
       {
+        name: 'Kristen Yee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
+        imageURL: kristenyee,
+      },
+      {
         name: 'Michael Pien',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
         imageURL: michaelpien,
+      },
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
+        imageURL: michelleblin,
       },
     ],
   },
@@ -257,6 +273,12 @@ const members = {
         imageURL: evan,
       },
       {
+        name: 'Josh Lipton',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
+        imageURL: joshlipton,
+      },
+      {
         name: 'Kade Na',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
@@ -268,6 +290,7 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
       },
+
       {
         name: 'Michelle Lin',
         position: 'Developer',
@@ -279,7 +302,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
         imageURL: orviela,
-
+      },
+      {
+        name: 'Raymond Yan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
+        imageURL: raymond,
       },
     ],
   },
