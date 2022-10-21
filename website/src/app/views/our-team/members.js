@@ -40,6 +40,7 @@ import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
+import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 
 // --- ------- ---
 
@@ -162,6 +163,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/nwin/',
         imageURL: dang,
+      },
+      {
+        name: 'Kristen Yee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
+        imageURL: kristenyee,
       },
       {
         name: 'Michael Pien',
