@@ -42,6 +42,7 @@ import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
+import kevinliu from '../../../images/ourTeam/memberImages/kevinliu.png';
 
 // --- ------- ---
 
@@ -182,6 +183,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
+      },
+      {
+        name: 'Kevin Liu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinnliu/',
+        imageURL: kevinliu,
       },
     ],
   },
