@@ -31,6 +31,7 @@ import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
+import lianne from '../../../images/ourTeam/memberImages/lianne.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
@@ -40,6 +41,10 @@ import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
+import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
+import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
+import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -163,10 +168,22 @@ const members = {
         imageURL: dang,
       },
       {
+        name: 'Kristen Yee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
+        imageURL: kristenyee,
+      },
+      {
         name: 'Michael Pien',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
         imageURL: michaelpien,
+      },
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
+        imageURL: michelleblin,
       },
       {
         name: 'Rochelle Nixon',
@@ -174,7 +191,6 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
         imageURL: rochelle,
       },
-
     ],
   },
   npo2: {
@@ -258,6 +274,12 @@ const members = {
         imageURL: evan,
       },
       {
+        name: 'Josh Lipton',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
+        imageURL: joshlipton,
+      },
+      {
         name: 'Kade Na',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
@@ -269,6 +291,14 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
       },
+
+      {
+        name: 'Lianne Lee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/lianne-lee-87605b1ab/',
+        imageURL: lianne,
+      },
+
       {
         name: 'Michelle Lin',
         position: 'Developer',
