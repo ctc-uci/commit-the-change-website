@@ -40,6 +40,7 @@ import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
@@ -183,6 +184,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
+      },
+      {
+        name: 'Rochelle Nixon',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+        imageURL: rochelle,
       },
     ],
   },
