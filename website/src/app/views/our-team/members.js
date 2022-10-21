@@ -231,6 +231,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
         imageURL: subin,
       },
+      {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
+      },
     ],
   },
   npo3: {
