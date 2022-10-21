@@ -220,6 +220,12 @@ const members = {
         imageURL: aventchiu,
       },
       {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
+      },
+      {
         name: 'Subin Kim',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
