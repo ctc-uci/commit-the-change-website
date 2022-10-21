@@ -43,6 +43,7 @@ import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 
+// --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
 // You should add your member object after the leads of your respective team,
