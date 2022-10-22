@@ -40,6 +40,7 @@ import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
 import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
@@ -232,6 +233,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
+      },
+      {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
       },
       {
         name: 'Subin Kim',
