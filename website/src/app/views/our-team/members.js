@@ -182,16 +182,16 @@ const members = {
         imageURL: michaelpien,
       },
       {
-        name: 'Ostend Suryajaya',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/ostend-suryajaya/',
-        imageURL: ostend,
-      },
-      {
         name: 'Michelle Lin',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
+      },
+      {
+        name: 'Ostend Suryajaya',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/ostend-suryajaya/',
+        imageURL: ostend,
       },
       {
         name: 'Rachel Villamor',
