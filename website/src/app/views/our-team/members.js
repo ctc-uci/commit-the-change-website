@@ -46,6 +46,7 @@ import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
 
 // --- ------- ---
 
@@ -192,6 +193,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/rvillamo/',
         imageURL: rachel,
+      },
+      {
+        name: 'Rayan Tighiouart',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rayantig/',
+        imageURL: rayan,
       },
       {
         name: 'Rochelle Nixon',
