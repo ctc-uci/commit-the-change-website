@@ -40,11 +40,13 @@ import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
 import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
 import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 
 // --- ------- ---
@@ -200,6 +202,12 @@ const members = {
         imageURL: rachel,
       },
       {
+        name: 'Rayan Tighiouart',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rayantig/',
+        imageURL: rayan,
+      },
+      {
         name: 'Rochelle Nixon',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
@@ -239,6 +247,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
+      },
+      {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
       },
       {
         name: 'Subin Kim',
