@@ -46,6 +46,7 @@ import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import ostend from '../../../images/ourTeam/memberImages/ostend.png';
 import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
 import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 
@@ -194,6 +195,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
+      },
+      {
+        name: 'Ostend Suryajaya',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/ostend-suryajaya/',
+        imageURL: ostend,
       },
       {
         name: 'Rachel Villamor',
