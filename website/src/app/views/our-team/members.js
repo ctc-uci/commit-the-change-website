@@ -31,6 +31,7 @@ import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
+import lianne from '../../../images/ourTeam/memberImages/lianne.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
@@ -40,9 +41,11 @@ import dang from '../../../images/ourTeam/memberImages/dang.jpg';
 import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
 import subin from '../../../images/ourTeam/memberImages/subin.jpg';
 import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
+import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
+import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
 
 // --- ------- ---
 
@@ -184,6 +187,18 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
       },
+      {
+        name: 'Rachel Villamor',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rvillamo/',
+        imageURL: rachel,
+      },
+      {
+        name: 'Rochelle Nixon',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+        imageURL: rochelle,
+      },
     ],
   },
   npo2: {
@@ -289,6 +304,13 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
+      },
+
+      {
+        name: 'Lianne Lee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/lianne-lee-87605b1ab/',
+        imageURL: lianne,
       },
 
       {
