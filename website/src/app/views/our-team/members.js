@@ -47,6 +47,7 @@ import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg'
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
 import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
+import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 
 // --- ------- ---
 
@@ -175,6 +176,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
         imageURL: kristenyee,
+      },
+      {
+        name: 'Mia Schroeder',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/mia-schroeder/',
+        imageURL: mia,
       },
       {
         name: 'Michael Pien',
