@@ -25,12 +25,31 @@ import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
+
+import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
+import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
 import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
+import lianne from '../../../images/ourTeam/memberImages/lianne.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
+import kade from '../../../images/ourTeam/memberImages/kade.jpg';
+import orviela from '../../../images/ourTeam/memberImages/orviela.jpg';
+import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import raymond from '../../../images/ourTeam/memberImages/raymond.jpg';
+import subin from '../../../images/ourTeam/memberImages/subin.jpg';
+import kainoa from '../../../images/ourTeam/memberImages/kainoa.jpeg';
+import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
+import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
+import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
+import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
+import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import ostend from '../../../images/ourTeam/memberImages/ostend.png';
+import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
+import mia from '../../../images/ourTeam/memberImages/mia.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -148,10 +167,58 @@ const members = {
         imageURL: carolinenguyen,
       },
       {
+        name: 'Dang Nguyen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/nwin/',
+        imageURL: dang,
+      },
+      {
+        name: 'Kristen Yee',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
+        imageURL: kristenyee,
+      },
+      {
+        name: 'Mia Schroeder',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/mia-schroeder/',
+        imageURL: mia,
+      },
+      {
         name: 'Michael Pien',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
         imageURL: michaelpien,
+      },
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
+        imageURL: michelleblin,
+      },
+      {
+        name: 'Ostend Suryajaya',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/ostend-suryajaya/',
+        imageURL: ostend,
+      },
+      {
+        name: 'Rachel Villamor',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rvillamo/',
+        imageURL: rachel,
+      },
+      {
+        name: 'Rayan Tighiouart',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rayantig/',
+        imageURL: rayan,
+      },
+      {
+        name: 'Rochelle Nixon',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
+        imageURL: rochelle,
       },
     ],
   },
@@ -188,6 +255,18 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
       },
+      {
+        name: 'Kainoa Nishida',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
+      },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
+        imageURL: subin,
+      },
     ],
   },
   npo3: {
@@ -212,10 +291,34 @@ const members = {
         imageURL: carlos,
       },
       {
+        name: 'Arjun Sivakumar',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/arjunsvkmr/',
+        imageURL: arjunsivakumar,
+      },
+      {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
+      },
+      {
         name: 'Evan Servito',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
         imageURL: evan,
+      },
+      {
+        name: 'Josh Lipton',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
+        imageURL: joshlipton,
+      },
+      {
+        name: 'Kade Na',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
+        imageURL: kade,
       },
       {
         name: 'Kei Asakawa',
@@ -223,11 +326,31 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/kei-asakawa/',
         imageURL: kei,
       },
+
       {
-        name: 'Evan Servito',
+        name: 'Lianne Lee',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/evan-servito/',
-        imageURL: evan,
+        linkedinURL: 'https://www.linkedin.com/in/lianne-lee-87605b1ab/',
+        imageURL: lianne,
+      },
+
+      {
+        name: 'Michelle Lin',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
+        imageURL: michellelin,
+      },
+      {
+        name: 'Orviel Alzate',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/orvielmalzate/',
+        imageURL: orviela,
+      },
+      {
+        name: 'Raymond Yan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
+        imageURL: raymond,
       },
     ],
   },
