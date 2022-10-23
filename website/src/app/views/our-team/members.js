@@ -51,6 +51,7 @@ import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
 import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 import matthewc from '../../../images/ourTeam/memberImages/matthewc.jpg';
 import maithyle from '../../../images/ourTeam/memberImages/maithyle.jpg';
+import jackie from '../../../images/ourTeam/memberImages/jackie.jpg';
 
 // --- ------- ---
 
@@ -256,6 +257,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
         imageURL: aventchiu,
+      },
+      {
+        name: 'Jackie Thai',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/jthai-1201/',
+        imageURL: jackie,
       },
       {
         name: 'Kainoa Nishida',
