@@ -266,7 +266,7 @@ const members = {
       {
         name: 'Maithy Le',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/maithy-le/',
+        linkedinURL: 'https://www.linkedin.com/in/maithy-le',
         imageURL: maithyle,
       },
       {
