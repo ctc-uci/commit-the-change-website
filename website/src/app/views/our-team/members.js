@@ -52,7 +52,7 @@ import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 import matthewc from '../../../images/ourTeam/memberImages/matthewc.jpg';
 import maithyle from '../../../images/ourTeam/memberImages/maithyle.jpg';
 import jackie from '../../../images/ourTeam/memberImages/jackie.jpg';
-
+import sravan from '../../../images/ourTeam/memberImages/sravan.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -281,6 +281,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/matthew-chang-39754a216',
         imageURL: matthewc,
+      },
+      {
+        name: 'Sravan Tallapaka',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/sravantallapaka/',
+        imageURL: sravan,
       },
       {
         name: 'Subin Kim',
