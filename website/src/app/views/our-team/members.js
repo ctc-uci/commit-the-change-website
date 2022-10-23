@@ -50,6 +50,7 @@ import ostend from '../../../images/ourTeam/memberImages/ostend.png';
 import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
 import mia from '../../../images/ourTeam/memberImages/mia.jpg';
 import matthewc from '../../../images/ourTeam/memberImages/matthewc.jpg';
+import maithyle from '../../../images/ourTeam/memberImages/maithyle.jpg';
 
 // --- ------- ---
 
@@ -261,6 +262,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
         imageURL: kainoa,
+      },
+      {
+        name: 'Maithy Le',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/maithy-le',
+        imageURL: maithyle,
       },
       {
         name: 'Matthew Chang',
