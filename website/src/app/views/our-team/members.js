@@ -283,16 +283,16 @@ const members = {
         imageURL: matthewc,
       },
       {
-        name: 'Subin Kim',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
-        imageURL: subin,
-      },
-      {
         name: 'Sravan Tallapaka',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/sravantallapaka/',
         imageURL: sravan,
+      },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
+        imageURL: subin,
       },
     ],
   },
