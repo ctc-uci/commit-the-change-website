@@ -17,7 +17,7 @@ import noah from '../../../images/ourTeam/memberImages/noah.jpg';
 import hang from '../../../images/ourTeam/memberImages/hang.jpg';
 import justin from '../../../images/ourTeam/memberImages/justin.jpg';
 import zoyasoy from '../../../images/ourTeam/memberImages/zoyasoy.png';
-import jenny from '../../../images/ourTeam/memberImages/jenny.jpg';
+import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import ashley from '../../../images/ourTeam/memberImages/ashley.jpg';
 import allisonliu from '../../../images/ourTeam/memberImages/allison.jpg';
 import gurneetcheema from '../../../images/ourTeam/memberImages/gurneetcheema.jpeg';
@@ -29,7 +29,6 @@ import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
-import aventchiu from '../../../images/ourTeam/memberImages/aventchiu.jpg';
 import kei from '../../../images/ourTeam/memberImages/kei.jpg';
 import lianne from '../../../images/ourTeam/memberImages/lianne.jpg';
 import evan from '../../../images/ourTeam/memberImages/evan.jpg';
@@ -229,10 +228,10 @@ const members = {
     name: 'Get Inspired',
     members: [
       {
-        name: 'Jenny Lee',
+        name: 'Avent Chiu',
         position: 'Tech Lead',
-        linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
-        imageURL: jenny,
+        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
+        imageURL: aventchiu,
       },
       {
         name: 'Ashley Liu',
@@ -251,12 +250,6 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/andrew-lee-0641b380/',
         imageURL: andrewlee,
-      },
-      {
-        name: 'Avent Chiu',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
-        imageURL: aventchiu,
       },
       {
         name: 'Jackie Thai',
