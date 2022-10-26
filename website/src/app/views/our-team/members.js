@@ -290,6 +290,12 @@ const members = {
         imageURL: matthewc,
       },
       {
+        name: 'Noah Arsala',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/noah-arsala-0324911b3/',
+        imageURL: noah,
+      },
+      {
         name: 'Sravan Tallapaka',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/sravantallapaka/',
