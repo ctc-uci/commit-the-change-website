@@ -17,15 +17,23 @@ import noah from '../../../images/ourTeam/memberImages/noah.jpg';
 import hang from '../../../images/ourTeam/memberImages/hang.jpg';
 import justin from '../../../images/ourTeam/memberImages/justin.jpg';
 import zoyasoy from '../../../images/ourTeam/memberImages/zoyasoy.png';
-import jenny from '../../../images/ourTeam/memberImages/jenny.jpg';
-import ashley from '../../../images/ourTeam/memberImages/ashley.jpg';
 import allisonliu from '../../../images/ourTeam/memberImages/allison.jpg';
 import gurneetcheema from '../../../images/ourTeam/memberImages/gurneetcheema.jpeg';
 import madhu from '../../../images/ourTeam/memberImages/madhu.jpg';
 import carlos from '../../../images/ourTeam/memberImages/carlos.jpg';
 
 // --- Members ---
-
+import carly from '../../../images/ourTeam/memberImages/carly.jpg';
+import gayathri from '../../../images/ourTeam/memberImages/gayathri.jpeg';
+import kaila from '../../../images/ourTeam/memberImages/kailalong.jpeg';
+import serena from '../../../images/ourTeam/memberImages/serenatrang.jpg';
+import jade from '../../../images/ourTeam/memberImages/jade.jpg';
+import minh from '../../../images/ourTeam/memberImages/minhnguyen.jpg';
+import ally from '../../../images/ourTeam/memberImages/ally.jpg';
+import andrew from '../../../images/ourTeam/memberImages/andrew.jpg';
+import jorina from '../../../images/ourTeam/memberImages/jorina.jpg';
+import will from '../../../images/ourTeam/memberImages/will.jpg';
+import emily from '../../../images/ourTeam/memberImages/emily.jpg';
 import emmyc from '../../../images/ourTeam/memberImages/emmyc.jpg';
 import andrewlee from '../../../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../../../images/ourTeam/memberImages/arjunsivakumar.jpg';
@@ -177,6 +185,18 @@ const members = {
         imageURL: dang,
       },
       {
+        name: 'Jade Luu',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/jade-luu-883209203/',
+        imageURL: jade,
+      },
+      {
+        name: 'Justine Chou',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/justine-chou/',
+        imageURL: justine,
+      },
+      {
         name: 'Kristen Yee',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kristencyee/',
@@ -199,6 +219,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
         imageURL: michelleblin,
+      },
+      {
+        name: 'Minh Nguyen',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/minh-nguyen16/',
+        imageURL: minh,
       },
       {
         name: 'Ostend Suryajaya',
@@ -224,28 +250,46 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rochellenixon/',
         imageURL: rochelle,
       },
+      {
+        name: 'Will Han',
+        position: 'Designer',
+        linkedinURL: '',
+        imageURL: will,
+      },
     ],
   },
   npo2: {
     name: 'Get Inspired',
     members: [
       {
-        name: 'Jenny Lee',
-        position: 'Tech Lead',
-        linkedinURL: 'https://www.linkedin.com/in/jenny-lee-6630201b2',
-        imageURL: jenny,
-      },
-      {
-        name: 'Ashley Liu',
-        position: 'Tech Lead',
-        linkedinURL: 'https://www.linkedin.com/in/ashley-liu-6314731b9/',
-        imageURL: ashley,
-      },
-      {
         name: 'Allison Liu',
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/hiallisonliu/',
         imageURL: allisonliu,
+      },
+      {
+        name: 'Avent Chiu',
+        position: 'Tech Lead',
+        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
+        imageURL: aventchiu,
+      },
+      {
+        name: 'Jackie Thai',
+        position: 'Tech Lead',
+        linkedinURL: 'https://www.linkedin.com/in/jthai-1201/',
+        imageURL: jackie,
+      },
+      {
+        name: 'Ally Kim',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/ally-kim-81ab5a1ab/',
+        imageURL: ally,
+      },
+      {
+        name: 'Andrew Doan',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/andrew-g-doan/',
+        imageURL: andrew,
       },
       {
         name: 'Andrew Lee',
@@ -254,16 +298,16 @@ const members = {
         imageURL: andrewlee,
       },
       {
-        name: 'Avent Chiu',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/avent-chiu/',
-        imageURL: aventchiu,
+        name: 'Emily Huynh',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/emihuynh/',
+        imageURL: emily,
       },
       {
-        name: 'Jackie Thai',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/jthai-1201/',
-        imageURL: jackie,
+        name: 'Jorina Chen',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/jorinachen/',
+        imageURL: jorina,
       },
       {
         name: 'Kainoa Nishida',
@@ -313,6 +357,12 @@ const members = {
     name: 'Cell Dogs',
     members: [
       {
+        name: 'Carlos Lim',
+        position: 'Design Lead',
+        linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
+        imageURL: carlos,
+      },
+      {
         name: 'Gurneet Cheema',
         position: 'Tech Lead',
         linkedinURL: 'https://www.linkedin.com/in/jeff-cheema/',
@@ -325,16 +375,16 @@ const members = {
         imageURL: madhu,
       },
       {
-        name: 'Carlos Lim',
-        position: 'Design Lead',
-        linkedinURL: 'https://www.linkedin.com/in/carlosalim7/',
-        imageURL: carlos,
-      },
-      {
         name: 'Arjun Sivakumar',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/arjunsvkmr/',
         imageURL: arjunsivakumar,
+      },
+      {
+        name: 'Caroline Guzylak',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/cguzylak/',
+        imageURL: carly,
       },
       {
         name: 'Emmy Chen',
@@ -349,6 +399,12 @@ const members = {
         imageURL: evan,
       },
       {
+        name: 'Gayathri Yedavilli',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/gayathri-yedavilli/',
+        imageURL: gayathri,
+      },
+      {
         name: 'Josh Lipton',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/joshua-lipton/',
@@ -359,6 +415,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kade-n-8aaaa81b5/',
         imageURL: kade,
+      },
+      {
+        name: 'Kaila Long',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/kaila-long-3952b7210/',
+        imageURL: kaila,
       },
       {
         name: 'Kei Asakawa',
@@ -391,6 +453,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/yan-raymond/',
         imageURL: raymond,
+      },
+      {
+        name: 'Serena Trang',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/serenatrang/',
+        imageURL: serena,
       },
     ],
   },

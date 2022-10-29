@@ -113,6 +113,10 @@
   user-select: none;
 }
 
+.no-linkedin-overlay {
+  bottom: 138.5%;
+}
+
 .ctc-ourteam-card-link {
   text-decoration: none;
   color: white;
