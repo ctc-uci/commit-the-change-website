@@ -33,6 +33,7 @@ import evan from '../../../images/ourTeam/memberImages/evan.jpg';
 import michaelpien from '../../../images/ourTeam/memberImages/michaelpien.jpg';
 import carolinenguyen from '../../../images/ourTeam/memberImages/carolinenguyen.jpg';
 import dang from '../../../images/ourTeam/memberImages/dang.jpg';
+import myron from '../../../images/ourTeam/memberImages/myron_zhou_.jpg';
 
 // --- ------- ---
 
@@ -243,6 +244,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
         imageURL: michellelin,
+      },
+      {
+        name: 'Myron Zhou',
+        position: 'Developer',
+        linkedinURL: 'linkedin.com/in/myron-zhou-a98270238',
+        imageURL: myron,
       },
     ],
   },
