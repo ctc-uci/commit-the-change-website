@@ -45,6 +45,7 @@ import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import claire from '../../../images/ourTeam/memberImages/claire.jpg';
 
 // --- ------- ---
 
@@ -267,6 +268,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/arjunsvkmr/',
         imageURL: arjunsivakumar,
+      },
+      {
+        name: 'Claire Xia',
+        position: 'Developer',
+        linkedinURL: '',
+        imageURL: claire,
       },
       {
         name: 'Emmy Chen',
