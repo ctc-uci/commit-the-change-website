@@ -54,6 +54,7 @@ import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
+import claire from '../../../images/ourTeam/memberImages/claire.jpg';
 import mandy from '../../../images/ourTeam/memberImages/mandy.jpg';
 
 import ostend from '../../../images/ourTeam/memberImages/ostend.png';
@@ -393,6 +394,12 @@ const members = {
         position: 'Designer',
         linkedinURL: 'https://www.linkedin.com/in/cguzylak/',
         imageURL: carly,
+      },
+      {
+        name: 'Claire Xia',
+        position: 'Developer',
+        linkedinURL: '',
+        imageURL: claire,
       },
       {
         name: 'Emmy Chen',
