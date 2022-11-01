@@ -459,10 +459,9 @@ const members = {
         imageURL: michellelin,
       },
       {
-        mz-member-photo
         name: 'Myron Zhou',
         position: 'Developer',
-        linkedinURL: 'linkedin.com/in/myron-zhou-a98270238',
+        linkedinURL: 'https://linkedin.com/in/myron-zhou-a98270238',
         imageURL: myron,
       },
       {
