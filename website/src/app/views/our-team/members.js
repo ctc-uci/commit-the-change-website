@@ -56,6 +56,7 @@ import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
 import claire from '../../../images/ourTeam/memberImages/claire.jpg';
 import mandy from '../../../images/ourTeam/memberImages/mandy.jpg';
+import myron from '../../../images/ourTeam/memberImages/myron_zhou_.jpg';
 
 import ostend from '../../../images/ourTeam/memberImages/ostend.png';
 import rayan from '../../../images/ourTeam/memberImages/rayan.jpg';
@@ -456,6 +457,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/michellelinCA',
         imageURL: michellelin,
+      },
+      {
+        name: 'Myron Zhou',
+        position: 'Developer',
+        linkedinURL: 'https://linkedin.com/in/myron-zhou-a98270238',
+        imageURL: myron,
       },
       {
         name: 'Orviel Alzate',
