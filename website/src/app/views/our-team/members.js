@@ -53,6 +53,7 @@ import rochelle from '../../../images/ourTeam/memberImages/rochelle.png';
 import joshlipton from '../../../images/ourTeam/memberImages/joshlipton.jpg';
 import michelleblin from '../../../images/ourTeam/memberImages/michelleblin.jpg';
 import kristenyee from '../../../images/ourTeam/memberImages/kristenyee.jpg';
+import kevinliu from '../../../images/ourTeam/memberImages/kevinliu.png';
 import rachel from '../../../images/ourTeam/memberImages/rachel.jpg';
 import claire from '../../../images/ourTeam/memberImages/claire.jpg';
 import mandy from '../../../images/ourTeam/memberImages/mandy.jpg';
@@ -199,6 +200,12 @@ const members = {
         position: 'Designer',
         linkedinURL: 'https://www.linkedin.com/in/justine-chou/',
         imageURL: justine,
+      },
+      {
+        name: 'Kevin Liu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinnliu/',
+        imageURL: kevinliu,
       },
       {
         name: 'Kristen Yee',
