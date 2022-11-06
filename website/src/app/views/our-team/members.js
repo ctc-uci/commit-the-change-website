@@ -66,6 +66,7 @@ import maithyle from '../../../images/ourTeam/memberImages/maithyle.jpg';
 import jackie from '../../../images/ourTeam/memberImages/jackie.jpg';
 import sravan from '../../../images/ourTeam/memberImages/sravan.jpg';
 import kory from '../../../images/ourTeam/memberImages/kory.jpg';
+import kyled from '../../../images/ourTeam/memberImages/kyled.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -324,6 +325,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/koryz/',
         imageURL: kory,
+      },
+      {
+        name: 'Kyle Doliente',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kyledoliente/',
+        imageURL: kyled,
       },
       {
         name: 'Maithy Le',
