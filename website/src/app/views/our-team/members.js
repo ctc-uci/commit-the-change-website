@@ -68,6 +68,7 @@ import jackie from '../../../images/ourTeam/memberImages/jackie.jpg';
 import sravan from '../../../images/ourTeam/memberImages/sravan.jpg';
 import kory from '../../../images/ourTeam/memberImages/kory.jpg';
 import kyled from '../../../images/ourTeam/memberImages/kyled.jpg';
+import ted from '../../../images/ourTeam/memberImages/ted.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -374,6 +375,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/subin-kim-bba754180/',
         imageURL: subin,
+      },
+      {
+        name: 'Ted Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/ted-taewook-kim/',
+        imageURL: ted,
       },
     ],
   },
