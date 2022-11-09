@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'react-feather';
 import './OurWork.css';
-// import Portfolio from "../../../CTC_Portfolio_2022_2023.pdf";
+// import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import Footer from '../../components/Footer/Footer';
 

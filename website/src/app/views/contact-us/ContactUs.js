@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
 import Footer from '../../components/Footer/Footer';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 

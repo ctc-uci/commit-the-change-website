@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 import maillogo from '../../../images/home/mail.svg';
 import fblogo from '../../../images/home/fb.svg';
@@ -133,7 +134,7 @@ const Home = () => {
             and designers.
           </motion.p>
           <div className="ctc-home-1-buttons">
-            <a href="/apply" className="ctc-home-1-apply-link">
+            <Link to="/apply" className="ctc-home-1-apply-link">
               <motion.div
                 className="ctc-home-1-apply-button"
                 variants={animationConfigs.transformY('1000%', '1000%')}
@@ -142,7 +143,7 @@ const Home = () => {
               >
                 Apply Now
               </motion.div>
-            </a>
+            </Link>
           </div>
         </div>
         <motion.div
@@ -215,11 +216,11 @@ const Home = () => {
             design &amp; develop new tools and apps to better support them in
             aiding our communities.
           </p>
-          <a href="/about" className="ctc-home-2-button-link">
+          <Link to="/about" className="ctc-home-2-button-link">
             <div className="ctc-home-2-learn-more-button">
               Learn More
             </div>
-          </a>
+          </Link>
         </motion.div>
       </motion.div>
       <motion.div
@@ -245,9 +246,9 @@ const Home = () => {
           transition={transitionConfigs.simple(0.5)}
           {...animationStates.whileInView(true)}
         >
-          <a href="/projects" className="ctc-home-3-button-link">
+          <Link to="/projects" className="ctc-home-3-button-link">
             <div className="ctc-home-3-button">View All</div>
-          </a>
+          </Link>
         </motion.div>
       </motion.div>
       <motion.div
@@ -298,11 +299,11 @@ const Home = () => {
               to build professional products with positive real world impacts?
               Send in your application today - we&apos;re excited to meet you!
             </p>
-            <a href="/apply" className="ctc-home-4-button-link">
+            <Link to="/apply" className="ctc-home-4-button-link">
               <div className="ctc-home-4-column-button">
                 Apply Now
               </div>
-            </a>
+            </Link>
           </div>
           <div className="ctc-home-4-right">
             <p className="ctc-home-4-column-header">Non-Profits</p>
@@ -314,11 +315,11 @@ const Home = () => {
               are ready to assist you through the process!
               Did we mention it&apos;s free?
             </p>
-            <a href="/contact" className="ctc-home-4-button-link">
+            <Link to="/contact" className="ctc-home-4-button-link">
               <div className="ctc-home-4-column-button">
                 Contact us
               </div>
-            </a>
+            </Link>
           </div>
         </motion.div>
       </motion.div>

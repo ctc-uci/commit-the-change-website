@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
+
 import ctcLogo from '../../../images/logo/white-ctc.svg';
 import iglogo from '../../../images/nav/ig.svg';
 import fblogo from '../../../images/nav/fb.svg';

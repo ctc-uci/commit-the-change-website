@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 import { Menu, X } from 'react-feather';
 import useViewport from '../../../util/useViewport';

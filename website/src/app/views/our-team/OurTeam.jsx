@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
 import membersData from './members';

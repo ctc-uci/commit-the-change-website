@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import "./VerticalTimeline.css";
+import './VerticalTimeline.css';
 
 const VerticalTimeline = ({ timelineValues }) => {
   const timeline = timelineValues.slice(1).map((value) => (
@@ -55,8 +55,9 @@ VerticalTimeline.propTypes = {
       leftText: PropTypes.string.isRequired,
       header: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
+      // eslint-disable-next-line
       description: PropTypes.object.isRequired,
-    })
+    }),
   ).isRequired,
 };
 
