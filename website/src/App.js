@@ -9,6 +9,7 @@ import {
 import { AnimatePresence } from 'framer-motion';
 
 import Nav from './app/components/Navbar/Nav';
+import Redirect from './app/components/Redirect/Redirect';
 import Home from './app/views/home/Home';
 import About from './app/views/about/About';
 import Apply from './app/views/apply/Apply';
@@ -35,11 +36,7 @@ const App = () => {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/contact" element={<ContactUs />} />
-                <Route
-                  path="/discord"
-                  loader={async () => window.location.replace('https://discord.gg/bNTTT83Kgk')}
-                  element={<></>}
-                />
+                <Route path="/discord" element={<Redirect url="https://discord.gg/bNTTT83Kgk" />} />
               </Routes>
             </AnimatePresence>
           </div>
