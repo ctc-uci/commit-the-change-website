@@ -37,6 +37,7 @@ const App = () => {
                 <Route path="/team" element={<Team />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/discord" element={<Redirect url="https://discord.gg/bNTTT83Kgk" />} />
+                <Route path="*" element={<Redirect url="/" />} />
               </Routes>
             </AnimatePresence>
           </div>
