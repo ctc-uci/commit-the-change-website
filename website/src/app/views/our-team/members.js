@@ -1,6 +1,6 @@
 // --- Board ---
 import michellelin from '../../../images/ourTeam/memberImages/michellelin.jpg';
-import noah from '../../../images/ourTeam/memberImages/noah.jpg';
+import noah from '../../../images/ourTeam/memberImages/noah.png';
 import justin from '../../../images/ourTeam/memberImages/justin.jpg';
 import carly from '../../../images/ourTeam/memberImages/carly.jpg';
 import gayathri from '../../../images/ourTeam/memberImages/gayathri.jpeg';
