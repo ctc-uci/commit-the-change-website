@@ -28,7 +28,7 @@ const mapMembersToCards = (members, tab) => (
         transition={transitionConfigs.simple(1)}
       >
         <img
-          alt={`${member.name}`}
+          alt={`Headshot of ${member.name}.`}
           className="ctc-ourteam-card-photo"
           src={member.imageURL}
         />
@@ -43,7 +43,7 @@ const mapMembersToCards = (members, tab) => (
             >
               {member.linkedinURL.includes('linkedin.com') ? (
                 <img
-                  alt={`${member.name} LinkedIn`}
+                  alt={`View ${member.name}'s LinkedIn`}
                   className="ctc-ourteam-card-linkedin"
                   src={LinkedIn}
                 />
