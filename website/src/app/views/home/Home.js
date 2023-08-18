@@ -27,7 +27,7 @@ const Home = () => {
         className="ctc-home-4-social-link"
       >
         <div className="ctc-home-4-social-img-container">
-          <img src={maillogo} alt="mail logo" className="ctc-home-4-mail-logo" />
+          <img src={maillogo} alt="Send an Email to CTC" className="ctc-home-4-mail-logo" />
         </div>
         <p className="ctc-home-4-social-title">Email</p>
       </a>
@@ -40,7 +40,7 @@ const Home = () => {
         className="ctc-home-4-social-link"
       >
         <div className="ctc-home-4-social-img-container">
-          <img src={fblogo} alt="facebook logo" className="ctc-home-4-social-logo" />
+          <img src={fblogo} alt="Visit CTC's Facebook" className="ctc-home-4-social-logo" />
         </div>
         <p className="ctc-home-4-social-title">Facebook</p>
       </a>
@@ -53,7 +53,7 @@ const Home = () => {
         className="ctc-home-4-social-link"
       >
         <div className="ctc-home-4-social-img-container">
-          <img src={instagramlogo} alt="instagram logo" className="ctc-home-4-social-logo" />
+          <img src={instagramlogo} alt="Visit CTC's Instagram" className="ctc-home-4-social-logo" />
         </div>
         <p className="ctc-home-4-social-title">Instagram</p>
       </a>
@@ -66,7 +66,7 @@ const Home = () => {
         className="ctc-home-4-social-link"
       >
         <div className="ctc-home-4-social-img-container">
-          <img src={linkedinlogo} alt="linkedin logo" className="ctc-home-4-social-logo" />
+          <img src={linkedinlogo} alt="Visit CTC's LinkedIn" className="ctc-home-4-social-logo" />
         </div>
         <p className="ctc-home-4-social-title">Linkedin</p>
       </a>
@@ -89,6 +89,12 @@ const Home = () => {
         transition={transitionConfigs.spring(1, 0, 0.2)}
         {...animationStates.animate}
       >
+        { /*
+          Hacky solution for alt-text, but a good option given that the backgroud image is on the parent:
+          see http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
+        */}
+        <span role="img" aria-label="Successful CTC graduates." />
+
         <div className="ctc-home-1-left">
           <motion.p
             className="ctc-home-1-heading-left"
@@ -138,7 +144,7 @@ const Home = () => {
           <img
             className="ctc-home-1-right-logo"
             src={whiteLogo}
-            alt="white CTC logo"
+            alt=""
           />
         </motion.div>
       </motion.div>
@@ -222,7 +228,7 @@ const Home = () => {
         </motion.h1>
         <div className="ctc-home-3-projects-container">
           <div className="ctc-ourwork-comingsoon-box">
-            <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="CTC Logo" />
+            <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
             <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
           </div>
           {projectData.active.map((p) => <ProjectCard key={p.projectName} {...p} />)}
