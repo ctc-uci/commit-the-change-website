@@ -30,7 +30,7 @@ const Nav = () => {
       {...animationStates.animate}
     >
       <Link to="/">
-        <div className="navbar-logo" />
+        <div className="navbar-logo" role="img" aria-label="Commit the Change Home" />
       </Link>
       {width > 850 ? (
         <motion.div
@@ -144,7 +144,7 @@ const Nav = () => {
                       <img
                         className="mobile-nav-footer-logo"
                         src={ctcLogo}
-                        alt="ctc logo"
+                        alt="Commit the Change Home"
                       />
                     </Link>
                   </div>
@@ -153,7 +153,7 @@ const Nav = () => {
                     <a href="mailto:ctc@uci.edu" target="_top">
                       <img
                         src={maillogo}
-                        alt="email icon"
+                        alt="Send CTC an email"
                         className="mobile-nav-mail-icon mobile-nav-social-icon"
                       />
                     </a>
@@ -164,7 +164,7 @@ const Nav = () => {
                     >
                       <img
                         src={fblogo}
-                        alt="facebook logo"
+                        alt="Visit CTC's Facebook"
                         className="mobile-nav-social-icon"
                       />
                     </a>
@@ -175,7 +175,7 @@ const Nav = () => {
                     >
                       <img
                         src={iglogo}
-                        alt="instagram logo"
+                        alt="Visit CTC's Instagram"
                         className="mobile-nav-social-icon"
                       />
                     </a>
@@ -186,7 +186,7 @@ const Nav = () => {
                     >
                       <img
                         src={linkedinlogo}
-                        alt="linkedin logo"
+                        alt="Visit CTC's LinkedIn"
                         className="mobile-nav-social-icon"
                       />
                     </a>
