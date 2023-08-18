@@ -59,6 +59,12 @@ const Apply = () => {
           transition={transitionConfigs.simple(loaded ? 0.5 : 0.75)}
           {...animationStates.animate}
         >
+          { /*
+            Hacky solution for alt-text, but a good option given that the backgroud image is on the parent:
+            see http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
+          */}
+          <span role="img" aria-label="Groupshot of our amazing team. " />
+
           <div className="ctc-apply-1-container">
             <motion.p
               className="ctc-apply-1-header"
@@ -148,6 +154,7 @@ const Apply = () => {
                 }}
                 dragElastic={0.4}
                 dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
+                alt={"" /* I believe that the content of this image is already expressed in the content below, so empty alt-text is appropriate here. (Andrew) */}
               />
               <p className="ctc-apply-2-column-title">Designer</p>
               <p className="ctc-apply-2-column-p">
@@ -184,6 +191,7 @@ const Apply = () => {
                 }}
                 dragElastic={0.4}
                 dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
+                alt={"" /* I believe that the content of this image is already expressed in the content below, so empty alt-text is appropriate here. (Andrew) */}
               />
               <p className="ctc-apply-2-column-title">Developer</p>
               <p className="ctc-apply-2-column-p">

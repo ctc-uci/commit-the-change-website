@@ -28,7 +28,7 @@ const About = () => {
         {...animationStates.animate}
       >
         { /*
-          Hacky solution for alt-text, but the best option given that the backgroud image is on the parent:
+          Hacky solution for alt-text, but a good option given that the backgroud image is on the parent:
           see http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
         */}
         <span role="img" aria-label="CTC members filling a lecture hall at a General Meeting." />

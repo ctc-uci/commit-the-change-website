@@ -8,7 +8,6 @@ import meghnaImage from '../../../images/apply/meghna.jpg';
 const experiences = [
   {
     src: sydneyImage,
-    alt: 'Image of Sydney',
     name: 'Sydney Chiang',
     position: 'Developer, Justice for Families',
     experience:
@@ -16,7 +15,6 @@ const experiences = [
   },
   {
     src: sonaliImage,
-    alt: 'Image of Sonali',
     name: 'Sonali Chellappa',
     position: 'Designer, Child Creativity Lab',
     experience:
@@ -24,7 +22,6 @@ const experiences = [
   },
   {
     src: rostamImage,
-    alt: 'Image of Rostam',
     name: 'Rostam Vakhshoori',
     position: 'Developer, Waymakers',
     experience:
@@ -32,7 +29,6 @@ const experiences = [
   },
   {
     src: janeImage,
-    alt: 'Image of Jane',
     name: 'Jane Vo',
     position: 'Developer, Waymakers',
     experience:
@@ -40,7 +36,6 @@ const experiences = [
   },
   {
     src: mingjiaImage,
-    alt: 'Image of Mingjia',
     name: 'Mingjia Wang',
     position: 'Developer, OC Habitats',
     experience:
@@ -48,7 +43,6 @@ const experiences = [
   },
   {
     src: meghnaImage,
-    alt: 'Image of Meghna',
     name: 'Meghna Kaligotla',
     position: 'Designer, Justice for Families',
     experience:
