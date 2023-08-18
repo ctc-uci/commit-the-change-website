@@ -20,10 +20,9 @@ const projects = {
       start: 'Fall 2022',
       end: 'Spring 2023',
       src: gsp,
-      alt: 'Get Inspired',
       projectName: 'Get Inspired',
       description:
-        'We will be building a new database system for them to better organize and report their Pismo Clam restoration data!',
+        'We built a new database system for them to better organize and report their Pismo Clam restoration data!',
       projectURL: 'https://github.com/ctc-uci/get-inspired/',
       npoURL: 'https://getinspiredinc.org/',
     },
@@ -31,10 +30,9 @@ const projects = {
       start: 'Fall 2022',
       end: 'Spring 2023',
       src: cds,
-      alt: 'Cell Dogs',
       projectName: 'Cell Dogs',
       description:
-        'We will be creating a canine tracker for them to manage their trainee dogs in correctional programs and adoption!',
+        'We created a canine tracker for them to manage their trainee dogs in correctional programs and adoption!',
       projectURL: 'https://github.com/ctc-uci/cell-dogs/',
       npoURL: 'https://celldogs.org/',
     },
@@ -42,10 +40,9 @@ const projects = {
       start: 'Fall 2022',
       end: 'Spring 2023',
       src: pnp,
-      alt: 'Patriots and Paws',
       projectName: 'Patriots and Paws',
       description:
-        'We will be designing a system for them to manage and schedule pickups for their furniture donations for veterans!',
+        'We designed a system for them to manage and schedule pickups for their furniture donations for veterans!',
       projectURL: 'https://github.com/ctc-uci/patriots-and-paws/',
       npoURL: 'https://patriotsandpaws.org/',
     },
@@ -53,7 +50,6 @@ const projects = {
       start: 'Fall 2021',
       end: 'Spring 2022',
       src: och,
-      alt: 'OC Habitats project',
       projectName: 'OC Habitats',
       description:
         'We constructed digital forms for their habitat overseers to provide them with better data on their conservation efforts!',
@@ -65,7 +61,6 @@ const projects = {
       start: 'Fall 2021',
       end: 'Spring 2022',
       src: tlp,
-      alt: 'The Literacy Project project',
       projectName: 'The Literacy Project',
       description:
         'We created a platform to manage literacy scorecards for children enrolled in their award-winning reading program!',
@@ -77,7 +72,6 @@ const projects = {
       start: 'Fall 2021',
       end: 'Spring 2022',
       src: fya,
-      alt: 'Find Your Anchor project',
       projectName: 'Find Your Anchor',
       description:
         'We made a map for them to track where their mental health anchor boxes are traveling throughout the world!',
@@ -89,7 +83,6 @@ const projects = {
       start: 'Fall 2021',
       end: 'Fall 2022',
       src: afc,
-      alt: 'Abound Food Care project',
       projectName: 'Abound Food Care',
       description:
         'We created a digital system for them to better connect with their volunteers and engage them in events!',
@@ -101,7 +94,6 @@ const projects = {
       start: 'Fall 2020',
       end: 'Spring 2021',
       src: jff,
-      alt: 'Justice for Families past project',
       projectName: 'Justice for Families',
       description:
         'We created a mobile application for the families of incarcerated loved ones to find community and support!',
@@ -114,7 +106,6 @@ const projects = {
       start: 'Fall 2020',
       end: 'Spring 2021',
       src: wm,
-      alt: 'Waymakers past project',
       projectName: 'Waymakers',
       description:
         'We created a platform to electronically capture volunteer and inventory data about their different programs!',
@@ -127,7 +118,6 @@ const projects = {
       start: 'Fall 2020',
       end: 'Spring 2021',
       src: ccl,
-      alt: 'Child Creativity Lab past project',
       projectName: 'Child Creativity Lab',
       description:
         'We created an online waiver system and a platform to sell educational kits with instructional videos for children!',
@@ -140,7 +130,6 @@ const projects = {
       start: 'Spring 2020',
       end: 'Summer 2020',
       src: crs,
-      alt: 'Crime Survivors past project',
       projectName: 'Crime Survivors',
       description:
         'We created a website to replace their paper pamphlets with resources and information for crime victims!',
