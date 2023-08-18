@@ -27,6 +27,12 @@ const About = () => {
         transition={transitionConfigs.simple(loaded ? 0.25 : 0.8)}
         {...animationStates.animate}
       >
+        { /*
+          Hacky solution for alt-text, but the best option given that the backgroud image is on the parent:
+          see http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
+        */}
+        <span role="img" aria-label="CTC members filling a lecture hall at a General Meeting." />
+
         <div className="about-1-left">
           <div className="about-1-left-body">
             <motion.p
@@ -98,7 +104,7 @@ const About = () => {
         <motion.img
           src={yellowSemicircle}
           className="yellow-semicircle"
-          alt="yellow semicircle"
+          alt=""
           variants={animationConfigs.transformY(200, 200)}
           transition={transitionConfigs.spring(loaded ? 0.25 : 1, 0, 0.15)}
           {...animationStates.whileInView(true)}
@@ -134,6 +140,8 @@ const About = () => {
         >
           Our Values &amp; Culture
         </motion.p>
+
+        {/* TODO: fix this terribleness: probably with media queries? */}
         {width > 850 ? (
           <motion.div
             variants={animationConfigs.transformX(-100, 100)}
@@ -144,7 +152,7 @@ const About = () => {
               {values.top.map((v) => (
                 <div className="value-container" key={v.title}>
                   <div className="value-info">
-                    <img src={v.src} alt={v.alt} className="value-icon" />
+                    <img src={v.src} alt="" className="value-icon" />
                     <p className="value-name">{v.title}</p>
                     <p className="value-desc">{v.description}</p>
                   </div>
@@ -155,7 +163,7 @@ const About = () => {
               {values.bottom.map((v) => (
                 <div className="value-container" key={v.title}>
                   <div className="value-info">
-                    <img src={v.src} alt={v.alt} className="value-icon" />
+                    <img src={v.src} alt="" className="value-icon" />
                     <p className="value-name">{v.title}</p>
                     <p className="value-desc">{v.description}</p>
                   </div>
@@ -173,7 +181,7 @@ const About = () => {
             {values.top.map((v) => (
               <div className="value-container">
                 <div className="value-info">
-                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <img src={v.src} alt="" className="value-icon" />
                   <p className="value-name">{v.title}</p>
                   <p className="value-desc">{v.description}</p>
                 </div>
@@ -182,7 +190,7 @@ const About = () => {
             {values.bottom.map((v) => (
               <div className="value-container">
                 <div className="value-info">
-                  <img src={v.src} alt={v.alt} className="value-icon" />
+                  <img src={v.src} alt="" className="value-icon" />
                   <p className="value-name">{v.title}</p>
                   <p className="value-desc">{v.description}</p>
                 </div>
@@ -191,6 +199,7 @@ const About = () => {
           </motion.div>
         )}
       </motion.div>
+
       <div className="about-panel-4">
         <motion.p
           className="about-4-header"
@@ -246,7 +255,11 @@ const About = () => {
           }}
           transition={transitionConfigs.simple(loaded ? 0.25 : 0.4)}
         >
-          <div className="about-4-alumni-img" />
+          <span
+            className="about-4-alumni-img"
+            role="img"
+            aria-label="Amazon, Khan Academy, Meta, Cisco, Visa, Tableau, Airtable, Google, Microsoft, Zillow, Cox Automotive, Qualtrics"
+          />
         </motion.div>
       </div>
       <Footer className="about-footer" />
