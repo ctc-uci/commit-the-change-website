@@ -69,7 +69,7 @@ html {
 .ctc-ourwork-past-projects-card {
   height: 510px;
   min-width: 360px;
-  border-radius: 5px;
+  border-radius: 1.25rem;
   margin: 30px 30px 50px 30px;
   background-color: white;
   box-shadow: 0px 4px 10px 3px rgba(25, 22, 30, 0.29);
@@ -132,6 +132,11 @@ html {
 
 .ctc-ourwork-past-projects-card-buttons-div {
   display: flex;
+}
+
+
+.ctc-ourwork-past-projects-card-buttons-div a {
+  text-decoration: none;
 }
 
 .ctc-ourwork-past-projects-card-github-button,
@@ -235,7 +240,7 @@ html {
   width: 554px;
   height: 131px;
   background: var(--dark-purple);
-  border-radius: 15px;
+  border-radius: 1rem;
   display: flex;
   flex-direction: row;
   gap: 20px;

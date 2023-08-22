@@ -49,7 +49,7 @@ const pastProjects = projects.inactive.map((project) => (
       <div className="ctc-ourwork-past-projects-card-buttons-div">
         <a href={project.projectURL} target="_blank" rel="noopener noreferrer">
           <div className="ctc-ourwork-past-projects-card-github-button">
-            Github
+            GitHub
           </div>
         </a>
         {/* <div className="ctc-ourwork-past-projects-card-case-study-button">
