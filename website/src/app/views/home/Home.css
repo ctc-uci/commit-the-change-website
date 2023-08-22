@@ -1,5 +1,10 @@
 @import "../../../styles/common.css";
 
+/*
+  NOTE: TEMPORARY fixes have been made to account for there being no current projects.
+  Temporary fixes are marked in comments with their original values also being marked.
+*/
+
 .home-footer.home-footer {
   position: static;
   margin-top: 0px;
@@ -207,7 +212,7 @@
 }
 
 .ctc-home-3-bg {
-  height: 850px;
+  height: 550px;  /* TEMPORARY: 850px */
   background-color: #ffeff3;
   padding-top: 20px;
 }
@@ -224,7 +229,7 @@
 .ctc-home-3-projects-container {
   width: 92%;
   margin-left: 4%;
-  height: 450px;
+  height: auto; /* TEMPORARY 450px */
   display: flex;
   justify-content: center; /* TEMPORARY space-between; */
 }
@@ -243,7 +248,8 @@
 .ctc-home-3-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 80px; /* TEMPORARY: 120px */
+  margin-bottom: 80px; /* TEMPORARY: 0px */
 }
 
 .ctc-home-3-button-link {
