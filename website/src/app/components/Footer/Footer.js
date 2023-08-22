@@ -12,6 +12,7 @@ import maillogo from '../../../images/nav/mail.svg';
 import useViewport from '../../../util/useViewport';
 import { transitionConfigs } from '../../views/animationConstants';
 import './Footer.css';
+import { getPageLinkInfo } from '../../../util/utils';
 
 const Footer = ({ className }) => {
   const { width } = useViewport();
@@ -71,24 +72,11 @@ const Footer = ({ className }) => {
           </div>
           <div className="right-column">
             <div className="inner-right">
-              <div className="footer-right-link">
-                <Link to="/">Home</Link>
-              </div>
-              <div className="footer-right-link">
-                <Link to="/about">About Us</Link>
-              </div>
-              <div className="footer-right-link">
-                <Link to="/projects">Projects</Link>
-              </div>
-              <div className="footer-right-link">
-                <Link to="/team">Our Team</Link>
-              </div>
-              <div className="footer-right-link">
-                <Link to="/contact">Contact</Link>
-              </div>
-              <div className="footer-right-link">
-                <Link to="/apply">Apply</Link>
-              </div>
+              { getPageLinkInfo().map(([linkPath, linkPageName, onClickListener]) => (
+                <div className="footer-right-link" key={linkPath}>
+                  <Link to={linkPath} onClick={onClickListener}>{linkPageName}</Link>
+                </div>
+              )) }
             </div>
           </div>
         </div>
