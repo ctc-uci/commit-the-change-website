@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import { AnimatePresence, MotionConfig } from 'framer-motion';
+import { AnimatePresence, MotionConfig, useReducedMotion } from 'framer-motion';
 
 import Nav from './app/components/Navbar/Nav';
 import Redirect from './app/components/Redirect/Redirect';
@@ -16,14 +16,15 @@ import Apply from './app/views/apply/Apply';
 import Projects from './app/views/our-work/OurWork';
 import Team from './app/views/our-team/OurTeam';
 import ContactUs from './app/views/contact-us/ContactUs';
-import { usePrefersReducedMotion } from './util/utils';
 
 const App = () => {
   ReactGA.initialize('G-BHJD57HXT8');
   ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
   const location = useLocation();
-  const prefersReducedMotion = usePrefersReducedMotion();
+  const prefersReducedMotion = useReducedMotion();
 
+  // (done this way to make it easier to wrap with AnimatePresence
+  //  only if the user does not prefer reduced motion)
   const PageRoutes = (
     <Routes key={location.pathname} location={location}>
       <Route path="/" element={<Home />} />
