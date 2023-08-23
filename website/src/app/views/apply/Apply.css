@@ -352,18 +352,18 @@ html {
 
 .ctc-apply-5-bg {
   width: 100%;
-  height: calc(1000px + 10vw + 10vh);
+  height: calc(600px + 10vw + 10vh);
   background-color: white;
   position: relative;
   z-index: 1;
 }
 
 .ctc-apply-5-top {
-  background-image: url("../../../images/apply/ellipse.svg");
+  /* background-image: url("../../../images/apply/ellipse.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% calc(10px - 10%);
-  height: calc(30vw + 5px);
+  height: calc(30vw + 5px); */
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -379,9 +379,9 @@ html {
   font-size: 48px;
   font-weight: 600;
   line-height: 48px;
-  color: white;
-  padding-top: calc(5.5% + 20px);
-  margin: 0;
+  color: var(--dark-pink);
+  /* padding-top: calc(5.5% + 20px);
+  margin: 0; */
 }
 
 .ctc-apply-5-faq-container {

@@ -63,7 +63,7 @@ const Question = ({
 Question.propTypes = {
   index: PropTypes.number.isRequired,
   questionText: PropTypes.string.isRequired,
-  answerText: PropTypes.string.isRequired,
+  answerText: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   expanded: PropTypes.bool,
   handleClick: PropTypes.func.isRequired,
 };
