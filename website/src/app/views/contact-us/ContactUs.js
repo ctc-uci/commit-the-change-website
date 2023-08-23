@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Footer from '../../components/Footer/Footer';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
-import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
+import Portfolio from '../../../CTC_Portfolio_2023_2024.pdf';
 import iglogo from '../../../images/contactUs/ig.svg';
 import fblogo from '../../../images/contactUs/fb.svg';
 import linkedinlogo from '../../../images/contactUs/li.svg';
