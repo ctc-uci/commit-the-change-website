@@ -772,6 +772,7 @@
 /* TEMPORARY */
 .ctc-ourwork-comingsoon-box {
   width: 554px;
+  max-width: 85vw;
   height: 131px;
   background: var(--dark-purple);
   border-radius: 15px;

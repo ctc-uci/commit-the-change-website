@@ -239,6 +239,7 @@ html {
 .ctc-ourwork-comingsoon-box {
   width: 554px;
   height: 131px;
+  max-width: 85vw;
   background: var(--dark-purple);
   border-radius: 1rem;
   display: flex;
