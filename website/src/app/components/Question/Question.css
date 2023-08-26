@@ -41,10 +41,38 @@
 }
 
 .expand-symbol {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   font-size: 36px;
-  margin-top: 2px;
-  margin-left: 8px;
   color: var(--dark-pink);
+  text-align: center;
+}
+
+.expand-symbol-hidden{
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.expand-symbol-shown{
+  opacity: 1;
+  transition: 0.2s;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {  
+  .expand-symbol-hidden{
+    opacity: 0;
+    transform: rotate(-45deg);
+    transition: 0.15s;
+    transition-timing-function: cubic-bezier(.57,-1.1,.58,2.04);
+  }
+
+  .expand-symbol-shown{
+    opacity: 1;
+    transition: 0.175s;
+  }
 }
 
 .top-half {
@@ -77,6 +105,7 @@
   font-size: 36px;
   transform: translate(4px, 1px);
 }
+
 
 @media screen and (max-width: 1100px) {
   .question-card {

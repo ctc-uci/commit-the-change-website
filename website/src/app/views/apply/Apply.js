@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { LayoutGroup, motion } from 'framer-motion';
 
 import experienceData from './experienceData';
 import questionData from '../contact-us/faq';
@@ -332,17 +332,20 @@ const Apply = () => {
             }}
             {...animationStates.whileInView(true)}
           >
+            {/* (TODO): general weirdness with the questions components: investigate & fix */}
             <div className="ctc-apply-5-q-container">
-              {questionData.current.map((q, index) => (
-                <Question
-                  index={index}
-                  key={index}
-                  questionText={q.question}
-                  answerText={q.answer}
-                  expanded={index === expandedIndex}
-                  handleClick={handleClick}
-                />
-              ))}
+              <LayoutGroup>
+                {questionData.current.map((q, index) => (
+                  <Question
+                    index={index}
+                    key={index}
+                    questionText={q.question}
+                    answerText={q.answer}
+                    expanded={index === expandedIndex}
+                    handleClick={handleClick}
+                  />
+                ))}
+              </LayoutGroup>
             </div>
           </motion.div>
         </div>
