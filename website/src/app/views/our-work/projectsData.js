@@ -14,6 +14,36 @@ import pnp from '../../../images/nonprofits/Patriots-and-Paws.png';
 
 const projects = {
   active: [
+    {
+      start: 'Fall 2023',
+      end: 'Spring 2024',
+      src: gsp,
+      projectName: 'Achievement Institute for STEM Scholars',
+      description:
+        'A college readiness program catered towards high-achieving, economically disadvantaged high school students interested in pursuing a STEM career.',
+      projectURL: 'https://github.com/ctc-uci/',
+      npoURL: 'https://www.aissfoundation.org/',
+    },
+    {
+      start: 'Fall 2023',
+      end: 'Spring 2024',
+      src: gsp,
+      projectName: 'Stand Up To Trash',
+      description:
+        'This NPO\'s mission is to protect ocean ecosystems by raising awareness of the negative effects caused by plastic pollution through environmental education for future generations. ',
+      projectURL: 'https://github.com/ctc-uci/',
+      npoURL: 'https://www.standuptotrash.com',
+    },
+    {
+      start: 'Fall 2023',
+      end: 'Spring 2024',
+      src: gsp,
+      projectName: 'Feeding Pets of the Homeless',
+      description:
+        'This NPO\'s mission is to feed and provide basic emergency veterinary care to the pets of the homeless',
+      projectURL: 'https://github.com/ctc-uci/',
+      npoURL: 'https://petsofthehomeless.org/',
+    },
   ],
   inactive: [
     {
