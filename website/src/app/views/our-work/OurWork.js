@@ -94,12 +94,14 @@ const OurWork = () => {
             }}
             {...animationStates.whileInView(true)}
           >
-            {/* TEMPORARY */}
-            <div className="ctc-ourwork-comingsoon-box">
-              <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
-              <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
-            </div>
-            {projects.active.map((project) => <ProjectCard key={project.projectName} {...project} />)}
+            {(projects.active.length === 0)
+              ? (
+                <div className="ctc-ourwork-comingsoon-box">
+                  <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
+                  <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
+                </div>
+              )
+              : projects.active.map((project) => <ProjectCard key={project.projectName} {...project} />)}
           </motion.div>
         </div>
         <motion.p

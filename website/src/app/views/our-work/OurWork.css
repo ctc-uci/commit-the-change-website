@@ -43,20 +43,13 @@ html {
 }
 
 .ctc-ourwork-current-projects {
-  width: calc(100vw - 300px);
+  width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.ctc-ourwork-current-projects .project-card {
-  flex: 0 0 calc(50% - 60px);
-  border-radius: 20px;
-  width: 50%;
-  margin: 0 30px 60px 30px;
-  min-height: 200px;
+  align-items: space-evenly;
+  gap: 5.8125rem; 
+  padding-bottom: 4.31rem;
 }
 
 .ctc-ourwork-past-projects {
@@ -176,13 +169,6 @@ html {
     width: 90%;
     justify-content: center;
   }
-  .ctc-ourwork-current-projects .project-card {
-    flex: 0 0 90%;
-    border-radius: 20px;
-    margin-left: 7.5%;
-    margin-bottom: 40px;
-    min-height: 200px;
-  }
   .ctc-ourwork-past-projects-header {
     text-align: center;
     width: 100%;
@@ -199,13 +185,6 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .ctc-ourwork-current-projects .project-card {
-    flex: 0 0 95%;
-    border-radius: 20px;
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
   .ctc-ourwork-past-projects {
     width: 95%;
     margin-top: 0px;
