@@ -221,24 +221,26 @@ const Home = () => {
         >
           <motion.h1
             className="ctc-home-3-header"
-            variants={animationConfigs.transformY('-100%', '-100%')}
-            transition={transitionConfigs.simple(0.75)}
-            {...animationStates.whileInView(true)}
+            // variants={animationConfigs.transformY('-100%', '-100%')}
+            // transition={transitionConfigs.simple(0.75)}
+            // {...animationStates.whileInView(true)}
           >
             Current Projects
           </motion.h1>
           <div className="ctc-home-3-projects-container">
-            <div className="ctc-ourwork-comingsoon-box">
-              <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
-              <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
-            </div>
-            {projectData.active.map((p) => <ProjectCard key={p.projectName} {...p} />)}
+            {(projectData.active.length === 0) ? (
+              <div className="ctc-ourwork-comingsoon-box">
+                <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
+                <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
+              </div>
+            )
+              : projectData.active.map((p) => <ProjectCard key={p.projectName} {...p} />)}
           </div>
           <motion.div
             className="ctc-home-3-buttons"
-            variants={animationConfigs.transformY('100%', '100%')}
-            transition={transitionConfigs.simple(0.5)}
-            {...animationStates.whileInView(true)}
+            // variants={animationConfigs.transformY('100%', '100%')}
+            // transition={transitionConfigs.simple(0.5)}
+            // {...animationStates.whileInView(true)}
           >
             <Link to="/projects" className="ctc-home-3-button-link">
               <div className="ctc-home-3-button">View All</div>
