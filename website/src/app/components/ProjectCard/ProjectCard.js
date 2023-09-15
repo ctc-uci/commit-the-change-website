@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './ProjectCard.css';
 import { animated } from 'react-spring';
 import { ArrowUpRight } from 'react-feather';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({
   start,
@@ -12,10 +13,10 @@ const ProjectCard = ({
   alt,
   projectName,
   description,
-  // projectURL,
   npoURL,
   isAnimated,
   animationProps,
+  backgroundColor,
 }) => (
   <animated.div
     style={isAnimated ? animationProps : null}
@@ -23,9 +24,10 @@ const ProjectCard = ({
   >
     <div
       className="project-card-image-div"
-      style={{ backgroundImage: `url(${src})` }}
-      alt={{ alt }}
-    />
+      style={{ backgroundColor }}
+    >
+      <img className="project-card-image" src={src} alt={alt} />
+    </div>
     <div className="project-card-text">
       <a
         href={npoURL}
@@ -44,6 +46,7 @@ const ProjectCard = ({
         {end}
       </p>
       <p className="description">{description}</p>
+      <Link to="/projects"><button type="button" className="primary-button">Learn More</button></Link>
     </div>
   </animated.div>
 );
@@ -58,6 +61,7 @@ ProjectCard.propTypes = {
   npoURL: PropTypes.string,
   isAnimated: PropTypes.bool,
   animationProps: PropTypes.instanceOf(Object),
+  backgroundColor: PropTypes.string,
 };
 
 ProjectCard.defaultProps = {
@@ -65,6 +69,7 @@ ProjectCard.defaultProps = {
   npoURL: 'https://ctc-uci.com',
   isAnimated: false,
   animationProps: {},
+  backgroundColor: "#fff",
 };
 
 export default ProjectCard;

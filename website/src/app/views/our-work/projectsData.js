@@ -23,6 +23,7 @@ const projects = {
         'A college readiness program catered towards high-achieving, economically disadvantaged high school students interested in pursuing a STEM career.',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://www.aissfoundation.org/',
+      backgroundColor: '#FFDDC9',
     },
     {
       start: 'Fall 2023',
@@ -33,6 +34,7 @@ const projects = {
         'This NPO\'s mission is to protect ocean ecosystems by raising awareness of the negative effects caused by plastic pollution through environmental education for future generations. ',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://www.standuptotrash.com',
+      backgroundColor: '#C7E0FF',
     },
     {
       start: 'Fall 2023',
@@ -43,6 +45,7 @@ const projects = {
         'This NPO\'s mission is to feed and provide basic emergency veterinary care to the pets of the homeless',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://petsofthehomeless.org/',
+      backgroundColor: '#6BC8C4',
     },
   ],
   inactive: [

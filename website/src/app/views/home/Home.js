@@ -221,9 +221,9 @@ const Home = () => {
         >
           <motion.h1
             className="ctc-home-3-header"
-            // variants={animationConfigs.transformY('-100%', '-100%')}
-            // transition={transitionConfigs.simple(0.75)}
-            // {...animationStates.whileInView(true)}
+            variants={animationConfigs.transformY('-100%', '-100%')}
+            transition={transitionConfigs.simple(0.75)}
+            {...animationStates.whileInView(true)}
           >
             Current Projects
           </motion.h1>
@@ -238,9 +238,9 @@ const Home = () => {
           </div>
           <motion.div
             className="ctc-home-3-buttons"
-            // variants={animationConfigs.transformY('100%', '100%')}
-            // transition={transitionConfigs.simple(0.5)}
-            // {...animationStates.whileInView(true)}
+            variants={animationConfigs.transformY('100%', '100%')}
+            transition={transitionConfigs.simple(0.5)}
+            {...animationStates.whileInView(true)}
           >
             <Link to="/projects" className="ctc-home-3-button-link">
               <div className="ctc-home-3-button">View All</div>

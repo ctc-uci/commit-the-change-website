@@ -237,13 +237,6 @@
   align-items: center;
 }
 
-.ctc-home-3-projects-container .project-card {
-  width: calc((100vw - 100px) / 3);
-  height: 500px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 .ctc-home-3-projects-container .project-card .project-card-image-div {
   height: 300px;
 }
