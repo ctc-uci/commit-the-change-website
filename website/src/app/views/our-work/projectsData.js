@@ -11,13 +11,16 @@ import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
 import gsp from '../../../images/nonprofits/Get-Inspired.png';
 import cds from '../../../images/nonprofits/Cell-Dogs.png';
 import pnp from '../../../images/nonprofits/Patriots-and-Paws.png';
+import s2t from '../../../images/nonprofits/Stand-Up-To-Trash.png';
+import ais from '../../../images/nonprofits/Achievement-Institute-Of-STEM-Scholars.png';
+import fph from '../../../images/nonprofits/Feeding-Pets-Of-The-Homeless.png';
 
 const projects = {
   active: [
     {
       start: 'Fall 2023',
       end: 'Spring 2024',
-      src: gsp,
+      src: ais,
       projectName: 'Achievement Institute for STEM Scholars',
       description:
         'A college readiness program catered towards high-achieving, economically disadvantaged high school students interested in pursuing a STEM career.',
@@ -28,7 +31,7 @@ const projects = {
     {
       start: 'Fall 2023',
       end: 'Spring 2024',
-      src: gsp,
+      src: s2t,
       projectName: 'Stand Up To Trash',
       description:
         'This NPO\'s mission is to protect ocean ecosystems by raising awareness of the negative effects caused by plastic pollution through environmental education for future generations. ',
@@ -39,13 +42,13 @@ const projects = {
     {
       start: 'Fall 2023',
       end: 'Spring 2024',
-      src: gsp,
+      src: fph,
       projectName: 'Feeding Pets of the Homeless',
       description:
-        'This NPO\'s mission is to feed and provide basic emergency veterinary care to the pets of the homeless',
+        'This NPO\'s mission is to feed and provide basic emergency veterinary care to the pets of the homeless. ',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://petsofthehomeless.org/',
-      backgroundColor: '#6BC8C4',
+      backgroundColor: '#CDFBF8',
     },
   ],
   inactive: [
