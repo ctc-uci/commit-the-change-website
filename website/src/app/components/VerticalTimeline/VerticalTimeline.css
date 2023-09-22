@@ -13,7 +13,7 @@
   height: 80%;
   width: 2px;
   top: 65px;
-  left: 95px;
+  left: calc(31px + 8ch);
   z-index: -1;
 }
 
@@ -33,10 +33,10 @@
   color: var(--dark-purple);
 }
 
-.tl-row .tl-left-text {
-  white-space: nowrap;
+.tl-left-text {
   vertical-align: top;
   padding-top: 1px;
+  width: 8ch;
 }
 
 .tl-row .dot-cell {
@@ -85,7 +85,7 @@
     height: 80%;
     width: 2px;
     top: 45px;
-    left: 96px;
+    /* left: 96px; */
     z-index: -1;
   }
   .timeline-table {

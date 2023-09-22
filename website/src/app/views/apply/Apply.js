@@ -25,7 +25,9 @@ const Apply = () => {
     }, 750);
     return () => clearTimeout(load);
   }, []);
-  // const applicationLink = 'https://tinyurl.com/ctc-app-22';
+
+  const designAppLink = 'https://forms.gle/dB7ycYwSnZsoB5d16';
+  const devAppLink = 'https://forms.gle/erPif4t7LJCzCJHy9';
   const contactEmail = 'ctc@uci.edu';
   const inlineEmail = (
     <a href={`mailto:${contactEmail}`} className="ctc-apply-email-link">
@@ -92,28 +94,28 @@ const Apply = () => {
               Apply to join our team for the
               &apos;23-24 school year- applications open <b>late September</b>.
             </motion.p>
-            <motion.div
+            {/* <motion.div
               className="ctc-apply-1-buttons"
               variants={animationConfigs.transformY('200%', '200%')}
               transition={transitionConfigs.simple(0.5, loaded ? 0 : 0.8)}
               {...animationStates.animate}
             >
-              {/* <a
-                href={applicationLink}
+              <a
+                href="#roles"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ctc-apply-1-applink"
-              > */}
-              {/* <span className="ctc-apply-1-applink-disabled">
-                <div className="ctc-apply-1-apply">Apply Now</div>
-                <div className="ctc-apply-1-apply-disabled">
-                  {width > 850
-                    ? 'The 2022-23 application closed September 30th!'
-                    : 'Check back at a later date!'}
-                </div>
-              </span> */}
-              {/* </a> */}
-            </motion.div>
+              >
+                <span className="ctc-apply-1-applink">
+                  <div className="ctc-apply-1-apply">Apply Now</div>
+                  <div className="ctc-apply-1-apply-disabled" style={{ display: "none" }}>
+                    {width > 850
+                      ? 'The 2022-23 application closed September 30th!'
+                      : 'Check back at a later date!'}
+                  </div>
+                </span>
+              </a>
+            </motion.div> */}
           </div>
         </motion.div>
         <motion.div
@@ -140,7 +142,7 @@ const Apply = () => {
             Choose Between...
           </p>
           <div className="ctc-apply-2-columns">
-            <div className="ctc-apply-2-leftcolumn">
+            <div className="ctc-apply-2-column">
               <motion.img
                 src={designGraphic}
                 className="ctc-apply-2-column-image"
@@ -176,8 +178,10 @@ const Apply = () => {
                   Use Figma to create your designs
                 </li>
               </ul>
+              <a target="_blank" className="ctc-apply-2-apply-button" href={designAppLink} rel="noreferrer">Apply Here!</a>
             </div>
-            <div className="ctc-apply-2-rightcolumn">
+            <div className="ctc-apply-2-separator" />
+            <div className="ctc-apply-2-column">
               <motion.img
                 src={devGraphic}
                 className="ctc-apply-2-column-image"
@@ -219,6 +223,7 @@ const Apply = () => {
                   sustainable code
                 </li>
               </ul>
+              <a target="_blank" className="ctc-apply-2-apply-button" href={devAppLink} rel="noreferrer">Apply Here!</a>
             </div>
           </div>
         </motion.div>
@@ -247,7 +252,6 @@ const Apply = () => {
           </motion.div>
         </div>
         <motion.div
-          style={{ display: 'none' }}
           className="ctc-apply-4-bg"
           variants={animationConfigs.opacity(1, 0)}
           transition={{
@@ -296,23 +300,23 @@ const Apply = () => {
           >
             <VerticalTimeline timelineValues={timelineValues} />
           </motion.div>
-          <div className="ctc-apply-4-buttons">
-            {/* <a
+          {/* <div className="ctc-apply-4-buttons">
+            <a
               href={applicationLink}
               target="_blank"
               rel="noopener noreferrer"
               className="ctc-apply-4-applink"
-            > */}
-            <span className="ctc-apply-4-applink-disabled">
-              {/* <div className="ctc-apply-4-apply">Apply Now</div> */}
-              <div className="ctc-apply-4-apply-disabled">
-                {width > 850
-                  ? 'The 2022-23 application closed September 30th!'
-                  : 'Check back at a later date!'}
-              </div>
-            </span>
-            {/* </a> */}
-          </div>
+            >
+              <span className="ctc-apply-4-applink">
+                <div className="ctc-apply-4-apply">Apply Now</div>
+                <div className="ctc-apply-4-apply-disabled" style={{ display: "none" }}>
+                  {width > 850
+                    ? 'The 2022-23 application closed September 30th!'
+                    : 'Check back at a later date!'}
+                </div>
+              </span>
+            </a>
+          </div> */}
         </motion.div>
         <div className="ctc-apply-5-bg">
           <motion.div

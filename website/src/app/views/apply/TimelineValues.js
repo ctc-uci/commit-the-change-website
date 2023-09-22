@@ -2,66 +2,52 @@ import React from 'react';
 
 const timelineValues = [
   {
-    leftText: 'Week 0',
-    header: 'Meet the Club!',
-    date: 'Late September',
+    leftText: '9/20 - 10/12',
+    header: 'Applications Open - Meet the Club!',
+    date: '',
     description: (
-      <p>
-        Swing by our booth at the Anteater Involvement Fair from 11am - 4pm
-        on September 19th or attend one of our socials to meet the members
-        of Commit the Change! More information regarding these events will
-        be released closer to the date, so keep an eye on our social media.
-      </p>
+      <>
+        <p>
+          Our application consists of a few short response questions so we can learn more about your experience, your goals, and your background. Applications open <b>Wednesday, September 20th @ 11:59 PM</b> and will close <b>Tuesday, October 3rd @ 11:59 PM</b>.
+        </p>
+        <p>
+          Join us at our recruitment events (to be announced on Instagram) and get to know us at the Anteater Involvement Fair on September 25th!.
+        </p>
+      </>
     ),
   },
   {
-    leftText: 'Week 1',
-    header: 'Applications Due',
-    date: 'Early October',
+    leftText: '10/6 - 10/15',
+    header: 'Skill Showcase',
+    date: '',
     description: (
-      <p>
-        Our application consists of a few short response questions so we can
-        learn more about your experience, your goals, and your background. If
-        you don&apos;t have experience, that&apos;s fine too! Your responses will help us
-        gauge your interest and fit for the club in the coming weeks of
-        recruitment.
-        Applications for 2022-23 opened
-        {' '}
-        <b>September 18th</b>
-        {' '}
-        and closed
-        {' '}
-        <b>September 30th</b>
-        .
-      </p>
+      <>
+        <p>
+          CTC’s Skill Showcases are one-on-one meetings with one of our board members where we will gauge your design or development skills. Further information about what to expect will be shared within your acceptance email.
+        </p>
+        <p style={{ color: 'var(--dark-pink)' }}>You will receive an email on 10/6 if you have been invited to a Skill Showcase.</p>
+      </>
     ),
   },
   {
-    leftText: 'Week 2',
+    leftText: '10/16 - 10/20',
     header: 'Coffee Chats',
-    date: 'Oct. 3 - 7',
+    date: '',
     description: (
-      <p>
-        Coffee chats are one-on-ones with a board member or project lead by invitation.
-        But no pressure - this is a casual way for us to get to know you better
-        and for you to learn more about Commit the Change!
-      </p>
+      <>
+        <p>
+          Coffee chats are one-on-one’s with a board member by invitation. But no pressure - this is a casual way for us to get to know you better and for you to learn more about Commit the Change!
+        </p>
+        <p style={{ color: 'var(--dark-pink)' }}>You will receive an email on 10/16 if you have been invited to a Coffee Chat. </p>
+      </>
     ),
   },
   {
-    leftText: 'Week 3',
-    header: 'Decision',
-    date: 'Mid-October',
+    leftText: '10/23',
+    header: 'Final Decisions',
     description: (
       <p>
-        Check your email on
-        {' '}
-        <b>Decision Day</b>
-        {' '}
-        to see your application status.
-        Regardless of the outcome, we truly appreciate you taking the time to
-        see what Commit the Change has to offer! Thanks for sticking with us
-        these past few weeks!
+        You will receive an email with final acceptance decisions on October 23rd. Regardless of whether you join us at CTC or not, thank you for sticking around for the past few weeks!
       </p>
     ),
   },

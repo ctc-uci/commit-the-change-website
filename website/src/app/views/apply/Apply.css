@@ -80,6 +80,7 @@ html {
 .ctc-apply-1-bg {
   width: 100vw;
   height: clamp(1000px, 70%, 70%);
+  max-height: calc(100vh - 60px);
   background-image: url("../../../images/apply/join.jpg");
   background-color: rgba(24, 9, 58, 0.3);
   background-blend-mode: multiply;
@@ -145,7 +146,6 @@ html {
   border: 1.5px solid var(--dark-purple);
   color: var(--dark-purple);
   background-color: white;
-  font-size: 20px;
   font-weight: 500;
   padding: 6px 30px;
   border-radius: 3px;
@@ -176,7 +176,8 @@ html {
 
 .ctc-apply-2-bg {
   width: 100%;
-  height: 1200px;
+  padding-bottom: 4rem;
+  /* height: 1200px; */
   /* background-image: url("../../../images/apply/solid-purple-1.svg"),
     url("../../../images/apply/clear-purple-1.svg"),
     url("../../../images/apply/solid-purple-2.svg"),
@@ -190,7 +191,8 @@ html {
     70% calc(50% - 50px), calc(70% - 40px), calc(10% - 30px) 110%, 100% 150%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
     no-repeat, no-repeat, no-repeat;
-  background-size: 180px, 260px, 90px, 210px, 180px, 260px, 600px, 375px; */
+  background-size: 180px, 260px, 90px, 210px, 180px, 260px, 600px, 375px;
+  background- */
 }
 
 .ctc-apply-2-header {
@@ -203,35 +205,58 @@ html {
   margin: 0 0 80px 0;
 }
 
-.ctc-apply-2-leftcolumn {
-  width: 34%;
-  float: left;
-  padding: 2% 7% 2% 8%;
+
+.ctc-apply-2-columns {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin-left: 5vw;
+  position: relative;
 }
 
-.ctc-apply-2-rightcolumn {
-  width: calc(32% - 5px);
-  height: auto;
-  float: right;
-  padding: 2% 8% 2% 9%;
-  border-left: 5px solid #ffe9ee;
+.ctc-apply-2-column {
+  width: min(55ch, 45vw);
+  padding: 2rem 2rem 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctc-apply-2-separator{
+  min-width: 0.3125rem;
+  min-height: 0.3125rem;
+  background-color: #ffe9ee;;
+}
+
+.ctc-apply-2-apply-button {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+  padding: 0.5rem 2.25rem;
+  text-decoration: none;
+  background-color: var(--dark-pink);
+  color: white;
+  border-radius: 0.25rem;
 }
 
 .ctc-apply-2-column-image {
-  height: 180px;
-  margin-bottom: 10px;
+  height: 9.5rem;
 }
 
 .ctc-apply-2-column-title {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-top: 1.5rem;
+  width: 100%;
 }
 
 .ctc-apply-2-column-p {
   font-size: 22px;
   line-height: 36px;
   font-weight: 400;
+  width: 100%;
 }
 
 .ctc-apply-2-list-item {
@@ -269,10 +294,13 @@ html {
 
 .ctc-apply-4-bg {
   width: 100%;
-  height: 1020px;
+  padding-bottom: 2rem;
   background-color: #fff6ec;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ctc-apply-4-header {
@@ -286,12 +314,11 @@ html {
 }
 
 .ctc-apply-4-p {
-  width: calc(50% + 120px);
-  margin-left: calc(25% - 60px);
-  margin-bottom: 10px;
+  width: min(50ch, 90vw);
+  margin-bottom: 1rem;
   font-family: Inter;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.25rem;
+  line-height: 145%;
 }
 
 .ctc-apply-4-bold {
@@ -300,7 +327,6 @@ html {
 
 .ctc-apply-4-timeline-container {
   width: 65%;
-  margin-left: 17.5%;
 }
 
 .ctc-apply-4-buttons {
@@ -352,7 +378,7 @@ html {
 
 .ctc-apply-5-bg {
   width: 100%;
-  height: calc(600px + 10vw + 10vh);
+  padding-bottom: 10rem;
   background-color: white;
   position: relative;
   z-index: 1;
@@ -376,7 +402,7 @@ html {
   position: relative;
   text-align: center;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 48px;
   color: var(--dark-pink);
@@ -419,26 +445,6 @@ html {
     250px;
 } */
 
-@media screen and (max-width: 1600px) {
-  .ctc-apply-4-bg {
-    height: 1150px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .ctc-apply-2-bg {
-    height: 1200px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .ctc-apply-2-bg {
-    height: 1450px;
-  }
-  .ctc-apply-4-bg {
-    height: 1300px;
-  }
-}
 
 @media screen and (max-width: 850px) {
   .t-card {
@@ -485,43 +491,18 @@ html {
     line-height: 50px;
     margin: 20px 0 30px 0;
   }
-  .ctc-apply-2-bg {
-    height: 700px;
+  .ctc-apply-2-columns {
+    flex-direction: column;
+    align-items: center;
   }
-  .ctc-apply-2-header {
-    font-size: 32px;
-    padding-top: 40px;
-    margin-bottom: 40px;
+  .ctc-apply-2-separator {
+    width: 100%;
   }
-  .ctc-apply-2-leftcolumn {
-    width: 35%;
-    float: left;
-    padding: 2% 6% 2% 8%;
+  .ctc-apply-2-column {
+    width: 80vw;
   }
-  .ctc-apply-2-rightcolumn {
-    width: calc(36% - 3px);
-    height: auto;
-    float: right;
-    padding: 2% 7% 2% 8%;
-    border-left: 3px solid #ffe9ee;
-  }
-  .ctc-apply-2-column-image {
-    height: 80px;
-    margin-bottom: 10px;
-  }
-  .ctc-apply-2-column-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .ctc-apply-2-column-p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  .ctc-apply-2-list-item {
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 400;
-    margin-bottom: 4px;
+  .ctc-apply-2-apply-button {
+    position: initial;
   }
   .ctc-apply-3-bg {
     height: 700px;
@@ -530,9 +511,7 @@ html {
     font-size: 32px;
     padding-top: 20px;
     margin: 0 0 20px 0;
-  }
-  .ctc-apply-4-bg {
-    height: calc(1200px - 12vh);
+    text-align: center;
   }
   .ctc-apply-4-header {
     font-size: 32px;
@@ -550,43 +529,19 @@ html {
   .ctc-apply-4-buttons {
     margin-top: 10px;
   }
+  
+  .ctc-apply-2-column-title,
   .ctc-apply-5-header {
-    position: relative;
+    font-size: 2rem;
     text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 48px;
-    color: white;
-    padding-top: calc(5.5% + 20px);
-    margin: 0;
   }
   .ctc-apply-5-faq-container {
     display: flex;
     justify-content: center;
     margin-top: calc(10px - 2%);
   }
-  .ctc-apply-5-header {
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: calc(5.5% + 20px);
-    margin: 0;
-  }
   .ctc-apply-5-faq-container {
     margin-top: calc(10px - 2%);
   }
 }
 
-@media screen and (max-width: 600px) {
-  .ctc-apply-2-bg {
-    height: 1070px;
-  }
-  .ctc-apply-4-bg {
-    height: calc(1550px + 10vh);
-  }
-  .ctc-apply-5-header {
-    font-size: 24px;
-    line-height: 32px;
-    padding-top: 28px;
-  }
-}
