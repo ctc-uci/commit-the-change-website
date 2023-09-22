@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 import './ProjectCard.css';
 import { animated } from 'react-spring';
-import { ArrowUpRight } from 'react-feather';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({
@@ -36,7 +35,6 @@ const ProjectCard = ({
         className="project-name"
       >
         {projectName}
-        <ArrowUpRight className="project-card-arrow-up-right" />
       </a>
       <p className="project-timeline">
         {start}
@@ -46,8 +44,14 @@ const ProjectCard = ({
         {end}
       </p>
       <p className="description">{description}</p>
-      <Link to="/projects"><button type="button" className="primary-button">Learn More</button></Link>
     </div>
+    <Link
+      to={npoURL}
+      target="_blank"
+      className="primary-button"
+      rel="noopener noreferrer"
+    >Learn More
+    </Link>
   </animated.div>
 );
 

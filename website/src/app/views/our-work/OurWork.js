@@ -3,12 +3,11 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'react-feather';
 import './OurWork.css';
 // import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import Footer from '../../components/Footer/Footer';
 
 import projects from './projectsData';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
-import ctcLogo from '../../../images/logo/white-ctc.svg';
+import CurrentProjectSection from '../../components/CurrentProjectSection/CurrentProjectSection';
 
 const pastProjects = projects.inactive.map((project) => (
   <motion.div
@@ -71,39 +70,7 @@ const OurWork = () => {
   return (
     <main>
       <div className="ctc-ourwork-bg">
-        <motion.p
-          className="ctc-ourwork-header"
-          variants={animationConfigs.transformY(-50, -50)}
-          transition={{
-            ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
-            damping: 15,
-            staggerChildren: 0.5,
-          }}
-          {...animationStates.whileInView(true)}
-        >
-          2023-2024 Projects
-        </motion.p>
-        <div className="ctc-ourwork-centered-container">
-          <motion.div
-            className="ctc-ourwork-current-projects"
-            variants={animationConfigs.transformY(50, 50)}
-            transition={{
-              ...transitionConfigs.spring(loaded ? 0.5 : 0.75, loaded ? 0 : 0.5),
-              damping: 15,
-              staggerChildren: 0.5,
-            }}
-            {...animationStates.whileInView(true)}
-          >
-            {(projects.active.length === 0)
-              ? (
-                <div className="ctc-ourwork-comingsoon-box">
-                  <img className="ctc-ourwork-comingsoon-logo" src={ctcLogo} alt="" />
-                  <p className="ctc-ourwork-comingsoon-p">Check back this Fall to see our upcoming projects!</p>
-                </div>
-              )
-              : projects.active.map((project) => <ProjectCard key={project.projectName} {...project} />)}
-          </motion.div>
-        </div>
+        <CurrentProjectSection title="2023-20224 Projects" className="current-projects" />
         <motion.p
           className="ctc-ourwork-past-projects-header"
           variants={animationConfigs.transformY(-50, -50)}

@@ -1,0 +1,145 @@
+.current-project-section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ctc-home-3-header {
+  text-align: center;
+  color: var(--dark-pink);
+  font-size: 48px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  min-height: 5rem;
+}
+
+.ctc-home-3-projects-container {
+  width: 85vw;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ctc-ourwork-comingsoon-box {
+  width: 554px;
+  max-width: 85vw;
+  height: 131px;
+  background: var(--dark-purple);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: space-between;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.ctc-ourwork-comingsoon-p {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.ctc-ourwork-comingsoon-logo {
+  width: 60px;
+  height: auto;
+}
+
+.current-project-footer {
+  min-height: 5rem;
+}
+
+/* @media screen and (max-width: 1400px) {
+  .ctc-home-3-projects-container .project-card {
+      width: calc((100vw - 80px) / 3);
+      height: 520px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .ctc-home-3-projects-container {
+    width: 80%;
+    height: 1200px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ctc-home-3-projects-container .project-card {
+    flex: 0 0 80%;
+    width: calc((100vw - 100px) / 3);
+    height: 0px !important;
+    min-height: 380px;
+    margin-bottom: 40px;
+  }
+  .ctc-home-3-projects-container .project-card .project-card-image-div {
+    height: 180px;
+  }
+}
+  
+@media screen and (max-width: 900px) {
+  .ctc-home-3-bg {
+    height: 1600px;
+  }
+  
+  .ctc-home-3-projects-container {
+    height: 1270px;
+  }
+
+  .ctc-home-3-projects-container .project-card .description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+  
+@media screen and (max-width: 850px) {
+  .ctc-home-3-projects-container {
+    width: 92%;
+    height: 1200px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .ctc-home-3-projects-container {
+    height: 1270px;
+  }
+  .ctc-home-3-projects-container .project-card {
+    min-height: 400px;
+  }
+}
+  
+@media screen and (max-width: 500px) {
+  .ctc-home-3-projects-container .project-card {
+    min-height: 400px;
+  }
+  .ctc-home-3-projects-container .project-card .project-card-text {
+    padding: 10px 22px;
+  }
+  .ctc-home-3-projects-container .project-card .description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+} */
+

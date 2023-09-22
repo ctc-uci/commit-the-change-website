@@ -6,15 +6,16 @@ import maillogo from '../../../images/home/mail.svg';
 import fblogo from '../../../images/home/fb.svg';
 import instagramlogo from '../../../images/home/ig.svg';
 import linkedinlogo from '../../../images/home/li.svg';
-import ctcLogo from '../../../images/logo/white-ctc.svg';
+// import ctcLogo from '../../../images/logo/white-ctc.svg';
 
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
+// import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import Footer from '../../components/Footer/Footer';
 import whiteLogo from '../../../images/home/ctc-logo-white-transparent.svg';
 import ochHikePicture from '../../../images/home/OCH-hike-photo.jpg';
-import projectData from '../our-work/projectsData';
+// import projectData from '../our-work/projectsData';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 import './Home.css';
+import CurrentProjectSection from '../../components/CurrentProjectSection/CurrentProjectSection';
 
 const Home = () => {
   // todo: make these into components
@@ -213,7 +214,23 @@ const Home = () => {
             </Link>
           </motion.div>
         </motion.div>
-        <motion.div
+        <CurrentProjectSection
+          title="Current Projects"
+          background="#ffeff3"
+          footer={(
+            <motion.div
+              className="ctc-home-3-buttons"
+              variants={animationConfigs.transformY('100%', '100%')}
+              transition={transitionConfigs.simple(0.5)}
+              {...animationStates.whileInView(true)}
+            >
+              <Link to="/projects" className="ctc-home-3-button-link">
+                <div className="ctc-home-3-button">View All</div>
+              </Link>
+            </motion.div>
+          )}
+        />
+        {/* <motion.div
           className="ctc-home-3-bg"
           variants={animationConfigs.opacity(1, 0)}
           transition={transitionConfigs.simple(0.2)}
@@ -246,7 +263,7 @@ const Home = () => {
               <div className="ctc-home-3-button">View All</div>
             </Link>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           className="ctc-home-4-bg"
           variants={animationConfigs.opacity(1, 0)}
