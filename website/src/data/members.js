@@ -100,8 +100,32 @@ const members = {
       },
     ],
   },
-  leads: {
-    name: 'Project Leads',
+  aiss: {
+    name: "Achievement Institute of STEM Scholars",
+    members: [
+      {
+        name: 'Michael Pien',
+        position: 'Tech Lead',
+        linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
+        imageURL: michaelpien,
+      },
+      {
+        name: 'Michelle Lin',
+        position: 'Tech Lead',
+        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
+        imageURL: michelleblin,
+      },
+      {
+        name: 'Selina Arjomand',
+        position: 'Design Lead',
+        linkedinURL: 'https://www.linkedin.com/in/selinaarjomand/',
+        imageURL: selina,
+      },
+
+    ],
+  },
+  s2t: {
+    name: "Stand Up to Trash",
     members: [
       {
         name: 'Ostend Suryajaya',
@@ -121,24 +145,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/',
         imageURL: rafael,
       },
-      {
-        name: 'Michael Pien',
-        position: 'Tech Lead',
-        linkedinURL: 'https://www.linkedin.com/in/michaelpien/',
-        imageURL: michaelpien,
-      },
-      {
-        name: 'Michelle Lin',
-        position: 'Tech Lead',
-        linkedinURL: 'https://www.linkedin.com/in/michellelin1/',
-        imageURL: michelleblin,
-      },
-      {
-        name: 'Selina Arjomand',
-        position: 'Design Lead',
-        linkedinURL: 'https://www.linkedin.com/in/selinaarjomand/',
-        imageURL: selina,
-      },
+    ],
+
+  },
+  fph: {
+    name: "Feeding Pets of the Homeless",
+    members: [
       {
         name: 'Madhu Sharma',
         position: 'Tech Lead',
@@ -157,6 +169,7 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
       },
+
     ],
   },
 };
