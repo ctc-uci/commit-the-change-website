@@ -39,14 +39,20 @@
     cursor: url('./dogpaw.png'), auto;
 }
 
-.primary-button {
-    margin: 0 20px;
+.fph-button {
+    margin: 0 10px;
     border-radius: 2px;
     width: 150px;
     font-size: 1em;
     
 }
 
+.fph-button:hover, .secondary-button:hover{
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
+}
+.button-link:hover {
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
+}
 
 
 .secondary-button {
@@ -135,7 +141,7 @@
       width: 100%;
     }
 
-    .primary-button {
+    .fph-button {
         margin-bottom: 10px;
         margin-top: 10px;
     }
