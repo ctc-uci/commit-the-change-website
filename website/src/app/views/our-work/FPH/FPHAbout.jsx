@@ -6,6 +6,7 @@ import "./FPHAbout.css";
 import Footer from "../../../components/Footer/Footer";
 import fphImage from '../../../../images/nonprofits/Feeding-Pets-Of-The-Homeless.png';
 import ctcImage from '../../../../images/logo/purple-ctc.svg';
+import dogWalking from './dog-walking.gif';
 
 // you can safely ignore most of the things above the opening div tag for now,
 // we'll cover them in more detail in our Frontend/React unit
@@ -39,10 +40,8 @@ const FPHAbout = () => (
             <p>We are creating a <strong> dashboard to expedite the onboarding and donation reporting processes for donation sites. </strong> This platform will serve as a central hub where donation sites can register themselves and subsequently submit their donation totals. Using this data, donation sites can track their contributions with ease. Furthermore, Feeding Pets of the Homeless can access a view of all participating donation sites, monitor their onboarding status, and review their latest donation submissions.</p>
           </section>
         </div>
-        <div className="dog-walking">
-          <section>
-            <div className="styledimg"> </div>
-          </section>
+        <div className="gif-container">
+          <img src={dogWalking} alt="Dog walking GIF" className="gif-image" id="moving-image" />
         </div>
 
       </div>

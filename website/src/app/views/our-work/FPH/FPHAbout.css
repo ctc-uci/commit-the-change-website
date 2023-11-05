@@ -11,7 +11,6 @@
 .about-us-content p {
     /* paragraph styling */
     font-size: 16px;
-    
     font-family: "Inter", "sans-serif";
     line-height: 27px;
     text-align: left;
@@ -34,7 +33,7 @@
 }
 
 .about-us-content {
-    width: 659.96px;
+    width: 659.96;
     height: 646px;  
     margin-top: 242px;      
     margin-top: 38px; 
@@ -49,6 +48,42 @@
 
 
 .styledimg{
-    background-image:  url(dog-walk.gif);
+    background-image:  url(dog-walking.gif);
     background-repeat: no-repeat;
+}
+
+@media only screen{
+
+    .about-us-content {
+        width: 50vw;
+        height: 646px;  
+        margin-top: 242px;      
+        margin-top: 38px; 
+        margin-left: 135px;
+    }
+
+}
+
+.gif-image {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
+    overflow: visible;
+    position: absolute;
+    animation: moveImage 10s linear infinite; /* Use a CSS animation */
+}
+
+.gif-container {
+    height: 100px;
+}
+
+@keyframes moveImage {
+  0% {
+    right: -100px; /* Start off-screen to the left */
+  }
+  100% {
+    right: 100%; /* Move the image all the way to the right */
+  }
 }
