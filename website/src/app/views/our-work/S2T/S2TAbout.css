@@ -1,11 +1,228 @@
+html {
+  cursor: url("https://pngfre.com/wp-content/uploads/fish-44-1024x602.png"),
+    auto;
+}
+
 .about-us-page-container {
-    padding-top: 4rem;
-    padding-bottom: 20rem;
-    background-color: white;
-    overflow-x: hidden;
-    position: relative;
+  background-image: url("../../../../images/nonprofits/s2t-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-title-wrapper {
+  width: 100%;
+}
+.about-us-lol {
+  position: relative;
+}
+
+.about-us-waves {
+  position: absolute;
+  top: -07;
+  min-width: 100vw !important;
+}
+
+.about-us-page-container {
+  padding-top: 4rem;
+  padding-bottom: 20rem;
+  background-color: white;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .about-us-page-container .footer {
-    height: 20rem;
+  height: 20rem;
 }
+
+/* title */
+.about-us-title {
+  display: flex;
+  /* align-items: center; */
+  height: 5em;
+  margin-bottom: 3em;
+  margin-left: 5em;
+  margin-top: 6em;
+  align-items: center;
+  z-index: 9999999;
+  position: absolute;
+}
+
+.about-us-title-sub {
+  display: flex;
+  column-gap: 1em;
+}
+
+.about-us-title img {
+  border-radius: 20px;
+  background: var(--S2T-Accent, #caedff);
+  padding: 5px 12px;
+  height: 150%;
+}
+
+.about-us-title h2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0.5em;
+  margin-top: 0em;
+  padding-left: 0.5em;
+}
+
+.about-us-title h3 {
+  font-size: 15px;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+
+.about-us-title-buttons {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: -0.5em;
+  padding-top: 1.5em;
+  gap: 5px;
+}
+
+/* .title-item {
+  height: 100px;
+} */
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-subtext {
+  font-family: "Source Code Pro";
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+/* end of title */
+
+.about-us-content-and-image {
+  display: flex;
+}
+
+.about-us-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.4rem;
+}
+
+.about-us-content-border {
+  width: 80vw;
+  border-radius: 60px;
+  max-width: 732px;
+  margin-top: 30rem;
+
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+
+  /* position: relative;
+  z-index: 2; */
+  /* cursor: url("https://pngfre.com/wp-content/uploads/fish-44-1024x602.png"),
+    auto; */
+}
+
+/* .about-us-content-border:hover {
+  cursor: url("https://pngfre.com/wp-content/uploads/fish-44-1024x602.png"),
+    auto;
+} */
+
+.about-us-content {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 38px;
+  margin: 40px;
+  color: white;
+}
+
+.about-us-content .body-text {
+  /* Body */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  margin: 0;
+}
+
+.about-us-content .body-header-text {
+  /* color: var(--Primary-white, #481dab); */
+  /* H4 */
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 138.889% */
+  margin: 0;
+}
+
+.about-us-content .body-logo {
+  width: 46px;
+  height: 46px;
+}
+
+.about-us-content .body-image {
+  width: 100vw;
+  height: 100vh;
+}
+
+.about-us-content .body-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-us-content section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.about-us-image {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-title-wrapper {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  margin-top: 43px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* .about-us-main {
+  height: 100vh;
+} */
+
+@media only screen and (max-width: 1000px) {
+  .about-us-content-border {
+    margin-top: 250px !important;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+
+/* @media only screen and (min-width: 795px) {
+  main.about-us-main {
+  margin-left: 135px;
+  width: 660px;
+  justify-content: start;
+  }
+  } */
