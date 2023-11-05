@@ -1,3 +1,5 @@
+
+
 .about-us-page-container {
     padding-top: 4em;
     padding-bottom: 20rem;
@@ -125,3 +127,59 @@
     }
     /* Further styling adjustments for mobile can be added here */
   }
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: #481DAB;
+    font-family: "Inter", monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about-us-content {
+    width: 659.96px;
+    height: 646px;  
+    margin-top: 242px;      
+    margin-top: 38px; 
+    margin-left: 135px;
+}
+
+.logo {
+    width: 35px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.fph-body-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.fph-dog {
+    width: 60vh;
+    height: 60vh;
+    position: absolute;
+    top: 15vh;
+    left: 65vw;
+}
+
+.fph-lower-triangle{
+    width: 25vh;
+    height: 25vw;
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+}
+
+.fph-upper-triangle{
+    width: 278px;
+    height: 237px;
+    position: absolute;
+    rotate: 92.26;
+    top: 0vh;
+    left: 80vw;
+    
+}
