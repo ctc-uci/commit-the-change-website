@@ -1,3 +1,5 @@
+
+
 .about-us-page-container {
     padding-top: 4rem;
     padding-bottom: 20rem;
@@ -5,39 +7,73 @@
     overflow-x: hidden;
     position: relative;
 }
-
+p {
+    /* paragraph styling */
+    font-size: 16px;
+    
+    font-family: "Inter", "sans-serif";
+    line-height: 27px;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    
+}
 .about-us-page-container .footer {
     height: 20rem;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    color: #481DAB;
+    font-family: "Inter", monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about-us-content {
+    width: 659.96px;
+    height: 646px;  
+    margin-top: 242px;      
+    margin-top: 38px; 
+    margin-left: 135px;
+}
+
+.logo {
+    width: 35px;
+    height: 18px;
+    margin-right: 3px;
+}
+
 .fph-body-container {
     display: flex;
+    position: relative;
     flex-direction: row;
 }
 
 .fph-dog {
-    width: 555px;
-    height: 512px;
+    width: 60vh;
+    height: 60vh;
     position: absolute;
-    top: 517px;
-    left: 999px
+    top: 15vh;
+    left: 65vw;
 }
 
 .fph-lower-triangle{
-    width: 189.6px;
-    height: 167.14px;
+    width: 25vh;
+    height: 25vw;
     position: absolute;
-    top: 958px;
-    left: 956.88px;
-    rotate: -7.18;
+    top: 50vh;
+    left: 60vw;
 }
 
 .fph-upper-triangle{
     width: 278px;
     height: 237px;
-    rotate: 92.26;
-    top: 520px;
-    left: 1050px;
     position: absolute;
-
+    rotate: 92.26;
+    top: 0vh;
+    left: 80vw;
+    
 }
