@@ -21,6 +21,7 @@ import michelleblin from '../images/ourTeam/memberImages/michelleblin.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 
 // --- Members ---
 // --- ------- ---
@@ -120,6 +121,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/selinaarjomand/',
         imageURL: selina,
+      },
+      {
+        name: 'Alyssia Tan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
+        imageURL: alyssia,
       },
 
     ],
