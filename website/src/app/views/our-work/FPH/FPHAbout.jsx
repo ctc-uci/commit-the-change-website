@@ -29,12 +29,12 @@ const FPHAbout = () => (
                 <h1 className="header-title">Feeding Pets of the Homeless</h1>
                 {/* for your convenience, some basic styles defined elsewhere */}
                 <a className="button-link" href="https://www.github.com">
-                  <button type="button" className="primary-button">
+                  <button type="button" className="fph-button primary-button">
                     GitHub
                   </button>
                 </a>
                 <a className="button-link" href="https://petsofthehomeless.org/">
-                  <button type="button" className="secondary-button">
+                  <button type="button" className="fph-button secondary-button">
                     Official Site
                   </button>
                 </a>
