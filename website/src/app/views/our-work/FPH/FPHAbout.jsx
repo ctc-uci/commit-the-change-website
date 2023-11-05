@@ -27,15 +27,15 @@ const FPHAbout = () => (
         </section>
         <div className="about-us-content">
           <section>
-            <h2>Mission</h2>
+            <h4>Mission</h4>
             <p>Feeding Pets of the Homeless supports people experiencing homeless by <strong>feeding and providing basic emergency veterinary care </strong> to their pets to help relieve homeless guardians who cannot provide for them. They partner with volunteer donation sites who collect pet food and resources to donate to local food banks for those experience homelessness to access.</p>
           </section>
           <section>
-            <h2>Problem</h2>
+            <h4>Problem</h4>
             <p>Currently, donation sites are not reporting their donation totals and Feeding Pets of the Homeless is having to manually call donation sites to check their status. Once the donation metrics are sent, Feeding Pets of the Homeless also has to manually upload the data into their database. This process is <strong>very inefficient and can lead to miscommunication</strong>.</p>
           </section>
           <section>
-            <h2><img src={ctcImage} className="logo" alt="CTC logo" /> CTC&#39;s Solution</h2>
+            <h4><img src={ctcImage} className="logo" alt="CTC logo" /> CTC&#39;s Solution</h4>
             <p>We are creating a <strong> dashboard to expedite the onboarding and donation reporting processes for donation sites. </strong> This platform will serve as a central hub where donation sites can register themselves and subsequently submit their donation totals. Using this data, donation sites can track their contributions with ease. Furthermore, Feeding Pets of the Homeless can access a view of all participating donation sites, monitor their onboarding status, and review their latest donation submissions.</p>
           </section>
         </div>

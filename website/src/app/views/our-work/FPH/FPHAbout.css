@@ -7,7 +7,8 @@
     overflow-x: hidden;
     position: relative;
 }
-p {
+
+.about-us-content p {
     /* paragraph styling */
     font-size: 16px;
     
@@ -22,7 +23,7 @@ p {
     height: 20rem;
 }
 
-h2 {
+.about-us-content h4{
     display: flex;
     align-items: center;
     color: #481DAB;
@@ -38,10 +39,6 @@ h2 {
     margin-top: 242px;      
     margin-top: 38px; 
     margin-left: 135px;
-}
-
-styledimg{
-    background-image:
 }
 
 .logo {
