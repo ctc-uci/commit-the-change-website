@@ -43,9 +43,9 @@ const FPHAbout = () => (
             </section>
           </div>
           <div>
-            <img className="fph-dog" src={fphDog} alt="blue dog" />
-            <img className="fph-lower-triangle" src={fphLowerTriangle} alt="blue triangle around blue dog" />
-            <img className="fph-upper-triangle" src={fphUpperTriangle} alt="larger blue triangle aroung dog" />
+            <img className="fph-dog fph-images" src={fphDog} alt="blue dog" />
+            <img className="fph-lower-triangle fph-images" src={fphLowerTriangle} alt="blue triangle around blue dog" />
+            <img className="fph-upper-triangle fph-images" src={fphUpperTriangle} alt="larger blue triangle aroung dog" />
           </div>
         </div>
       </div>
