@@ -23,6 +23,7 @@ import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 
 // --- Members ---
+import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -121,7 +122,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/selinaarjomand/',
         imageURL: selina,
       },
-
+      {
+        name: 'Sean Fong',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
+        imageURL: seanfong,
+      },
     ],
   },
   s2t: {
