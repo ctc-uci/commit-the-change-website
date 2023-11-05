@@ -30,14 +30,14 @@
     object-fit: cover;
     object-position: center;
 }
-
+/*
 .primary-button:hover, .secondary-button:hover{
     cursor: url('./dogpaw.png'), auto;
 }
 
 .button-link:hover {
     cursor: url('./dogpaw.png'), auto;
-}
+} */
 
 .fph-button {
     margin: 0 10px;
@@ -48,11 +48,12 @@
 }
 
 .fph-button:hover, .secondary-button:hover{
-    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
+    cursor: url('./dogpaw.png'), auto;
 }
 .button-link:hover {
-    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
+    cursor: url('./dogpaw.png'), auto;
 }
+
 
 
 .secondary-button {
