@@ -6,7 +6,7 @@
     background-color: white;
     overflow-x: hidden;
     position: relative;
-    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'),auto;
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
 }
 
 .about-us-page-container .footer {
@@ -25,6 +25,14 @@
     border-radius: 2px;
     width: 150px;
     font-size: 1em;
+    
+}
+
+.primary-button:hover, .secondary-button:hover{
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
+}
+.button-link:hover {
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'), auto;
 }
 
 .secondary-button {
