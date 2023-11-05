@@ -15,14 +15,29 @@ const FPHAbout = () => (
     <main className="about-us-main">
       <div>
         <section>
-          <h1>Feeding Pets of the Homeless</h1>
-
           {/* for your convenience, the npo logo */}
-          <img src={fphImage} alt="Feeding Pets of the Homeless Logo" />
-
-          {/* for your convenience, some basic styles defined elsewhere */}
-          <button type="button" className="primary-button">Primary Button</button>
-          <button type="button" className="secondary-button">Secondary Button</button>
+          <div className="header-container">
+            <div className="header-image-container">
+              <img src={fphImage} className="header-image" alt="Feeding Pets of the Homeless Logo" />
+            </div>
+            <div className="header-text-container">
+              <div className="header-title-container">
+                <h1 className="header-title">Feeding Pets of the Homeless</h1>
+                {/* for your convenience, some basic styles defined elsewhere */}
+                <a href="https://www.github.com">
+                  <button type="button" className="primary-button">
+                    GitHub
+                  </button>
+                </a>
+                <a href="https://petsofthehomeless.org/">
+                  <button type="button" className="secondary-button">
+                    Official Site
+                  </button>
+                </a>
+              </div>
+              <h5 className="header-subtext">Fall 2023 - Spring 2024</h5>
+            </div>
+          </div>
         </section>
         <div className="about-us-content">
           <section>

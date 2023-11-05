@@ -1,11 +1,127 @@
 .about-us-page-container {
-    padding-top: 4rem;
+    padding-top: 4em;
     padding-bottom: 20rem;
     background-color: white;
     overflow-x: hidden;
     position: relative;
+    cursor: url('..\\..\\website\\src\\images\\ourWork\\dogpaw.png'),auto;
 }
 
 .about-us-page-container .footer {
     height: 20rem;
 }
+
+.header-image{
+    width: 123px;
+    height: 138px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.primary-button {
+    margin: 0 20px;
+    border-radius: 2px;
+    width: 150px;
+    font-size: 1em;
+}
+
+.secondary-button {
+    border-radius: 2px;
+    width: 150px;
+    font-size: 1em;
+}
+
+.header-image-container{
+    height: 157px;
+    width: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDFBF8;
+    margin: 0;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.header-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.header-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;   
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: 157px;
+    margin-right: 0px;
+}
+
+.header-title{
+    font-family: Inter;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: flex-end;   
+    color: #000000;
+    margin: 0px;
+}
+
+.header-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.header-subtext{
+    font-family: Source Code Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6F6F6F;
+
+}
+
+
+@media screen and (max-width: 960px) {
+    .header-container {
+      margin-top: 30%; /* Reduced from 20% to a fixed value */
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header-image-container{
+        margin-right: 0px;
+    }
+  
+    .header-title-container {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .primary-button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+  
+    .about-us-page-container {
+      padding: 2rem 1rem; /* Smaller padding on mobile */
+    }
+    
+    .header-subtext{
+        color: rgba(0,0,0,0);
+    }
+    /* Further styling adjustments for mobile can be added here */
+  }
