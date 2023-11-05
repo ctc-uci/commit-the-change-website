@@ -4,7 +4,9 @@ import linkedinLogo from "../../../images/about/linkedin.svg";
 import "./ProfileCard.css";
 
 function ProfileCard(props) {
-  const { name, position, linkedinURL, imageURL } = props;
+  const {
+    name, position, linkedinURL, imageURL,
+  } = props;
   return (
     <div className="card-container">
       <img className="profile-img" src={imageURL} alt="team member" />
