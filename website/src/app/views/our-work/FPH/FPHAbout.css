@@ -1,3 +1,5 @@
+
+
 .about-us-page-container {
     padding-top: 4rem;
     padding-bottom: 20rem;
@@ -5,7 +7,51 @@
     overflow-x: hidden;
     position: relative;
 }
-
+p {
+    /* paragraph styling */
+    font-size: 16px;
+    
+    font-family: "Inter", "sans-serif";
+    line-height: 27px;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    
+}
 .about-us-page-container .footer {
     height: 20rem;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: #481DAB;
+    font-family: "Inter", monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about-us-content {
+    width: 659.96px;
+    height: 646px;  
+    margin-top: 242px;      
+    margin-top: 38px; 
+    margin-left: 135px;
+}
+
+styledimg{
+    background-image:
+}
+
+.logo {
+    width: 35px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+
+.styledimg{
+    background-image:  url(dog-walk.gif);
+    background-repeat: no-repeat;
 }
