@@ -24,6 +24,7 @@ import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 
 // --- Members ---
+import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -102,7 +103,7 @@ const members = {
     ],
   },
   aiss: {
-    name: "Achievement Institute of STEM Scholars",
+    name: 'Achievement Institute of STEM Scholars',
     members: [
       {
         name: 'Michael Pien',
@@ -128,11 +129,10 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
       },
-
     ],
   },
   s2t: {
-    name: "Stand Up to Trash",
+    name: 'Stand Up to Trash',
     members: [
       {
         name: 'Ostend Suryajaya',
@@ -152,11 +152,16 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/',
         imageURL: rafael,
       },
+      {
+        name: 'Kevin Wu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
+        imageURL: kevinwu,
+      },
     ],
-
   },
   fph: {
-    name: "Feeding Pets of the Homeless",
+    name: 'Feeding Pets of the Homeless',
     members: [
       {
         name: 'Madhu Sharma',
@@ -176,7 +181,6 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
       },
-
     ],
   },
 };
