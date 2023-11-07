@@ -25,6 +25,7 @@ import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 import zion from '../images/ourTeam/memberImages/zion.jpg';
 
 // --- Members ---
+import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 // --- ------- ---
@@ -105,7 +106,7 @@ const members = {
     ],
   },
   aiss: {
-    name: "Achievement Institute of STEM Scholars",
+    name: 'Achievement Institute of STEM Scholars',
     members: [
       {
         name: 'Michael Pien',
@@ -140,7 +141,7 @@ const members = {
     ],
   },
   s2t: {
-    name: "Stand Up to Trash",
+    name: 'Stand Up to Trash',
     members: [
       {
         name: 'Ostend Suryajaya',
@@ -160,11 +161,16 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/',
         imageURL: rafael,
       },
+      {
+        name: 'Kevin Wu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
+        imageURL: kevinwu,
+      },
     ],
-
   },
   fph: {
-    name: "Feeding Pets of the Homeless",
+    name: 'Feeding Pets of the Homeless',
     members: [
       {
         name: 'Madhu Sharma',
@@ -196,7 +202,6 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
         imageURL: zion,
       },
-
     ],
   },
 };
