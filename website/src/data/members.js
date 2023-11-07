@@ -21,8 +21,10 @@ import michelleblin from '../images/ourTeam/memberImages/michelleblin.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 
 // --- Members ---
+import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 // --- ------- ---
 
@@ -122,7 +124,18 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/selinaarjomand/',
         imageURL: selina,
       },
-
+      {
+        name: 'Alyssia Tan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
+        imageURL: alyssia,
+      },
+      {
+        name: 'Sean Fong',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
+        imageURL: seanfong,
+      },
     ],
   },
   s2t: {
