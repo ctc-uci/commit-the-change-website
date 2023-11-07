@@ -124,16 +124,16 @@ const members = {
         imageURL: selina,
       },
       {
-        name: 'Alyssia Tan',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
-        imageURL: alyssia,
-      },
-      {
         name: 'Ethan Ho',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
         imageURL: ethanho,
+      },
+      {
+        name: 'Alyssia Tan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
+        imageURL: alyssia,
       },
 
     ],
