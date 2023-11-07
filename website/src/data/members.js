@@ -26,6 +26,7 @@ import zion from '../images/ourTeam/memberImages/zion.jpg';
 
 // --- Members ---
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
+import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -182,6 +183,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
+      },
+      {
+        name: 'Sean Kelman',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/sean-kelman-633057211/',
+        imageURL: seankelman,
       },
       {
         name: 'Zion Mateo',
