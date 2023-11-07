@@ -180,7 +180,7 @@ const members = {
       {
         name: 'Zion Mateo',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/zion-mateo/',
+        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
         imageURL: zion,
       },
 
