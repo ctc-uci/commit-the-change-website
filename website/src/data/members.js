@@ -22,6 +22,7 @@ import ostend from '../images/ourTeam/memberImages/ostend.png';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
 
 // --- Members ---
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
@@ -181,6 +182,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
+      },
+      {
+        name: 'Zion Mateo',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
+        imageURL: zion,
       },
 
     ],
