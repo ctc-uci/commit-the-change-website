@@ -24,6 +24,7 @@ import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 
 // --- Members ---
+import kaitlinleung from '../images/ourTeam/memberImages/kaitlinleung.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -175,6 +176,12 @@ const members = {
         position: 'Design Lead',
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
+      },
+      {
+        name: 'Kaitlin Leung',
+        position: 'Team Member',
+        linkedinURL: 'https://www.linkedin.com/in/kaitlin-leung-467a35209',
+        imageURL: kaitlinleung,
       },
 
     ],
