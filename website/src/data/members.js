@@ -22,9 +22,15 @@ import ostend from '../images/ourTeam/memberImages/ostend.png';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 
+
 // --- Members ---
+import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
+import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
+import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
 import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -103,7 +109,7 @@ const members = {
     ],
   },
   aiss: {
-    name: "Achievement Institute of STEM Scholars",
+    name: 'Achievement Institute of STEM Scholars',
     members: [
       {
         name: 'Michael Pien',
@@ -124,6 +130,12 @@ const members = {
         imageURL: selina,
       },
       {
+        name: 'Sean Fong',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
+        imageURL: seanfong,
+      },
+      {
         name: 'Ethan Ho',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
@@ -135,11 +147,10 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
       },
-
     ],
   },
   s2t: {
-    name: "Stand Up to Trash",
+    name: 'Stand Up to Trash',
     members: [
       {
         name: 'Ostend Suryajaya',
@@ -159,11 +170,16 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/',
         imageURL: rafael,
       },
+      {
+        name: 'Kevin Wu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
+        imageURL: kevinwu,
+      },
     ],
-
   },
   fph: {
-    name: "Feeding Pets of the Homeless",
+    name: 'Feeding Pets of the Homeless',
     members: [
       {
         name: 'Madhu Sharma',
@@ -183,7 +199,18 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
       },
-
+      {
+        name: 'Sean Kelman',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/sean-kelman-633057211/',
+        imageURL: seankelman,
+      },
+      {
+        name: 'Zion Mateo',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
+        imageURL: zion,
+      },
     ],
   },
 };
