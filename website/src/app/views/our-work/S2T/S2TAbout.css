@@ -1,0 +1,11 @@
+.about-us-page-container {
+    padding-top: 4rem;
+    padding-bottom: 20rem;
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.about-us-page-container .footer {
+    height: 20rem;
+}
