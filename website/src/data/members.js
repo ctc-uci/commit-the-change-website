@@ -29,6 +29,7 @@ import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
+import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -167,6 +168,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
         imageURL: kevinwu,
+      },
+      {
+        name: 'Matthew Chang',
+        position: 'Developer',
+        linkedinURL: 'http://www.linkedin.com/in/matthew-chang-39754a216',
+        imageURL: matthewc,
       },
       {
         name: 'Nathan Pietrantonio',
