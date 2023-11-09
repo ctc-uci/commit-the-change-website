@@ -238,7 +238,7 @@ const members = {
         imageURL: zion,
       },
       {
-        name: 'Benson Mazano',
+        name: 'Benson Manzano',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/benson-manzano/',
         imageURL: bensonmanzano,
