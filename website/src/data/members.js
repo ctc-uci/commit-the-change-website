@@ -29,6 +29,7 @@ import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 import zion from '../images/ourTeam/memberImages/zion.jpg';
 import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
+import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
 
 // --- ------- ---
 
@@ -174,6 +175,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
         imageURL: kevinwu,
+      },
+      {
+        name: 'Nathan Pietrantonio',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/nathanLP/',
+        imageURL: nathanpietrantonio,
       },
     ],
   },
