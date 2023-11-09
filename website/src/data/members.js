@@ -1,35 +1,35 @@
 // --- Board ---
-import michellelin from '../images/ourTeam/memberImages/michellelin.jpg';
-import noah from '../images/ourTeam/memberImages/noah.png';
-import justin from '../images/ourTeam/memberImages/justin.jpg';
-import carly from '../images/ourTeam/memberImages/carly.jpg';
-import gayathri from '../images/ourTeam/memberImages/gayathri.jpeg';
-import kaila from '../images/ourTeam/memberImages/kailalong.jpeg';
 import andrewlee from '../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../images/ourTeam/memberImages/arjunsivakumar.jpg';
-import maithyle from '../images/ourTeam/memberImages/maithyle.jpg';
-import kainoa from '../images/ourTeam/memberImages/kainoa.jpeg';
+import carly from '../images/ourTeam/memberImages/carly.jpg';
 import emmyc from '../images/ourTeam/memberImages/emmyc.jpg';
+import gayathri from '../images/ourTeam/memberImages/gayathri.jpeg';
+import justin from '../images/ourTeam/memberImages/justin.jpg';
+import kaila from '../images/ourTeam/memberImages/kailalong.jpeg';
+import kainoa from '../images/ourTeam/memberImages/kainoa.jpeg';
+import maithyle from '../images/ourTeam/memberImages/maithyle.jpg';
+import michellelin from '../images/ourTeam/memberImages/michellelin.jpg';
+import noah from '../images/ourTeam/memberImages/noah.png';
 
 // --- Leads ---
-import madhu from '../images/ourTeam/memberImages/madhu.jpg';
-import minh from '../images/ourTeam/memberImages/minhnguyen.jpg';
-import michaelpien from '../images/ourTeam/memberImages/michaelpien.png';
 import dang from '../images/ourTeam/memberImages/dang.jpg';
 import joshlipton from '../images/ourTeam/memberImages/joshlipton.jpg';
+import madhu from '../images/ourTeam/memberImages/madhu.jpg';
+import michaelpien from '../images/ourTeam/memberImages/michaelpien.png';
 import michelleblin from '../images/ourTeam/memberImages/michelleblin.jpg';
+import minh from '../images/ourTeam/memberImages/minhnguyen.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
-import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
+import selina from '../images/ourTeam/memberImages/selina.jpg';
 
 // --- Members ---
 import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
+import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
 import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 import zion from '../images/ourTeam/memberImages/zion.jpg';
 import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
-import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
 import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 // --- ------- ---
 
@@ -140,6 +140,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
         imageURL: ethanho,
+      },
+      {
+        name: 'Maithy Le',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/maithy-le',
+        imageURL: maithyle,
       },
       {
         name: 'Sean Fong',
