@@ -12,7 +12,6 @@ import michellelin from '../images/ourTeam/memberImages/michellelin.jpg';
 import noah from '../images/ourTeam/memberImages/noah.png';
 
 // --- Leads ---
-import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
 import dang from '../images/ourTeam/memberImages/dang.jpg';
 import joshlipton from '../images/ourTeam/memberImages/joshlipton.jpg';
 import madhu from '../images/ourTeam/memberImages/madhu.jpg';
@@ -22,13 +21,16 @@ import minh from '../images/ourTeam/memberImages/minhnguyen.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
-import zion from '../images/ourTeam/memberImages/zion.jpg';
 
 // --- Members ---
 import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
+import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
+import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -134,6 +136,12 @@ const members = {
         imageURL: alyssia,
       },
       {
+        name: 'Ethan Ho',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
+        imageURL: ethanho,
+      },
+      {
         name: 'Maithy Le',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/maithy-le',
@@ -173,6 +181,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
         imageURL: kevinwu,
+      },
+      {
+        name: 'Matthew Chang',
+        position: 'Developer',
+        linkedinURL: 'http://www.linkedin.com/in/matthew-chang-39754a216',
+        imageURL: matthewc,
       },
       {
         name: 'Nathan Pietrantonio',
