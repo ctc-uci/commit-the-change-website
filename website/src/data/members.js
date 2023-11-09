@@ -21,14 +21,16 @@ import michelleblin from '../images/ourTeam/memberImages/michelleblin.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
-import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
-import zion from '../images/ourTeam/memberImages/zion.jpg';
 
 // --- Members ---
 import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
 import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
+import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
 import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
+
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -132,6 +134,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
+      },
+      {
+        name: 'Ethan Ho',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
+        imageURL: ethanho,
       },
       {
         name: 'Sean Fong',
