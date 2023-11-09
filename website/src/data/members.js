@@ -129,10 +129,10 @@ const members = {
         imageURL: selina,
       },
       {
-        name: 'Sean Fong',
+        name: 'Alyssia Tan',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
-        imageURL: seanfong,
+        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
+        imageURL: alyssia,
       },
       {
         name: 'Ethan Ho',
@@ -141,10 +141,10 @@ const members = {
         imageURL: ethanho,
       },
       {
-        name: 'Alyssia Tan',
+        name: 'Sean Fong',
         position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
-        imageURL: alyssia,
+        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
+        imageURL: seanfong,
       },
     ],
   },
