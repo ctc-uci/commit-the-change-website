@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 // note: this is normally bad practice, but we haven't covered module files yet,
 //  will be changed when we
-import "./S2TAbout.css";
-import Footer from "../../../components/Footer/Footer";
-import s2tImage from "../../../../images/nonprofits/Stand-Up-To-Trash.png";
+import './S2TAbout.css';
+import Footer from '../../../components/Footer/Footer';
+import s2tImage from '../../../../images/nonprofits/Stand-Up-To-Trash.png';
 // import purpleCtcLogo from "../../../../images/logo/purple-ctc.svg";
-import whiteCtcLogo from "../../../../images/logo/white-ctc.svg";
+import whiteCtcLogo from '../../../../images/logo/white-ctc.svg';
 // import s2tOtter from "../../../../images/nonprofits/Accent.png";
 
 // you can safely ignore most of the things above the opening div tag for now,
@@ -22,31 +22,26 @@ const S2TAbout = () => (
           <img src={s2tImage} alt="Stand Up to Trash Logo" />
           <div className="about-us-title-sub">
             <div className="title-text">
-              <h2>Stand Up to Trash 🐟 🦈</h2>
+              <h2>Stand Up to Trash</h2>
+
+              <div className="about-us-title-buttons">
+                <a href="https://github.com/ctc-uci/commit-the-change-website/tree/s2t-about">
+                  <button type="button" className="primary-button">
+                    Github
+                  </button>
+                </a>
+                <a href="https://www.standuptotrash.com/">
+                  <button type="button" className="secondary-button">
+                    Official Website
+                  </button>
+                </a>
+              </div>
+
               <h3 className="title-subtext">Fall 2023 - Spring 2024</h3>
             </div>
             {/* for your convenience, some styles defined elsewhere */}
-            <div className="about-us-title-buttons">
-              <a href="https://github.com/ctc-uci/commit-the-change-website/tree/s2t-about">
-                <button type="button" className="primary-button">
-                  Github
-                </button>
-              </a>
-              <a href="https://www.standuptotrash.com/">
-                <button type="button" className="secondary-button">
-                  Official Website
-                </button>
-              </a>
-            </div>
           </div>
         </section>
-        {/* <div className="about-us-title-wrapper"></div> */}
-        <div className="about-us-waves">
-          <img
-            src="https://media.discordapp.net/attachments/1170532234915229739/1170539520530321488/Union_4.png?ex=655968e1&is=6546f3e1&hm=a2a6fbacb987dc45340fa6dfd60308c675f314fa3f9d18f8320b32fe1fd96654&=&width=2160&height=438"
-            alt=""
-          />
-        </div>
       </div>
 
       {/* end of header */}
@@ -75,7 +70,9 @@ const S2TAbout = () => (
             <section>
               <div className="body-header">
                 <img src={whiteCtcLogo} alt="CTC Logo" className="body-logo" />
-                <h2 className="body-header-text">CTC&#39;s Solution</h2>
+                <h2 className="body-header-text">
+                  <span>CTC&#39;s</span> Solution
+                </h2>
               </div>
               <p className="body-text">
                 A volunteer dashboard and management system where volunteers can
