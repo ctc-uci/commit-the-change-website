@@ -1,10 +1,16 @@
 html {
-  cursor: url("https://pngfre.com/wp-content/uploads/fish-44-1024x602.png"),
+  cursor: url('https://pngfre.com/wp-content/uploads/fish-44-1024x602.png'),
     auto;
 }
 
+.about-us-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
 .about-us-page-container {
-  background-image: url("../../../../images/nonprofits/s2t-bg.png");
+  background-image: url('../../../../images/nonprofits/s2t-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,14 +18,19 @@ html {
 .about-us-title-wrapper {
   width: 100%;
 }
-.about-us-lol {
-  position: relative;
-}
 
-.about-us-waves {
-  position: absolute;
-  top: -07;
-  min-width: 100vw !important;
+.about-us-lol {
+  --mask: linear-gradient(to top, #0000 8em, #000 0),
+    radial-gradient(8em, #000 98%, #0000) bottom/10.80em 16em;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background-color: whitesmoke;
+
+  height: 16em;
+
+  margin-top: -0.25em;
+
+  opacity: 95%;
 }
 
 .about-us-page-container {
@@ -37,19 +48,18 @@ html {
 /* title */
 .about-us-title {
   display: flex;
-  /* align-items: center; */
   height: 5em;
-  margin-bottom: 3em;
-  margin-left: 5em;
-  margin-top: 6em;
+  margin: 5em;
   align-items: center;
-  z-index: 9999999;
+  z-index: 10;
   position: absolute;
+  width: 100vw;
 }
 
 .about-us-title-sub {
   display: flex;
   column-gap: 1em;
+  margin: 1em;
 }
 
 .about-us-title img {
@@ -65,40 +75,31 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 0.5em;
-  margin-top: 0em;
-  padding-left: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0em;
+  /* padding-bottom: 0.5em; */
 }
 
 .about-us-title h3 {
-  font-size: 15px;
-  padding-bottom: 0em;
-  margin-bottom: 1.5em;
-  padding-left: 1em;
-  padding-right: 0.5em;
+  font-size: 18px;
+  margin: 0;
 }
 
 .about-us-title-buttons {
-  height: 50%;
   display: flex;
-  justify-content: space-between;
-  margin-right: 10px;
-  margin-top: -0.5em;
-  padding-top: 1.5em;
-  gap: 5px;
+  gap: 1rem;
+  /* padding-bottom: 0.5em; */
 }
-
-/* .title-item {
-  height: 100px;
-} */
 
 .title-text {
   display: flex;
   flex-direction: column;
+  padding: 0.5em;
+  gap: 0.75em;
 }
 
 .title-subtext {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   display: flex;
   flex-direction: column;
   color: gray;
@@ -113,14 +114,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -0.4rem;
+  /* margin-top: -0.4rem; */
 }
 
 .about-us-content-border {
   width: 80vw;
   border-radius: 60px;
   max-width: 732px;
-  margin-top: 30rem;
+  /* margin-top: 30rem; */
+
+  margin-top: 0;
 
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -151,7 +154,7 @@ html {
 
 .about-us-content .body-text {
   /* Body */
-  font-family: "Inter";
+  font-family: 'Inter';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -207,14 +210,31 @@ html {
   margin-right: 50px;
 }
 
-/* .about-us-main {
-  height: 100vh;
-} */
-
 @media only screen and (max-width: 1000px) {
   .about-us-content-border {
-    margin-top: 250px !important;
-    margin: 5%;
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-us-lol {
+    height: 22.5em;
+  }
+
+  .about-us-title {
+    margin: 1em;
+    margin-top: 2em;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+  }
+
+  .about-us-content-border {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     width: 100vw;
   }
 }
