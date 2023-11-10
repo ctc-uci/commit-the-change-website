@@ -70,7 +70,9 @@ const S2TAbout = () => (
             <section>
               <div className="body-header">
                 <img src={whiteCtcLogo} alt="CTC Logo" className="body-logo" />
-                <h2 className="body-header-text">CTC&#39;s Solution</h2>
+                <h2 className="body-header-text">
+                  <span>CTC&#39;s</span> Solution
+                </h2>
               </div>
               <p className="body-text">
                 A volunteer dashboard and management system where volunteers can
