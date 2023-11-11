@@ -179,6 +179,12 @@ const members = {
         imageURL: rafael,
       },
       {
+        name: 'Emmy Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
+        imageURL: emmyc,
+      },
+      {
         name: 'Kevin Wu',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
