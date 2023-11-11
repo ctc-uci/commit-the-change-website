@@ -12,7 +12,11 @@ import aissAccent2Image from "./Accent2.png";
 import aissVectorImage from "./Vector.png";
 import aissImage from '../../../../images/nonprofits/Achievement-Institute-Of-STEM-Scholars.png';
 import ctcLogo from '../../../../images/logo/purple-ctc.svg';
-// import devProfiles from "./devProfiles";
+import teamProfiles from "./teamProfiles";
+
+const showAISSProfiles = (profileData) => (
+  profileData.map((profile) => <AISSProfiles name={profile.name} major={profile.major} role={profile.role} />)
+);
 
 // you can safely ignore most of the things above the opening div tag for now,
 // we'll cover them in more detail in our Frontend/React unit
@@ -86,25 +90,7 @@ const AISSAbout = () => (
             <section id="aiss-members" className="paragraph-container">
               <h2 className="subheader">Members</h2>
               <div className="developers">
-                {/* {mapDevProfiles(devProfiles)} */}
-                <AISSProfiles name="Alyssia Tan" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Cheryl Chen" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Chloe Cheng" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Ethan Ho" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Kade Na" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Kristen Yee" major="Business Information Management + Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Lana Ramadan" major="Informatics + Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Lianne Lee" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Maithy Le" major="" quote="" img="" className="developer" />
-                <AISSProfiles name="Michael Pien" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Michelle Lin" major="CSE" quote="" img="" className="developer" />
-                <AISSProfiles name="Philip Jian" major="Computer Science & Engineering" quote="" img="" className="developer" />
-                <AISSProfiles name="Sean Fong" major="Computer Science" quote="" img="" className="developer" />
-                <AISSProfiles name="Subin Kim" major="Computer Science" quote="" img="" className="developer" />
-              </div>
-              <div className="designers">
-                {/* <p className="paragraph-text">
-                </p> */}
+                {showAISSProfiles(teamProfiles)}
               </div>
             </section>
           </div>

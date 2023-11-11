@@ -5,15 +5,14 @@ import PropTypes from "prop-types";
 
 const AISSProfiles = (props) => {
   const {
-    name, major, quote, photo,
+    name, major, role,
   } = props;
 
   return (
     <div className="profile">
-      <img src={photo} alt={`Portrait of ${name}`} />
-      <h5>{name}</h5>
-      <h6>{major}</h6>
-      <p>{quote}</p>
+      <h4>{name}</h4>
+      <h6>Major: {major}</h6>
+      <h6>Role: {role}</h6>
     </div>
   );
 };
@@ -21,8 +20,7 @@ const AISSProfiles = (props) => {
 AISSProfiles.propTypes = {
   name: PropTypes.string.isRequired,
   major: PropTypes.string.isRequired,
-  quote: PropTypes.string.isRequired,
-  photo: PropTypes.string.isRequired,
+  role: PropTypes.string.isRequired,
 };
 
 export default AISSProfiles;
