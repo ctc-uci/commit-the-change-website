@@ -33,6 +33,7 @@ import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
 import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 import stevenzhou from '../images/ourTeam/memberImages/stevenzhou.png';
 import elenakao from '../images/ourTeam/memberImages/elena.jpg';
+import chloecheng from '../images/ourTeam/memberImages/chloecheng.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -136,6 +137,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
+      },
+      {
+        name: 'Chloe Cheng',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/chloehcheng',
+        imageURL: chloecheng,
       },
       {
         name: 'Ethan Ho',
