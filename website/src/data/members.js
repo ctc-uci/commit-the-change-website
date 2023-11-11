@@ -33,6 +33,7 @@ import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
 import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 import stevenzhou from '../images/ourTeam/memberImages/stevenzhou.png';
 import elenakao from '../images/ourTeam/memberImages/elena.jpg';
+import priskak from '../images/ourTeam/memberImages/priskak.jpg';
 import kristenyee from '../images/ourTeam/memberImages/kristenyee2.jpg';
 // --- ------- ---
 
@@ -237,6 +238,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/sean-kelman-633057211/',
         imageURL: seankelman,
+      },
+      {
+        name: 'Priska Kunaidy',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/priska-kunaidy-aab508261/',
+        imageURL: priskak,
       },
       {
         name: 'Zion Mateo',
