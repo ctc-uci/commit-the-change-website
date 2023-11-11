@@ -18,6 +18,10 @@ import Team from './app/views/our-team/OurTeam';
 import ContactUs from './app/views/contact-us/ContactUs';
 
 import './styles/common.css';
+import GSPAbout from './app/views/our-work/GSP/GSPAbout';
+import FPHAbout from './app/views/our-work/FPH/FPHAbout';
+import AISSAbout from './app/views/our-work/AISS/AISSAbout';
+import S2TAbout from './app/views/our-work/S2T/S2TAbout';
 
 const App = () => {
   ReactGA.initialize('G-BHJD57HXT8');
@@ -32,7 +36,13 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/apply" element={<Apply />} />
+
       <Route path="/projects" element={<Projects />} />
+      <Route path="/projects/aiss-about" element={<AISSAbout />} />
+      <Route path="/projects/fph-about" element={<FPHAbout />} />
+      <Route path="/projects/gsp-about" element={<GSPAbout />} />
+      <Route path="/projects/s2t-about" element={<S2TAbout />} />
+
       <Route path="/team" element={<Team />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/discord" element={<Redirect url="https://discord.gg/bNTTT83Kgk" />} />
