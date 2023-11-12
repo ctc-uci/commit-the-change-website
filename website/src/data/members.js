@@ -23,15 +23,17 @@ import rafael from "../images/ourTeam/memberImages/rafael.jpg";
 import selina from "../images/ourTeam/memberImages/selina.jpg";
 
 // --- Members ---
-import kevinwu from "../images/ourTeam/memberImages/kevinwu.jpg";
-import nathanpietrantonio from "../images/ourTeam/memberImages/nathanpietrantonio.jpg";
-import seanfong from "../images/ourTeam/memberImages/seanfong.jpg";
-import seankelman from "../images/ourTeam/memberImages/seankelman.jpg";
-import alyssia from "../images/ourTeam/memberImages/alyssia.jpg";
-import zion from "../images/ourTeam/memberImages/zion.jpg";
-import ethanho from "../images/ourTeam/memberImages/ethanho.jpg";
-import matthewc from "../images/ourTeam/memberImages/matthewc.png";
-import stevenzhou from "../images/ourTeam/memberImages/stevenzhou.png";
+import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
+import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
+import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
+import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
+import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
+import matthewc from '../images/ourTeam/memberImages/matthewc.png';
+import stevenzhou from '../images/ourTeam/memberImages/stevenzhou.png';
+import elenakao from '../images/ourTeam/memberImages/elena.jpg';
+import priskak from '../images/ourTeam/memberImages/priskak.jpg';
 import lianne from "../images/ourTeam/memberImages/lianne.jpg";
 // --- ------- ---
 
@@ -238,10 +240,22 @@ const members = {
         imageURL: seankelman,
       },
       {
-        name: "Zion Mateo",
-        position: "Developer",
-        linkedinURL: "https://www.linkedin.com/in/zionmateo/",
+        name: 'Priska Kunaidy',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/priska-kunaidy-aab508261/',
+        imageURL: priskak,
+      },
+      {
+        name: 'Zion Mateo',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
         imageURL: zion,
+      },
+      {
+        name: 'Elena Kao',
+        position: 'Developer',
+        linkedinURL: 'http://www.linkedin.com/in/elena-yi-ting-kao-115b1524b',
+        imageURL: elenakao,
       },
     ],
   },
