@@ -23,6 +23,7 @@ import rafael from "../images/ourTeam/memberImages/rafael.jpg";
 import selina from "../images/ourTeam/memberImages/selina.jpg";
 
 // --- Members ---
+import kaitlinleung from "../images/ourTeam/memberImages/kaitlinleung.jpg";
 import kevinwu from "../images/ourTeam/memberImages/kevinwu.jpg";
 import nathanpietrantonio from "../images/ourTeam/memberImages/nathanpietrantonio.jpg";
 import seanfong from "../images/ourTeam/memberImages/seanfong.jpg";
@@ -226,6 +227,12 @@ const members = {
         position: "Design Lead",
         linkedinURL: "https://www.linkedin.com/in/minhtnguy/",
         imageURL: minh,
+      },
+      {
+        name: "Kaitlin Leung",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/kaitlin-leung-467a35209/",
+        imageURL: kaitlinleung,
       },
       {
         name: "Sean Kelman",
