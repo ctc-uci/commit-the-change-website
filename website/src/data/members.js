@@ -1,30 +1,41 @@
 // --- Board ---
-import michellelin from '../images/ourTeam/memberImages/michellelin.jpg';
-import noah from '../images/ourTeam/memberImages/noah.png';
-import justin from '../images/ourTeam/memberImages/justin.jpg';
-import carly from '../images/ourTeam/memberImages/carly.jpg';
-import gayathri from '../images/ourTeam/memberImages/gayathri.jpeg';
-import kaila from '../images/ourTeam/memberImages/kailalong.jpeg';
 import andrewlee from '../images/ourTeam/memberImages/andrewlee.jpg';
 import arjunsivakumar from '../images/ourTeam/memberImages/arjunsivakumar.jpg';
-import maithyle from '../images/ourTeam/memberImages/maithyle.jpg';
-import kainoa from '../images/ourTeam/memberImages/kainoa.jpeg';
+import carly from '../images/ourTeam/memberImages/carly.jpg';
 import emmyc from '../images/ourTeam/memberImages/emmyc.jpg';
+import gayathri from '../images/ourTeam/memberImages/gayathri.jpeg';
+import justin from '../images/ourTeam/memberImages/justin.jpg';
+import kaila from '../images/ourTeam/memberImages/kailalong.jpeg';
+import kainoa from '../images/ourTeam/memberImages/kainoa.jpeg';
+import maithyle from '../images/ourTeam/memberImages/maithyle.jpg';
+import michellelin from '../images/ourTeam/memberImages/michellelin.jpg';
+import noah from '../images/ourTeam/memberImages/noah.png';
 
 // --- Leads ---
-import madhu from '../images/ourTeam/memberImages/madhu.jpg';
-import minh from '../images/ourTeam/memberImages/minhnguyen.jpg';
-import michaelpien from '../images/ourTeam/memberImages/michaelpien.png';
 import dang from '../images/ourTeam/memberImages/dang.jpg';
 import joshlipton from '../images/ourTeam/memberImages/joshlipton.jpg';
+import madhu from '../images/ourTeam/memberImages/madhu.jpg';
+import michaelpien from '../images/ourTeam/memberImages/michaelpien.png';
 import michelleblin from '../images/ourTeam/memberImages/michelleblin.jpg';
+import minh from '../images/ourTeam/memberImages/minhnguyen.jpg';
 import ostend from '../images/ourTeam/memberImages/ostend.png';
-import selina from '../images/ourTeam/memberImages/selina.jpg';
 import rafael from '../images/ourTeam/memberImages/rafael.jpg';
-import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import selina from '../images/ourTeam/memberImages/selina.jpg';
 
 // --- Members ---
 import lanaramadan from '../images/ourTeam/memberImages/lanaramadan.png';
+import kaitlinleung from '../images/ourTeam/memberImages/kaitlinleung.jpg';
+import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
+import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
+import seanfong from '../images/ourTeam/memberImages/seanfong.jpg';
+import seankelman from '../images/ourTeam/memberImages/seankelman.jpg';
+import alyssia from '../images/ourTeam/memberImages/alyssia.jpg';
+import zion from '../images/ourTeam/memberImages/zion.jpg';
+import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
+import matthewc from '../images/ourTeam/memberImages/matthewc.png';
+import stevenzhou from '../images/ourTeam/memberImages/stevenzhou.png';
+import elenakao from '../images/ourTeam/memberImages/elena.jpg';
+import priskak from '../images/ourTeam/memberImages/priskak.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -103,7 +114,7 @@ const members = {
     ],
   },
   aiss: {
-    name: "Achievement Institute of STEM Scholars",
+    name: 'Achievement Institute of STEM Scholars',
     members: [
       {
         name: 'Michael Pien',
@@ -135,10 +146,28 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/lanamramadan/',
         imageURL: lanaramadan,
       },
+      {
+        name: 'Ethan Ho',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
+        imageURL: ethanho,
+      },
+      {
+        name: 'Maithy Le',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/maithy-le',
+        imageURL: maithyle,
+      },
+      {
+        name: 'Sean Fong',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/seancfong/',
+        imageURL: seanfong,
+      },
     ],
   },
   s2t: {
-    name: "Stand Up to Trash",
+    name: 'Stand Up to Trash',
     members: [
       {
         name: 'Ostend Suryajaya',
@@ -158,11 +187,34 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/',
         imageURL: rafael,
       },
+      {
+        name: 'Kevin Wu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kevinwu098/',
+        imageURL: kevinwu,
+      },
+      {
+        name: 'Matthew Chang',
+        position: 'Developer',
+        linkedinURL: 'http://www.linkedin.com/in/matthew-chang-39754a216',
+        imageURL: matthewc,
+      },
+      {
+        name: 'Nathan Pietrantonio',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/nathanLP/',
+        imageURL: nathanpietrantonio,
+      },
+      {
+        name: 'Steven Zhou',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/stevzhou/',
+        imageURL: stevenzhou,
+      },
     ],
-
   },
   fph: {
-    name: "Feeding Pets of the Homeless",
+    name: 'Feeding Pets of the Homeless',
     members: [
       {
         name: 'Madhu Sharma',
@@ -182,7 +234,36 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/minhtnguy/',
         imageURL: minh,
       },
-
+      {
+        name: 'Kaitlin Leung',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/kaitlin-leung-467a35209/',
+        imageURL: kaitlinleung,
+      },
+      {
+        name: 'Sean Kelman',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/sean-kelman-633057211/',
+        imageURL: seankelman,
+      },
+      {
+        name: 'Priska Kunaidy',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/priska-kunaidy-aab508261/',
+        imageURL: priskak,
+      },
+      {
+        name: 'Zion Mateo',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
+        imageURL: zion,
+      },
+      {
+        name: 'Elena Kao',
+        position: 'Developer',
+        linkedinURL: 'http://www.linkedin.com/in/elena-yi-ting-kao-115b1524b',
+        imageURL: elenakao,
+      },
     ],
   },
 };
