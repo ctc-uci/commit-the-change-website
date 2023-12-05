@@ -23,6 +23,7 @@ import rafael from '../images/ourTeam/memberImages/rafael.jpg';
 import selina from '../images/ourTeam/memberImages/selina.jpg';
 
 // --- Members ---
+import lanaramadan from '../images/ourTeam/memberImages/lanaramadan.png';
 import kaitlinleung from '../images/ourTeam/memberImages/kaitlinleung.jpg';
 import kevinwu from '../images/ourTeam/memberImages/kevinwu.jpg';
 import nathanpietrantonio from '../images/ourTeam/memberImages/nathanpietrantonio.jpg';
@@ -138,6 +139,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
+      },
+      {
+        name: 'Lana Ramadan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/lanamramadan/',
+        imageURL: lanaramadan,
       },
       {
         name: 'Ethan Ho',
