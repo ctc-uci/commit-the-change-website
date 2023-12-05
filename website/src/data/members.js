@@ -142,16 +142,16 @@ const members = {
         imageURL: alyssia,
       },
       {
-        name: 'Lana Ramadan',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/lanamramadan/',
-        imageURL: lanaramadan,
-      },
-      {
         name: 'Ethan Ho',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/h0ethan04/',
         imageURL: ethanho,
+      },
+      {
+        name: 'Lana Ramadan',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/lanamramadan/',
+        imageURL: lanaramadan,
       },
       {
         name: 'Maithy Le',
