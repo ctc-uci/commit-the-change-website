@@ -34,6 +34,7 @@ import zion from '../images/ourTeam/memberImages/zion.jpg';
 import ethanho from '../images/ourTeam/memberImages/ethanho.jpg';
 import matthewc from '../images/ourTeam/memberImages/matthewc.png';
 import stevenzhou from '../images/ourTeam/memberImages/stevenzhou.png';
+import cheryl from '../images/ourTeam/memberImages/cheryl.jpg';
 import elenakao from '../images/ourTeam/memberImages/elena.jpg';
 import rayan from '../images/ourTeam/memberImages/rayan.jpg';
 import priskak from '../images/ourTeam/memberImages/priskak.jpg';
@@ -142,6 +143,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/alyssia-tan/',
         imageURL: alyssia,
+      },
+      {
+        name: 'Cheryl Chen',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/cherylhchen/',
+        imageURL: cheryl,
       },
       {
         name: 'Ethan Ho',
