@@ -52,6 +52,15 @@ import kristenyee from '../images/ourTeam/memberImages/kristenyee2.jpg';
 import subinkim from '../images/ourTeam/memberImages/subin.jpg';
 import farahnaz from '../images/ourTeam/memberImages/farahnaz.jpg';
 import bensonmanzano from '../images/ourTeam/memberImages/bensonmanzano.jpg';
+import vyvu from '../images/ourTeam/memberImages/vy_vu.jpeg';
+import winstonlee from '../images/ourTeam/memberImages/winston_lee.jpeg';
+import kayleedoliente from '../images/ourTeam/memberImages/kaylee_doliente.jpeg';
+import elisealinsug from '../images/ourTeam/memberImages/elise_alinsug.jpg';
+// import dianaserrano from '../images/ourTeam/memberImages/diana_serrano.jpeg';
+import jasminewu from '../images/ourTeam/memberImages/jasmine_wu.jpeg';
+import kaitlyntran from '../images/ourTeam/memberImages/kaitlyn_tran.jpeg';
+import jessicasotelo from '../images/ourTeam/memberImages/jessica_sotelo.jpeg';
+import christinenguyen from '../images/ourTeam/memberImages/christine_nguyen.jpeg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -151,6 +160,30 @@ const members = {
         imageURL: michelleblin,
       },
       {
+        name: 'Elise Alinsug',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/elise-alinsug',
+        imageURL: elisealinsug,
+      },
+      // {
+      //   name: 'Diane Serrano',
+      //   position: 'Designer',
+      //   linkedinURL: 'https://www.linkedin.com/in/diana-serrano-96502b268',
+      //   imageURL: dianaserrano,
+      // },
+      {
+        name: 'Kaila Long',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/kaila-long-3952b7210/',
+        imageURL: kaila,
+      },
+      {
+        name: "Vy Vu",
+        position: "Designer",
+        linkedinURL: "https://www.linkedin.com/in/quynhvyvu",
+        imageURL: vyvu,
+      },
+      {
         name: "Alyssia Tan",
         position: "Developer",
         linkedinURL: "https://www.linkedin.com/in/alyssia-tan/",
@@ -240,6 +273,24 @@ const members = {
         imageURL: madhu,
       },
       {
+        name: "Christine Nguyen",
+        position: "Designer",
+        linkedinURL: "www.linkedin.com/in/christine-nguyen-099621222",
+        imageURL: christinenguyen,
+      },
+      {
+        name: "Kaitlyn Tran",
+        position: "Designer",
+        linkedinURL: "https://www.linkedin.com/in/kaitlyn-tran-888832272/",
+        imageURL: kaitlyntran,
+      },
+      {
+        name: "Kaylee Doliente",
+        position: "Designer",
+        linkedinURL: "https://www.linkedin.com/in/kayleedoliente",
+        imageURL: kayleedoliente,
+      },
+      {
         name: 'Benson Manzano',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/benson-manzano/',
@@ -259,7 +310,7 @@ const members = {
       },
       {
         name: 'Kainoa Nishida',
-        position: 'Treasurer',
+        position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
         imageURL: kainoa,
       },
@@ -321,6 +372,30 @@ const members = {
         position: "Tech Lead",
         linkedinURL: "https://www.linkedin.com/in/ostend-suryajaya/",
         imageURL: ostend,
+      },
+      {
+        name: 'Gayathri Yedavilli',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/gayathri-yedavilli/',
+        imageURL: gayathri,
+      },
+      {
+        name: 'Jasmine Wu',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/jaslavie/',
+        imageURL: jasminewu,
+      },
+      {
+        name: 'Jessica (Jay) Sotelo',
+        position: 'Designer',
+        linkedinURL: 'http://linkedin.com/in/jessica-sotelo',
+        imageURL: jessicasotelo,
+      },
+      {
+        name: "Winston Lee",
+        position: "Designer",
+        linkedinURL: "https://www.linkedin.com/in/winstonylee",
+        imageURL: winstonlee,
       },
       {
         name: "Bobby Zhong",
