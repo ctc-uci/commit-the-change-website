@@ -38,6 +38,7 @@ import cheryl from '../images/ourTeam/memberImages/cheryl.jpg';
 import elenakao from '../images/ourTeam/memberImages/elena.jpg';
 import rayan from '../images/ourTeam/memberImages/rayan.jpg';
 import priskak from '../images/ourTeam/memberImages/priskak.jpg';
+import davidgershony from '../images/ourTeam/memberImages/davidgershony.jpg';
 import phillipcutter from '../images/ourTeam/memberImages/phillipcutter.jpg';
 import shawnliu from '../images/ourTeam/memberImages/shawnliu.jpg';
 import chloecheng from '../images/ourTeam/memberImages/chloecheng.jpg';
@@ -270,6 +271,12 @@ const members = {
         position: "Design Lead",
         linkedinURL: "https://www.linkedin.com/in/minhtnguy/",
         imageURL: minh,
+      },
+      {
+        name: 'David Gershony',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/david-gershony/',
+        imageURL: davidgershony,
       },
       {
         name: 'Elena Kao',
