@@ -42,6 +42,7 @@ import phillipcutter from '../images/ourTeam/memberImages/phillipcutter.jpg';
 import shawnliu from '../images/ourTeam/memberImages/shawnliu.jpg';
 import chloecheng from '../images/ourTeam/memberImages/chloecheng.jpg';
 import katy from "../images/ourTeam/memberImages/katy.jpg";
+import kevinliu from "../images/ourTeam/memberImages/kevinliu.png";
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -283,6 +284,12 @@ const members = {
         imageURL: kaitlinleung,
       },
       {
+        name: "Kevin Liu",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/kevinnliu/",
+        imageURL: kevinliu,
+      },
+      {
         name: 'Priska Kunaidy',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/priska-kunaidy-aab508261/',
@@ -301,9 +308,9 @@ const members = {
         imageURL: shawnliu,
       },
       {
-        name: 'Zion Mateo',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/zionmateo/',
+        name: "Zion Mateo",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/zionmateo/",
         imageURL: zion,
       },
     ],
