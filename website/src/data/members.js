@@ -50,6 +50,7 @@ import bobbyz from "../images/ourTeam/memberImages/bobbyz.jpeg";
 import kade from '../images/ourTeam/memberImages/kade.jpg';
 import kristenyee from '../images/ourTeam/memberImages/kristenyee2.jpg';
 import subinkim from '../images/ourTeam/memberImages/subin.jpg';
+import farahnaz from '../images/ourTeam/memberImages/farahnaz.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -248,6 +249,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/emmy-chen-583552252',
         imageURL: emmyc,
+      },
+      {
+        name: 'Farahnaz Hoque',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/farahnazhoque/',
+        imageURL: farahnaz,
       },
       {
         name: "Katy Huang",
