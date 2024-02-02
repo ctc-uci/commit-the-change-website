@@ -51,6 +51,7 @@ import kade from '../images/ourTeam/memberImages/kade.jpg';
 import kristenyee from '../images/ourTeam/memberImages/kristenyee2.jpg';
 import subinkim from '../images/ourTeam/memberImages/subin.jpg';
 import farahnaz from '../images/ourTeam/memberImages/farahnaz.jpg';
+import bensonmanzano from '../images/ourTeam/memberImages/bensonmanzano.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -326,6 +327,12 @@ const members = {
         position: "Design Lead",
         linkedinURL: "https://www.linkedin.com/in/minhtnguy/",
         imageURL: minh,
+      },
+      {
+        name: 'Benson Manzano',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/benson-manzano/',
+        imageURL: bensonmanzano,
       },
       {
         name: 'David Gershony',
