@@ -133,6 +133,12 @@ const members = {
     name: "Achievement Institute of STEM Scholars",
     members: [
       {
+        name: "Selina Arjomand",
+        position: "Design Lead",
+        linkedinURL: "https://www.linkedin.com/in/selinaarjomand/",
+        imageURL: selina,
+      },
+      {
         name: "Michael Pien",
         position: "Tech Lead",
         linkedinURL: "https://www.linkedin.com/in/michaelpien/",
@@ -143,12 +149,6 @@ const members = {
         position: "Tech Lead",
         linkedinURL: "https://www.linkedin.com/in/michellelin1/",
         imageURL: michelleblin,
-      },
-      {
-        name: "Selina Arjomand",
-        position: "Design Lead",
-        linkedinURL: "https://www.linkedin.com/in/selinaarjomand/",
-        imageURL: selina,
       },
       {
         name: "Alyssia Tan",
@@ -222,10 +222,10 @@ const members = {
     name: "Feeding Pets of the Homeless",
     members: [
       {
-        name: "Madhu Sharma",
-        position: "Tech Lead",
-        linkedinURL: "https://www.linkedin.com/in/madhuxsharma/",
-        imageURL: madhu,
+        name: "Minh Nguyen",
+        position: "Design Lead",
+        linkedinURL: "https://www.linkedin.com/in/minhtnguy/",
+        imageURL: minh,
       },
       {
         name: "Josh Lipton",
@@ -234,10 +234,10 @@ const members = {
         imageURL: joshlipton,
       },
       {
-        name: "Minh Nguyen",
-        position: "Design Lead",
-        linkedinURL: "https://www.linkedin.com/in/minhtnguy/",
-        imageURL: minh,
+        name: "Madhu Sharma",
+        position: "Tech Lead",
+        linkedinURL: "https://www.linkedin.com/in/madhuxsharma/",
+        imageURL: madhu,
       },
       {
         name: 'Benson Manzano',
@@ -305,10 +305,10 @@ const members = {
     name: "Stand Up to Trash",
     members: [
       {
-        name: "Ostend Suryajaya",
-        position: "Tech Lead",
-        linkedinURL: "https://www.linkedin.com/in/ostend-suryajaya/",
-        imageURL: ostend,
+        name: "Rafael Muñoz",
+        position: "Design Lead",
+        linkedinURL: "https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/",
+        imageURL: rafael,
       },
       {
         name: "Dang Nguyen",
@@ -317,10 +317,10 @@ const members = {
         imageURL: dang,
       },
       {
-        name: "Rafael Muñoz",
-        position: "Design Lead",
-        linkedinURL: "https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz/",
-        imageURL: rafael,
+        name: "Ostend Suryajaya",
+        position: "Tech Lead",
+        linkedinURL: "https://www.linkedin.com/in/ostend-suryajaya/",
+        imageURL: ostend,
       },
       {
         name: "Bobby Zhong",
