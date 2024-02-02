@@ -258,6 +258,12 @@ const members = {
         imageURL: elenakao,
       },
       {
+        name: 'Kainoa Nishida',
+        position: 'Treasurer',
+        linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
+        imageURL: kainoa,
+      },
+      {
         name: 'Kaitlin Leung',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kaitlin-leung-467a35209/',
