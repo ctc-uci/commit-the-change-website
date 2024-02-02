@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Globe } from "react-feather";
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 
-import membersData from './members';
+import membersData from '../../../data/members';
 import LinkedIn from '../../../images/about/linkedin.svg';
 import Footer from '../../components/Footer/Footer';
 

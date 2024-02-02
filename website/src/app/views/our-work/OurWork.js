@@ -5,7 +5,7 @@ import './OurWork.css';
 // import Portfolio from '../../../CTC_Portfolio_2022_2023.pdf';
 import Footer from '../../components/Footer/Footer';
 
-import projects from './projectsData';
+import projects from '../../../data/projectsData';
 import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
 import CurrentProjectSection from '../../components/CurrentProjectSection/CurrentProjectSection';
 
