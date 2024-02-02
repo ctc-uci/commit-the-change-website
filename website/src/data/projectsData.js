@@ -1,19 +1,19 @@
-// import ctc from '../../../images/nonprofits/CTC-Placeholder.png';
-// import placeholder from '../../../images/nonprofits/project-placeholder.png';
-import crs from '../../../images/nonprofits/Crime-Survivors.png';
-import ccl from '../../../images/nonprofits/Child-Creativity-Lab.png';
-import jff from '../../../images/nonprofits/Justice-For-Families.png';
-import wm from '../../../images/nonprofits/Waymakers.png';
-import och from '../../../images/nonprofits/OC-Habitats.png';
-import tlp from '../../../images/nonprofits/The-Literacy-Project.png';
-import afc from '../../../images/nonprofits/Abound-Food-Care.png';
-import fya from '../../../images/nonprofits/Find-Your-Anchor.png';
-import gsp from '../../../images/nonprofits/Get-Inspired.png';
-import cds from '../../../images/nonprofits/Cell-Dogs.png';
-import pnp from '../../../images/nonprofits/Patriots-and-Paws.png';
-import s2t from '../../../images/nonprofits/Stand-Up-To-Trash.png';
-import ais from '../../../images/nonprofits/Achievement-Institute-Of-STEM-Scholars.png';
-import fph from '../../../images/nonprofits/Feeding-Pets-Of-The-Homeless.png';
+// import ctc from '../images/nonprofits/CTC-Placeholder.png';
+// import placeholder from '../images/nonprofits/project-placeholder.png';
+import crs from '../images/nonprofits/Crime-Survivors.png';
+import ccl from '../images/nonprofits/Child-Creativity-Lab.png';
+import jff from '../images/nonprofits/Justice-For-Families.png';
+import wm from '../images/nonprofits/Waymakers.png';
+import och from '../images/nonprofits/OC-Habitats.png';
+import tlp from '../images/nonprofits/The-Literacy-Project.png';
+import afc from '../images/nonprofits/Abound-Food-Care.png';
+import fya from '../images/nonprofits/Find-Your-Anchor.png';
+import gsp from '../images/nonprofits/Get-Inspired.png';
+import cds from '../images/nonprofits/Cell-Dogs.png';
+import pnp from '../images/nonprofits/Patriots-and-Paws.png';
+import s2t from '../images/nonprofits/Stand-Up-To-Trash.png';
+import ais from '../images/nonprofits/Achievement-Institute-Of-STEM-Scholars.png';
+import fph from '../images/nonprofits/Feeding-Pets-Of-The-Homeless.png';
 
 const projects = {
   active: [
@@ -26,6 +26,7 @@ const projects = {
         'A college readiness program catered towards high-achieving, economically disadvantaged high school students interested in pursuing a STEM career.',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://www.aissfoundation.org/',
+      aboutURL: '/projects/aiss-about',
       backgroundColor: '#FFDDC9',
     },
     {
@@ -37,6 +38,7 @@ const projects = {
         'This NPO\'s mission is to protect ocean ecosystems by raising awareness of the negative effects caused by plastic pollution through environmental education for future generations. ',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://www.standuptotrash.com',
+      aboutURL: '/projects/s2t-about',
       backgroundColor: '#C7E0FF',
     },
     {
@@ -48,6 +50,7 @@ const projects = {
         'This NPO\'s mission is to feed and provide basic emergency veterinary care to the pets of the homeless. ',
       projectURL: 'https://github.com/ctc-uci/',
       npoURL: 'https://petsofthehomeless.org/',
+      aboutURL: '/projects/fph-about',
       backgroundColor: '#CDFBF8',
     },
   ],
@@ -61,6 +64,7 @@ const projects = {
         'We built a new database system for them to better organize and report their Pismo Clam restoration data!',
       projectURL: 'https://github.com/ctc-uci/get-inspired/',
       npoURL: 'https://getinspiredinc.org/',
+      aboutURL: '/projects/gsp-about',
     },
     {
       start: 'Fall 2022',

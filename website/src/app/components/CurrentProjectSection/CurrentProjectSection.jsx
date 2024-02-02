@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import projectData from '../../views/our-work/projectsData';
+import projectData from '../../../data/projectsData';
 import ctcLogo from '../../../images/logo/white-ctc.svg';
 import { animationConfigs, animationStates, transitionConfigs } from '../../views/animationConstants';
 
