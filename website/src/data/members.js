@@ -258,6 +258,12 @@ const members = {
         imageURL: farahnaz,
       },
       {
+        name: 'Jessie He',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/hejessie/',
+        imageURL: jessie,
+      },
+      {
         name: "Katy Huang",
         position: "Developer",
         linkedinURL: "https://www.linkedin.com/in/katy-huang-820153223/",
@@ -268,12 +274,6 @@ const members = {
         position: "Developer",
         linkedinURL: "https://www.linkedin.com/in/kevinwu098/",
         imageURL: kevinwu,
-      },
-      {
-        name: 'Jessie He',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/hejessie/',
-        imageURL: jessie,
       },
       {
         name: "Matthew Chang",
