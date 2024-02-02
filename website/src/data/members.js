@@ -208,6 +208,12 @@ const members = {
         linkedinURL: "https://www.linkedin.com/in/seancfong/",
         imageURL: seanfong,
       },
+      {
+        name: 'Subin Kim',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/subinleekim/',
+        imageURL: subinkim,
+      },
     ],
   },
   s2t: {
@@ -284,12 +290,6 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/stevzhou/',
         imageURL: stevenzhou,
-      },
-      {
-        name: 'Subin Kim',
-        position: 'Developer',
-        linkedinURL: 'https://www.linkedin.com/in/subinleekim/',
-        imageURL: subinkim,
       },
     ],
   },
