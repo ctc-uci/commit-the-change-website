@@ -45,6 +45,7 @@ import chloecheng from '../images/ourTeam/memberImages/chloecheng.jpg';
 import katy from "../images/ourTeam/memberImages/katy.jpg";
 import kevinliu from "../images/ourTeam/memberImages/kevinliu.png";
 import jessie from '../images/ourTeam/memberImages/jessie.jpg';
+import lianne from "../images/ourTeam/memberImages/lianne.jpg";
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -172,6 +173,12 @@ const members = {
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/lanamramadan/',
         imageURL: lanaramadan,
+      },
+      {
+        name: "Lianne Lee",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/lianne-lee-87605b1ab/",
+        imageURL: lianne,
       },
       {
         name: 'Maithy Le',
