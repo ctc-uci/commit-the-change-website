@@ -56,11 +56,16 @@ import vyvu from '../images/ourTeam/memberImages/vy_vu.jpeg';
 import winstonlee from '../images/ourTeam/memberImages/winston_lee.jpeg';
 import kayleedoliente from '../images/ourTeam/memberImages/kaylee_doliente.jpeg';
 import elisealinsug from '../images/ourTeam/memberImages/elise_alinsug.jpg';
-// import dianaserrano from '../images/ourTeam/memberImages/diana_serrano.jpeg';
+import dianaserrano from '../images/ourTeam/memberImages/diana_serrano.jpg';
 import jasminewu from '../images/ourTeam/memberImages/jasmine_wu.jpeg';
 import kaitlyntran from '../images/ourTeam/memberImages/kaitlyn_tran.jpeg';
 import jessicasotelo from '../images/ourTeam/memberImages/jessica_sotelo.jpeg';
 import christinenguyen from '../images/ourTeam/memberImages/christine_nguyen.jpeg';
+import philipjian from '../images/ourTeam/memberImages/philip_jian.jpg';
+import michellepak from '../images/ourTeam/memberImages/michelle_pak.png';
+import brendanlieu from '../images/ourTeam/memberImages/brendan_lieu.jpeg';
+import maanpatel from '../images/ourTeam/memberImages/maan_patel.jpg';
+import ericliu from '../images/ourTeam/memberImages/eric_liu.jpg';
 // --- ------- ---
 
 // Note for bootcamp task: The members attribute of each section is an ordered list.
@@ -165,12 +170,12 @@ const members = {
         linkedinURL: 'https://www.linkedin.com/in/elise-alinsug',
         imageURL: elisealinsug,
       },
-      // {
-      //   name: 'Diane Serrano',
-      //   position: 'Designer',
-      //   linkedinURL: 'https://www.linkedin.com/in/diana-serrano-96502b268',
-      //   imageURL: dianaserrano,
-      // },
+      {
+        name: 'Diane Serrano',
+        position: 'Designer',
+        linkedinURL: 'https://www.linkedin.com/in/diana-serrano-96502b268',
+        imageURL: dianaserrano,
+      },
       {
         name: 'Kaila Long',
         position: 'Designer',
@@ -238,6 +243,12 @@ const members = {
         imageURL: maithyle,
       },
       {
+        name: "Philip Jian",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/philip-jian/",
+        imageURL: philipjian,
+      },
+      {
         name: "Sean Fong",
         position: "Developer",
         linkedinURL: "https://www.linkedin.com/in/seancfong/",
@@ -291,6 +302,12 @@ const members = {
         imageURL: kayleedoliente,
       },
       {
+        name: "Michelle Pak",
+        position: "Designer",
+        linkedinURL: "http://www.linkedin.com/in/michelle-pak-935106251",
+        imageURL: michellepak,
+      },
+      {
         name: 'Benson Manzano',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/benson-manzano/',
@@ -309,6 +326,12 @@ const members = {
         imageURL: elenakao,
       },
       {
+        name: 'Eric Liu',
+        position: 'Developer',
+        linkedinURL: 'https://www.linkedin.com/in/aircliu',
+        imageURL: ericliu,
+      },
+      {
         name: 'Kainoa Nishida',
         position: 'Developer',
         linkedinURL: 'https://www.linkedin.com/in/kainoa-nishida-308b68253/',
@@ -325,6 +348,12 @@ const members = {
         position: "Developer",
         linkedinURL: "https://www.linkedin.com/in/kevinnliu/",
         imageURL: kevinliu,
+      },
+      {
+        name: "Maan Patel",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/maan-patel-b2061a215",
+        imageURL: maanpatel,
       },
       {
         name: 'Priska Kunaidy',
@@ -396,6 +425,12 @@ const members = {
         position: "Designer",
         linkedinURL: "https://www.linkedin.com/in/winstonylee",
         imageURL: winstonlee,
+      },
+      {
+        name: "Brendan Lieu",
+        position: "Developer",
+        linkedinURL: "https://www.linkedin.com/in/blieu/",
+        imageURL: brendanlieu,
       },
       {
         name: "Bobby Zhong",
