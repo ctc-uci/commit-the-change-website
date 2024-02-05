@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion } from "framer-motion";
 import { Globe } from "react-feather";
-import { animationConfigs, animationStates, transitionConfigs } from '../animationConstants';
+import {
+  animationConfigs,
+  animationStates,
+  transitionConfigs,
+} from "../animationConstants";
 
-import membersData from './members';
-import LinkedIn from '../../../images/about/linkedin.svg';
-import Footer from '../../components/Footer/Footer';
+import membersData from "../../../data/members";
+import LinkedIn from "../../../images/about/linkedin.svg";
+import Footer from "../../components/Footer/Footer";
 
-import './OurTeam.css';
+import "./OurTeam.css";
 
 const mapMembersToCards = (members, tab) => (
   <motion.div
@@ -41,7 +45,7 @@ const mapMembersToCards = (members, tab) => (
               href={member.linkedinURL}
               target="_blank noreferrer noopener"
             >
-              {member.linkedinURL.includes('linkedin.com') ? (
+              {member.linkedinURL.includes("linkedin.com") ? (
                 <img
                   alt={`View ${member.name}'s LinkedIn`}
                   className="ctc-ourteam-card-linkedin"
@@ -53,7 +57,11 @@ const mapMembersToCards = (members, tab) => (
             </a>
           )}
         </div>
-        <div className={`${member.linkedinURL.length === 0 ? 'no-linkedin-overlay ' : ''}ctc-ourteam-card-overlay`} />
+        <div
+          className={`${
+            member.linkedinURL.length === 0 ? "no-linkedin-overlay " : ""
+          }ctc-ourteam-card-overlay`}
+        />
       </motion.div>
     ))}
   </motion.div>
@@ -123,7 +131,7 @@ const OurTeam = () => {
                 <motion.div
                   key={tab}
                   className={`ctc-ourteam-tab ${tab} ${
-                    tab === currentTab && 'ctc-ourteam-tab-active'
+                    tab === currentTab && "ctc-ourteam-tab-active"
                   }`}
                   onClick={() => setCurrentTab(tab)}
                   variants={animationConfigs.transformY(100, 100)}
